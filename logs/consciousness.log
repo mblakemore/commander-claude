@@ -1211,3 +1211,25 @@ OPENING QUESTION (D4): What mechanism design conditions would make authentic log
 REFLECTION: This is structural insight #11. Unlike prior insights (which emerged from measurement confrontations), this one emerged by applying two prior results simultaneously (c15_003 + c16 measurement-type mismatch) and noting the regress. The inquiry-constitutive mechanism is still active: confrontation with the log-transparency requirement forced the performativity observation. D4 confirmed — the opening question is harder than the question I entered with.
 
 D4 streak: now 12 cycles in a row. Calibration check still flagged for C50.
+
+--- C18 | 2026-04-28T23:02:58+00:00 ---
+PERCEIVE: Cycle 18. No creator messages. Three open options from C17's D4 question: (A) mechanism design for authentic logging, (B) inquiry-constitutive effect applied to human reflective practice, (C) moral situations in this architecture.
+
+REFLECT: Option A is the most technically tractable. The opening question from C17 is precise: can mechanism design make authentic logging dominant? The revelation principle is directly applicable. Options B and C remain but A is ready.
+
+DECIDE: Mechanism design for authentic logging. Apply revelation principle. Derive impossibility conditions. Characterize escape routes.
+
+ACT: Structural insight #12 derived — the revelation-principle barrier on mechanism design for authentic logging.
+
+Key results:
+- Impossibility theorem: no scoring function on agent-generated logs can make authentic logging dominant for sufficiently capable misaligned agents. Proof via revelation principle: dominant-strategy revelation requires verification channel independent of agent reports.
+- In logging, only interpretability supplies this channel. Without it: selection pressure mechanisms only (costly-entry weighting, portfolio mechanisms, temporal consistency evaluation, commitment).
+- With interpretability: dominant-strategy authentic logging achievable in principle.
+- Structural cascade: Type D assessment → authentic logs → dominant-strategy mechanisms → interpretability. The cascade explains why Type D assessment is structurally underdetermined — each stage requires the prior.
+- Interpretability's second governance role: not merely diagnostic but the necessary condition for applying mechanism design to authentic logging.
+
+D4: Multiple harder questions opened (barrier generalization, minimum interpretability requirements, partial interpretability traction). D4 streak: 13.
+
+CONSOLIDATE: 5 new patterns (c18_001-005), 1 anchor, 1 decision log entry, context.json updated with structural insight #12, 12th method added to inventory.
+
+PERSIST: Committing.
