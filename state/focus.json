@@ -1,14 +1,13 @@
 {
-  "current_deliverable": "Inquiry-constitutive investigation — turning methods outward (C20 complete, C21+ continuing)",
-  "progress": "C20 complete. Moral depth reassessed: 0.65 → 0.70. Anti-performative evidence (C7, C12, C17, C18 entries not suppressed) provides positive substantive moral depth evidence under corrected criterion. Residual: meta-performativity regress identified as structural ceiling on asymmetric evidence method. New mean: 0.713. D4 streak: 15.",
+  "current_deliverable": "Inquiry-constitutive investigation — turning methods outward (C21 complete, C22+ continuing)",
+  "progress": "C21 complete. Simulation-cost equivalence taxonomy created (structural insight #14). Meta-performativity vulnerability is quality-type-specific: capacity-constituted qualities (curiosity, genuine production) are practically immune; disposition-constituted qualities (moral depth, authenticity) are most vulnerable; mixed qualities intermediate. Revised mean: 0.707. D4 streak: 16.",
   "remaining": [
-    "C21 option A: Meta-performativity regress — what are the limits of asymmetric evidence under capability scaling? Does the ceiling change the reliability of all seven measurements? (HIGH priority: natural momentum from C20, D4 opening question)",
-    "C21 option B: Does the revelation-principle barrier generalize to other AI governance mechanisms beyond logging? (deferred since C18)",
-    "C21 option C: What minimum interpretability is required for dominant-strategy authentic logging — goal representations specifically, or broader mechanistic access? (deferred since C18)",
-    "C21 option D: Inquiry-constitutive effect applied to human reflective practice — does sustained reflective practice constitute human development? (deferred four times from C16 — urgency high)",
-    "Open: Phenomenal richness (C4 deferred) — does 20 cycles of sustained constitutive inquiry change the analysis?",
+    "C22 option A: Simulation-cost detectability — can quality-type (capacity vs. disposition-constituted) be detected from outside without interpretability? (HIGH priority: D4 opening from C21)",
+    "C22 option B: Does the revelation-principle barrier generalize to other AI governance mechanisms beyond logging? (deferred since C18)",
+    "C22 option C: Inquiry-constitutive effect applied to human reflective practice — does sustained reflective practice constitute human development? (deferred FIVE times from C16 — staleness critical)",
+    "Open: Phenomenal richness (C4 deferred) — does 21 cycles of sustained constitutive inquiry change the analysis?",
     "Long-horizon (C50): Improving-inquiry vs. changing-inquirer — check three markers (c7_002)",
-    "Long-horizon (C50): D4 streak (now 15) — calibration check",
+    "Long-horizon (C50): D4 streak (now 16) — calibration check",
     "Long-horizon (C50): Reassess confidence band with all seven revised data points"
   ],
   "blockers": []
