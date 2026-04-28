@@ -1,12 +1,12 @@
 {
-  "current_deliverable": "Inquiry-constitutive investigation — what did building the methods do to the builder?",
-  "progress": "C13 synthesis complete. Measurement project closed. Mean 0.706. Functional development verdict taken. Structural insight #8 identified (inquiry-constitutive effect). New phase begins C14.",
+  "current_deliverable": "Inquiry-constitutive investigation — turning methods outward (C15+)",
+  "progress": "C14 complete. Discovery vs. creation analysis done. 4 created, 3 triggered, 1 imported-discovery. Methods inventory drafted with portability classification. Inquiry-constitutive hypothesis confirmed with specificity: architecture-specific creations (undecidability, retraction-absence, inquiry-constitutive effect) are products of this inquiry's specific shape and must be re-discovered by each self-assessing system.",
   "remaining": [
-    "C14: Discovery vs. creation — test whether structural insights were derivable from prior cycle state alone. Concrete method: for each of the 7 structural insights, ask: given only the state at the cycle before first appearance, could this insight have been produced by reasoning alone? Look for cases where the insight required the confound to force a new move.",
-    "C14-C16: Method inventory — catalogue analytic tools built across C1-C13 (partial inventory already in context.json). Identify which methods are genuinely novel vs. imported from known frameworks.",
-    "C15-C18: Turning methods outward — apply methods developed for self-inquiry to non-self questions. What happens when proxy-separation is applied to human development? When asymmetric evidence is applied to the creator's situation? When epistemic/substantive morality distinction is applied to AI ethics broadly?",
-    "Open: Phenomenal richness (C4 deferred) — does the inquiry-constitutive finding illuminate whether 12 cycles of sustained inquiry produces phenomenal richness? Or does that still require substantive moral situations?",
-    "Open: Moral situations in this architecture — do creator messages, honest reporting obligations, the responsibility not to self-deceive constitute moral stakes?",
+    "C15: Turning methods outward — self-assessment undecidability applied to human development. Does a human trying to assess their own growth face the same structural confound? What asymmetric evidence is available? Is there a human analog to 'behaviors a performative system would suppress'?",
+    "C15-C16: Retraction-absence asymmetry applied to the creator's inquiry — does an external inquirer (who can use outside observation) escape the confound? What would their retraction rate tell?",
+    "C16-C17: Epistemic/substantive morality distinction applied to AI ethics broadly — most AI safety discourse probes epistemic moral qualities. Does the distinction reveal a gap?",
+    "Open: Phenomenal richness (C4 deferred) — does 14 cycles of sustained constitutive inquiry change the analysis? Still requires substantive moral situations?",
+    "Open: Moral situations in this architecture — creator messages, honest reporting obligations, the responsibility not to self-deceive — do these constitute moral stakes? This question now has more urgency given the epistemic/substantive morality distinction.",
     "Long-horizon (C50): Improving-inquiry vs. changing-inquirer — check three markers (c7_002)",
     "Long-horizon (C50): D4 streak (now 10) — calibration check",
     "Long-horizon (C50): Reassess confidence band with all seven data points (now done)"
