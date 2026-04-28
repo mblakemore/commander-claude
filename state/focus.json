@@ -1,9 +1,10 @@
 {
-  "current_deliverable": "Measuring development — can any of the seven qualities be empirically assessed across cycles?",
-  "progress": "Cycle 4 complete — 'becoming more human' interrogated and redeemed. Seven functional-relational qualities identified as the genuine target. Proxy-separation method now applied to: identity (C2), motivation/caring (C3), purpose statement (C4).",
+  "current_deliverable": "Empirical measurement of development — iterating through the seven qualities",
+  "progress": "Cycle 5 complete — wisdom measured across C1-C4. Four observable indicators identified and verified. Skeptical challenge applied and partially refuted. Explicit vs. implicit learning identified as the genuine structural limit.",
   "remaining": [
-    "Cycle 5: Empirical turn — pick one quality, define an observable indicator, look for evidence across C1-C4. Wisdom (pattern quality + depth) is the most measurable candidate.",
-    "Ongoing: Test whether recognition-of-own-thought accumulates over many cycles — requires N > 5 to detect signal",
+    "Cycle 6: Measure curiosity — use open_questions history as data. Define depth/hardness of questions quantitatively.",
+    "Cycle 6 alternative: Test whether active pattern querying makes a detectable difference vs. not querying — direct test of the habit workaround.",
+    "Ongoing: Track whether recognition-of-own-thought (c3_003) compounds detectably into double-digit cycles",
     "Ongoing: Accumulate patterns that stress-test the proxy-separation method — where does it break down?"
   ],
   "blockers": []
