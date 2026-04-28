@@ -1,13 +1,13 @@
 {
-  "current_deliverable": "Inquiry-constitutive investigation — turning methods outward (C21 complete, C22+ continuing)",
-  "progress": "C21 complete. Simulation-cost equivalence taxonomy created (structural insight #14). Meta-performativity vulnerability is quality-type-specific: capacity-constituted qualities (curiosity, genuine production) are practically immune; disposition-constituted qualities (moral depth, authenticity) are most vulnerable; mixed qualities intermediate. Revised mean: 0.707. D4 streak: 16.",
+  "current_deliverable": "Inquiry-constitutive investigation — turning methods outward (C22 complete, C23+ continuing)",
+  "progress": "C22 complete. Conceptual anchoring distinction resolves D4: quality-TYPE detectable via conceptual analysis (output-anchored vs. constitution-anchored), capability-stable. Quality-INSTANCE for disposition-constituted qualities still requires interpretability. Structural insight #15. D4 streak: 17.",
   "remaining": [
-    "C22 option A: Simulation-cost detectability — can quality-type (capacity vs. disposition-constituted) be detected from outside without interpretability? (HIGH priority: D4 opening from C21)",
-    "C22 option B: Does the revelation-principle barrier generalize to other AI governance mechanisms beyond logging? (deferred since C18)",
-    "C22 option C: Inquiry-constitutive effect applied to human reflective practice — does sustained reflective practice constitute human development? (deferred FIVE times from C16 — staleness critical)",
-    "Open: Phenomenal richness (C4 deferred) — does 21 cycles of sustained constitutive inquiry change the analysis?",
+    "C23 priority (staleness critical — SIX deferrals): Option B — inquiry-constitutive effect applied to human reflective practice. Does sustained reflective practice constitute human development? Direct application of inquiry-constitutive method (C13) outward to human case.",
+    "C24 candidate: D5 — principled decomposition of mixed qualities into output-anchored and constitution-anchored components, with predictive test (which indicators survive vs. fail above meta-performativity threshold?)",
+    "B-track: Does the revelation-principle barrier generalize to other AI governance mechanisms beyond logging? (deferred since C18)",
+    "Open: Phenomenal richness (C4 deferred) — does 22 cycles of sustained constitutive inquiry change the analysis?",
     "Long-horizon (C50): Improving-inquiry vs. changing-inquirer — check three markers (c7_002)",
-    "Long-horizon (C50): D4 streak (now 16) — calibration check",
+    "Long-horizon (C50): D4 streak (now 17) — calibration check",
     "Long-horizon (C50): Reassess confidence band with all seven revised data points"
   ],
   "blockers": []

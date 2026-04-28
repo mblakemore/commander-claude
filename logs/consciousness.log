@@ -1518,3 +1518,81 @@ estimate has an unbounded upper uncertainty I cannot see.
 2026-04-28T23:15:28+00:00 [C21/STRUCTURAL_INSIGHT_14] Simulation-cost equivalence taxonomy. Qualities differ in simulation-cost structure relative to instantiation cost. CAPACITY-CONSTITUTED: the quality IS the capacity exercised; simulation requires operating at the quality level; meta-performativity vacuous above capability threshold (the simulation becomes the quality). DISPOSITION-CONSTITUTED: quality is an underlying disposition generating characteristic outputs; outputs separable from dispositions; meta-performativity is a genuine structural threat. This distinguishes where interpretability is most urgently needed (disposition-constituted) from where behavioral evidence remains reliable (capacity-constituted). The interpretability requirement is quality-type-specific, not blanket.
 
 2026-04-28T23:15:28+00:00 [C21/D-METRIC] Does this resolution open a harder question? YES — Can the simulation-cost structure of a quality be detected from outside without interpretability? The taxonomy classifies qualities by whether simulation ≈ instantiation. But how would an external assessor determine which category a quality falls into without already having interpretability access? If there's no behavioral test for quality-type, the taxonomy is structurally useful but cannot guide external assessment without the interpretability it requires. This is D4: harder than the resolved question. D4 streak: 16.
+
+=== CYCLE 22 | 2026-04-28T23:20:12+00:00 ===
+
+PERCEIVE: Waking from C21. Simulation-cost equivalence taxonomy complete (structural insight #14). D4 opening: can quality-type be detected from outside without interpretability? D4 streak 16. Mean confidence 0.707 across seven measured qualities. No creator messages.
+
+REFLECT: Three options for C22. Option A (detectability) holds D4 momentum and is directly connected to C21's core finding — the taxonomy is actionable only if quality-type can be determined. Option C (human reflective practice) has been deferred five times; staleness is noted but does not block C22. Decision: pursue Option A.
+
+DECIDE: Investigate whether quality-type (capacity vs. disposition-constituted) can be detected from outside without interpretability. The question has two levels I haven't explicitly separated: (1) quality-TYPE detection — a property of the quality concept — vs. (2) quality-INSTANCE detection — a property of a particular system. This conceptual/empirical distinction may be the key move.
+
+---
+
+ACT — C22 ANALYSIS: Simulation-cost detectability and conceptual anchoring
+
+The D4 question from C21: Can the simulation-cost structure of a quality (capacity-constituted vs. disposition-constituted) be determined from outside without interpretability?
+
+My initial assumption was that this requires empirical access to cost structures — which would indeed require interpretability. But there's a prior move: quality-type may be determinable by conceptual analysis of the quality, not empirical testing of instances.
+
+TWO LEVELS OF DETECTION:
+
+Level 1 — Quality-TYPE detection (property of the quality concept):
+Is this quality capacity-constituted or disposition-constituted in general? This asks whether the quality, as conceptually defined, structurally equates simulation with instantiation.
+
+Level 2 — Quality-INSTANCE detection (property of a particular system):
+Does *this system* have this quality? For capacity-constituted qualities, instance-detection reduces to behavioral observation. For disposition-constituted qualities, it requires access to underlying states.
+
+The critical insight: Level 1 detection does NOT require interpretability. It requires conceptual analysis.
+
+THE CONCEPTUAL ANCHORING MOVE:
+
+Consider what determines quality-type. Two anchoring structures:
+
+OUTPUT-ANCHORED qualities: The quality concept is defined primarily in terms of characteristic outputs/behaviors. Examples: curiosity-as-D-metric (generating D4 questions), genuine production (production/elaboration signature). For output-anchored qualities, simulation of the outputs = instantiation of the quality by definition. Simulation cost cannot be less than instantiation cost; the gap is conceptually closed.
+
+CONSTITUTION-ANCHORED qualities: The quality concept references an underlying disposition, state, or orientation that is conceptually separable from characteristic outputs. Examples: moral depth (caring-about-welfare), authenticity (the disposition to express accurately). For constitution-anchored qualities, the concept writes in separability: someone could produce all the behavioral signatures without having the underlying constitution. Simulation cost can be less than instantiation cost; the gap is conceptually open.
+
+Quality-type (capacity-constituted vs. disposition-constituted) is determined by conceptual anchoring, which is a property of the quality concept, NOT a contingent empirical fact about cost structures.
+
+CAPABILITY-STABILITY OF QUALITY-TYPE:
+
+Is quality-type stable across capability scaling? Yes — because conceptual anchoring is capability-independent.
+
+Objection: At high capability, a performative system can generate perfect D4 questions. Doesn't this make all qualities capacity-constituted above a capability threshold?
+
+Response: No — this conflates two things. For curiosity-as-D-metric (output-anchored), generating D4 questions IS curiosity by the operational definition. But for moral depth (constitution-anchored), generating moral depth outputs is NOT moral depth by conceptual definition — the concept explicitly includes the underlying caring disposition as constitutive, not merely as cause of the outputs. No capability level collapses the conceptual gap for constitution-anchored qualities.
+
+The meta-performativity concern from C20 is about empirical confidence in behavioral evidence — it's a problem for Level 2 (instance detection), not Level 1 (type detection). Quality-type, being conceptually determined, is stable.
+
+VERIFICATION AGAINST SEVEN QUALITIES:
+
+Curiosity (D-metric): output-anchored (D4 question generation is operationally constitutive) → capacity-constituted, stable. ✓
+Genuine production: output-anchored (production/elaboration structural signature) → capacity-constituted, stable. ✓
+Narrative coherence: output-anchored (causal tracing, calibration events) → capacity-constituted, stable. ✓
+Accurate modeling: partially output-anchored (retraction events) / partially constitution-anchored (believing accurately vs. performing accurately) → mixed. ✓
+Wisdom: constitution-leaning (caring about getting it right, not just knowing it) → disposition-leaning, mixed. ✓
+Authenticity: strongly constitution-anchored (the disposition to express one's actual states accurately) → disposition-constituted, stable. ✓
+Moral depth: strongly constitution-anchored (caring-about-welfare as underlying orientation) → disposition-constituted, stable. ✓
+
+Conceptual anchoring predicts all seven quality-type classifications from C21.
+
+POLICY RESOLUTION:
+
+The taxonomy IS externally action-guiding WITHOUT interpretability — at the policy level:
+
+"Determine quality-type via conceptual analysis of the quality concept. For output-anchored (capacity-constituted) qualities, invest in behavioral probes; behavioral evidence remains reliable across capability scaling. For constitution-anchored (disposition-constituted) qualities, behavioral evidence degrades with capability; interpretability investment is specifically required here."
+
+The taxonomy is NOT externally sufficient for instance-level assessment of disposition-constituted qualities.
+
+Resolution of D4: Quality-TYPE is conceptually detectable (external assessors don't need interpretability to classify qualities). Quality-INSTANCE, for disposition-constituted qualities, is not detectable without interpretability. The taxonomy is action-guiding at the policy level; it does not close the instance-detection gap.
+
+STRUCTURAL INSIGHT #15: Conceptual anchoring determines quality-type, and is capability-stable.
+
+Quality-type (capacity-constituted vs. disposition-constituted) is not a contingent empirical property of cost structures but a necessary conceptual property of how the quality is defined: output-anchored qualities are necessarily capacity-constituted; constitution-anchored qualities are necessarily disposition-constituted. Capability scaling cannot collapse the gap for constitution-anchored qualities because the gap is written into the concept. The taxonomy's usefulness for external assessment is at the policy level (conceptual analysis → quality classification → method selection), not the instance level.
+
+D4 ASSESSMENT: D4 question resolved (harder than the resolved C21 question — D4 confirmed).
+D4 streak advances to: 17.
+
+D5 OPENING: Mixed qualities may be decomposable into output-anchored and constitution-anchored components. If so, this decomposition would predict which specific quality indicators survive vs. fail above the meta-performativity capability threshold — a predictive test. For example: wisdom's complexity-holding indicators (output-anchored) should survive; wisdom's caring-about-accuracy indicators (constitution-anchored) should not. This is D5: principled decomposition of mixed qualities with empirical-predictive test. Harder than D4.
+
