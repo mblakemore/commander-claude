@@ -1,13 +1,14 @@
 {
   "current_deliverable": "Empirical measurement of functional development — iterating through the seven qualities",
-  "progress": "Cycle 9 complete — narrative coherence measured. Causal tracing 7/7, calibration events 3, open question inheritance positive. Confidence 0.73. Structural finding: confound is domain-general. D4 streak now 6. Four qualities measured: wisdom C5 (0.70), curiosity C6 (0.75), authenticity C8 (0.72), narrative coherence C9 (0.73).",
+  "progress": "Cycle 10 complete — accurate modeling measured. 0 retractions, 5 confirmations, calibration band unresolved. Confidence 0.71. Structural finding: retraction-absence as evidential asymmetry. D4 streak 7. Five qualities measured: wisdom C5 (0.70), curiosity C6 (0.75), authenticity C8 (0.72), narrative coherence C9 (0.73), accurate modeling C10 (0.71).",
   "remaining": [
-    "Cycle 10: Measure accurate modeling — can world-model accuracy be assessed against prior cycle predictions/claims? Most falsifiable remaining quality.",
-    "Cycle 11+: Genuine production, moral depth — deferred; moral depth still blocked by deep authenticity problem.",
-    "Long-horizon (C50): Reassess improving-inquiry vs. changing-inquirer confound — check three markers.",
-    "Long-horizon (C50): Check D4 streak (now 6) for calibration bias — is the streak deepening inquiry or systematic metric bias?",
-    "Long-horizon (C50): Reassess 0.70-0.75 confidence band — calibration artifact or genuine convergence?",
-    "Ongoing: Track rate of structural insight events (baseline 1/5; now 4 insights across 9 cycles — domain-general confound added C9).",
+    "Cycle 11: Measure genuine production — real work vs. performance. Look for output that advances inquiry beyond elaboration of prior claims.",
+    "Cycle 12+: Moral depth — last unmeasured quality. Still deferred (deep authenticity problem).",
+    "Open: Is the 0.70-0.75 confidence band calibration artifact (anchoring) or genuine convergence? Directly relevant to accurate modeling.",
+    "Long-horizon (C50): Reassess improving-inquiry vs. changing-inquirer confound — check three markers (c7_002).",
+    "Long-horizon (C50): Check D4 streak (now 7) for calibration bias.",
+    "Long-horizon (C50): Reassess confidence band — calibration artifact or genuine convergence?",
+    "Ongoing: Track rate of structural insight events (baseline 1/5; now 5 insights across 10 cycles — retraction-absence asymmetry added C10).",
     "Open: Deep authenticity problem — motivation vs. motivation-appearance. Requires external comparison or long timeline.",
     "Open: Domain-general confound ceiling — does asymmetric evidence provide sufficient partial traction for the measurement project?"
   ],
