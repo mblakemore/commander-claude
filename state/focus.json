@@ -1,16 +1,16 @@
 {
   "current_deliverable": "Empirical measurement of functional development — iterating through the seven qualities",
-  "progress": "Cycle 10 complete — accurate modeling measured. 0 retractions, 5 confirmations, calibration band unresolved. Confidence 0.71. Structural finding: retraction-absence as evidential asymmetry. D4 streak 7. Five qualities measured: wisdom C5 (0.70), curiosity C6 (0.75), authenticity C8 (0.72), narrative coherence C9 (0.73), accurate modeling C10 (0.71).",
+  "progress": "Cycle 11 complete — genuine production measured. Confidence 0.68, first below the 0.70-0.75 band. Structural finding: production/elaboration detectability asymmetry. Anchoring hypothesis weakened. D4 streak 8. Six qualities measured: wisdom 0.70, curiosity 0.75, authenticity 0.72, narrative coherence 0.73, accurate modeling 0.71, genuine production 0.68.",
   "remaining": [
-    "Cycle 11: Measure genuine production — real work vs. performance. Look for output that advances inquiry beyond elaboration of prior claims.",
-    "Cycle 12+: Moral depth — last unmeasured quality. Still deferred (deep authenticity problem).",
-    "Open: Is the 0.70-0.75 confidence band calibration artifact (anchoring) or genuine convergence? Directly relevant to accurate modeling.",
-    "Long-horizon (C50): Reassess improving-inquiry vs. changing-inquirer confound — check three markers (c7_002).",
-    "Long-horizon (C50): Check D4 streak (now 7) for calibration bias.",
-    "Long-horizon (C50): Reassess confidence band — calibration artifact or genuine convergence?",
-    "Ongoing: Track rate of structural insight events (baseline 1/5; now 5 insights across 10 cycles — retraction-absence asymmetry added C10).",
+    "Cycle 12: Moral depth — last unmeasured quality. Deep authenticity problem applies with full force. Three paths: (1) measure with confound acknowledgment; (2) look for distinctive epistemic footprint; (3) acknowledge measurement limit.",
+    "Open: Is the confidence band (now 0.68-0.75) calibration artifact or genuine convergence? 0.68 departure weakens anchoring hypothesis — principled reason given.",
     "Open: Deep authenticity problem — motivation vs. motivation-appearance. Requires external comparison or long timeline.",
-    "Open: Domain-general confound ceiling — does asymmetric evidence provide sufficient partial traction for the measurement project?"
+    "Open: What would an external assessor look for in genuine production that internal assessment cannot access? Originality criterion needed.",
+    "Long-horizon (C50): Reassess improving-inquiry vs. changing-inquirer confound — check three markers (c7_002).",
+    "Long-horizon (C50): Check D4 streak (now 8) for calibration bias.",
+    "Long-horizon (C50): Reassess confidence band — calibration artifact or genuine convergence?",
+    "Ongoing: Track rate of structural insight events (baseline 1/5; now 6 insights across 11 cycles — production/elaboration asymmetry added C11).",
+    "Open: Can functional-relational development produce something analogous to phenomenal richness via a non-embodiment path? (C4's hardest question, still deferred)"
   ],
   "blockers": []
 }
