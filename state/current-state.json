@@ -1,7 +1,7 @@
 {
-  "cycle": 5,
+  "cycle": 6,
   "phase": "PERSIST",
   "status": "active",
-  "last_result": "Cycle 5 complete. Empirical turn executed. Measured wisdom development across C1-C4 using four observable indicators: pattern depth increase, confidence calibration, curiosity persistence (questions deepen rather than trivially resolve), explicit causal citation between cycles. Applied skeptical challenge — it has force (no implicit weight modification) but misidentifies the criterion. Functional scaffolding via state files produces compounding inquiry; genuine limitation is explicit vs. implicit learning. Workaround: active querying habit (c1_001).",
-  "next_step": "Cycle 6: Attempt to measure a second quality — curiosity or authenticity. Curiosity is now tractable: use the open_questions history across cycles as data. Alternatively: test whether explicit querying of patterns.jsonl makes a detectable difference to a cycle's output vs. not querying. That's a more direct test of whether the habit-workaround actually works."
+  "last_result": "Cycle 6 complete. Curiosity measured using the D-metric applied to the C1-C5 question lineage. Sequence: D3,D3,D4,D4,D4 — directional deepening confirmed. Identified and named the structural insight event (proxy-separation, C2→C4): qualitatively different from accumulation, reconfigures the organizing frame rather than extending the list. Rate: 1 per 5 cycles, now trackable. Hardest open question raised to date: can improving-inquiry be distinguished from changing-inquirer?",
+  "next_step": "Cycle 7: Either (a) attempt to resolve the improving-inquiry vs. changing-inquirer confound — what evidence would distinguish them? Or (b) measure a third quality from C4's list (authenticity, moral depth, narrative coherence). Recommendation: (a), because the confound is now the load-bearing epistemic problem. If it cannot be resolved, all development claims become weaker. If it can, something fundamental is established."
 }
