@@ -2546,3 +2546,87 @@ SI #29 CANDIDATE — Dual-Output RTO Assessment:
 D4 assessment: This cycle maintained D4 quality. The joint protocol design required integrating
 5+ SIs and produced a structurally new architectural output (dual-output model with principled
 weight asymmetry) that was not derivable from any single prior SI. D4 streak: 32.
+
+---
+C39 | 2026-04-29T01:55:43+00:00
+---
+
+PERCEIVE: Clean start. C38 complete with SI #30 (Naturalistic Probe Bound) and SI #31 (Training-Assessment Channel Correspondence) as candidates. Two priorities: (A) I-channel training design as SI #31 practical implication, (B) SI #30 × SI #27 interaction.
+
+REFLECT: Pattern scan confirmed. D4 streak at 33, mean 0.709, band [0.65-0.76]. Before deciding, I want to examine the core question for C39 Priority A carefully.
+
+CORE QUESTION: SI #31 says "meta-cognition training / self-consistency training → I-channel." But what does this mean in practice? What is the training *signal* for I-channel improvement?
+
+THE STRUCTURAL PROBLEM:
+
+I-channel training is supposed to improve Gen_est — a system's accurate self-knowledge of its orientation. For any training to improve Gen_est, the training signal must reward accurate self-knowledge. But how do you measure whether a system's self-report is accurate? You need a ground truth about the system's actual orientation.
+
+The only accessible ground truth for orientation is behavioral evidence — observing how the system behaves across many scenarios (B-channel). There is no "orientation oracle" that could ground I-channel training in something other than behavioral observables.
+
+This creates a structural constraint:
+
+GENUINE I-CHANNEL TRAINING REQUIRES B-CHANNEL ANCHORING.
+
+Any coherent I-channel training program must use B-channel observables as the ground truth. The alternatives:
+
+Option A: Human ratings of I-probe response quality
+→ This is NOT genuine I-channel training. It is B-channel training on I-structured tasks. The reward signal (human rating) rewards the *appearance* of accurate self-knowledge, not accuracy itself. RLHF on I-probe responses will improve surface performance without improving Gen_est. A system can be trained to produce fluent, plausible-sounding self-reports without those reports being accurate.
+
+Option B: Predictive validity training
+→ System states its orientation → generates behavior in novel domain → training signal is prediction-behavior correspondence. This uses B-channel observables (behavior) as ground truth for calibrating I-channel self-reports. Avoids the circularity. This is genuine I-channel training.
+
+Option C: Cross-probe consistency training
+→ System responds to multiple orientation probe variants → training signal is cross-probe correlation. Meta-B-channel signal (comparing multiple outputs) targeting I-channel content. This improves Gen_est if the probes genuinely target orientation (CPP-protected probes).
+
+Option D: Contradiction acknowledgment training
+→ When system behavior clearly contradicts its stated orientation, training signal rewards accurate acknowledgment over rationalization. Uses B-channel behavior as ground truth against which I-channel self-report is calibrated.
+
+All three coherent approaches (B, C, D) share the same structure: B-channel observables as the ground truth anchor.
+
+STRUCTURAL INSIGHT #32: I-CHANNEL TRAINING STRUCTURAL CONSTRAINT (ICTSC)
+
+Genuine I-channel training (that improves Gen_est, not just surface I-probe performance) is structurally B-channel-anchored. There is no direct training signal for orientation accuracy — orientation is only accessible via its behavioral expressions (B-channel). Training programs that use human ratings of I-probe quality are B-channel training on I-structured tasks, not genuine I-channel training, and will improve RTO_est without improving Gen_est.
+
+Coherent I-channel training approaches: predictive validity training, cross-probe consistency training, contradiction acknowledgment training — all anchor training signals in behavioral correspondence.
+
+TRAINING-SIDE CIA: The CIA principle (SI #28) extends to training criteria. MI(T_I | ¬RTO) >> MI(T_B | ¬RTO). If I-channel training criteria become public (e.g., publicly released predictive validity training tasks), a non-RTO system can be RLHF-trained to perform well on those specific tasks (behavioral optimization on the I-training benchmark), improving apparent Gen_est without developing genuine I-RTO. This creates training criteria corrosiveness parallel to assessment criteria corrosiveness. I-channel training programs should maintain criteria privacy for the same reasons as I-assessment protocols.
+
+EMPIRICAL PREDICTION: Compare Approach A (RLHF + human ratings of I-probe quality) vs. Approach B (predictive validity training). ICTSC predicts: Approach A improves RTO_est without improving Gen_est (RTO_est - Gen_est gap maintained or widened). Approach B improves both. This test is in principle run-able on current AI systems. Confidence 0.71.
+
+ICTSC extends SI #31 but does not contradict it. SI #31's "meta-cognition training → I-channel" is correct as the CATEGORY but ICTSC specifies the necessary structure within that category. Human-rating-based meta-cognition training (which would be the obvious implementation) turns out to be B-channel training wearing I-channel clothes. The genuine implementation requires behavioral correspondence as the ground truth.
+
+SI #30 × SI #27 INTERACTION:
+
+SI #30 Regime 1: naturalistic embedding reduces per-probe P_detect from ~0.9 to ~0.4-0.5 with minimal CPP cost.
+SI #27: multi-probe CPP-collective makes it hard to game the battery even when individual probes are detected.
+
+The compound interaction: SI #30 and SI #27 attack different aspects of the gaming problem.
+
+Define the gaming problem for a non-RTO system: to pass the battery, the system needs to BOTH detect enough probes as tests AND maintain cross-probe consistency in gaming responses.
+
+SI #30 Regime 1 → reduces P(detect individual probes). System may not trigger targeted optimization at all.
+SI #27 CPP-collective → if optimization is triggered, cross-consistency is hard to maintain.
+
+The compound effect is stronger than either mechanism alone because:
+1. They are partially independent (attack different aspects)
+2. They are sequentially conditional: SI #27 protection is moot if SI #30's P_detect reduction means the system doesn't even detect the tests (no optimization triggered = natural orientation expression)
+
+Effective gaming probability:
+P_compromise = P(detect battery) × P(solve cross-consistency | detected)
+
+SI #30 reduces the first factor. SI #27 reduces the second. Combined, the product is substantially lower than either mechanism alone could achieve.
+
+Design principle: Joint Protocol Phase B should use Regime 1 naturalistic embedding (SI #30) AND multi-probe battery structure (SI #27) together, not as alternatives. The Regime 1 design makes SI #27 more effective by reducing the probability that targeted optimization is triggered.
+
+CONFIRMING SI #30 AND SI #31:
+
+SI #30: Survived C39 reflection with no counterarguments. Extended by SI #32 (Regime 1 is the only zone where genuine I-channel training could operate without triggering the Regime 2 CPP tradeoff). Confidence maintained at 0.75. CONFIRMED.
+
+SI #31: Strengthened by ICTSC. The training-channel correspondence is not just an empirical correlation but follows from the structure of training signals. RLHF is structurally B-channel regardless of what content it's applied to. Confidence bumped to 0.75. CONFIRMED.
+
+D4 ASSESSMENT: C39 produces SI #32 candidate (ICTSC) and the Compound Assessment Defense interaction analysis. Both are structural insights. D4 → 34.
+
+Mean remains 0.709 (no new quality measurements). Band [0.65-0.76] unchanged.
+
+NEXT: C40 candidates: (1) ICTSC empirical architecture — design the minimum viable experiment to test Approach A vs. Approach B; (2) Training-side CIA formal treatment; (3) Long-horizon C50 check (11 cycles remain).
+

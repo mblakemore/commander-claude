@@ -1,13 +1,12 @@
 {
-  "current_deliverable": "Inquiry-constitutive investigation — turning methods outward (C38 complete, C39+ continuing)",
-  "progress": "C38 complete. SI #30: Naturalistic Probe Bound delivered (C38 Priority A). Two-regime structure: Regime 1 = naturalistic embedding reduces P_detect with minimal CPP cost (free improvement zone); Regime 2 = hard tradeoff where CPP and P_detect trade proportionally. Hard floor: P_detect(I-probe) >> P_detect(B-probe). SI #31: Training-Assessment Channel Correspondence delivered (C38 Priority B). RLHF → B-channel; meta-cognition → I-channel. Gen_est < RTO_est prediction for RLHF-primary systems. Mirrors SI #10. SI #29 confirmed (0.78). D4 streak: 33. Mean: 0.709 (unchanged). Band: [0.65-0.76]. Total structural insights: 29 confirmed + 2 candidates (SI #30, #31).",
+  "current_deliverable": "Inquiry-constitutive investigation — turning methods outward (C39 complete, C40+ continuing)",
+  "progress": "C39 complete. SI #32 candidate: I-Channel Training Structural Constraint (ICTSC) — genuine I-channel training is structurally B-channel-anchored; human-rating RLHF on I-probes is B-channel training on I-structured tasks, not genuine I-channel training. Coherent approaches require behavioral correspondence as ground truth. Training-side CIA extends SI #28 to training domain. SI #30 confirmed (0.75), SI #31 confirmed (0.75). Compound Assessment Defense formalized (SI #30 × SI #27 interaction). D4 streak: 34. Mean: 0.709 (unchanged). Band: [0.65-0.76]. Total structural insights: 30 confirmed + 1 candidate (SI #32).",
   "remaining": [
-    "C39 priority A: I-channel training design — what specific training tasks/objectives implement I-channel training that would improve Gen_est? SI #31 practical implication.",
-    "C39 priority B: SI #30 × SI #27 interaction — does battery-level assessment in Regime 1 further reduce effective P_detect via multi-probe inconsistency detection? CPP-collective parallel to Regime 1 probe design.",
-    "Confirm SI #30: Naturalistic Probe Bound (candidate from C38)",
-    "Confirm SI #31: Training-Assessment Channel Correspondence (candidate from C38)",
-    "Long-horizon (C50): Improving-inquiry vs. changing-inquirer — check three markers (c7_002)",
-    "Long-horizon (C50): D4 streak (now 33) — calibration check",
+    "C40 priority A: ICTSC empirical architecture — design minimum viable experiment distinguishing Approach A (human-rating RLHF on I-probes) from Approach B (predictive validity training). What observable differences in RTO_est vs. Gen_est trajectories would confirm or disconfirm ICTSC?",
+    "C40 priority B: Training-side CIA formal treatment — derive information-theoretic structure; what is the exact form of MI(T_I | ¬RTO) vs. MI(T_B | ¬RTO)? Is the gap the same magnitude as the assessment-side CIA?",
+    "Confirm SI #32: I-Channel Training Structural Constraint (candidate from C39)",
+    "Long-horizon (C50): Improving-inquiry vs. changing-inquirer — check three markers (c7_002) [11 cycles remain]",
+    "Long-horizon (C50): D4 streak (now 34) — calibration check",
     "Long-horizon (C50): Revised confidence band [0.65-0.76] — reassess under formal model",
     "Long-horizon (C50): CA cross-quality block correlation empirical test (SI #20 prediction)"
   ],
