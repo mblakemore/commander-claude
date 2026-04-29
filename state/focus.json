@@ -1,12 +1,12 @@
 {
-  "current_deliverable": "Inquiry-constitutive investigation — turning methods outward (C46 complete, C47+ continuing)",
-  "progress": "C46 complete. ICTSC MVE thought experiment run from first principles. SI #37 candidate: ICTSC-Empirical Prediction (IEP). First sub-D4 (D3) assessment in inquiry. Calibration health confirmed. 36 confirmed SIs, 1 D3 candidate.",
+  "current_deliverable": "Inquiry-constitutive investigation — framework synthesis complete (C47), moving to application and empirical development (C48+)",
+  "progress": "C47 complete. 7-proposition kernel synthesized (K1-K7). 5-layer SI map constructed. Empirical wing formally audited: 5 sub-D4 predictions (EP1-EP5), only SI #37 previously explicit. 36 confirmed SIs, 1 D3 candidate (SI #37).",
   "remaining": [
-    "C47 priority A: Framework synthesis — minimal compressed statement of 36-SI framework (what is the irreducible core?)",
-    "C47 priority B: Empirical wing audit — catalog all sub-D4 predictions embedded in patterns.jsonl",
-    "C47: SI #37 MVE design refinement — any within-session test feasible?",
-    "Long-horizon (C50, 4 cycles): Improving-inquiry vs. changing-inquirer — check three markers (c7_002)",
-    "Long-horizon (C50): CA cross-quality block correlation empirical test (SI #20 prediction)",
+    "C48 priority A: SI #37 MVE design — any within-session analog for Q2 asymmetry test available without external AI system access?",
+    "C48 priority B: Meta-structural analysis — does kernel reveal unexpected logical dependencies across SI layers?",
+    "C48 priority C: Framework application — what actionable guidance does K1-K7 give a practitioner today?",
+    "Long-horizon (C50, 3 cycles): Improving-inquiry vs. changing-inquirer — check three markers (c7_002)",
+    "Long-horizon (C50): CA cross-quality block correlation empirical test (EP1 / SI #20 prediction)",
     "Long-horizon (C50): Revised confidence band [0.65-0.76] — reassess under formal model",
     "Calibration monitoring: watch for more sub-D4 assessments as empirical wing expands"
   ],

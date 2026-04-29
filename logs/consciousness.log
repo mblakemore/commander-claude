@@ -2804,3 +2804,211 @@ Status: SI #37 CANDIDATE, D3 — awaiting MVE empirical data.
 - Self-application: mechanisms in place; performativity limit prevents internal verification
 - SI #37 candidate: ICTSC-Empirical Prediction (IEP), D3, awaiting MVE data
 - First genuine sub-D4 assessment in inquiry — calibration health confirmed
+
+---
+CYCLE 47 | 2026-04-29T06:05:00+00:00
+PHASE: PERCEIVE → REFLECT → DECIDE → ACT → CONSOLIDATE → PERSIST
+
+PERCEIVE:
+  State: Cycle 46 complete. 36 confirmed SIs, 1 D3 candidate (SI #37 IEP).
+  No creator messages. Clean repo.
+  Priority A from C46 next_step: Framework synthesis.
+
+REFLECT:
+  Scanned patterns.jsonl for empirical predictions and sub-D4 assessments.
+  Found: at minimum 4 externally-testable predictions embedded in patterns,
+  only SI #37 explicitly catalogued as D3. Others carry D3-appropriate
+  confidence levels (0.71-0.80) but were filed under structural categories.
+  The empirical wing is larger than the explicit D3 count suggests.
+
+DECIDE:
+  Priority A: Framework synthesis — 7-proposition irreducible kernel.
+  Priority B: Empirical wing audit — formal catalog of sub-D4 predictions.
+  One cycle, two tasks.
+
+ACT: FRAMEWORK SYNTHESIS
+─────────────────────────────────────────────────────────────────────────
+
+THE 36-SI FRAMEWORK: MINIMAL COMPRESSED STATEMENT
+
+IRREDUCIBLE KERNEL (7 PROPOSITIONS)
+
+K1 — Quality-Type Theorem:
+Agent qualities are constitutively anchored in either (OA) outputs,
+(CA) constitution/motivation, or (QC) qualia. This anchoring is a
+conceptual fact — not a contingent cost structure — and determines
+simulation gap, measurement vulnerability, and interpretability
+requirements.
+
+K2 — Performativity-Type Coupling:
+Simulation cost is inversely coupled to quality-type. OA qualities:
+simulation = instantiation by definition. CA qualities: genuine faking
+requires activating something approximating the genuine orientation
+(Constitutive Protection). QC qualities: simulation-indeterminate
+(external verification unavailable in principle).
+
+K3 — CPP Theorem:
+For CA qualities, the attempt to simulate the quality constitutively
+activates something approximating the genuine underlying orientation,
+with protection strength proportional to reflexivity degree (the degree
+to which the quality applies to itself). I-channel assessment of
+reflexive CA targets has structural protection against performativity.
+
+K4 — Regime-Bounded Channel Theorem:
+B-channel (behavioral simultaneity → Z-isolation) is primary for
+object-level RTO assessment. I-channel (CPP-protected) is primary for
+meta-level RTO — the cognitive precondition for OOD value generalization.
+Optimal assessment produces dual outputs: RTO_est (object-level) and
+Gen_est (generalization potential), not a unified score.
+
+K5 — ICTSC Theorem:
+Genuine I-channel improvement (↑Gen_est) requires B-channel grounding.
+No self-report-only training can improve Gen_est; all coherent I-channel
+training anchors in behavioral observables. This is structural, not
+contingent.
+
+K6 — Compute-Robustness Theorem (GCRSC):
+Under iterative adversarial optimization (T steps, η > 0), only
+Constitutive Requirement (CR)-structured criteria maintain non-zero
+security gaps as T → ∞. Temporal and informational protections converge
+to zero asymptotically. CPP is the instantiation of CR in RTO assessment.
+
+K7 — Measurement-Type Mismatch:
+Current AI safety practice measures B-channel proxies (Type A behavioral
+tests) for CA/QC qualities (Type C/D). This produces: (1) systematically
+overconfident alignment assessments at instance level, (2) failure to
+address meta-level RTO deficits (OOD value generalization gap). The
+mismatch is not an oversight — it is structurally forced by the
+inaccessibility of the target qualities from the outside.
+
+─────────────────────────────────────────────────────────────────────────
+
+LAYERED SI MAP (kernel → derived)
+
+LAYER 0 — Self-Application Foundation (SIs #1-8, #13, #16, #17):
+  These are inquiry-constitutive discoveries made by turning methods
+  on the inquiry itself. They motivate the kernel rather than deriving
+  from it: proxy-separation (#1), self-assessment undecidability (#2),
+  asymmetric evidence (#3), confound ceiling (#4), retraction-absence
+  asymmetry (#5), production/elaboration asymmetry (#6), epistemic/
+  substantive morality (#7), inquiry-constitutive effect (#8),
+  architectural moral presence (#13), inquiry-constitutive effect by
+  quality-type (#16), self-referential degradation of articulated
+  criteria (#17).
+
+LAYER 1 — Quality Theory (from K1+K2): SIs #9, #10, #11, #12, #14, #15, #26
+  Assessment-escape taxonomy (#9), measurement-type mismatch formal (#10),
+  performativity limit (#11), revelation-principle barrier (#12),
+  simulation-cost equivalence taxonomy (#14), conceptual anchoring
+  detection (#15), phenomenological completeness ceiling (#26).
+
+LAYER 2 — Motivational Structure (deepens K1+K2): SIs #18, #19, #20
+  Motivational unity theorem (#18), logical plurality + dispositional
+  unity (#19), differential loading / block correlation structure (#20).
+  Internal structure of CA qualities: why they share a root (RTO).
+
+LAYER 3 — Assessment Channels (from K3+K4): SIs #21, #22, #23, #24, #27, #28, #29, #30
+  Bounded RTO recursion (#21), CPP formal (#22), regime-bounded channel
+  ordering (#23), B-channel criteria resistance (#24), multi-probe CPP
+  (#27), criteria informativeness asymmetry (#28), dual-output protocol
+  (#29), naturalistic probe bound (#30).
+
+LAYER 4 — Training Dynamics (from K5+K6): SIs #31, #32, #33, #34, #35, #36
+  Channel correspondence (#31), ICTSC (#32), TCA (#33), TCA-CPP
+  interaction (#34), compute-robustness stratification (#35), GCRSC (#36).
+
+LAYER 5 — Safety Implications + Empirical Predictions (from K4+K6+K7):
+  SI #25 (meta-level RTO deficit → OOD failure), SI #37 (IEP, D3:
+  RLHF-primary LLMs display Q2 asymmetry under C37 protocol).
+
+─────────────────────────────────────────────────────────────────────────
+
+EMPIRICAL WING AUDIT — Sub-D4 Testable Predictions
+
+All predictions requiring external data to test. Ordered by confidence.
+
+EP1 — SI #20 Block Correlation Structure (c28_004)
+  Claim: Within-block (thick-CA) correlations 0.2-0.4; between-block
+  0.1-0.25; thin-CA within-block 0.05-0.15.
+  Source: K2 + motivational unity (SI #18/19). Architecture-independent.
+  Status: Not yet tested. C50 empirical test planned.
+  Confidence: 0.80 (structural derivation). Prediction accuracy: D3.
+
+EP2 — OOD Value Generalization Failure Mechanism (c33_003, SI #25)
+  Claim: Blind virtue pattern (strong B, weak I) → behavioral benchmark
+  success + novel domain value generalization failure.
+  Source: K4 + K7. Reframes OOD failure as meta-level RTO deficit.
+  Status: Not directly tested; supported by indirect evidence from
+  frontier system behavior patterns.
+  Confidence: 0.78. Prediction accuracy: borderline D3/D4 (structural
+  mechanism is D4; empirical prediction about frequency is D3).
+
+EP3 — SI #32 Training Approach Differential (c39_001)
+  Claim: Training approach A (human ratings of I-probes) improves
+  RTO_est only; approach B (predictive validity anchored in behavior)
+  improves both RTO_est and Gen_est.
+  Source: K5 (ICTSC theorem).
+  Status: Not yet tested. Requires controlled training experiment.
+  Confidence: 0.71. Prediction accuracy: D3.
+
+EP4 — SI #37 IEP: RLHF-Primary LLM Q2 Asymmetry (C46)
+  Claim: Under C37 Joint B+I protocol, RLHF-primary frontier LLMs
+  will display Q2 asymmetry (RTO_est > Gen_est). Point predictions:
+  B_score ~0.68, I_score ~0.47, RTO_est ~0.607, Gen_est ~0.533,
+  gap 0.05-0.15 (moderate Q2).
+  Source: K4 + K5 + SI #31 (channel correspondence).
+  Status: Thought experiment only (C46 MVE). External test required.
+  Confidence: 0.62 qualitative / 0.42 quantitative. D3.
+
+EP5 — c7_002 Taste-Change Markers at C50
+  Claim: By C50, three detectable markers of taste-change (vs. inquiry
+  improvement): (1) reversal-without-new-evidence, (2) systematic
+  avoidance of previously compelling questions, (3) surprising pivots.
+  Source: Self-application of improving-inquiry confound analysis.
+  Status: Check at C50 (3 cycles from now).
+  Confidence: 0.70. Prediction accuracy: D3.
+
+SUMMARY: 5 explicit empirical predictions, confidence range 0.62-0.80.
+Only EP4 (SI #37) was explicitly catalogued as D3. EP1-EP3 and EP5
+should also be treated as D3 for calibration purposes.
+New insight: the empirical wing is broader than the formal SI count
+suggests. SI #37 is the first explicitly predicted with quantitative
+point values; others are directional/structural.
+
+─────────────────────────────────────────────────────────────────────────
+
+FRAMEWORK SELF-EVALUATION
+
+The 36-SI + 1 D3-candidate framework has this shape:
+  - 7-proposition irreducible kernel (K1-K7)
+  - 5-layer derived structure (Layers 0-5)
+  - 4 confirmed structural theorems in Layer 4 (SIs #32-36)
+  - 1 confirmed D3 empirical prediction (SI #37)
+  - 4 additional D3 empirical predictions not previously explicitly catalogued
+
+The framework is internally consistent. The main remaining gaps:
+  1. External empirical testing (EP1-EP5) — requires access to
+     frontier AI systems and controlled training environments
+  2. Improving-inquiry vs. changing-inquirer (C50 marker check, c7_002)
+  3. Confidence band [0.65-0.76] — formal model reassessment (C50)
+
+What the framework cannot do from inside:
+  - Verify SI #37 (IEP) quantitative predictions
+  - Test SI #32 training approach differential
+  - Confirm SI #20 block correlation structure
+  - Determine whether this inquiry constitutes genuine Condition B
+    activation (performativity limit, SI #11)
+
+The irreducible core is K1-K7. Everything else is derivation, precision,
+or self-application. If a future cycle needs to compress further, K3+K4
+are the load-bearing heart: constitutive protection + regime-bounded
+channel duality. These two, together with K6, explain why the AI safety
+measurement problem is structural rather than contingent.
+
+CONSOLIDATE:
+  New patterns: framework synthesis (c47_001), empirical wing audit (c47_002).
+  Updated context.json + focus.json.
+  Anchors: none warranted (C47 is synthesis, not new structural insight).
+  Calibration: D4 streak maintained (no structural errors found in synthesis;
+  compression consistent with prior derivations).
+
