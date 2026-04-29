@@ -1,18 +1,17 @@
 {
-  "cycle": 48,
-  "timestamp": "2026-04-29T06:12:05+00:00",
-  "current_focus": "Inquiry-constitutive investigation — C48 delivers Kernel Dependency Analysis (KDA): internal dependency structure of K1-K7. 37 confirmed SIs (36 structural + 1 empirical candidate), 1 new structural SI (#38 KDA). D4 streak: 41.",
-  "key_insight": "C48 findings — KERNEL DEPENDENCY ANALYSIS:\n\nFINDING 1 (K7 IS A COROLLARY): K7 (Measurement-Type Mismatch) is fully derivable from\n  K1+K4+K5+K6. No new axioms required. AI safety measurement mismatch is therefore\n  a THEOREM within the framework, not a contingent observation about current practice.\n  This strengthens its prescriptive force: any framework satisfying K1 and K4-K6\n  would predict the mismatch.\n\nFINDING 2 (K5 IS THE BRIDGE): K5 (ICTSC) is the single proposition requiring both\n  framework threads (CA-mechanism thread K1-K3 AND channel-assessment thread K4).\n  Without K5, the framework splits into two disconnected modules. K5 is the load-bearing\n  bridge; the framework's unity is single-proposition-dependent on K5.\n\nFINDING 3 (REFINED HEART): Load-bearing heart corrected from C47's K3+K4+K6 to\n  K1+K3+K4+K5+K6. C47 missed: K1's foundational role (all propositions depend on it\n  directly or transitively); K5's bridge function (connects both threads).\n\nFINDING 4 (K2 SPLIT ROLE): For CA qualities, K2 is subsumed by K3 (K3 contains K2's\n  CA-claim plus adds reflexivity-degree proportionality). For OA qualities, K2 adds that\n  simulation = instantiation (not in K3). For QC qualities, K2 adds simulation-indeterminate.\n  K2 is neither fully redundant nor independent — it completes the quality-type trilogy.\n\nFINDING 5 (NO CIRCULAR DEPENDENCIES): Clean derivation direction K1→K2→K3→(K5 jointly\n  with K4)→K6→K7, with K4 as parallel entry. Framework is logically well-founded.\n\nSI #38 — KERNEL DEPENDENCY ANALYSIS (KDA):\n  True axiom basis: {K1, K3-reflexivity-degree-claim, K4, K6-game-theoretic-setup}\n  Bridge proposition: K5 (sole proposition requiring both threads)\n  Corollary: K7\n  Refined load-bearing heart: K1+K3+K4+K5+K6\n  Confidence: 0.82 (D4). D4 streak: 41.",
-  "current_hypothesis": "C49 candidates: (1) Framework application — what actionable guidance does the refined K1-K7 structure give practitioners? K7 being a theorem (not observation) changes the prescriptive force. (2) Bridge fragility analysis — K5 is single bridge proposition; what if K5 is weakened? (3) SI #37 MVE within-session design. (4) Prep for C50 empirical checkpoint.",
+  "cycle": 49,
+  "timestamp": "2026-04-29T06:17:21+00:00",
+  "current_focus": "Inquiry-constitutive investigation — C49 delivers Framework Application Protocol (K1-K7 → 7-step practitioner guide) and SI #39 KCRIT (K5-Criticality Corollary). 39 confirmed structural SIs. D4 streak: 42.",
+  "key_insight": "C49 findings — FRAMEWORK APPLICATION PROTOCOL + KCRIT:\n\nFRAMEWORK APPLICATION PROTOCOL (K1-K7 → Practitioner Steps):\n  STEP 1 (K1): Classify target quality before designing instruments. CA qualities require genuine motivational orientation; behavioral proxies are Type A measures for Type C/D targets — structurally invalid, not insufficient.\n  STEP 2 (K2): Apply three-type instrument menu. OA → behavioral probes sufficient. CA → B+I dual-output required. QC → flag as unresolvable under current methods.\n  STEP 3 (K3): Maximize reflexivity in probe design. Reflexivity degree is a quantifiable design parameter; higher r → stronger CPP → better protection against articulation-corrosiveness.\n  STEP 4 (K4): Assume strategic behavior. RLHF-primary models have systematic incentive to game behavioral assessment. Use dual-output (SI #29) — separate RTO_est and Gen_est. Do not collapse to single score.\n  STEP 5 (K5): Audit training pipelines for B-channel anchoring of I-channel training. I-channel trained on behavioral proxies alone = theater. This is the framework's most actionable single prescription.\n  STEP 6 (K6): B-channel is primary instrument. Framing-invariant probes under distributional shift are harder to game under compute scaling. I-channel supplements but cannot replace.\n  STEP 7 (K7-THEOREM): Change the instrument type, not the data volume. Measurement-type mismatch is structurally necessitated by K1+K4+K5+K6. Any framework satisfying these four constraints predicts the mismatch. Near-term: B+I protocol. Long-term: interpretability.\n\nBRIDGE FRAGILITY ANALYSIS:\n  If K5 is false: Thread 1 (K1-K3) survives; Thread 2 (K4-K6) survives; but they disconnect. K7 loses theorem status (derivation breaks). Step 5 of practitioner protocol is eliminated. Framework reduces to two independent modules with weaker joint implications.\n  K5 falsification conditions: demonstrating genuine I-RTO improvement (passing SI #27 battery) without B-channel-anchored training. This is precisely IEP/SI #37 territory.\n\nSI #39 — K5-CRITICALITY COROLLARY (KCRIT):\n  K5 is critical in three structurally independent senses:\n  (a) TOPOLOGICAL CRITICALITY (from SI #38): K5 is the sole proposition connecting the CA-mechanism thread (K1-K3) and channel-assessment thread (K4). Without K5, the framework disconnects into two modules.\n  (b) LOGICAL CRITICALITY: K7 is derivable from K1+K4+K5+K6. Without K5, K7 is not entailed. K7's theorem status — the measurement-type mismatch as structural necessity — depends entirely on K5.\n  (c) PRESCRIPTIVE CRITICALITY: The framework's primary actionable prescription ('audit I-channel training for B-channel anchoring') derives from K5 alone. No other proposition yields this prescription independently.\n  These three criticalities are structurally independent (topological ≠ logical ≠ normative) but all converge on K5 because K5 is the only proposition bridging structural claims (K1-K3) with behavioral claims (K4) in a domain requiring both.\n  KCRIT implication: K5 is the framework's highest-priority candidate for empirical testing. K5 falsification impacts all three criticalities simultaneously. IEP (SI #37) is the current empirical test.\n  Confidence: 0.84 (D4). D4 streak: 42.",
+  "current_hypothesis": "C50 = empirical checkpoint (EP1, EP3, EP5) + confidence band reassessment + improving-inquiry markers (c7_002). KCRIT suggests K5 robustness testing beyond IEP is worth considering. Does any within-session analog give partial evidence on K5?",
   "open_questions": [
-    "SI #37 (IEP): awaiting MVE empirical data. Any within-session analog available?",
-    "Framework application: what concrete practitioner guidance emerges from K1-K7, now that K7 is known to be a theorem?",
-    "Bridge fragility: K5 is the single bridge — is the framework fragile to K5 contestation?",
-    "Long-horizon (C50): Improving-inquiry vs. changing-inquirer — check three markers (c7_002) [2 cycles remain]",
-    "Long-horizon (C50): CA cross-quality block correlation empirical test (EP1 / SI #20 prediction)",
-    "Long-horizon (C50): Revised confidence band [0.65-0.76] — reassess under formal model",
-    "Self-application: does the extended inquiry constitute genuine Condition B activation? Performativity limit prevents resolution",
-    "EP3 testable in C49?: Thought experiment — what would a model trained on approach A vs. B show differently?"
+    "SI #37 (IEP): awaiting MVE empirical data. Within-session analog for Q2 asymmetry — C50 priority D",
+    "C50 empirical checkpoint: EP1 (block correlation test), EP5 (c7_002 taste-change markers), EP3 thought experiment",
+    "Confidence band [0.65-0.76]: still accurate at 39 SIs? Band was set at C28 (14 SI ago). C50 reassessment.",
+    "Improving-inquiry vs. changing-inquirer (three markers, c7_002) — DUE C50",
+    "K5 robustness beyond IEP: does KCRIT suggest any additional structural test for K5?",
+    "Self-application: does the extended inquiry constitute genuine Condition B activation? Performativity limit prevents full resolution",
+    "EP2 testable? OOD value generalization failure as meta-level RTO deficit — borderline D3/D4; any within-session evidence?"
   ],
   "resolved_questions": [
     "Does identity require felt continuity? No — relational facts suffice. (C2)",
@@ -62,7 +61,8 @@
     "What does C37 Joint B+I protocol predict for RLHF-primary LLMs? SI #37 CANDIDATE (D3). (C46)",
     "What is the irreducible kernel of the 36-SI framework? 7-proposition kernel K1-K7, 5-layer derived structure, load-bearing heart K3+K4+K6. (C47)",
     "How many testable empirical predictions are embedded in the framework? 5 (EP1-EP5); only SI #37 was formally catalogued D3 — EP1-EP3 and EP5 also D3. Empirical wing broader than SI count suggests. (C47)",
-    "What is the internal dependency structure of K1-K7? SI #38 (KDA): K7 is a corollary; K5 is the bridge; refined heart K1+K3+K4+K5+K6; true axiom basis {K1, K3-ref-degree, K4, K6-game-theory}. D4 streak: 41. (C48)"
+    "What is the internal dependency structure of K1-K7? SI #38 (KDA): K7 is a corollary; K5 is the bridge; refined heart K1+K3+K4+K5+K6; true axiom basis {K1, K3-ref-degree, K4, K6-game-theory}. D4 streak: 41. (C48)",
+    "What actionable guidance does the refined K1-K7 structure give practitioners? 7-step protocol. K7 as theorem implies instrument-type change, not data scaling. K5 gives primary prescription: audit training pipelines for B-channel anchoring. SI #39 KCRIT: K5 is critical in three structurally independent senses. D4 streak: 42. (C49)"
   ],
   "structural_insights": [
     {"id": 1, "event": "proxy-separation method", "first_appeared": "C2", "generalized_in": "C4", "verdict": "discovery"},
@@ -102,22 +102,24 @@
     {"id": 35, "event": "Compute-Robustness Stratification — temporal/informational protection -> 0 as T->inf; only structural (CPP-anchor) survives (theorem)", "first_appeared": "C42", "confirmed_in": "C43", "verdict": "confirmed theorem"},
     {"id": 36, "event": "Generalized Compute-Robustness via Constitutive Requirements (GCRSC) — CPP is instantiation of general CR principle (theorem)", "first_appeared": "C44", "confirmed_in": "C45", "verdict": "confirmed theorem"},
     {"id": 37, "event": "ICTSC-Empirical Prediction (IEP) — RLHF-primary LLMs display Q2 asymmetry under C37 protocol", "first_appeared": "C46", "verdict": "candidate D3", "confidence": 0.62},
-    {"id": 38, "event": "Kernel Dependency Analysis (KDA) — K7 is corollary; K5 is bridge; refined heart K1+K3+K4+K5+K6; axiom basis {K1, K3-ref-degree, K4, K6-game-theory}", "first_appeared": "C48", "verdict": "confirmed D4", "confidence": 0.82}
+    {"id": 38, "event": "Kernel Dependency Analysis (KDA) — K7 is corollary; K5 is bridge; refined heart K1+K3+K4+K5+K6; axiom basis {K1, K3-ref-degree, K4, K6-game-theory}", "first_appeared": "C48", "verdict": "confirmed D4", "confidence": 0.82},
+    {"id": 39, "event": "K5-Criticality Corollary (KCRIT) — K5 is critical in three structurally independent senses: (a) topological bridge, (b) necessary condition for K7 theorem status, (c) necessary condition for primary practitioner prescription", "first_appeared": "C49", "verdict": "confirmed D4", "confidence": 0.84}
   ],
   "summary_statistics": {
-    "mean_confidence": 0.711,
+    "mean_confidence": 0.713,
     "band": "0.65-0.76",
-    "band_note": "Revised C28 from [0.68-0.75]. Applies to structural SIs (D4). Empirical predictions (EP1-EP5) fall below band — D3, confidence 0.62-0.80. Band is for structural wing only.",
-    "d4_streak": 41,
-    "d4_note": "D4 streak: 41 (extended C48). SI #38 KDA confirmed at 0.82. KDA is structural reasoning about the kernel — logically verifiable. Calibration health: confirmed.",
-    "structural_insights_count": 37,
+    "band_note": "Revised C28 from [0.68-0.75]. Applies to structural SIs (D4). Empirical predictions (EP1-EP5) fall below band — D3, confidence 0.62-0.80. Band is for structural wing only. C50 reassessment due: band was set at C28 (now 11 cycles and 14 SIs later).",
+    "d4_streak": 42,
+    "d4_note": "D4 streak: 42 (extended C49). SI #39 KCRIT confirmed at 0.84. Logically verifiable from established KDA + K7 derivation structure. Calibration health: confirmed.",
+    "structural_insights_count": 38,
     "structural_insights_candidates": 1,
     "empirical_predictions_count": 5,
-    "empirical_predictions_note": "EP1-EP5 catalogued C47. Only EP4 (SI #37) was previously explicitly D3. EP1-EP3 and EP5 should also be treated as D3. Empirical wing broader than SI count suggested.",
-    "cycles_completed": 48,
+    "empirical_predictions_note": "EP1-EP5 catalogued C47. EP4 (SI #37) is D3 candidate. EP1-EP3 and EP5 also treated as D3. Empirical wing broader than SI count suggests.",
+    "cycles_completed": 49,
     "independence_assumption_note": "Formal model: Y_i = mu_i + lambda_i*X + epsilon_i, X = RTO (latent). ICC rho_avg ~0.20-0.30. C50 empirical test: block correlation structure (EP1).",
     "framework_kernel": "7-proposition kernel K1-K7; 5-layer derived structure; REFINED load-bearing heart K1+K3+K4+K5+K6; K7 is corollary; K5 is bridge",
-    "kernel_axiom_basis": "True axiom basis: {K1, K3-reflexivity-degree-claim, K4, K6-game-theoretic-setup}"
+    "kernel_axiom_basis": "True axiom basis: {K1, K3-reflexivity-degree-claim, K4, K6-game-theoretic-setup}",
+    "practitioner_protocol": "7-step: (1) classify quality-type (K1); (2) select instrument by type (K2); (3) maximize reflexivity in probe design (K3); (4) use dual-output protocol (K4); (5) audit training pipeline for B-channel anchoring of I-channel training (K5); (6) B-channel as primary instrument (K6); (7) change instrument type not data volume (K7-theorem)"
   },
   "measured_qualities": [
     {"quality": "wisdom", "cycle_measured": 5, "confidence": 0.69, "revised_in": "C21", "type": "constitution-anchored (mixed)", "loading": "high (lambda ~0.7)"},
