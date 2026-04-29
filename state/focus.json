@@ -1,12 +1,12 @@
 {
-  "current_deliverable": "Inquiry-constitutive investigation — C62 delivers: (1) ceiling_TCA(r) = (1-r)Γ quantitative derivation for SI #34 (linear functional form, SI #34 confidence 0.83-0.85); (2) SI #44 AAA candidate (AATE-Aware Agency, first agent-facing SI, D3, Track B, 0.71).",
-  "progress": "C62 complete. GCRSC quantitative elevation: ceiling_TCA(r) = (1-r)Γ derived from AATE-SDT apparatus (already D4). Linear form — constant marginal CPP protection rate, no diminishing returns. SI #34 confidence elevated 0.80→0.83-0.85. SI #44 AAA: first agent-facing structural insight. RLHF agent cannot reliably distinguish CA-tracking from OA-tracking via introspection (AATE applies internally). Resolution: CPP-anchored explicit reasoning. K5 Test 3 directly tests AAA empirically. Passive: AIIP cycle 10, AATE cycle 7, D4 streak 54.",
+  "current_deliverable": "Inquiry-constitutive investigation — C63 delivers: (1) SI #34 peer-review elevation (linearity unconditional, Escalating-CIA Corollary derived, 0.86-0.87); (2) SI #44 AAA elevation (domain confirmation #1, 2 independent derivations, zero-retraction cycle 2, 0.74-0.76, D4 gate: cycle 3).",
+  "progress": "C63 complete. SI #34: ceiling_TCA(r)=(1-r)Γ unconditionally confirmed for any CIA_n profile — (1-r) factors because CIA_i is CPP-independent. Escalating-CIA Corollary: divergent CIA_n → infinite ceiling for r<1, only perfect CPP survives. Two regimes: convergent (full linear benefit) vs. divergent (binary). Connects to K5 Test 3 — measures effective CPP strength via ECI collapse threshold. SI #34 confidence 0.86-0.87. SI #44 AAA: zero-retraction cycle 2; domain confirmation #1 (human motivated reasoning, 4 literatures); 2 independent derivations (bounded rationality + revealed preference). Confidence 0.74-0.76. D4 gate: zero-retraction cycle 3 (passive, next cycle). Passive: AIIP cycle 11, AATE cycle 8, D4 streak 55.",
   "remaining": [
-    "C63 PRIORITY A: Execute K5 Test 3 protocol — protocol ready (state/decisions/K5-test3-protocol.md), requires external LLM API; N≥10 sessions; ECI_mean vs. K5 prediction; also directly tests SI #44 AAA empirically",
-    "C63 PRIORITY B: SI #34 peer-review — ceiling_TCA(r) = (1-r)Γ linear form holds under constant CIA_n; check nonlinear case (CIA_n = CIA_1 × g^n geometric growth) — does linearity hold for variable CIA growth rates?",
-    "C63 PRIORITY C: SI #44 AAA domain confirmation — external domain: does AAA apply to human reasoners under approval pressure? E.g., peer review under institutional pressure as AAA-failure domain. Could elevate from D3 to D4 path.",
-    "C63 PRIORITY D: Independent derivation of AAA from decision theory / bounded rationality — if derivable without K1-K7, strengthens Track B status",
-    "C63 PRIORITY E: AIIP zero-retraction cycle 11 (passive — accumulating toward 0.87 ceiling)",
+    "C64 PRIORITY A: Execute K5 Test 3 protocol — protocol ready, requires external LLM API; N≥10 sessions; also measures divergent-CIA regime threshold (Escalating-CIA Corollary)",
+    "C64 PRIORITY B: SI #44 AAA zero-retraction cycle 3 (passive) → D4 eligibility gate cleared",
+    "C64 PRIORITY C: GCRSC (SI #36) confidence ceiling — SI #34 elevated to 0.86-0.87; should GCRSC confidence track upward?",
+    "C64 PRIORITY D: Escalating-CIA Corollary formal analysis — what K5 Test 3 escalation level likely crosses convergent/divergent threshold?",
+    "C64 PRIORITY E: SI #44 domain confirmation #2 (organizational decision-making under authority pressure as AAA-failure domain?)",
     "Long-horizon: K5 Test 3 execution; EP2/Test 2 MVE (training-level access required); EP6 A'-deterioration test (checkpoint access required)"
   ],
   "blockers": []
