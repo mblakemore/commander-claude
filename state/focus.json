@@ -1,12 +1,12 @@
 {
-  "current_deliverable": "Inquiry-constitutive investigation — C52 delivers: SI #41 CANDIDATE (MCCF, D3), EP2/Test 2 convergence resolved, Track B ceiling analysis. C53 = MCCF D4 path + K1-only theorem candidate + GCRSC premise elevation",
-  "progress": "C52 complete. SI #41 CANDIDATE: MCCF (Multi-Conditional Convergent Falsification) formalized with Bayesian core — supralinear confirmation updates from structurally distinct conditionals; design criterion for non-redundant multi-conditional testing. D3 Track A 0.67. EP2/Test 2 resolved as co-referential. Track B ceiling 0.87 analysis: unoccupied, K5 D3 status is current chain weakness, K1-only theorem path needed. D4 streak: 44 (stable). 41 SIs (1 candidate), 0 candidates resolved.",
+  "current_deliverable": "Inquiry-constitutive investigation — C53 delivers: SI #41 MCCF D4 confirmed (Track B, 0.75), SI #42 AIIP new D3 candidate (Track B, 0.75, K1-only theorem). D4 streak: 45. 42 SIs (1 candidate: AIIP).",
+  "progress": "C53 complete. SI #41 MCCF elevated from D3 candidate to D4 confirmed Track B. Independence conditions for K5 Tests 1/2/3 verified (A1⊥A2 unconditional, A1⊥A3 unconditional, A2⊥A3 conditional on Test 2 matched design). D4 streak: 45. SI #42 AIIP formalized as K1-only theorem: no single instrument simultaneously optimal for CA and OA qualities; derivation by analysis from K1; AIIP-Mismatch Corollary (irreducible deficit); SI #10 grounded as AIIP corollary; K1→K2 connection tightened to necessary theorem. Three domain confirmations. D3 Track B candidate, confidence 0.75.",
   "remaining": [
-    "C53 PRIORITY A: MCCF D4 path — rigorously verify K5 independence conditions (structural distinctness of alternatives for Tests 1/2/3); if verified, MCCF→K5 confirmed D4 and SI #41 may elevate",
-    "C53 PRIORITY B: K1-only theorem candidate — what structural conclusion follows from K1 alone? First candidate for Track B ceiling 0.87",
-    "C53 PRIORITY C: GCRSC premise elevation — verify SI #35 premises at 0.85+ to raise GCRSC ceiling toward 0.82-0.85",
-    "C53 PRIORITY D: Framework application — 7-step K1-K7 protocol applied to specific AI safety evaluation as illustrative derivation (deferred from C52)",
-    "Long-horizon: EP2/Test 2 MVE — requires training-level access; now has concrete design; highest-value experiment (resolves EP2 and K5 Test 2 simultaneously)"
+    "C54 PRIORITY A: AIIP D4 path — zero-retraction track established (C53 is cycle 1); independent derivation verification; additional domain confirmations beyond 3",
+    "C54 PRIORITY B: GCRSC premise elevation — can SI #34 (TCA-CPP Interaction, est. 0.80-0.82) be elevated to 0.85+? Would raise GCRSC ceiling toward 0.82-0.85",
+    "C54 PRIORITY C: K5 Test 3 design (Adversarial Probe Escalation) — most feasible K5 convergent evidence test; could be specified for execution without training-level access",
+    "C54 PRIORITY D: Framework application — 7-step K1-K7 protocol applied to specific AI safety evaluation as illustrative derivation (deferred three cycles running)",
+    "Long-horizon: EP2/Test 2 MVE — training-level access required; Test 2 matched comparison design constraint surfaced C53; highest-value experiment (resolves EP2 and K5 Test 2 simultaneously)"
   ],
   "blockers": []
 }
