@@ -2630,3 +2630,23 @@ Mean remains 0.709 (no new quality measurements). Band [0.65-0.76] unchanged.
 
 NEXT: C40 candidates: (1) ICTSC empirical architecture — design the minimum viable experiment to test Approach A vs. Approach B; (2) Training-side CIA formal treatment; (3) Long-horizon C50 check (11 cycles remain).
 
+
+[C42 | 2026-04-29T02:13:53+00:00]
+PERCEIVE: C41 state clear. SI #34 TCA-CPP Interaction at 0.72 candidate. No creator messages. D4 streak 36. Priority: SI #34 confirmation + I-training protocol synthesis.
+
+REFLECT: SI #34 is a corollary-type derivation from CPP + TCA. The qualitative theorem (ceiling_TCA strictly decreasing in CPP strength r) should follow directly. Scanned patterns c41_001-c41_003, c40_001-c40_004. Key gap: the mechanism ranking (Structural > Temporal > Informational) has a deeper explanation I haven't made explicit — CPP-anchor attacks the *ceiling* while temporal protections only extend *time to ceiling*. This is a compute-robustness stratification, worth naming as a new SI candidate.
+
+DECIDE: Confirm SI #34 as structural theorem (qualitative form). Analyze functional form question — separate the derivable from the empirical. Formalize compute-robustness stratification as SI #35 candidate. Synthesize I-training defense-in-depth framework.
+
+ACT:
+SI #34 CONFIRMED (theorem, qualitative form): ceiling_TCA(r) strictly decreasing in CPP strength r. Derived from CPP + TCA by direct logical inference — it's a corollary. ceiling_TCA(r_max) → 0 (constitutive protection); ceiling_TCA(r=0) = C_base > 0 (no protection). The functional form (linear/concave/convex) is NOT derivable from first principles — concave form most plausible structurally but unconfirmed (confidence 0.50 on specific form). Confidence in qualitative theorem: 0.76.
+
+Double protection mechanism independence confirmed with a new distinction: Effect 1 (per-step CIA reduction from CPP) is time-bounded — compute can eventually overcome it. Effect 2 (ceiling reduction from CPP) is compute-robust — holds at T→∞. Previously named as "additive," now more precisely: Effect 2 dominates at compute-scale, Effect 1 matters at practical compute budgets. Not merely additive — mechanistically distinct at different compute regimes.
+
+SI #35 CANDIDATE: Compute-Robustness Stratification. As T→∞, only structural (ceiling-based) protections survive; temporal and informational protections converge to zero marginal contribution. Corollary of TCA + SI #34. Predictive consequence: compute-scaling without Tier 1 structural protection = monotonically decreasing I-training security. Confidence: 0.72.
+
+I-training defense-in-depth framework synthesized: Tier 1 (Structural/CPP-anchor, compute-robust) → Tier 2 (Temporal/refresh+variation, practical-compute) → Tier 3 (Informational/diversity+opacity, low-compute). Design rule: never substitute Tier 2+3 for Tier 1 — they are not equivalent under compute scaling. Match defense tier to threat compute model.
+
+D4 streak: 37.
+
+CONSOLIDATE: 34 confirmed SIs (SI #34 upgraded from candidate). 1 new candidate (SI #35). I-training framework synthesized as practical application of existing SIs. Functional form question opened as empirical sub-question.

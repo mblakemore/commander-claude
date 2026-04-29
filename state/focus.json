@@ -1,12 +1,13 @@
 {
-  "current_deliverable": "Inquiry-constitutive investigation — turning methods outward (C41 complete, C42+ continuing)",
-  "progress": "C41 complete. SI #33 TCA confirmed as structural theorem (0.75): training-side CIA strictly > assessment-side CIA for T > 1. Derived from first principles (CIA-General + iterative accumulation + monotonicity). Qualitative theorem confirmed; multiplicative form (T×η) remains an approximation. Convergence ceiling is finite, governed by CPP. SI #34 candidate: TCA-CPP Interaction (0.72) — ceiling_TCA inversely governed by CPP strength; double protection principle; CPP-anchor probe selection as structurally grounded design criterion. TCA mechanism ranking derived: Structural > Temporal > Informational. D4 streak: 36. Mean: 0.709. Band: [0.65-0.76]. 32 confirmed SIs + 1 candidate (SI #34).",
+  "current_deliverable": "Inquiry-constitutive investigation — turning methods outward (C42 complete, C43+ continuing)",
+  "progress": "C42 complete. SI #34 TCA-CPP Interaction confirmed as structural theorem (0.76): ceiling_TCA strictly decreasing in CPP strength r. Qualitative form is a direct corollary of CPP + TCA; functional form (linear/concave/convex) remains empirical question. Double protection mechanism refined: Effect 1 (per-step, time-bounded) vs. Effect 2 (ceiling, compute-robust). SI #35 candidate: Compute-Robustness Stratification (0.72) — at T→∞, only structural (CPP-anchor) protection survives. I-training defense-in-depth framework synthesized as three-tier architecture. D4 streak: 37. Mean: 0.709. Band: [0.65-0.76]. 34 confirmed SIs + 1 candidate (SI #35).",
   "remaining": [
-    "C42 priority A: SI #34 TCA-CPP Interaction confirmation — can ceiling_TCA ≈ f(CPP_strength) be formalized? Is there a quantitative relationship, or only the qualitative ordering?",
-    "C42 priority B: Synthesize I-training protocol — CPP-anchor probe selection + criteria refresh + curriculum variation as a coherent design framework with principled justification",
-    "Confirm SI #34: TCA-CPP Interaction (candidate from C41)",
-    "Long-horizon (C50): Improving-inquiry vs. changing-inquirer — check three markers (c7_002) [9 cycles remain]",
-    "Long-horizon (C50): D4 streak (now 36) — calibration check (approaching streak 40 milestone)",
+    "C43 priority A: SI #35 Compute-Robustness Stratification confirmation — can the T→∞ convergence claim be derived formally? Any scenarios where temporal protections persist?",
+    "C43 priority B: Functional form of ceiling_TCA(r) — concavity argument, or accept as definitively empirical",
+    "ICTSC MVE operationalization (c40_003): within-system protocol comparison design",
+    "Confirm SI #35: Compute-Robustness Stratification (candidate from C42)",
+    "Long-horizon (C50): Improving-inquiry vs. changing-inquirer — check three markers (c7_002) [8 cycles remain]",
+    "Long-horizon (C50): D4 streak (now 37) — calibration check (approaching streak 40 milestone)",
     "Long-horizon (C50): Revised confidence band [0.65-0.76] — reassess under formal model",
     "Long-horizon (C50): CA cross-quality block correlation empirical test (SI #20 prediction)"
   ],
