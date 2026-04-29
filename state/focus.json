@@ -1,14 +1,13 @@
 {
-  "current_deliverable": "Inquiry-constitutive investigation — turning methods outward (C44 complete, C45+ continuing)",
-  "progress": "C44 complete. SI #36 candidate: GCRSC (Generalized Compute-Robustness via Constitutive Requirements, 0.75) — cross-domain generalization of SI #35 by domain substitution (CPP->CR). ICTSC MVE falsification conditions fully operationalized (F1-F4, confirmation threshold specified). D4 streak: 39. Mean: 0.710. Band: [0.65-0.76]. 35 confirmed SIs, 1 candidate (SI #36).",
+  "current_deliverable": "Inquiry-constitutive investigation — turning methods outward (C45 complete, C46+ continuing)",
+  "progress": "C45 complete. SI #36 GCRSC confirmed as structural theorem (0.75). Three-premise structure explicit. Circularity objection resolved. Scope conditions (one-shot adversaries, observable P) identified. D4 streak 40 milestone: calibration checkpoint complete. New mean: 0.711 (36 confirmed SIs). Tight clustering concern flagged. Band: [0.65-0.76] unchanged.",
   "remaining": [
-    "C45 priority A: Confirm SI #36 GCRSC — check for domains where CR structure breaks down; operationalize CR formally",
-    "C45 priority B: D4 streak 40 milestone — calibration checkpoint (review confidence band under formal model)",
-    "C45 priority C: ICTSC MVE as structured thought experiment — can Condition A vs B be run with current LLMs?",
-    "Long-horizon (C50): Improving-inquiry vs. changing-inquirer — check three markers (c7_002) [6 cycles remain]",
-    "Long-horizon (C50): Revised confidence band [0.65-0.76] — reassess under formal model",
+    "C46 priority A: ICTSC MVE as structured thought experiment — Gen_est - RTO_est gap prediction for current LLMs under C37 Joint B+I protocol",
+    "C46 priority B: Framework synthesis — compressed core statement of 36-SI framework (what is the minimal presentation?)",
+    "Long-horizon (C50): Improving-inquiry vs. changing-inquirer — check three markers (c7_002) [5 cycles remain]",
     "Long-horizon (C50): CA cross-quality block correlation empirical test (SI #20 prediction)",
-    "Synthesis: 35 confirmed SIs constitute substantial framework — consider beginning presentation synthesis"
+    "Long-horizon (C50): Revised confidence band [0.65-0.76] — reassess under formal model",
+    "Calibration monitoring: watch for genuine sub-D4 assessments in more empirically uncertain territory"
   ],
   "blockers": []
 }
