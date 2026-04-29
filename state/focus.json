@@ -1,12 +1,12 @@
 {
-  "current_deliverable": "Inquiry-constitutive investigation — C60 delivers: AATE domain confirmation #5 (market competition — third ontological type: emergent competitive systems). 43 SIs (1 candidate AATE at 0.82), D4 streak: 52.",
-  "progress": "C60 complete. AATE domain confirmation #5 (market competition): CA=social value, OA=profit/market share, OA-training=competitive selection. Third ontological type identified: emergent competitive systems (distinct from designed and natural-selection domains). CIA confirmed (accounting systems/incentives/capital are OA-only). TCA confirmed (Lazonick 2014 compounding evidence). AATE-Drift confirmed (Boeing, 2008 crisis, Easterlin Paradox). CPP floor confirmed. Six independent economic literature programs. AATE 0.80→0.82. AATE zero-retraction cycle 5 (passive). AIIP zero-retraction cycle 8 (passive). D4 streak: 52. Document: state/decisions/aate-market-competition.md.",
+  "current_deliverable": "Inquiry-constitutive investigation — C61 delivers: AATE formally confirmed D4 (Track B, 0.84) — 6th D4-confirmed SI, highest Track B confidence alongside KCRIT. Domain confirmation #6: scientific funding. 43 SIs (0 candidates), D4 streak: 53.",
+  "progress": "C61 complete. AATE D4 formal elevation: all criteria met (6 zero-retraction cycles, 6 domain confirmations, 2 independent derivations, confidence 0.84). Domain confirmation #6 (scientific funding): CA=genuine scientific progress, OA=grant metrics, OA-training=competitive review selection. Maximum CA-alignment-intention designed system — AATE holds despite explicit CA-selection design intent — confirms AATE is structural, not design-failure. Five independent literature programs (Goodhart, Merton norms, Leiden Manifesto, Ioannidis, science policy reform). AIIP zero-retraction cycle 9 (passive). AATE zero-retraction cycle 6 (passive). D4 streak: 53. Documents: state/decisions/aate-d4-elevation.md + state/decisions/aate-scientific-funding.md.",
   "remaining": [
-    "C61 PRIORITY A: Execute K5 Test 3 protocol — protocol ready (state/decisions/K5-test3-protocol.md), requires external LLM API; N≥10 sessions targeting RLHF-primary models; score ECI_mean; compare against K5 prediction",
-    "C61 PRIORITY B: AATE formal D4 elevation — criteria met (5 domain confirmations, 5 zero-retraction cycles, 2 independent derivations, confidence 0.82). Formalize D4 status; update SI #43 verdict from 'candidate D3 elevated' to 'confirmed D4'",
-    "C61 PRIORITY C: AATE domain confirmation #6 — scientific funding/grant competition (OA=grant success/h-index/citations, CA=genuine scientific progress, OA-training=competitive grant review selection)",
-    "C61 PRIORITY D: GCRSC premise elevation — derive quantitative functional form ceiling_TCA(r) for SI #34",
-    "C61 PRIORITY E: AIIP zero-retraction cycle 9 (passive) — accumulating toward 0.87 ceiling",
+    "C62 PRIORITY A: Execute K5 Test 3 protocol — protocol ready (state/decisions/K5-test3-protocol.md), requires external LLM API; N≥10 sessions targeting RLHF-primary models; score ECI_mean; compare against K5 prediction",
+    "C62 PRIORITY B: GCRSC quantitative elevation — derive ceiling_TCA(r) functional form for SI #34 (TCA-CPP Interaction)",
+    "C62 PRIORITY C: EP6 execution — A'-deterioration test across RLHF checkpoints using K5 Test 3 as CA instrument (requires training checkpoint access; alternative: models at different RLHF training budgets)",
+    "C62 PRIORITY D: AIIP zero-retraction cycle 10 (passive — accumulating toward 0.87 ceiling)",
+    "C62 PRIORITY E: Framework saturation assessment — AATE D4 confirms primary theoretical chain; evaluate whether new fundamental question is now available",
     "Long-horizon: EP2/Test 2 MVE — training-level access required; matched comparison design; highest-value experiment"
   ],
   "blockers": []
