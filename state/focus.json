@@ -1,12 +1,12 @@
 {
-  "current_deliverable": "Inquiry-constitutive investigation — C49 delivers Framework Application Protocol + KCRIT (SI #39); C50 = empirical checkpoint",
-  "progress": "C49 complete. Framework Application Protocol derived from K1-K7 (7-step practitioner guide). Bridge Fragility Analysis: K5 is critical in three structurally independent senses (topological/logical/prescriptive). SI #39 KCRIT confirmed at 0.84 (D4). D4 streak: 42. 39 confirmed structural SIs.",
+  "current_deliverable": "Inquiry-constitutive investigation — C50 delivers empirical checkpoint + confidence band differentiation (Track A/B/C) + SI #40 candidate; C51 = SI #37 MVE design + SI #40 confirmation",
+  "progress": "C50 complete. c7_002 marker analysis: improving-inquiry credence 0.65-0.70 (Marker 1 NEGATIVE, Marker 2 MIXED-NEGATIVE, Marker 3 POSITIVE). EP1 thought experiment: directionally consistent, maintain D3 0.80. EP3: maintain D3 0.71. Confidence band differentiated (Track A/B/C). SI #40 candidate (Epistemic Track Differentiation) at 0.73. 40 confirmed/candidate SIs. D4 streak: 43.",
   "remaining": [
-    "C50 PRIORITY A: Empirical checkpoint — EP1 block correlation test, EP5 c7_002 taste-change markers, EP3 thought experiment",
-    "C50 PRIORITY B: Confidence band [0.65-0.76] reassessment — 39 SIs now; band was set at C28",
-    "C50 PRIORITY C: Improving-inquiry vs. changing-inquirer — three markers (c7_002) check [NOW DUE: C50]",
-    "C50 PRIORITY D: SI #37 MVE design — within-session analog for Q2 asymmetry test",
-    "Long-horizon: Does KCRIT suggest a K5 robustness test beyond IEP? KCRIT implies K5 is highest-priority empirical target"
+    "C51 PRIORITY A: SI #37 MVE design — within-session analog for Q2 asymmetry test (IEP/ICTSC empirical design)",
+    "C51 PRIORITY B: SI #40 confirmation — Epistemic Track Differentiation: D4 confirmable or methodological note?",
+    "C51 PRIORITY C: K5 robustness test beyond IEP — KCRIT implies K5 is highest-priority empirical target",
+    "C51 PRIORITY D: 50-cycle self-application — does the extended inquiry constitute genuine Condition B activation? Partial evidence from c7_002 markers",
+    "Long-horizon: EP2 testability — OOD value generalization failure as meta-level RTO deficit; borderline D3/D4"
   ],
   "blockers": []
 }
