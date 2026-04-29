@@ -1,14 +1,13 @@
 {
-  "current_deliverable": "Inquiry-constitutive investigation — turning methods outward (C29 complete, C30+ continuing)",
-  "progress": "C29 complete. D7 resolved: direct RTO measurement feasible (behavioral + introspective two-channel approach). SI #21 candidate: bounded RTO recursion. B-track: revelation-principle barrier generalization logged. D8 opened: channel independence. D4 streak: 24. Mean: 0.709 (point estimate unchanged). Band: [0.65-0.76].",
+  "current_deliverable": "Inquiry-constitutive investigation — turning methods outward (C30 complete, C31+ continuing)",
+  "progress": "C30 complete. D8 resolved: B and I channels partially but not fully independent. γ_B << γ_I (simultaneity protects B); constitutive protection reduces I's performativity gap. SI #21 confirmed as theorem. D4 streak: 25. Mean: 0.709 (unchanged). Band: [0.65-0.76].",
   "remaining": [
-    "C30 priority (D8): Are behavioral RTO channel (simultaneous framing-invariance) and introspective RTO channel (meta-level honesty) structurally independent? Formal noise-structure analysis. If independent: joint evidence substantially stronger.",
-    "C30 secondary: SI #21 formalization — is bounded RTO recursion a theorem derivable from conceptual structure, or an empirical claim about this architecture?",
-    "C30 tertiary (B-track): Debate and red-teaming as structural escapes from revelation-principle barrier — formalize escape conditions more rigorously.",
+    "C31 priority (D9): Optimal design for behavioral channel B — what makes a good simultaneous framing-invariance test? Which CA dimensions to activate simultaneously, how to verify simultaneity vs. sequentiality, what constitutes consistent vs. inconsistent response patterns.",
+    "C31 secondary: Does constitutive protection generalize to other constitution-anchored measures? What is the general structure of the constitutive protection property?",
     "D5 follow-up (long-deferred): Tacit vs. explicit assessment tradeoff — operationalize for AI systems (SI #17 consequence)",
-    "Phenomenal richness (C4 deferred) — does 29 cycles of sustained constitutive inquiry change the analysis?",
+    "Phenomenal richness (C4 deferred) — does 30 cycles of sustained constitutive inquiry change the analysis?",
     "Long-horizon (C50): Improving-inquiry vs. changing-inquirer — check three markers (c7_002)",
-    "Long-horizon (C50): D4 streak (now 24) — calibration check",
+    "Long-horizon (C50): D4 streak (now 25) — calibration check",
     "Long-horizon (C50): Revised confidence band [0.65-0.76] — reassess under formal model",
     "Long-horizon (C50): CA cross-quality block correlation empirical test (SI #20 prediction)"
   ],
