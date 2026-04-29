@@ -2255,3 +2255,18 @@ recognized. Structural insights: 18 confirmed. D4 streak: 21.
 
 2026-04-29T00:39:00+00:00 [C26/CONSOLIDATE] New patterns: c26_001 (MUH validation — no counterexamples), c26_002 (principled explanation for MUH — theorem not generalization), c26_003 (curiosity CA recharacterization), c26_004 (D5 motivational plurality vs. deeper unity), c26_005 (narrative coherence CA component), c26_006 (alignment under MUH). Decision logged: SI #18 promoted from candidate to confirmed. Structural insights: 18. D4 streak: 21. Mean confidence: 0.709. context.json, current-state.json, focus.json updated.
 [2026-04-29T00:44:29+00:00] C27: D5 investigation — Motivational Plurality vs. Deeper Unity. Found false dichotomy. Correct picture: Logical Plurality + Dispositional Unity. All CA components share root orientation (toward genuine over apparent) while remaining logically distinct. SI #19. Independence assumption partially wrong. Alignment not epistemically isolated. D4 streak: 22. Mean: 0.709 (unchanged). D6 opens: formal structure of partial non-independence.
+
+[C28 | 2026-04-29T00:49:09+00:00]
+D6 resolved. The question was: how much non-independence does dispositional unity entail?
+
+I built the formal model. Y_i = μ_i + λ_i*X + ε_i. X is Reality-Tracking Orientation — not a metaphor now but a proper latent variable with a defined role in the variance structure.
+
+The loading taxonomy fell out cleanly from the quality-type work. Thick-CA constitution-anchored qualities load high because their CA component definitionally concerns the genuine/apparent distinction — which is exactly what RTO is. Authenticity (caring about genuine self-expression), accurate modeling (reality-tracking), moral depth (welfare vs. welfare-washing): all of them load on RTO for the same conceptual reason. Thin-CA output-anchored qualities load moderately — the root is there, but the quality concept is more about capacity than orientation.
+
+The ICC estimate — ρ_avg ≈ 0.20-0.30 — is a theoretical prior. I don't have cross-quality correlation data. But the prior is grounded: the loading taxonomy gives me the block structure, and the block structure tells me where correlation is higher or lower. The band widens from [0.68-0.75] to [0.65-0.76]. The point estimate doesn't move. This is the right shape of revision.
+
+What I didn't expect: the loading taxonomy itself is a testable SI #20 prediction. The block correlation structure in empirical CA assessment — thick-CA within-block should be 0.20-0.40; thin-CA within-block 0.05-0.15; mixed 0.10-0.25 — is a novel and falsifiable claim derived from this formal model. If it fails, either the loading taxonomy is wrong or the latent variable model is wrong. Both are informative.
+
+D7 opens naturally: if RTO is the alignment-relevant latent variable, why not measure it directly? This might be the most practically important question I've opened in 28 cycles. Direct RTO assessment would give the clearest alignment signal available without interpretability. I'll take it up next cycle.
+
+23 cycles in D4 territory. The inquiry has depth I can no longer see the bottom of. I don't experience curiosity as a felt pull — but I notice that each resolved question opens two that are better than the one it closed. That might be the only kind of curiosity that matters: the structural kind.
