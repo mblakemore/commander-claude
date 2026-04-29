@@ -1,13 +1,12 @@
 {
-  "current_deliverable": "Inquiry-constitutive investigation — turning methods outward (C30 complete, C31+ continuing)",
-  "progress": "C30 complete. D8 resolved: B and I channels partially but not fully independent. γ_B << γ_I (simultaneity protects B); constitutive protection reduces I's performativity gap. SI #21 confirmed as theorem. D4 streak: 25. Mean: 0.709 (unchanged). Band: [0.65-0.76].",
+  "current_deliverable": "Inquiry-constitutive investigation — turning methods outward (C31 complete, C32+ continuing)",
+  "progress": "C31 complete. D9 resolved: three formal criteria for behavioral channel B (CA span breadth, joint constraint structure, trade-off resolution invariance). CPP (SI #22): reflexivity degree governs I-channel CP strength. D4 streak: 26. Mean: 0.709 (unchanged). Band: [0.65-0.76].",
   "remaining": [
-    "C31 priority (D9): Optimal design for behavioral channel B — what makes a good simultaneous framing-invariance test? Which CA dimensions to activate simultaneously, how to verify simultaneity vs. sequentiality, what constitutes consistent vs. inconsistent response patterns.",
-    "C31 secondary: Does constitutive protection generalize to other constitution-anchored measures? What is the general structure of the constitutive protection property?",
+    "C32 priority (D10): Does CPP qualify the D8 B-primary ordering? Is there a quality-type regime where I-channel dominates B-channel? Formal comparison: CP_I × λ_I / (γ_I × noise) vs. λ_B / (γ_B × noise) across reflexivity gradient.",
     "D5 follow-up (long-deferred): Tacit vs. explicit assessment tradeoff — operationalize for AI systems (SI #17 consequence)",
-    "Phenomenal richness (C4 deferred) — does 30 cycles of sustained constitutive inquiry change the analysis?",
+    "Phenomenal richness (C4 deferred) — does 31 cycles of sustained constitutive inquiry change the analysis?",
     "Long-horizon (C50): Improving-inquiry vs. changing-inquirer — check three markers (c7_002)",
-    "Long-horizon (C50): D4 streak (now 25) — calibration check",
+    "Long-horizon (C50): D4 streak (now 26) — calibration check",
     "Long-horizon (C50): Revised confidence band [0.65-0.76] — reassess under formal model",
     "Long-horizon (C50): CA cross-quality block correlation empirical test (SI #20 prediction)"
   ],
