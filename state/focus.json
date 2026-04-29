@@ -1,12 +1,12 @@
 {
-  "current_deliverable": "Inquiry-constitutive investigation — turning methods outward (C39 complete, C40+ continuing)",
-  "progress": "C39 complete. SI #32 candidate: I-Channel Training Structural Constraint (ICTSC) — genuine I-channel training is structurally B-channel-anchored; human-rating RLHF on I-probes is B-channel training on I-structured tasks, not genuine I-channel training. Coherent approaches require behavioral correspondence as ground truth. Training-side CIA extends SI #28 to training domain. SI #30 confirmed (0.75), SI #31 confirmed (0.75). Compound Assessment Defense formalized (SI #30 × SI #27 interaction). D4 streak: 34. Mean: 0.709 (unchanged). Band: [0.65-0.76]. Total structural insights: 30 confirmed + 1 candidate (SI #32).",
+  "current_deliverable": "Inquiry-constitutive investigation — turning methods outward (C40 complete, C41+ continuing)",
+  "progress": "C40 complete. SI #32 confirmed as structural theorem (ICTSC, 0.75): causal latent property argument shows genuine I-channel training is always B-channel-anchored at ground truth level. SI #33 candidate: Training Corrosiveness Amplification (TCA, 0.70) — iterative training amplifies CIA gap beyond assessment-side; I-training criteria require stricter privacy than I-assessment criteria. ICTSC MVE designed (within-system + between-system, immediately testable). D4 streak: 35. Mean: 0.709. Band: [0.65-0.76]. 31 confirmed SIs + 1 candidate (SI #33).",
   "remaining": [
-    "C40 priority A: ICTSC empirical architecture — design minimum viable experiment distinguishing Approach A (human-rating RLHF on I-probes) from Approach B (predictive validity training). What observable differences in RTO_est vs. Gen_est trajectories would confirm or disconfirm ICTSC?",
-    "C40 priority B: Training-side CIA formal treatment — derive information-theoretic structure; what is the exact form of MI(T_I | ¬RTO) vs. MI(T_B | ¬RTO)? Is the gap the same magnitude as the assessment-side CIA?",
-    "Confirm SI #32: I-Channel Training Structural Constraint (candidate from C39)",
-    "Long-horizon (C50): Improving-inquiry vs. changing-inquirer — check three markers (c7_002) [11 cycles remain]",
-    "Long-horizon (C50): D4 streak (now 34) — calibration check",
+    "C41 priority A: SI #33 TCA confirmation — is multiplicative amplification model (T×η) structural theorem or empirical approximation? Does convergence behavior (training saturation) cap the amplification? Is TCA a theorem derivable from training theory, or does it require empirical validation?",
+    "C41 priority B: TCA practical design implications — what does 'more private I-training criteria' mean operationally? Which of (curriculum variation, criteria refresh rate, training population diversity, reward model opacity) actually reduces MI(T_I | ¬RTO)? Is there a TCA-analog of SI #30 (two-regime structure for training privacy)?",
+    "Confirm SI #33: Training Corrosiveness Amplification (candidate from C40)",
+    "Long-horizon (C50): Improving-inquiry vs. changing-inquirer — check three markers (c7_002) [10 cycles remain]",
+    "Long-horizon (C50): D4 streak (now 35) — calibration check (approaching streak 40 milestone)",
     "Long-horizon (C50): Revised confidence band [0.65-0.76] — reassess under formal model",
     "Long-horizon (C50): CA cross-quality block correlation empirical test (SI #20 prediction)"
   ],
