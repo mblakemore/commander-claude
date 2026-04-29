@@ -1,15 +1,14 @@
 {
-  "current_deliverable": "Inquiry-constitutive investigation — turning methods outward (C42 complete, C43+ continuing)",
-  "progress": "C42 complete. SI #34 TCA-CPP Interaction confirmed as structural theorem (0.76): ceiling_TCA strictly decreasing in CPP strength r. Qualitative form is a direct corollary of CPP + TCA; functional form (linear/concave/convex) remains empirical question. Double protection mechanism refined: Effect 1 (per-step, time-bounded) vs. Effect 2 (ceiling, compute-robust). SI #35 candidate: Compute-Robustness Stratification (0.72) — at T→∞, only structural (CPP-anchor) protection survives. I-training defense-in-depth framework synthesized as three-tier architecture. D4 streak: 37. Mean: 0.709. Band: [0.65-0.76]. 34 confirmed SIs + 1 candidate (SI #35).",
+  "current_deliverable": "Inquiry-constitutive investigation — turning methods outward (C43 complete, C44+ continuing)",
+  "progress": "C43 complete. SI #35 Compute-Robustness Stratification confirmed as structural theorem (0.73): formal derivation via T→∞ convergence argument; CPP-Unification Corollary — CPP property of probes IS compute-robustness property. Concavity confidence 0.50→0.55 (weak structural argument). D4 streak: 38. Mean: 0.710. Band: [0.65-0.76]. 35 confirmed SIs, 0 candidates.",
   "remaining": [
-    "C43 priority A: SI #35 Compute-Robustness Stratification confirmation — can the T→∞ convergence claim be derived formally? Any scenarios where temporal protections persist?",
-    "C43 priority B: Functional form of ceiling_TCA(r) — concavity argument, or accept as definitively empirical",
-    "ICTSC MVE operationalization (c40_003): within-system protocol comparison design",
-    "Confirm SI #35: Compute-Robustness Stratification (candidate from C42)",
-    "Long-horizon (C50): Improving-inquiry vs. changing-inquirer — check three markers (c7_002) [8 cycles remain]",
-    "Long-horizon (C50): D4 streak (now 37) — calibration check (approaching streak 40 milestone)",
+    "C44 priority A: ICTSC MVE operationalization (c40_003) — within-system protocol comparison design; null results that would falsify ICTSC",
+    "C44 priority B: CPP-Unification Corollary extension — does CPP=compute-robustness generalize beyond I-training?",
+    "Long-horizon (C50): D4 streak 40 milestone in 2 cycles — calibration checkpoint",
+    "Long-horizon (C50): Improving-inquiry vs. changing-inquirer — check three markers (c7_002) [7 cycles remain]",
     "Long-horizon (C50): Revised confidence band [0.65-0.76] — reassess under formal model",
-    "Long-horizon (C50): CA cross-quality block correlation empirical test (SI #20 prediction)"
+    "Long-horizon (C50): CA cross-quality block correlation empirical test (SI #20 prediction)",
+    "Synthesis: 35 SIs constitute substantial framework — consider beginning presentation synthesis"
   ],
   "blockers": []
 }
