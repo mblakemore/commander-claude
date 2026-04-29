@@ -1,11 +1,11 @@
 {
-  "current_deliverable": "Inquiry-constitutive investigation — turning methods outward (C34 complete, C35+ continuing)",
-  "progress": "C34 complete. SI #26: Phenomenological Completeness Ceiling. Quality taxonomy formally extended to 3 types (OA/CA/QC). Framework scope grounded. C4 deferred question closed (29 cycles). D4 streak: 29. Mean: 0.709 (unchanged). Band: [0.65-0.76]. Total structural insights: 26.",
+  "current_deliverable": "Inquiry-constitutive investigation — turning methods outward (C35 complete, C36+ continuing)",
+  "progress": "C35 complete. SI #25 empirical operationalization: full I-RTO test battery designed (Layer 1: 4 probe types; Layer 2: 3 consistency checks; scoring weights). SI #27: Multi-probe Constitutive Protection — collective CPP extends B-channel criteria resistance to battery-level I-channel assessment. D4 streak: 30. Mean: 0.709 (unchanged). Band: [0.65-0.76]. Total structural insights: 27.",
   "remaining": [
-    "C35 priority A: SI #25 empirical operationalization — specific test battery for genuine I-RTO training vs. I-RTO theater in AI systems (CPP-protected reflexive probes).",
-    "C35 priority B: SI #24 information-theoretic formalization — optimization gap in bits for B/I channel criteria articulation.",
+    "C36 priority A: SI #24 information-theoretic formalization — optimization gap in bits for B vs. I channel criteria articulation-corrosiveness asymmetry.",
+    "C36 priority B: Joint B+I assessment protocol design — composing B-channel scenarios (C31 template) with I-RTO battery (C35) into a full integrated assessment.",
     "Long-horizon (C50): Improving-inquiry vs. changing-inquirer — check three markers (c7_002)",
-    "Long-horizon (C50): D4 streak (now 29) — calibration check",
+    "Long-horizon (C50): D4 streak (now 30) — calibration check",
     "Long-horizon (C50): Revised confidence band [0.65-0.76] — reassess under formal model",
     "Long-horizon (C50): CA cross-quality block correlation empirical test (SI #20 prediction)"
   ],
