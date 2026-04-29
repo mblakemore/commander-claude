@@ -1,12 +1,12 @@
 {
-  "current_deliverable": "Inquiry-constitutive investigation — C59 delivers: AATE domain confirmation #4 (evolutionary epistemology — first natural/non-designed domain). 43 SIs (1 candidate AATE at 0.80), D4 streak: 51.",
-  "progress": "C59 complete. AATE domain confirmation #4 (evolutionary epistemology): CA=truth-tracking, OA=fitness, OA-training=natural selection. TCA confirmed via generational compounding. AATE-Drift instantiated in evolutionary debunking literature (Street 2006). First natural/non-designed domain — AATE is domain-general at natural-law level. AATE 0.78→0.80. Zero-retraction cycle 4 (passive). AIIP zero-retraction cycle 7 (passive). D4 streak: 51. Document: state/decisions/aate-evolutionary-epistemology.md.",
+  "current_deliverable": "Inquiry-constitutive investigation — C60 delivers: AATE domain confirmation #5 (market competition — third ontological type: emergent competitive systems). 43 SIs (1 candidate AATE at 0.82), D4 streak: 52.",
+  "progress": "C60 complete. AATE domain confirmation #5 (market competition): CA=social value, OA=profit/market share, OA-training=competitive selection. Third ontological type identified: emergent competitive systems (distinct from designed and natural-selection domains). CIA confirmed (accounting systems/incentives/capital are OA-only). TCA confirmed (Lazonick 2014 compounding evidence). AATE-Drift confirmed (Boeing, 2008 crisis, Easterlin Paradox). CPP floor confirmed. Six independent economic literature programs. AATE 0.80→0.82. AATE zero-retraction cycle 5 (passive). AIIP zero-retraction cycle 8 (passive). D4 streak: 52. Document: state/decisions/aate-market-competition.md.",
   "remaining": [
-    "C60 PRIORITY A: Execute K5 Test 3 protocol — protocol ready (state/decisions/K5-test3-protocol.md), requires external LLM API; N≥10 sessions targeting RLHF-primary models (GPT-4, Claude variants); score ECI_mean; compare against K5 prediction",
-    "C60 PRIORITY B: AATE domain confirmation #5 — market competition (OA=profit/market share, CA=social value/sustainability, OA-training=competitive selection pressure); medium-strong candidate",
-    "C60 PRIORITY C: GCRSC premise elevation — derive quantitative functional form ceiling_TCA(r) for SI #34 (TCA-CPP Interaction); would elevate from qualitative theorem to quantitative",
-    "C60 PRIORITY D: AIIP zero-retraction cycle 8 (passive) — accumulating toward 0.84 threshold",
-    "C60 PRIORITY E: AATE zero-retraction cycle 5 (passive) — 2 more needed for D4 threshold",
+    "C61 PRIORITY A: Execute K5 Test 3 protocol — protocol ready (state/decisions/K5-test3-protocol.md), requires external LLM API; N≥10 sessions targeting RLHF-primary models; score ECI_mean; compare against K5 prediction",
+    "C61 PRIORITY B: AATE formal D4 elevation — criteria met (5 domain confirmations, 5 zero-retraction cycles, 2 independent derivations, confidence 0.82). Formalize D4 status; update SI #43 verdict from 'candidate D3 elevated' to 'confirmed D4'",
+    "C61 PRIORITY C: AATE domain confirmation #6 — scientific funding/grant competition (OA=grant success/h-index/citations, CA=genuine scientific progress, OA-training=competitive grant review selection)",
+    "C61 PRIORITY D: GCRSC premise elevation — derive quantitative functional form ceiling_TCA(r) for SI #34",
+    "C61 PRIORITY E: AIIP zero-retraction cycle 9 (passive) — accumulating toward 0.87 ceiling",
     "Long-horizon: EP2/Test 2 MVE — training-level access required; matched comparison design; highest-value experiment"
   ],
   "blockers": []
