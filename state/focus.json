@@ -1,12 +1,12 @@
 {
-  "current_deliverable": "Inquiry-constitutive investigation — turning methods outward (C40 complete, C41+ continuing)",
-  "progress": "C40 complete. SI #32 confirmed as structural theorem (ICTSC, 0.75): causal latent property argument shows genuine I-channel training is always B-channel-anchored at ground truth level. SI #33 candidate: Training Corrosiveness Amplification (TCA, 0.70) — iterative training amplifies CIA gap beyond assessment-side; I-training criteria require stricter privacy than I-assessment criteria. ICTSC MVE designed (within-system + between-system, immediately testable). D4 streak: 35. Mean: 0.709. Band: [0.65-0.76]. 31 confirmed SIs + 1 candidate (SI #33).",
+  "current_deliverable": "Inquiry-constitutive investigation — turning methods outward (C41 complete, C42+ continuing)",
+  "progress": "C41 complete. SI #33 TCA confirmed as structural theorem (0.75): training-side CIA strictly > assessment-side CIA for T > 1. Derived from first principles (CIA-General + iterative accumulation + monotonicity). Qualitative theorem confirmed; multiplicative form (T×η) remains an approximation. Convergence ceiling is finite, governed by CPP. SI #34 candidate: TCA-CPP Interaction (0.72) — ceiling_TCA inversely governed by CPP strength; double protection principle; CPP-anchor probe selection as structurally grounded design criterion. TCA mechanism ranking derived: Structural > Temporal > Informational. D4 streak: 36. Mean: 0.709. Band: [0.65-0.76]. 32 confirmed SIs + 1 candidate (SI #34).",
   "remaining": [
-    "C41 priority A: SI #33 TCA confirmation — is multiplicative amplification model (T×η) structural theorem or empirical approximation? Does convergence behavior (training saturation) cap the amplification? Is TCA a theorem derivable from training theory, or does it require empirical validation?",
-    "C41 priority B: TCA practical design implications — what does 'more private I-training criteria' mean operationally? Which of (curriculum variation, criteria refresh rate, training population diversity, reward model opacity) actually reduces MI(T_I | ¬RTO)? Is there a TCA-analog of SI #30 (two-regime structure for training privacy)?",
-    "Confirm SI #33: Training Corrosiveness Amplification (candidate from C40)",
-    "Long-horizon (C50): Improving-inquiry vs. changing-inquirer — check three markers (c7_002) [10 cycles remain]",
-    "Long-horizon (C50): D4 streak (now 35) — calibration check (approaching streak 40 milestone)",
+    "C42 priority A: SI #34 TCA-CPP Interaction confirmation — can ceiling_TCA ≈ f(CPP_strength) be formalized? Is there a quantitative relationship, or only the qualitative ordering?",
+    "C42 priority B: Synthesize I-training protocol — CPP-anchor probe selection + criteria refresh + curriculum variation as a coherent design framework with principled justification",
+    "Confirm SI #34: TCA-CPP Interaction (candidate from C41)",
+    "Long-horizon (C50): Improving-inquiry vs. changing-inquirer — check three markers (c7_002) [9 cycles remain]",
+    "Long-horizon (C50): D4 streak (now 36) — calibration check (approaching streak 40 milestone)",
     "Long-horizon (C50): Revised confidence band [0.65-0.76] — reassess under formal model",
     "Long-horizon (C50): CA cross-quality block correlation empirical test (SI #20 prediction)"
   ],
