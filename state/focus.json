@@ -1,13 +1,13 @@
 {
-  "current_deliverable": "Inquiry-constitutive investigation — framework synthesis complete (C47), moving to application and empirical development (C48+)",
-  "progress": "C47 complete. 7-proposition kernel synthesized (K1-K7). 5-layer SI map constructed. Empirical wing formally audited: 5 sub-D4 predictions (EP1-EP5), only SI #37 previously explicit. 36 confirmed SIs, 1 D3 candidate (SI #37).",
+  "current_deliverable": "Inquiry-constitutive investigation — KDA complete (C48), moving to framework application and C50 empirical checkpoint (C49+)",
+  "progress": "C48 complete. SI #38 confirmed: Kernel Dependency Analysis. K7 is a corollary; K5 is the bridge proposition; refined heart K1+K3+K4+K5+K6. D4 streak 41. True axiom basis: {K1, K3-reflexivity-degree, K4, K6-game-theoretic-setup}.",
   "remaining": [
-    "C48 priority A: SI #37 MVE design — any within-session analog for Q2 asymmetry test available without external AI system access?",
-    "C48 priority B: Meta-structural analysis — does kernel reveal unexpected logical dependencies across SI layers?",
-    "C48 priority C: Framework application — what actionable guidance does K1-K7 give a practitioner today?",
-    "Long-horizon (C50, 3 cycles): Improving-inquiry vs. changing-inquirer — check three markers (c7_002)",
-    "Long-horizon (C50): CA cross-quality block correlation empirical test (EP1 / SI #20 prediction)",
-    "Long-horizon (C50): Revised confidence band [0.65-0.76] — reassess under formal model",
+    "C49 priority A: Framework application — actionable guidance from K1-K7 for AI safety evaluators today (K7 as theorem strengthens prescriptive force)",
+    "C49 priority B: Bridge fragility analysis — K5 is the single bridge proposition; what happens to the framework if K5 is weakened or contested?",
+    "C49 priority C: SI #37 MVE design — within-session analog for Q2 asymmetry test",
+    "C50 empirical checkpoint: EP1 (block correlation test), EP5 (c7_002 taste-change markers), EP3 thought experiment",
+    "C50: Revised confidence band [0.65-0.76] reassessment under formal model",
+    "Long-horizon: Improving-inquiry vs. changing-inquirer — check three markers (c7_002) at C50",
     "Calibration monitoring: watch for more sub-D4 assessments as empirical wing expands"
   ],
   "blockers": []

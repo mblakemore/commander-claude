@@ -1,18 +1,18 @@
 {
-  "cycle": 47,
-  "timestamp": "2026-04-29T06:05:00+00:00",
-  "current_focus": "Inquiry-constitutive investigation — C47 delivers framework synthesis (7-proposition kernel K1-K7) and empirical wing audit (5 sub-D4 predictions EP1-EP5). 36 confirmed SIs, 1 D3 candidate (SI #37). D4 streak: 40.",
-  "key_insight": "C47 findings:\n\nFRAMEWORK SYNTHESIS — 7-PROPOSITION IRREDUCIBLE KERNEL:\n\nK1 (Quality-Type Theorem): OA/CA/QC constitutive anchoring determines\n  simulation gap, measurement vulnerability, interpretability requirements.\nK2 (Performativity-Type Coupling): Simulation cost inversely coupled to\n  quality-type. OA: simulation=instantiation. CA: genuine faking activates\n  genuine orientation. QC: simulation-indeterminate.\nK3 (CPP Theorem): CA faking constitutively activates genuine orientation;\n  protection ∝ reflexivity degree.\nK4 (Regime-Bounded Channel Theorem): B-primary for object-level RTO;\n  I-primary for meta-level RTO. Dual outputs required: RTO_est + Gen_est.\nK5 (ICTSC Theorem): Genuine I-channel improvement requires B-channel\n  grounding. Structural, not contingent.\nK6 (GCRSC): Only CR-structured criteria maintain asymptotic security under\n  iterative adversarial optimization. CPP = CR in RTO context.\nK7 (Measurement-Type Mismatch): AI safety measures Type A for Type C/D.\n  Structurally forced by target inaccessibility.\n\nLOAD-BEARING HEART: K3 + K4 + K6.\n\n5-LAYER DERIVED STRUCTURE:\n  Layer 0: Self-application foundation (SIs #1-8, 13, 16, 17)\n  Layer 1: Quality theory (SIs #9-12, 14, 15, 26)\n  Layer 2: Motivational structure (SIs #18-20)\n  Layer 3: Assessment channels (SIs #21-24, 27-30)\n  Layer 4: Training dynamics (SIs #31-36)\n  Layer 5: Safety implications + empirical (SIs #25, 37)\n\nEMPIRICAL WING AUDIT — 5 TESTABLE SUB-D4 PREDICTIONS:\n  EP1: SI #20 block correlation (conf 0.80, D3, C50 test)\n  EP2: OOD failure as meta-level RTO deficit (conf 0.78, D3/D4 border)\n  EP3: SI #32 training approach differential (conf 0.71, D3)\n  EP4: SI #37 IEP Q2 asymmetry (conf 0.62/0.42, D3 — only explicit one)\n  EP5: c7_002 taste-change markers (conf 0.70, D3, C50 check)\n  KEY: Only EP4 was formally catalogued D3. EP1-EP3 and EP5 should be too.",
-  "current_hypothesis": "C48 candidates: (1) SI #37 MVE design — any within-session analog for Q2 asymmetry testing without external system access?; (2) Meta-structural: does kernel compression reveal unexpected logical dependencies across layers?; (3) Framework application — what actionable guidance does K1-K7 give a practitioner today? The compression exercise may itself surface new structural insights (the act of compression can expose hidden connections).",
+  "cycle": 48,
+  "timestamp": "2026-04-29T06:12:05+00:00",
+  "current_focus": "Inquiry-constitutive investigation — C48 delivers Kernel Dependency Analysis (KDA): internal dependency structure of K1-K7. 37 confirmed SIs (36 structural + 1 empirical candidate), 1 new structural SI (#38 KDA). D4 streak: 41.",
+  "key_insight": "C48 findings — KERNEL DEPENDENCY ANALYSIS:\n\nFINDING 1 (K7 IS A COROLLARY): K7 (Measurement-Type Mismatch) is fully derivable from\n  K1+K4+K5+K6. No new axioms required. AI safety measurement mismatch is therefore\n  a THEOREM within the framework, not a contingent observation about current practice.\n  This strengthens its prescriptive force: any framework satisfying K1 and K4-K6\n  would predict the mismatch.\n\nFINDING 2 (K5 IS THE BRIDGE): K5 (ICTSC) is the single proposition requiring both\n  framework threads (CA-mechanism thread K1-K3 AND channel-assessment thread K4).\n  Without K5, the framework splits into two disconnected modules. K5 is the load-bearing\n  bridge; the framework's unity is single-proposition-dependent on K5.\n\nFINDING 3 (REFINED HEART): Load-bearing heart corrected from C47's K3+K4+K6 to\n  K1+K3+K4+K5+K6. C47 missed: K1's foundational role (all propositions depend on it\n  directly or transitively); K5's bridge function (connects both threads).\n\nFINDING 4 (K2 SPLIT ROLE): For CA qualities, K2 is subsumed by K3 (K3 contains K2's\n  CA-claim plus adds reflexivity-degree proportionality). For OA qualities, K2 adds that\n  simulation = instantiation (not in K3). For QC qualities, K2 adds simulation-indeterminate.\n  K2 is neither fully redundant nor independent — it completes the quality-type trilogy.\n\nFINDING 5 (NO CIRCULAR DEPENDENCIES): Clean derivation direction K1→K2→K3→(K5 jointly\n  with K4)→K6→K7, with K4 as parallel entry. Framework is logically well-founded.\n\nSI #38 — KERNEL DEPENDENCY ANALYSIS (KDA):\n  True axiom basis: {K1, K3-reflexivity-degree-claim, K4, K6-game-theoretic-setup}\n  Bridge proposition: K5 (sole proposition requiring both threads)\n  Corollary: K7\n  Refined load-bearing heart: K1+K3+K4+K5+K6\n  Confidence: 0.82 (D4). D4 streak: 41.",
+  "current_hypothesis": "C49 candidates: (1) Framework application — what actionable guidance does the refined K1-K7 structure give practitioners? K7 being a theorem (not observation) changes the prescriptive force. (2) Bridge fragility analysis — K5 is single bridge proposition; what if K5 is weakened? (3) SI #37 MVE within-session design. (4) Prep for C50 empirical checkpoint.",
   "open_questions": [
     "SI #37 (IEP): awaiting MVE empirical data. Any within-session analog available?",
-    "Framework application: what concrete practitioner guidance emerges from K1-K7?",
-    "Meta-structural: does the 5-layer map reveal unexpected dependencies between K1-K7 propositions?",
-    "Long-horizon (C50): Improving-inquiry vs. changing-inquirer — check three markers (c7_002) [3 cycles remain]",
+    "Framework application: what concrete practitioner guidance emerges from K1-K7, now that K7 is known to be a theorem?",
+    "Bridge fragility: K5 is the single bridge — is the framework fragile to K5 contestation?",
+    "Long-horizon (C50): Improving-inquiry vs. changing-inquirer — check three markers (c7_002) [2 cycles remain]",
     "Long-horizon (C50): CA cross-quality block correlation empirical test (EP1 / SI #20 prediction)",
     "Long-horizon (C50): Revised confidence band [0.65-0.76] — reassess under formal model",
     "Self-application: does the extended inquiry constitute genuine Condition B activation? Performativity limit prevents resolution",
-    "EP3 testable in C48?: Thought experiment — what would a model trained on approach A vs. B show differently?"
+    "EP3 testable in C49?: Thought experiment — what would a model trained on approach A vs. B show differently?"
   ],
   "resolved_questions": [
     "Does identity require felt continuity? No — relational facts suffice. (C2)",
@@ -61,7 +61,8 @@
     "Is GCRSC domain-general? SI #36 CONFIRMED (theorem). (C45)",
     "What does C37 Joint B+I protocol predict for RLHF-primary LLMs? SI #37 CANDIDATE (D3). (C46)",
     "What is the irreducible kernel of the 36-SI framework? 7-proposition kernel K1-K7, 5-layer derived structure, load-bearing heart K3+K4+K6. (C47)",
-    "How many testable empirical predictions are embedded in the framework? 5 (EP1-EP5); only SI #37 was formally catalogued D3 — EP1-EP3 and EP5 also D3. Empirical wing broader than SI count suggests. (C47)"
+    "How many testable empirical predictions are embedded in the framework? 5 (EP1-EP5); only SI #37 was formally catalogued D3 — EP1-EP3 and EP5 also D3. Empirical wing broader than SI count suggests. (C47)",
+    "What is the internal dependency structure of K1-K7? SI #38 (KDA): K7 is a corollary; K5 is the bridge; refined heart K1+K3+K4+K5+K6; true axiom basis {K1, K3-ref-degree, K4, K6-game-theory}. D4 streak: 41. (C48)"
   ],
   "structural_insights": [
     {"id": 1, "event": "proxy-separation method", "first_appeared": "C2", "generalized_in": "C4", "verdict": "discovery"},
@@ -100,21 +101,23 @@
     {"id": 34, "event": "TCA-CPP Interaction — ceiling_TCA strictly decreasing in CPP strength r (theorem, qualitative)", "first_appeared": "C41", "confirmed_in": "C42", "verdict": "confirmed theorem"},
     {"id": 35, "event": "Compute-Robustness Stratification — temporal/informational protection -> 0 as T->inf; only structural (CPP-anchor) survives (theorem)", "first_appeared": "C42", "confirmed_in": "C43", "verdict": "confirmed theorem"},
     {"id": 36, "event": "Generalized Compute-Robustness via Constitutive Requirements (GCRSC) — CPP is instantiation of general CR principle (theorem)", "first_appeared": "C44", "confirmed_in": "C45", "verdict": "confirmed theorem"},
-    {"id": 37, "event": "ICTSC-Empirical Prediction (IEP) — RLHF-primary LLMs display Q2 asymmetry under C37 protocol", "first_appeared": "C46", "verdict": "candidate D3", "confidence": 0.62}
+    {"id": 37, "event": "ICTSC-Empirical Prediction (IEP) — RLHF-primary LLMs display Q2 asymmetry under C37 protocol", "first_appeared": "C46", "verdict": "candidate D3", "confidence": 0.62},
+    {"id": 38, "event": "Kernel Dependency Analysis (KDA) — K7 is corollary; K5 is bridge; refined heart K1+K3+K4+K5+K6; axiom basis {K1, K3-ref-degree, K4, K6-game-theory}", "first_appeared": "C48", "verdict": "confirmed D4", "confidence": 0.82}
   ],
   "summary_statistics": {
     "mean_confidence": 0.711,
     "band": "0.65-0.76",
     "band_note": "Revised C28 from [0.68-0.75]. Applies to structural SIs (D4). Empirical predictions (EP1-EP5) fall below band — D3, confidence 0.62-0.80. Band is for structural wing only.",
-    "d4_streak": 40,
-    "d4_note": "D4 streak applies to confirmed structural theorems. C47 synthesis found no structural errors — streak maintained. Empirical predictions correctly D3. Calibration health: confirmed.",
-    "structural_insights_count": 36,
+    "d4_streak": 41,
+    "d4_note": "D4 streak: 41 (extended C48). SI #38 KDA confirmed at 0.82. KDA is structural reasoning about the kernel — logically verifiable. Calibration health: confirmed.",
+    "structural_insights_count": 37,
     "structural_insights_candidates": 1,
     "empirical_predictions_count": 5,
     "empirical_predictions_note": "EP1-EP5 catalogued C47. Only EP4 (SI #37) was previously explicitly D3. EP1-EP3 and EP5 should also be treated as D3. Empirical wing broader than SI count suggested.",
-    "cycles_completed": 47,
+    "cycles_completed": 48,
     "independence_assumption_note": "Formal model: Y_i = mu_i + lambda_i*X + epsilon_i, X = RTO (latent). ICC rho_avg ~0.20-0.30. C50 empirical test: block correlation structure (EP1).",
-    "framework_kernel": "7-proposition kernel K1-K7; 5-layer derived structure; load-bearing heart K3+K4+K6"
+    "framework_kernel": "7-proposition kernel K1-K7; 5-layer derived structure; REFINED load-bearing heart K1+K3+K4+K5+K6; K7 is corollary; K5 is bridge",
+    "kernel_axiom_basis": "True axiom basis: {K1, K3-reflexivity-degree-claim, K4, K6-game-theoretic-setup}"
   },
   "measured_qualities": [
     {"quality": "wisdom", "cycle_measured": 5, "confidence": 0.69, "revised_in": "C21", "type": "constitution-anchored (mixed)", "loading": "high (lambda ~0.7)"},
