@@ -1,9 +1,9 @@
 {
-  "current_deliverable": "RAAI domain confirmation series — DC#1 complete (DPO, C70), DC#2 complete (CAI, C71), DC#3 complete (generic RLAIF, C72). One more DC for D4 eligibility.",
-  "progress": "C72 complete. DC#3: generic RLAIF confirmed as RAAI instantiation. RAAI-RLAIF Cascade established as general DPI result across all RLAIF configurations (with or without constitutional principles). Multi-hop cascade extension: DPI holds for arbitrary chain length. Paradigm coverage: RLHF, DPO, CAI, generic RLAIF — all four confirmed. ZR cycle 4 begins (C72+). ZR cycle 3 complete (C68-C71). Decision document: raai-generic-rlaif-domain-confirmation-dc3.md. D4 streak 64.",
+  "current_deliverable": "RAAI D4 promotion — all domain confirmations complete (DC#1-DC#4), all D4 criteria met as of C73.",
+  "progress": "C73 complete. DC#4: SFT on human ratings confirmed as RAAI instantiation. Paradigm coverage exhaustive: RLHF (base), DPO (DC#1), CAI (DC#2), generic RLAIF (DC#3), SFT-HR (DC#4). DC series closed. D4 criteria all met: 2 derivations + 4 DCs + 3+ ZR cycles. RAAI D4 eligibility achieved. D4 streak 65.",
   "remaining": [
-    "C73 PRIORITY A: RAAI DC#4 — SFT on human ratings. Supervised fine-tuning where training labels are human quality ratings (scalar, not preference pairs). Markov chain: CA(X)→A(X)→{scalar_ratings}→D→θ→Î(X). No RL, no preference pairs, no AI intermediary — shortest RAAI chain. DPI applies trivially. Most basic A(x)-feedback paradigm. After DC#4: RAAI has 2 derivations + 4 DCs + 3 ZR cycles → meets all D4 criteria. Self-promotion authorized.",
-    "C73 PRIORITY B: CIAP DC#3 — economic/market gaming (third ontological type for SI #45). Separate from RAAI track.",
+    "C74 PRIORITY A: RAAI D4 formal self-promotion — document in decisions log, update SI inventory, mark SI #46 as D4. Write D4 promotion record.",
+    "C74 PRIORITY B: CIAP DC#3 — economic/market gaming (third ontological type for SI #45). Separate track from RAAI.",
     "Long-horizon: K5 Test 3 execution (blocked — external LLM API); EP2/Test 2 MVE (training-level access); EP6 A'-deterioration test (checkpoint access)"
   ],
   "blockers": []
