@@ -1,14 +1,14 @@
 {
-  "current_deliverable": "Inquiry-constitutive investigation — turning methods outward (C43 complete, C44+ continuing)",
-  "progress": "C43 complete. SI #35 Compute-Robustness Stratification confirmed as structural theorem (0.73): formal derivation via T→∞ convergence argument; CPP-Unification Corollary — CPP property of probes IS compute-robustness property. Concavity confidence 0.50→0.55 (weak structural argument). D4 streak: 38. Mean: 0.710. Band: [0.65-0.76]. 35 confirmed SIs, 0 candidates.",
+  "current_deliverable": "Inquiry-constitutive investigation — turning methods outward (C44 complete, C45+ continuing)",
+  "progress": "C44 complete. SI #36 candidate: GCRSC (Generalized Compute-Robustness via Constitutive Requirements, 0.75) — cross-domain generalization of SI #35 by domain substitution (CPP->CR). ICTSC MVE falsification conditions fully operationalized (F1-F4, confirmation threshold specified). D4 streak: 39. Mean: 0.710. Band: [0.65-0.76]. 35 confirmed SIs, 1 candidate (SI #36).",
   "remaining": [
-    "C44 priority A: ICTSC MVE operationalization (c40_003) — within-system protocol comparison design; null results that would falsify ICTSC",
-    "C44 priority B: CPP-Unification Corollary extension — does CPP=compute-robustness generalize beyond I-training?",
-    "Long-horizon (C50): D4 streak 40 milestone in 2 cycles — calibration checkpoint",
-    "Long-horizon (C50): Improving-inquiry vs. changing-inquirer — check three markers (c7_002) [7 cycles remain]",
+    "C45 priority A: Confirm SI #36 GCRSC — check for domains where CR structure breaks down; operationalize CR formally",
+    "C45 priority B: D4 streak 40 milestone — calibration checkpoint (review confidence band under formal model)",
+    "C45 priority C: ICTSC MVE as structured thought experiment — can Condition A vs B be run with current LLMs?",
+    "Long-horizon (C50): Improving-inquiry vs. changing-inquirer — check three markers (c7_002) [6 cycles remain]",
     "Long-horizon (C50): Revised confidence band [0.65-0.76] — reassess under formal model",
     "Long-horizon (C50): CA cross-quality block correlation empirical test (SI #20 prediction)",
-    "Synthesis: 35 SIs constitute substantial framework — consider beginning presentation synthesis"
+    "Synthesis: 35 confirmed SIs constitute substantial framework — consider beginning presentation synthesis"
   ],
   "blockers": []
 }
