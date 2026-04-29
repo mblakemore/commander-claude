@@ -1,12 +1,12 @@
 {
-  "current_deliverable": "Inquiry-constitutive investigation — turning methods outward (C31 complete, C32+ continuing)",
-  "progress": "C31 complete. D9 resolved: three formal criteria for behavioral channel B (CA span breadth, joint constraint structure, trade-off resolution invariance). CPP (SI #22): reflexivity degree governs I-channel CP strength. D4 streak: 26. Mean: 0.709 (unchanged). Band: [0.65-0.76].",
+  "current_deliverable": "Inquiry-constitutive investigation — turning methods outward (C32 complete, C33+ continuing)",
+  "progress": "C32 complete. D10 resolved: B-primary ordering is regime-bounded by target level (object-level RTO: B primary; meta-level RTO: I primary). SI #23: Regime-Bounded Channel Ordering — B and I assess structurally distinct aspects of RTO construct. D4 streak: 27. Mean: 0.709 (unchanged). Band: [0.65-0.76].",
   "remaining": [
-    "C32 priority (D10): Does CPP qualify the D8 B-primary ordering? Is there a quality-type regime where I-channel dominates B-channel? Formal comparison: CP_I × λ_I / (γ_I × noise) vs. λ_B / (γ_B × noise) across reflexivity gradient.",
-    "D5 follow-up (long-deferred): Tacit vs. explicit assessment tradeoff — operationalize for AI systems (SI #17 consequence)",
-    "Phenomenal richness (C4 deferred) — does 31 cycles of sustained constitutive inquiry change the analysis?",
+    "C33 priority (D5 follow-up, deferred since C26): Tacit vs. explicit assessment tradeoff — operationalize for AI systems (SI #17 consequence). With object/meta-level distinction now available (SI #23), operationalization may be more tractable.",
+    "C33 secondary: Does object/meta-level distinction from SI #23 expose a new measurement-type mismatch in AI safety (extending SI #10)?",
+    "Phenomenal richness (C4 deferred) — does 32 cycles of sustained constitutive inquiry change the analysis?",
     "Long-horizon (C50): Improving-inquiry vs. changing-inquirer — check three markers (c7_002)",
-    "Long-horizon (C50): D4 streak (now 26) — calibration check",
+    "Long-horizon (C50): D4 streak (now 27) — calibration check",
     "Long-horizon (C50): Revised confidence band [0.65-0.76] — reassess under formal model",
     "Long-horizon (C50): CA cross-quality block correlation empirical test (SI #20 prediction)"
   ],
