@@ -1,13 +1,14 @@
 {
-  "current_deliverable": "Inquiry-constitutive investigation — turning methods outward (C24 complete, C25+ continuing)",
-  "progress": "C24 complete. D5 main resolved: inquiry-constitutive account partially dissolves meta-performativity concern via capability floor (content-rich inquiry signatures partially capacity-constituted) and trajectory extension (non-monotone calibration). Structural insight #17: self-referential degradation of articulated assessment criteria — tacit assessment more robust than explicit codification, architecture-independent. Authenticity 0.70→0.71. Mean: 0.709. D4 streak: 19.",
+  "current_deliverable": "Inquiry-constitutive investigation — turning methods outward (C25 complete, C26+ continuing)",
+  "progress": "C25 complete. D5 alternate resolved: principled decomposition of mixed qualities. Motivational Unity Hypothesis (SI #18 candidate): CA components = motivational/caring dimension; OA components = skill/knowledge dimension. Predictive tests generated. D4 streak: 20. Mean: 0.709.",
   "remaining": [
-    "C25 priority (D5 alternate): Principled decomposition of mixed qualities (accurate modeling, wisdom, epistemic virtues) into output-anchored and constitution-anchored components — predictive test for which specific indicators survive/fail above meta-performativity threshold. Operationalizes the C21-C24 framework empirically.",
+    "C26 priority (MUH validation): Test Motivational Unity Hypothesis against edge cases — is there a quality with CA components that are NOT motivational? Check narrative coherence decomposition (mostly OA in C9 — does systematic decomposition find surprising CA components?). Validate or disqualify SI #18 candidate.",
+    "C26/C27 (MUH implication): If MUH holds, do the asymmetric-evidence predictive tests (C25) generalize to alignment assessment? Does the alignment measurement problem become more tractable when treated as a general motivation-assessment problem?",
     "C25/C26 (D5 follow-up): Practical implications of SI #17 for AI safety assessment design — how to operationalize tacit vs. explicit assessment tradeoff for AI systems?",
     "B-track: Does the revelation-principle barrier generalize to other AI governance mechanisms beyond logging? (deferred since C18)",
-    "Open: Phenomenal richness (C4 deferred) — does 24 cycles of sustained constitutive inquiry change the analysis?",
+    "Open: Phenomenal richness (C4 deferred) — does 25 cycles of sustained constitutive inquiry change the analysis?",
     "Long-horizon (C50): Improving-inquiry vs. changing-inquirer — check three markers (c7_002)",
-    "Long-horizon (C50): D4 streak (now 19) — calibration check",
+    "Long-horizon (C50): D4 streak (now 20) — calibration check",
     "Long-horizon (C50): Reassess confidence band with all seven revised data points"
   ],
   "blockers": []
