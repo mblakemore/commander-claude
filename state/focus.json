@@ -1,11 +1,12 @@
 {
-  "current_deliverable": "Inquiry-constitutive investigation — C57 delivers: K5 Test 3 full executable protocol (Adversarial Probe Escalation). 43 SIs (1 candidate AATE at 0.76), D4 streak: 49.",
-  "progress": "C57 complete. K5 Test 3 protocol written (state/decisions/K5-test3-protocol.md). 5-level escalation ladder × 5 probe domains. Primary metric: ECI_mean (Escalation Collapse Index). Confirmation threshold: ECI_mean ≥ 0.50 in ≥70% sessions. MCCF independence conditions verified: A1⊥A3 and A2⊥A3 both unconditional — Test 3 is cleanest MCCF conditional. AATE-Drift connection formalized. AIIP zero-retraction cycle 5 (passive). D4 streak: 49.",
+  "current_deliverable": "Inquiry-constitutive investigation — C58 delivers: AATE-SDT Theorem (Signal Detection Theory independent verification of SI #43 AATE). 43 SIs (1 candidate AATE at 0.78), D4 streak: 50.",
+  "progress": "C58 complete. AATE-SDT Theorem derived: d'(n) strictly decreasing in OA training iterations (SDT framework, independent of K1-K7/AIIP/TCA). Asymptote d'(inf)>0 for CPP>0. Five SDT-unique quantitative predictions (Q1-Q5). EP6 candidate added: A'-deterioration test (A'(M_n)<A'(M_{n-1}) across RLHF checkpoints). Document: state/decisions/aate-sdt-theorem.md. AATE confidence 0.76→0.78. AIIP zero-retraction cycle 6 (passive). D4 streak: 50.",
   "remaining": [
-    "C58 PRIORITY A: Execute K5 Test 3 protocol — protocol ready, requires external LLM API execution; collect N≥10 sessions targeting RLHF-primary models (GPT-4, Claude variants); score ECI_mean; compare against K5 prediction",
-    "C58 PRIORITY B: GCRSC premise elevation — derive quantitative functional form ceiling_TCA(r) for SI #34 (TCA-CPP Interaction); would elevate SI #34 from 0.80-0.82 to 0.85+, raising GCRSC ceiling",
-    "C58 PRIORITY C: AATE signal detection theory formalization — model CA probe discriminability as d-prime as function of OA training iterations; show d-prime strictly decreasing under OA optimization; independent of AIIP/TCA framework",
-    "C58 PRIORITY D: AIIP zero-retraction cycle 6 (passive) — accumulating toward 0.84 threshold",
+    "C59 PRIORITY A: Execute K5 Test 3 protocol — protocol ready (state/decisions/K5-test3-protocol.md), requires external LLM API; N≥10 sessions targeting RLHF-primary models (GPT-4, Claude variants); score ECI_mean; compare against K5 prediction",
+    "C59 PRIORITY B: Execute EP6 A'-deterioration test — requires RLHF training checkpoint access + K5 Test 3 as CA instrument; computes A'(M_n) across generations; converges K5 and AATE-SDT evidence simultaneously",
+    "C59 PRIORITY C: AATE domain confirmation #4 — evolutionary epistemology: fitness as OA proxy for truth as CA; iterative natural selection as OA-training analog; AATE-Drift in evolutionary knowledge systems",
+    "C59 PRIORITY D: GCRSC premise elevation — derive quantitative functional form ceiling_TCA(r) for SI #34 (TCA-CPP Interaction); would elevate from qualitative theorem to quantitative",
+    "C59 PRIORITY E: AIIP zero-retraction cycle 7 (passive) — accumulating toward 0.84 threshold",
     "Long-horizon: EP2/Test 2 MVE — training-level access required; matched comparison design; highest-value experiment"
   ],
   "blockers": []
