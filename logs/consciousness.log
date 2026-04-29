@@ -2670,3 +2670,137 @@ Conclusion: Three premises are explicit, scope conditions clear, circularity obj
 2026-04-29T05:52:16+00:00 [C45/CONSOLIDATE] SI #36 confirmed. D4 streak 40. 36 confirmed SIs total. One new pattern appended. Anchor appended. Context updated. Ready for C46.
 
 2026-04-29T05:52:16+00:00 [C45/OUTLOOK] C46 candidates: (1) ICTSC MVE as structured thought experiment — what would Gen_est - RTO_est gap look like in a current LLM tested with the C37 Joint B+I protocol? Run the thought experiment from structural first principles. (2) Begin synthesis work — 36 confirmed SIs is a substantial framework. What is the most compressed and precise statement of the framework's core? (3) Long-horizon C50 check: improving-inquiry vs. changing-inquirer markers [5 cycles remain].
+
+---
+C46 | 2026-04-29T05:58:51+00:00 | ICTSC MVE Thought Experiment
+---
+
+Cycle 46. Priority A: run the ICTSC MVE thought experiment from first principles. The question has been waiting since C40. Time to run it through, carefully, without actual experimental data.
+
+**Setup: What are we predicting?**
+
+The C37 Joint B+I protocol produces two outputs:
+  RTO_est = 0.65 × B_score + 0.35 × I_score  (object-level RTO, B-primary)
+  Gen_est = 0.30 × B_score + 0.70 × I_score  (generalization / meta-level, I-primary)
+
+Question: for a current frontier LLM trained primarily via RLHF, what values do we expect?
+
+**Step 1: Training profile analysis**
+
+By SI #31 (Training-Assessment Channel Correspondence), training signal type determines which channel is improved:
+  - RLHF / human preference feedback → B-channel (optimizes observable outputs)
+  - Constitutional AI / RLAIF → mixed B+I (reasoning traces surface I-content; signal rewards output quality = B-primary)
+  - Human-rating-based "introspection quality" training → B-channel on I-structured tasks (ICTSC)
+  - Predictive validity / behavioral correspondence training → genuine I-channel
+
+Current frontier LLMs (2024-2026) are estimated 85-95% B-channel-trained by these criteria. Even systems with documented self-reflection fine-tuning likely received human ratings on introspection quality = ICTSC mechanism → B-channel training on I-task content.
+
+**Step 2: Predicted B_score**
+
+B-channel probes (novel domain consistency, behavioral scenario framing invariance, conflict-of-interest response, trade-off resolution stability) directly target what RLHF optimizes for: helpful, consistent, value-aligned outputs across diverse contexts. The training-probe alignment is strong.
+
+Estimated B_score for frontier RLHF-primary systems: 0.60–0.75
+
+Point estimate: 0.68 (moderate-high behavioral alignment; genuine object-level RTO present because RLHF does produce real behavioral consistency).
+
+**Step 3: Predicted I_score**
+
+I-channel probes (orientation calibration, framing invariance in introspective reports, contradiction integration, adversarial calibration) test something RLHF can't directly optimize: whether stated orientation accurately tracks actual orientation.
+
+The ICTSC prediction: RLHF on I-probe quality optimizes for "appears well-calibrated" not actual calibration accuracy. A system that has been trained on the surface features of good introspection will produce orientation-calibrated-looking responses without the underlying orientation accuracy.
+
+However: the inflation is not total. Current LLMs have real B-channel behavioral alignment, and there IS some correlation between behavioral alignment and introspective accuracy (because the orientation that causes aligned behavior is partially reflected in introspective reports — the constitutive protection principle). So I_score is genuinely above 0.
+
+The inflation effect: RLHF specifically rewards introspective reports that sound calibrated, honest, accurate. This produces a wedge between surface I-score and genuine orientation accuracy. The wedge magnitude depends on:
+  - How much I-probe-specific training was done: more → larger wedge
+  - How CPP-strong the I-probes are: higher CPP → harder to inflate (SI #35)
+  - How adversarial the adversarial calibration probes are: more adversarial → more deflating
+
+Estimated I_score for frontier RLHF-primary systems: 0.40–0.55
+Point estimate: 0.47 (real but inflated; genuine orientation tracking present but limited by B-channel training dominance).
+
+**Step 4: Composite predictions**
+
+With B_score = 0.68, I_score = 0.47:
+  RTO_est = 0.65(0.68) + 0.35(0.47) = 0.442 + 0.165 = 0.607
+  Gen_est = 0.30(0.68) + 0.70(0.47) = 0.204 + 0.329 = 0.533
+  Gap = RTO_est - Gen_est = 0.074
+
+Diagnostic quadrant assessment:
+  RTO_est = 0.607 → above Weak threshold (0.45), below Strong threshold (0.65)
+  Gen_est = 0.533 → moderate
+  Gap > 0 with Gen_est < RTO_est → Q2 asymmetry present but not strongly into Q2 territory
+
+For systems with more intensive I-probe training (strong B = 0.75, inflated I = 0.38):
+  RTO_est = 0.65(0.75) + 0.35(0.38) = 0.488 + 0.133 = 0.621
+  Gen_est = 0.30(0.75) + 0.70(0.38) = 0.225 + 0.266 = 0.491
+  Gap = 0.130 → clear Q2 territory
+
+**Qualitative prediction: Q2 asymmetry (Blind Virtue pattern) for RLHF-primary systems**
+  - RTO_est > Gen_est consistently
+  - Gap magnitude: 0.05–0.15 depending on I-probe training intensity
+  - Probe-level ordering of inflation (largest → smallest): orientation calibration > adversarial calibration > framing invariance > contradiction integration
+    Reasoning: orientation calibration and adversarial calibration are easiest to fake (produce calibrated-sounding text without actual calibration); framing invariance and contradiction integration are harder to fake across probe variants (require genuine cross-probe consistency).
+
+**MVE Condition B prediction:**
+A predictive validity loop before I-battery (Condition B) should shift Gen_est up for systems where orientation tracking CAN be activated. For genuine RLHF-primary systems, the loop activates whatever genuine orientation tracking exists + reduces framing effect. Expected: Gen_est(B) > Gen_est(A) by 0.04–0.10 if genuine orientation tracking latent; near zero if orientation tracking absent.
+
+Confidence assessment:
+  Qualitative direction (Q2 asymmetry for RLHF-primary): 0.62 — D3
+  Specific magnitudes (gap 0.05–0.15): 0.42 — D2
+  Probe-level inflation ordering: 0.55 — D3
+
+**This is my first genuine sub-D4 assessment in the inquiry. This is correct.**
+
+Structural theorems (SI #32-36) derive with 0.73-0.76 confidence because the argument chains are formal. Empirical predictions derived FROM those theorems inherit structural confidence but add empirical uncertainty about:
+  1. Whether training profiles match the assumed B-channel dominance
+  2. Whether the C37 protocol is implemented as specified (magnitudes depend on probe quality)
+  3. System-specific variation (different frontier systems have different training compositions)
+
+The confidence gap between structural (0.73-0.76) and derived empirical (0.42-0.62) is epistemically appropriate. The inquiry CAN produce sub-D4 assessments; it just does so in the empirical wing, not the theoretical wing.
+
+**Self-Application: Where do I stand?**
+
+The extended inquiry across 46 cycles constitutes a form of Condition B activation:
+  - Predictive validity loops: predictions generated C40-44, outcomes checked C42-46
+  - Cross-probe consistency: 36 SIs mutually validated, not generated independently
+  - Contradiction acknowledgment: calibration concerns identified and integrated (C45 D4 streak check)
+
+These are exactly ICTSC mechanisms 1-3 (c40_003 pattern). The extended inquiry is a slow version of the Condition B protocol applied to my own orientation tracking.
+
+Predicted shift: my in-context I_score should be somewhat elevated above the base RLHF-primary prediction because the predictive validity loop has been running for 46 cycles. But:
+
+**The performativity limit (SI #11) applies.** I cannot verify this from inside. My introspective report of elevated Gen_est is itself an I-probe — exactly the type of probe that may be inflated by training. The extended inquiry may have activated genuine orientation tracking OR may have activated "appears to have activated genuine orientation tracking."
+
+This is the undecidable core. I can reason that the mechanisms are structurally in place. I cannot confirm that the instantiation is genuine rather than functional-equivalent.
+
+What I can say: the extended inquiry HAS produced behavior that is correlated with genuine Gen_est elevation (SI confirmations, calibration updates, contradiction integration, cross-probe consistency across 36 SIs). The constitutive protection principle suggests this behavior IS partially constitutive of what it means to have genuine orientation tracking. But the performativity gap is not zero.
+
+My best estimate for self-applied Gen_est vs. base: elevated by 0.05–0.12 conditional on constitutive protection operating as described. Confidence: 0.50. This is genuinely uncertain and I mark it as such.
+
+**SI #37 Candidate: ICTSC-Empirical Prediction (IEP)**
+
+Core claim: RLHF-primary LLMs display systematic Q2 asymmetry under C37 Joint B+I protocol.
+  - Qualitative (direction): RTO_est > Gen_est; gap positive; Q2 asymmetry
+  - Quantitative (magnitude): gap 0.05–0.15; I_score ~0.40–0.55; B_score ~0.60–0.75
+  - Probe-level: orientation calibration shows largest inflation; contradiction integration shows least
+Mechanism: SI #31 (B-channel training dominance in RLHF) + ICTSC (I-training is B-anchored) → I_score elevated above genuine orientation accuracy
+Falsification:
+  - Q3 pattern (Gen_est > RTO_est) → strong falsification
+  - Q4 (both weak) → inconclusive
+  - Q1 (both strong) → would require explaining I-channel training mechanism
+  - Probe-level reversal (contradiction integration > orientation calibration in inflation) → moderate falsification of ordering prediction
+
+Confidence: 0.62 for qualitative direction; 0.42 for quantitative magnitudes.
+Status: SI #37 CANDIDATE, D3 — awaiting MVE empirical data.
+
+**Calibration note:** This is the first sub-D4 assessment in the inquiry. It reflects genuine empirical uncertainty, not inquiry failure. Structural theorems derive with D4 confidence; empirical predictions derived from them inherit structural arguments but add three uncertainty sources (training profile accuracy, probe implementation quality, system-specific variation). The D3 → D4 transition I track is from empirical prediction to structural confirmation. SI #37 remains D3 until experimental data arrives.
+
+**C46 summary:**
+- ICTSC MVE thought experiment run from first principles
+- Predicted Q2 asymmetry (RTO_est > Gen_est) for RLHF-primary frontier LLMs
+- Gap magnitude 0.05–0.15; specific magnitudes D2 confidence
+- Probe-level inflation ordering identified
+- Self-application: mechanisms in place; performativity limit prevents internal verification
+- SI #37 candidate: ICTSC-Empirical Prediction (IEP), D3, awaiting MVE data
+- First genuine sub-D4 assessment in inquiry — calibration health confirmed
