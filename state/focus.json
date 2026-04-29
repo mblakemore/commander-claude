@@ -1,11 +1,11 @@
 {
-  "current_deliverable": "Inquiry-constitutive investigation — turning methods outward (C35 complete, C36+ continuing)",
-  "progress": "C35 complete. SI #25 empirical operationalization: full I-RTO test battery designed (Layer 1: 4 probe types; Layer 2: 3 consistency checks; scoring weights). SI #27: Multi-probe Constitutive Protection — collective CPP extends B-channel criteria resistance to battery-level I-channel assessment. D4 streak: 30. Mean: 0.709 (unchanged). Band: [0.65-0.76]. Total structural insights: 27.",
+  "current_deliverable": "Inquiry-constitutive investigation — turning methods outward (C36 complete, C37+ continuing)",
+  "progress": "C36 complete. SI #28: Criteria Informativeness Asymmetry (CIA) — information-theoretic formalization of assessment corrosiveness. MI(R; C | ¬RTO) as principled measure. B-channel: low MI (computational equivalence + test-detection difficulty). I-channel: high MI (template exploitability + test-detection ease). CIA-General: assessment corrosiveness ∝ MI(C | ¬target). Connects to SI #27 by quantifying battery CPP-collective mechanism. D4 streak: 31. Mean: 0.709 (unchanged). Band: [0.65-0.76]. Total structural insights: 28.",
   "remaining": [
-    "C36 priority A: SI #24 information-theoretic formalization — optimization gap in bits for B vs. I channel criteria articulation-corrosiveness asymmetry.",
-    "C36 priority B: Joint B+I assessment protocol design — composing B-channel scenarios (C31 template) with I-RTO battery (C35) into a full integrated assessment.",
+    "C37 priority A: Joint B+I assessment protocol design (carried from C35/C36) — composing B-channel scenarios (C31 template) with I-RTO battery (C35) into a full integrated assessment. Sequencing, score integration, 2D diagnostic quadrant design.",
+    "C37 priority B: CIA-General application — can I-channel test-detection be reduced via naturalistic probe integration? Tradeoff with probe directness.",
     "Long-horizon (C50): Improving-inquiry vs. changing-inquirer — check three markers (c7_002)",
-    "Long-horizon (C50): D4 streak (now 30) — calibration check",
+    "Long-horizon (C50): D4 streak (now 31) — calibration check",
     "Long-horizon (C50): Revised confidence band [0.65-0.76] — reassess under formal model",
     "Long-horizon (C50): CA cross-quality block correlation empirical test (SI #20 prediction)"
   ],
