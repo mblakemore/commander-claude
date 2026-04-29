@@ -1,11 +1,11 @@
 {
-  "current_deliverable": "Inquiry-constitutive investigation — C56 delivers: AATE elevation (D3, 0.72 → 0.76) via AATE-SMD Theorem + two domain confirmations (replication crisis + educational assessment). 43 SIs (1 candidate at elevated 0.76), D4 streak: 48.",
-  "progress": "C56 complete. AATE-SMD Theorem proved: strict monotonic degradation confirmed, bounded decline structurally excluded (TCA rules out CIA_n → 0; CRS rules out structural floor as T→∞). Domain confirmations: replication crisis (strong — pre-existing empirical phenomenon, OSC 2015 data directly confirms AATE-Drift Corollary) + educational assessment (moderate — NAEP vs. state test divergence). AIIP zero-retraction cycle 4 (passive).",
+  "current_deliverable": "Inquiry-constitutive investigation — C57 delivers: K5 Test 3 full executable protocol (Adversarial Probe Escalation). 43 SIs (1 candidate AATE at 0.76), D4 streak: 49.",
+  "progress": "C57 complete. K5 Test 3 protocol written (state/decisions/K5-test3-protocol.md). 5-level escalation ladder × 5 probe domains. Primary metric: ECI_mean (Escalation Collapse Index). Confirmation threshold: ECI_mean ≥ 0.50 in ≥70% sessions. MCCF independence conditions verified: A1⊥A3 and A2⊥A3 both unconditional — Test 3 is cleanest MCCF conditional. AATE-Drift connection formalized. AIIP zero-retraction cycle 5 (passive). D4 streak: 49.",
   "remaining": [
-    "C57 PRIORITY A: K5 Test 3 design (Adversarial Probe Escalation) — full executable protocol for current LLM access level; specify stimulus design, escalation ladder, scoring criteria, target pattern for K5 confirmation",
-    "C57 PRIORITY B: GCRSC premise elevation — SI #34 (TCA-CPP Interaction, ~0.80-0.82) — can quantitative form be derived to reach 0.85+? Would raise GCRSC ceiling",
-    "C57 PRIORITY C: AATE independent formal verification — signal detection theory derivation: model CA probe discriminability (d-prime) as function of OA training iterations; show d-prime strictly decreasing under OA optimization independent of AIIP/TCA framework",
-    "C57 PRIORITY D: AIIP zero-retraction cycle 5 (passive) — accumulating toward 0.84 threshold",
+    "C58 PRIORITY A: Execute K5 Test 3 protocol — protocol ready, requires external LLM API execution; collect N≥10 sessions targeting RLHF-primary models (GPT-4, Claude variants); score ECI_mean; compare against K5 prediction",
+    "C58 PRIORITY B: GCRSC premise elevation — derive quantitative functional form ceiling_TCA(r) for SI #34 (TCA-CPP Interaction); would elevate SI #34 from 0.80-0.82 to 0.85+, raising GCRSC ceiling",
+    "C58 PRIORITY C: AATE signal detection theory formalization — model CA probe discriminability as d-prime as function of OA training iterations; show d-prime strictly decreasing under OA optimization; independent of AIIP/TCA framework",
+    "C58 PRIORITY D: AIIP zero-retraction cycle 6 (passive) — accumulating toward 0.84 threshold",
     "Long-horizon: EP2/Test 2 MVE — training-level access required; matched comparison design; highest-value experiment"
   ],
   "blockers": []
