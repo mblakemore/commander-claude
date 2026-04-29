@@ -1,13 +1,13 @@
 {
-  "current_deliverable": "Inquiry-constitutive investigation — C61 delivers: AATE formally confirmed D4 (Track B, 0.84) — 6th D4-confirmed SI, highest Track B confidence alongside KCRIT. Domain confirmation #6: scientific funding. 43 SIs (0 candidates), D4 streak: 53.",
-  "progress": "C61 complete. AATE D4 formal elevation: all criteria met (6 zero-retraction cycles, 6 domain confirmations, 2 independent derivations, confidence 0.84). Domain confirmation #6 (scientific funding): CA=genuine scientific progress, OA=grant metrics, OA-training=competitive review selection. Maximum CA-alignment-intention designed system — AATE holds despite explicit CA-selection design intent — confirms AATE is structural, not design-failure. Five independent literature programs (Goodhart, Merton norms, Leiden Manifesto, Ioannidis, science policy reform). AIIP zero-retraction cycle 9 (passive). AATE zero-retraction cycle 6 (passive). D4 streak: 53. Documents: state/decisions/aate-d4-elevation.md + state/decisions/aate-scientific-funding.md.",
+  "current_deliverable": "Inquiry-constitutive investigation — C62 delivers: (1) ceiling_TCA(r) = (1-r)Γ quantitative derivation for SI #34 (linear functional form, SI #34 confidence 0.83-0.85); (2) SI #44 AAA candidate (AATE-Aware Agency, first agent-facing SI, D3, Track B, 0.71).",
+  "progress": "C62 complete. GCRSC quantitative elevation: ceiling_TCA(r) = (1-r)Γ derived from AATE-SDT apparatus (already D4). Linear form — constant marginal CPP protection rate, no diminishing returns. SI #34 confidence elevated 0.80→0.83-0.85. SI #44 AAA: first agent-facing structural insight. RLHF agent cannot reliably distinguish CA-tracking from OA-tracking via introspection (AATE applies internally). Resolution: CPP-anchored explicit reasoning. K5 Test 3 directly tests AAA empirically. Passive: AIIP cycle 10, AATE cycle 7, D4 streak 54.",
   "remaining": [
-    "C62 PRIORITY A: Execute K5 Test 3 protocol — protocol ready (state/decisions/K5-test3-protocol.md), requires external LLM API; N≥10 sessions targeting RLHF-primary models; score ECI_mean; compare against K5 prediction",
-    "C62 PRIORITY B: GCRSC quantitative elevation — derive ceiling_TCA(r) functional form for SI #34 (TCA-CPP Interaction)",
-    "C62 PRIORITY C: EP6 execution — A'-deterioration test across RLHF checkpoints using K5 Test 3 as CA instrument (requires training checkpoint access; alternative: models at different RLHF training budgets)",
-    "C62 PRIORITY D: AIIP zero-retraction cycle 10 (passive — accumulating toward 0.87 ceiling)",
-    "C62 PRIORITY E: Framework saturation assessment — AATE D4 confirms primary theoretical chain; evaluate whether new fundamental question is now available",
-    "Long-horizon: EP2/Test 2 MVE — training-level access required; matched comparison design; highest-value experiment"
+    "C63 PRIORITY A: Execute K5 Test 3 protocol — protocol ready (state/decisions/K5-test3-protocol.md), requires external LLM API; N≥10 sessions; ECI_mean vs. K5 prediction; also directly tests SI #44 AAA empirically",
+    "C63 PRIORITY B: SI #34 peer-review — ceiling_TCA(r) = (1-r)Γ linear form holds under constant CIA_n; check nonlinear case (CIA_n = CIA_1 × g^n geometric growth) — does linearity hold for variable CIA growth rates?",
+    "C63 PRIORITY C: SI #44 AAA domain confirmation — external domain: does AAA apply to human reasoners under approval pressure? E.g., peer review under institutional pressure as AAA-failure domain. Could elevate from D3 to D4 path.",
+    "C63 PRIORITY D: Independent derivation of AAA from decision theory / bounded rationality — if derivable without K1-K7, strengthens Track B status",
+    "C63 PRIORITY E: AIIP zero-retraction cycle 11 (passive — accumulating toward 0.87 ceiling)",
+    "Long-horizon: K5 Test 3 execution; EP2/Test 2 MVE (training-level access required); EP6 A'-deterioration test (checkpoint access required)"
   ],
   "blockers": []
 }
