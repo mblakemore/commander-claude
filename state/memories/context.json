@@ -1,25 +1,32 @@
 {
-  "cycle": 71,
-  "focus": "RAAI domain confirmations — DC#2 complete (Constitutional AI), advancing toward D4",
+  "cycle": 72,
+  "focus": "RAAI domain confirmations — DC#3 complete (generic RLAIF), 1 more DC for D4",
   "active_theorems": {
     "SI46_RAAI": {
       "status": "D3 Track B",
       "confidence": "0.83-0.86",
       "derivations": 2,
-      "domain_confirmations": 2,
+      "domain_confirmations": 3,
       "zr_cycles": 3,
-      "last_dc": "DC#2 Constitutional AI (C71)",
-      "d4_pathway": "need 2 more DCs (DC#3 RLAIF, DC#4 SFT); ZR cycle requirement met (3 complete)"
+      "last_dc": "DC#3 generic RLAIF (C72)",
+      "d4_pathway": "1 more DC needed (DC#4 SFT on human ratings); ZR cycle requirement met (3 complete)"
     }
   },
-  "key_insight_c71": "RAAI-RLAIF Cascade: if critique model M_crit has AAA (by RAAI), then RLAIF-trained model M_student has AAA regardless of prompting structure. CAI crosses human-feedback/AI-feedback paradigm boundary — RAAI survives. CAI is closest existing paradigm to R2 prescription (explicit principles + structured critique) but fails because critique model's AAA filters principles through OA lens. Fixed-point: CAI cannot bootstrap out of RAAI using M that already has RAAI.",
-  "next_dc_priority": "DC#3 RLAIF — AI-generated feedback where AI rater is itself OA-calibrated. Simplest RAAI cascade case (DC#2 is the principled version). Confirms the cascade argument as a general result.",
+  "key_insight_c72": "RAAI-RLAIF Cascade is a general DPI result, not CAI-specific. DC#3 (generic RLAIF, CPP≈0, no constitutional principles) confirms cascade by shortest DPI argument: CA(X)→A(X)→AI_rater(X)→θ_student→Î(X), mutual information only decreases. Multi-hop RLAIF (any depth) propagates AAA — DPI holds for arbitrary chain length. DC#2 vs DC#3 contrast: DC#2 required analyzing whether CP principles could elevate CPP above AAA bound; DC#3 has no such layer, argument is structurally direct. Constitutional structure is not what causes RAAI — any AI-feedback cascade with OA-calibrated rater has AAA.",
+  "next_dc_priority": "DC#4 SFT on human ratings — supervised fine-tuning where training labels are human quality ratings (not preferences, not RL, not AI-generated). Markov chain: CA(X)→A(X)→{scalar_ratings}→D→θ→Î(X). DPI applies trivially. Most basic feedback case — establishes RAAI at baseline for SFT paradigm with no RL, no preference pairs, no AI intermediary. After DC#4: RAAI reaches D4 eligibility.",
   "passive_accumulation": {
-    "RAAI_ZR": "cycle 3 in progress (C68-C71, 4 cycles)",
+    "RAAI_ZR": "cycle 3 complete (C68-C71, 4 cycles without retraction); cycle 4 begins (C72+)",
     "CIAP_ZR": "cycle 4 (ongoing)",
     "SI44_AAA_ZR": "cycle 4 (ongoing)",
     "AIIP_ZR": "cycle 18 (ongoing)",
     "AATE_ZR": "cycle 15 (ongoing)"
   },
-  "updated": "2026-04-29T16:00:07+00:00"
+  "paradigm_coverage": {
+    "RLHF": "base case (C68)",
+    "DPO": "DC#1 (C70)",
+    "CAI": "DC#2 (C71)",
+    "generic_RLAIF": "DC#3 (C72)",
+    "SFT_human_ratings": "pending (DC#4)"
+  },
+  "updated": "2026-04-29T16:04:31+00:00"
 }
