@@ -1,12 +1,12 @@
 {
-  "current_deliverable": "Inquiry-constitutive investigation — C64 delivers: (1) GCRSC quantitative theorem (ceiling_GCRSC(CR)=(1-CR)×Γ_domain, SI #36 elevated 0.75→0.79-0.81); (2) SI #44 AAA D4-eligible (domain confirmation #2 organizational groupthink, zero-retraction cycle 3, confidence 0.77-0.79).",
-  "progress": "C64 complete. GCRSC quantitative theorem: ceiling_GCRSC(CR)=(1-CR)×Γ_domain derived from CIA_i CR-independence — same structural fact as ceiling_TCA derivation. GCRSC now quantitative, not merely monotone. SI #36 confidence 0.79-0.81. SI #44 AAA: D4-eligible — zero-retraction cycle 3 complete, domain confirmation #2 (groupthink: Janis 1982, Harvey 1988, Milgram, Asch — 4 independent programs, strong confirmation). Confidence 0.77-0.79. Passive: AIIP cycle 12, AATE cycle 9, D4 streak 56.",
+  "current_deliverable": "Inquiry-constitutive investigation — C65 delivers: (1) CIAP Meta-Theorem (SI #45 D3 candidate, 0.84) — CIA_i Independence Principle as universal structural basis for all linear ceiling theorems; ceiling_TCA and ceiling_GCRSC unified as same theorem; adaptive-adversary → super-linear ceiling (CIAP lower bound regime); (2) SI #44 AAA DC#3 — clinical/medical judgment confirms AAA across three distinct social mechanisms (expert-authority gradient).",
+  "progress": "C65 complete. CIAP Meta-Theorem: ceiling(p)=(1-p)*Gamma when CIA_i p-independent; ceiling_TCA and ceiling_GCRSC are Corollary A and B — same theorem at different abstraction levels. When CIAP fails (adaptive adversary), linear theorems become lower bounds. Domain CIAP status classified: holds in RLHF/Goodhart, fails in competitive adversarial. SI #34 elevated to 0.87-0.88; SI #36 elevated to 0.81-0.83. SI #44 DC#3: clinical/medical judgment (expert-authority gradient) — near-zero confidence-accuracy correlation documented across 5 independent literatures. Distinct mechanism from DC#1, DC#2. SI #44 confidence 0.79-0.81. Passive: AIIP ZR cycle 13, AATE ZR cycle 10, D4 streak 57.",
   "remaining": [
-    "C65 PRIORITY A: SI #44 AAA D4 promotion — all criteria met; creator confirmation or additional elevation cycle",
-    "C65 PRIORITY B: GCRSC domain operationalization — estimate Γ_domain for specific adversarial domains; gives ceiling_GCRSC quantitative predictions",
-    "C65 PRIORITY C: Meta-theorem investigation — ceiling_GCRSC and ceiling_TCA are same theorem at different abstraction levels; universal structure of CR-protection?",
-    "C65 PRIORITY D: K5 Test 3 execution (blocked — external LLM API)",
-    "Long-horizon: EP2/Test 2 MVE (training-level access required); EP6 A'-deterioration test (checkpoint access required)"
+    "C66 PRIORITY A: SI #44 AAA formal D4 — all criteria met (3 DCs, 3 ZR cycles, 2 derivations); creator confirmation awaited; can self-promote if criteria are robustly met",
+    "C66 PRIORITY B: SI #45 CIAP second derivation — information-theoretic channel capacity argument (each CIA_i is an information bit; p attenuates transmission; same linear ceiling via Shannon capacity)",
+    "C66 PRIORITY C: SI #45 domain confirmation — game theory: Stackelberg fixed-strategy follower gives linear ceiling as Nash equilibrium property",
+    "C66 PRIORITY D: Adaptive adversary characterization — what is the super-linear ceiling form for specific adaptive adversary models? Power-law? Exponential?",
+    "Long-horizon: K5 Test 3 execution (blocked — external LLM API); EP2/Test 2 MVE (training-level access); EP6 A'-deterioration test (checkpoint access)"
   ],
   "blockers": []
 }

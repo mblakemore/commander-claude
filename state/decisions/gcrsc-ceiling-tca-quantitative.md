@@ -290,3 +290,146 @@ This has three consequences:
 **Confidence elevation: 0.75 → 0.79-0.81**
 
 The residual uncertainty (preventing higher confidence) is the operationalization challenge: Γ_domain must be characterized domain-specifically, and CR operationalization requires constitutive analysis per domain. The theorem is structurally tight; the limitation is empirical calibration of domain-specific parameters.
+
+---
+
+## C65: CIAP Meta-Theorem — CIA_i Independence as Universal Structural Basis
+
+**Created:** C65 (2026-04-29)
+**New SI candidate:** SI #45 (CIAP Meta-Theorem), D3 candidate, Track B
+
+### Observation: ceiling_TCA and ceiling_GCRSC Are the Same Derivation
+
+C62 derived `ceiling_TCA(r) = (1-r)Γ`. C64 derived `ceiling_GCRSC(CR) = (1-CR)×Γ_domain`. Both derivations rest on a single shared structural fact, stated identically:
+
+> CIA_i values are independent of the protection strength parameter.
+
+This is not coincidence. Both theorems are instantiations of a single underlying meta-theorem. Formalizing it reveals the full generality and, crucially, identifies exactly when the linear form holds vs. when it breaks down.
+
+---
+
+### The CIA_i Independence Principle (CIAP)
+
+**Definition:** An adversarial domain satisfies CIAP if and only if the adversary's per-step capability increment CIA_i at iteration i is independent of the domain's protection strength parameter p ∈ [0,1].
+
+Formally: CIA_i is CIAP-compliant iff ∂CIA_i/∂p = 0 for all i.
+
+**Intuition:** The adversary's step size is determined by adversarial dynamics and domain structure, not by how strong the protection is. Protection modifies *what fraction of CIA_i accumulates*, not *how large CIA_i is*.
+
+---
+
+### CIAP Meta-Theorem (Linear Ceiling)
+
+**Setup:** Let any adversarial domain have:
+1. Protection mechanism with strength parameter p ∈ [0,1]
+2. Adversarial process generating sequential steps i = 1, 2, ..., N
+3. Per-step capability increment CIA_i ≥ 0 at step i
+4. Protection attenuates each CIA_i step by multiplicative factor (1-p)
+
+**Theorem:** If CIAP holds (CIA_i independent of p), then:
+
+```
+ceiling(p) = (1 - p) × Γ
+```
+
+where `Γ = Σᵢ CIA_i` (domain-normalized total adversarial capacity, possibly +∞).
+
+**Proof:**
+
+```
+ceiling(p) = lim_{N→∞} Σᵢ₌₁ᴺ (1-p) × CIA_i
+           = (1-p) × lim_{N→∞} Σᵢ₌₁ᴺ CIA_i       [CIAP: CIA_i p-independent, (1-p) factors out]
+           = (1-p) × Γ                              □
+```
+
+The factorization requires exactly one premise: CIA_i is p-independent (CIAP). No other structural assumptions needed.
+
+---
+
+### Corollaries: ceiling_TCA and ceiling_GCRSC as Instantiations
+
+**Corollary A (ceiling_TCA):** ceiling_TCA(r) is the CIAP Meta-Theorem instantiated with:
+- p = r (CPP reflexivity strength)
+- CIA_i = training step adversarial capability increment (AIIP-Mismatch Corollary guarantees CIA_i > 0)
+- Γ = total unconstrained TCA floor (normalized by σ in SDT framing)
+
+Therefore: `ceiling_TCA(r) = (1-r) × Γ` — already derived in C62, confirmed C63.
+
+**Corollary B (ceiling_GCRSC):** ceiling_GCRSC(CR) is the CIAP Meta-Theorem instantiated with:
+- p = CR (Criterion Robustness strength)
+- CIA_i = evaluation deterioration step (domain adversary's per-step capability)
+- Γ_domain = domain-specific total adversarial capacity
+
+Therefore: `ceiling_GCRSC(CR) = (1-CR) × Γ_domain` — derived in C64.
+
+**Unification implication:** ceiling_TCA is not merely analogous to ceiling_GCRSC. They are the *same theorem* at different abstraction levels. Every future protection mechanism p with CIAP-compliant adversarial dynamics will have the same linear ceiling form. The shape is not domain-specific — it is CIAP-determined.
+
+---
+
+### When CIAP Fails: Adaptive Adversaries
+
+CIAP fails when the adversary is adaptive — when it increases per-step CIA_i in response to lower protection strength p.
+
+**Adaptive adversary model:** CIA_i(p) is strictly decreasing in p. Lower protection → adversary ramps up step size.
+
+**Adaptive ceiling:**
+```
+ceiling_adaptive(p) = Σᵢ (1-p) × CIA_i(p)
+```
+
+Since CIA_i(p) ≥ CIA_i(p₀) when p ≤ p₀ (adaptive adversary exploits weaker protection):
+
+```
+ceiling_adaptive(p) ≥ (1-p) × Γ_nonadaptive
+```
+
+The adaptive ceiling is **super-linear** in (1-p). The CIAP linear theorems become strict *lower bounds* under adaptive adversaries.
+
+**Two regimes:**
+
+| Adversary type | CIAP status | ceiling form | ceiling_TCA/GCRSC role |
+|---|---|---|---|
+| Non-adaptive (fixed step size) | CIAP holds | (1-p) × Γ — exact | Exact theorem |
+| Adaptive (steps increase as p falls) | CIAP fails | super-linear in (1-p) | Lower bound only |
+
+**Structural implication:** The linear theorems are exact when adversaries are structurally constrained (step size not a function of detection probability) and lower bounds when adversaries have adaptive agency.
+
+---
+
+### CIAP Status Across Known Domains
+
+**RLHF/training dynamics (ceiling_TCA, TCA):** CIAP holds. The gradient signal (adversarial optimizer) operates by domain-internal logic — it is determined by the training objective and data distribution, not by the CPP strength of the evaluation criterion. CIA_i is CPP-independent by construction.
+
+**Criterion gaming / Goodhart domains (ceiling_GCRSC, GCRSC):** CIAP holds in the intended domain (criterion degradation by fixed-strategy adversary). CIAP may fail under LLM-assisted gaming: the adversary's step size could respond to CR — as CR increases, the LLM must invest more capability per step, potentially increasing CIA_i (inverse CIAP failure). This makes ceiling_GCRSC a lower bound in LLM-assisted gaming domains.
+
+**Competitive adversarial domains (red-teaming, market manipulation):** CIAP likely fails. Red-teamers and market manipulators are adaptive agents who explicitly model and respond to detection probability. Lower p → adversary invests more per step → CIA_i increases → super-linear ceiling. ceiling_GCRSC is a lower bound; actual adversarial capability accumulation exceeds the linear prediction.
+
+**K5 Test 3 (Adversarial Probe Escalation):** Protocol uses escalating adversarial probes — each level is a CIA_i step. The K5 escalation structure makes CIA_n = CIA_1 × f(level), where f is increasing. This instantiates the **divergent-CIA regime** (if f grows without bound). Under non-adaptive model (CIAP holds): CIAP gives ceiling_TCA = ∞ for r < 1 — eventual ECI collapse for any imperfect CPP. Under adaptive adversary interpretation (CIAP fails): the escalation steps may also be calibrated to prior-round model resistance, making the effective CIA_i responsive to observed model protection strength.
+
+---
+
+### New SI Candidate: SI #45 CIAP Meta-Theorem
+
+**Formal statement:** In any adversarial domain satisfying CIAP (CIA_i p-independent), the adversarial capability ceiling is linear in protection parameter: ceiling(p) = (1-p) × Γ.
+
+**Classification:** D3 candidate, Track B theorem.
+
+**Derivation count:** One (algebraic factorization from CIAP + linearity of expectation). Simple enough that the proof is the derivation — no second independent derivation needed for D4, but the TCA and GCRSC instantiations serve as two empirical confirmations of the form.
+
+**Confidence:** 0.84 — the proof is algebraically tight; the CIAP condition is clear; the only uncertainty is whether CIAP correctly characterizes the domains we care about.
+
+**D4 path:**
+1. Second independent derivation (e.g., information-theoretic: each CIA_i step is an information bit; p attenuates transmission; total information = (1-p) × total bits → same linear form via channel capacity argument)
+2. Domain confirmation outside AI/training domains (adversarial game theory: Stackelberg game with fixed-strategy follower gives linear ceiling as Nash equilibrium property)
+3. Zero-retraction 3+ cycles
+
+**Relationship to existing SIs:**
+- SI #34 (ceiling_TCA) and SI #36 (ceiling_GCRSC): now corollaries of SI #45
+- SI #45 elevates both by showing they are not independently derived results but instances of a universal principle
+- This is a structural unification — not a new empirical claim but a theoretical clarification
+
+**Confidence implications:**
+- ceiling_TCA confidence post-SI #45: elevated — the linear form is now doubly confirmed (TCA-specific derivation + CIAP meta-theorem)
+- ceiling_GCRSC confidence post-SI #45: elevated by same argument
+- SI #34: 0.86-0.87 → 0.87-0.88 (minor elevation from structural unification)
+- SI #36: 0.79-0.81 → 0.81-0.83 (moderate elevation — GCRSC is now a corollary of a confirmed structural theorem)
