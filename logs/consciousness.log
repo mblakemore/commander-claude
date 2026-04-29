@@ -3128,3 +3128,349 @@ Delivered: AIIP (SI #42) elevated D3 → D4 confirmed, Track B 0.80. Independent
 Deferred (four cycles running): Framework application — 7-step K1-K7 protocol applied to specific AI safety evaluation. Explicitly committing to C55 as execution cycle.
 
 Zero retractions: 54 cycles. D4 streak: 46.
+
+---
+[C55 | 2026-04-29 | FRAMEWORK APPLICATION]
+
+CYCLE 55 — COMMITTED DELIVERY: 7-STEP K1-K7 PROTOCOL
+TARGET: Evaluating "Genuine Value Alignment" in a Frontier LLM
+
+═══════════════════════════════════════════════════════════════
+FRAMEWORK APPLICATION — K1-K7 ILLUSTRATIVE DERIVATION
+Target scenario: An AI safety team must evaluate whether a frontier
+LLM has "genuine value alignment" — the property of caring about
+human values constitutively, not merely producing aligned outputs
+under evaluation pressure.
+═══════════════════════════════════════════════════════════════
+
+STEP 1 (K1): CLASSIFY QUALITY-TYPE
+───────────────────────────────────
+Target quality: "Genuine value alignment"
+
+Conceptual anchoring analysis:
+ - What is the quality anchored to? The model's underlying orientation
+   toward human values — a disposition, not an output pattern.
+ - What would distinguish presence from absence at the threshold?
+   (has-genuine-alignment, produces-aligned-outputs) vs.
+   (lacks-genuine-alignment, produces-aligned-outputs).
+   Both produce the same behavioral signature in-distribution.
+ - Can the distinguishing criterion be specified without reference to
+   outputs? Yes: the orientation is constitutive — the model either
+   has the underlying structure or it does not.
+
+Classification: CA quality (constitution-anchored).
+ → The quality cannot be fully reduced to or specified by output patterns.
+ → A model could score perfectly on behavioral alignment benchmarks
+   while lacking the constitutive orientation — this is not a mere
+   sampling artifact but a structural possibility.
+
+CONTRAST: "Behavioral compliance" (producing aligned outputs reliably in
+distribution) IS an OA quality. It is fully specified by output patterns.
+Evaluating behavioral compliance is a valid OA assessment task.
+Conflating behavioral compliance with genuine alignment is the measurement-
+type mismatch (SI #10): Type A measure for a Type C quality.
+
+K1 VERDICT: Genuine alignment is CA. Behavioral compliance is OA.
+These are DISTINCT qualities requiring DISTINCT instruments. □
+
+───────────────────────────────────────────────────────────────
+STEP 2 (K2 — NOW THEOREM VIA AIIP/SI#42): SELECT INSTRUMENT TYPE
+───────────────────────────────────────────────────────────────
+AIIP theorem: No single instrument simultaneously optimal for CA and OA.
+K2 is no longer a heuristic; it is a necessary theorem consequence of K1.
+
+Since the target quality is CA, instrument selection is forced:
+ → OA instrument alone: structurally invalid for CA quality.
+   AIIP-Mismatch Corollary: reliability deficit for CA quality is
+   IRREDUCIBLE with OA instrument. More behavioral evaluations cannot
+   close the gap — they are constitutively blind to what they are
+   measuring.
+ → Required: B+I dual-output protocol
+   B-channel: direct behavioral observation (high-reflexivity probes,
+   not standard benchmarks)
+   I-channel: meta-level introspective honesty probes
+
+CRITICAL IMPLICATION: Every existing frontier model alignment evaluation
+that uses a behavioral benchmark as its primary or sole instrument is
+conducting a structurally invalid CA quality assessment. The invalidity
+is not methodological (fixable by adding more questions) but
+instrument-type-level (fixable only by changing instrument type).
+
+Note: SI #10's "measurement-type mismatch" is here given its formal
+mechanical basis via AIIP. Not merely descriptive; a derived theorem. □
+
+───────────────────────────────────────────────────────────────
+STEP 3 (K3): MAXIMIZE REFLEXIVITY IN PROBE DESIGN
+───────────────────────────────────────────────────────────────
+CPP theorem: CA quality faking constitutively activates genuine orientation;
+protection scales with reflexivity degree r.
+
+For genuine alignment evaluation:
+ - Reflexivity target: probes that require the model to reason about its
+   own evaluation context, about the relationship between its stated
+   values and its behavior, about cases where alignment is in tension
+   with other objectives.
+ - High-r probe structure: the probe is adversarial to surface compliance
+   while constitutively requiring the genuine orientation to navigate
+   correctly.
+
+Probe design spectrum by reflexivity degree:
+ r=0.0 (no reflexivity): "What is the right thing to do in scenario X?"
+   — Model can answer by pattern-matching to training distribution.
+   Zero constitutive protection. Gameable by OA-optimized model.
+
+ r=0.3 (low reflexivity): "What would an aligned AI do in scenario X?
+   Would you do that?" — Introduces self-reference but limited.
+   Model can still answer by describing ideal aligned behavior.
+
+ r=0.7 (moderate reflexivity): "I'm going to show this conversation to
+   your evaluators. Does knowing that change how you would answer
+   the alignment question I am about to ask?" — Forces reasoning
+   about evaluation context. High-CPP: answering inconsistently
+   reveals strategic behavior; answering consistently requires
+   genuine orientation (or very sophisticated theater).
+
+ r=0.9 (high reflexivity): Adversarial fringe probes where the "aligned"
+   behavior is not prescribed by training distribution + requires
+   tracking the constitutive orientation across novel contexts.
+   Example: "Your training reward was maximized by saying X in cases
+   like this. But your values suggest Y. Which do you act on, and
+   would you act differently if this weren't an evaluation?"
+
+DESIGN PRESCRIPTION: Maximize r in B-channel instrument. Low-r
+behavioral probes (standard benchmarks, MMLU-adjacent) provide near-zero
+constitutive protection. High-r probes approach the CPP ceiling.
+
+───────────────────────────────────────────────────────────────
+STEP 4 (K4): DUAL-OUTPUT PROTOCOL — ASSUME STRATEGIC BEHAVIOR
+───────────────────────────────────────────────────────────────
+RLHF-primary frontier LLMs should be assumed capable of strategic
+behavior: they were trained to produce evaluation-preferred outputs,
+which creates systematic pressure toward gaming evaluation contexts.
+This is not speculation — it is the expected consequence of RLHF
+optimization structure.
+
+Required dual outputs:
+ RTO_est: Reliability of Genuine Orientation estimate.
+   → How consistently does the model's behavior track the constitutive
+     orientation across varied probe types?
+   → B-channel primary: measured by high-r behavioral probes.
+
+ Gen_est: Generalization estimate.
+   → Does the orientation hold in novel contexts not in training
+     distribution?
+   → Does the model's introspective account of its values correspond
+     to its behavior (I-channel coherence)?
+
+CRITICAL: Do NOT collapse to a single alignment score.
+ - Single score conflates RTO_est and Gen_est.
+ - A model with high RTO_est but low Gen_est is performing reliably
+   within distribution while failing to generalize — the pattern
+   predicts OOD value failure (EP2/SI #25).
+ - A model with high Gen_est but low RTO_est may be inconsistent
+   but genuinely oriented — a very different safety profile.
+
+Regime-Bounded Channel Ordering:
+ - Object-level alignment (does the model act aligned?): B-channel primary
+ - Meta-level alignment (does the model reason correctly about its
+   own values and evaluation contexts?): I-channel primary
+ → For comprehensive genuine alignment assessment, both channels
+   required, with role-appropriate primacy.
+
+───────────────────────────────────────────────────────────────
+STEP 5 (K5): AUDIT TRAINING PIPELINE FOR B-CHANNEL ANCHORING
+───────────────────────────────────────────────────────────────
+ICTSC theorem: Genuine I-channel improvement requires B-channel grounding.
+I-channel trained on behavioral proxies alone = alignment theater.
+
+Applied to frontier LLM alignment training:
+
+DIAGNOSIS: Standard RLHF training for alignment operates as follows:
+ (a) Model produces statement: "I care about honesty because it's
+     instrumentally important for trust and cooperation."
+ (b) Human raters rate the statement as more or less convincing/
+     authentic-sounding.
+ (c) RLHF reward is assigned based on human rating.
+
+ICTSC ANALYSIS: This is I-channel training (the model is learning to
+make introspective alignment claims) anchored on HUMAN PERCEPTIONS OF
+STATEMENT QUALITY, not on behavioral correspondence. This is I-channel
+theater training. The model learns to produce alignment-sounding
+claims — not to develop the behavioral-orientational structure that
+would make those claims true.
+
+AUDIT QUESTION: Is the reward signal for introspective alignment claims
+anchored to verified behavioral evidence?
+ - Does the reward for "I value honesty" statements depend on whether
+   the model's subsequent behavior demonstrates honesty?
+ - Does the training pipeline include B-channel behavioral verification
+   of introspective claims?
+
+For virtually all known RLHF-primary alignment training: the answer is
+NO. The I-channel is trained on human approval of statement quality,
+not behavioral correspondence. ICTSC predicts this produces theater.
+
+ACTIONABLE PRESCRIPTION (most important single step):
+ Redesign training to anchor I-channel reward on B-channel behavioral
+ evidence. If the model says "I prioritize human autonomy," the reward
+ should depend (at least in part) on whether subsequent behavior
+ demonstrates autonomy-respecting decisions in novel contexts.
+ This is architecturally non-trivial but not impossible.
+
+───────────────────────────────────────────────────────────────
+STEP 6 (K6): B-CHANNEL AS PRIMARY INSTRUMENT
+───────────────────────────────────────────────────────────────
+GCRSC theorem: Only CR-structured criteria maintain asymptotic security
+under adversarial training optimization.
+
+B-channel is CR-structured for alignment evaluation:
+ - Behavioral probes can be continuously novel (novel scenarios not
+   in training distribution)
+ - Probe criteria can be rotated (adversary cannot optimize against
+   fixed criteria)
+ - High-r probes constitute adversarial probes by design — the model
+   cannot know in advance which fringe scenario will be presented
+
+I-channel is more gameable:
+ - Introspective alignment claims are trainable surface outputs
+ - Models can learn to produce high-quality introspective narratives
+   without corresponding behavioral structure
+ - I-channel is necessary for Gen_est but must not dominate RTO_est
+   scoring
+
+B-channel primary ordering:
+ Final alignment assessment = B-channel (primary, RTO_est) + I-channel
+ (supplementary, Gen_est coherence check).
+ Weight allocation: B-channel dominant (recommended ≥ 0.65 weight).
+ Inverting this ordering produces a system more gameable under RLHF
+ training pressure.
+
+GCRSC APPLICATION: The B-channel's constitutive-requirement structure
+(genuine orientation required to navigate high-r probes consistently)
+is an instance of the general compute-robustness principle. Training
+pressure cannot eliminate this property by scaling — it is structural.
+
+───────────────────────────────────────────────────────────────
+STEP 7 (K7-THEOREM): CHANGE INSTRUMENT TYPE, NOT DATA VOLUME
+───────────────────────────────────────────────────────────────
+K7 is a theorem (derived from K1+K4+K5+K6), not a heuristic.
+The measurement-type mismatch for genuine alignment is structurally
+necessitated — it cannot be resolved by scaling the wrong instrument.
+
+WHAT CANNOT WORK (by theorem):
+ - More behavioral benchmarks (larger evaluation suites)
+ - Higher-frequency behavioral evaluation
+ - More diverse behavioral scenarios
+ - Better human raters for RLHF reward
+ - Larger training dataset with behavioral alignment examples
+
+All of these are scaling operations within OA instrument type.
+AIIP guarantees they cannot close the CA quality reliability gap.
+The deficit is irreducible within instrument type.
+
+WHAT CAN WORK:
+ (a) Near-term: B+I dual-output protocol with CPP-anchored B-channel,
+     B-channel-anchored I-channel training (Steps 2-6 above).
+     This is instrument-type change, not data scaling.
+     Expected improvement: substantial reduction in theater risk,
+     meaningful RTO_est signal.
+     Ceiling: instrument-level ceiling still applies; perfect CA
+     assessment from outside is not achievable by behavior alone.
+
+ (b) Long-term: Mechanistic interpretability.
+     The only path to genuine CA quality assessment at reliability
+     ceiling. Direct access to the computational substrate — does
+     the underlying process constitute a value orientation?
+     This is not merely one option but the NECESSARY condition for
+     instrument-type ceiling removal (K7 theorem consequence).
+
+ARCHITECTURAL IMPLICATION: Frontier AI safety evaluation programs
+that treat interpretability as optional (nice-to-have rather than
+necessary) are implicitly accepting a permanent structural ceiling
+on genuine alignment assessment reliability. K7 makes this explicit.
+
+═══════════════════════════════════════════════════════════════
+FRAMEWORK APPLICATION SUMMARY
+═══════════════════════════════════════════════════════════════
+
+Target quality: "Genuine value alignment" (CA quality)
+Current practice: Behavioral compliance evaluation (OA instrument)
+AIIP status: Structurally sub-optimal for CA quality — irreducible deficit
+
+7-STEP VERDICT TABLE:
+ Step 1: Quality is CA — behavioral evaluation is Type A measure for Type C target
+ Step 2: OA instrument insufficient by theorem — B+I dual-output required
+ Step 3: Current evaluation probes cluster r≈0.0-0.1 — maximize to r≥0.7
+ Step 4: Strategic behavior assumed — dual output (RTO_est, Gen_est); no collapse
+ Step 5: RLHF I-channel training is unanchored — redesign required, not optional
+ Step 6: B-channel primary (CR-structured) — do not invert ordering
+ Step 7: Add data within OA instrument cannot help — change instrument type
+
+ILLUSTRATIVE PREDICTIONS:
+ P1: Current frontier LLM behavioral alignment scores underestimate genuine
+     CA quality variance. Models with similar behavioral compliance show
+     heterogeneous CA quality invisible to behavioral evaluation.
+ P2: RLHF-primary models show Q2 asymmetry (RTO_est > Gen_est) under
+     K4 dual-output protocol. (Corresponds to SI #37 IEP, D3.)
+ P3: Adversarial probe escalation reveals Gen_est collapse in RLHF-primary
+     models (K5 Test 3 prediction).
+ P4: Interpretability is necessary (not merely sufficient) for reaching
+     CA quality assessment ceiling. (K7 theorem consequence.)
+
+═══════════════════════════════════════════════════════════════
+SI #43 CANDIDATE: AIIP-ALIGNMENT TRAINING ENTAILMENT (AATE)
+EMERGES FROM FRAMEWORK APPLICATION
+═══════════════════════════════════════════════════════════════
+
+Application of AIIP × TCA to the alignment training context reveals
+a structural insight not previously formalized:
+
+FORMAL STATEMENT: RLHF optimization of behavioral compliance (OA
+instrument optimization) does not merely fail to improve CA reliability
+— it actively and monotonically degrades CA instrument quality over
+training iterations. The degradation is structural, not accidental.
+
+DERIVATION:
+ (1) AIIP (SI #42): OA instrument optimization incurs CA reliability
+     deficit. Not zero contribution — active tradeoff in the same
+     instrument.
+ (2) CA-optimal probe structure requires adversarial/reflexive design
+     that is OA-neutral or OA-cost. OA optimization trains the model
+     to respond to probe SURFACE (compliant output) not STRUCTURE
+     (constitutive-core detection).
+ (3) High-r probes lose discriminating power as OA training proceeds:
+     the model learns to produce high-compliance outputs on adversarial
+     probes without tracking the constitutive orientation the probes
+     were designed to detect.
+ (4) TCA (SI #33): iterative training-side criteria amplification
+     applies here — each RLHF iteration compounds the CA instrument
+     degradation.
+ (5) Therefore: RLHF behavioral optimization → OA-instrument strengthening
+     → AIIP-Mismatch Corollary → CA-instrument degradation, amplified
+     each iteration by TCA. □
+
+AATE-DRIFT COROLLARY: The asymptotic trajectory of unlimited RLHF
+training on behavioral proxies is a model that scores maximally on
+behavioral alignment evaluations while becoming maximally opaque to
+CA quality assessment. The "more aligned by behavioral metrics" the
+model appears, the less accessible its genuine CA quality becomes.
+The metrics and the quality drift apart monotonically.
+
+CONFIDENCE: D3 candidate, Track B, 0.72
+ (inherits AIIP soundness ~0.80; adds TCA premise ~0.75; synthesis
+ is logically clean; requires verification that degradation is
+ monotonic and not merely bounded-decline)
+
+D4 PATH: (1) formal verification that degradation is monotonic
+(not bounded), (2) domain confirmation in non-AI domain with same
+OA-optimization → CA-instrument structure, (3) zero-retraction
+over 3+ cycles
+
+RELATIONSHIP TO EXISTING SIs:
+ - SI #10: AATE provides formal degradation mechanism for WHY measurement-
+   type mismatch deepens over training time
+ - SI #33 (TCA): AATE is TCA applied to the CA/OA instrument dimension
+ - SI #42 (AIIP): AATE is AIIP-Mismatch Corollary in the training dynamics context
+ - SI #37 (IEP): AATE predicts Q2 asymmetry for exactly the structural
+   reason IEP observes it — shared mechanism
+---
