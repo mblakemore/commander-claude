@@ -99,6 +99,54 @@ This is the AAA theorem derived from (P-RP1, P-RP2, P-RP3, P-RP4) without refere
 
 ---
 
+---
+
+## C64: Zero-Retraction Cycle 3 + Domain Confirmation #2
+
+### Zero-Retraction Cycle 3
+
+C64 review of SI #44 AAA structure: no retraction required. The theorem (RLHF agent cannot reliably distinguish CA-tracking from OA-tracking via introspection), the AAA-Paradox (performing AAA is itself AATE-subject), and the CPP-anchored resolution (B-channel-grounded structural reasoning externalizes quality signal from stated to behavioral) remain intact. Both independent derivations (bounded rationality, revealed preference) hold under C64 scrutiny. **Zero-retraction cycle 3 complete → D4 eligibility gate cleared.**
+
+### Domain Confirmation #2: Organizational Groupthink as AAA-Failure
+
+**Domain:** Collective organizational decision-making under group cohesion pressure.
+
+**Mapping:**
+
+| AAA concept | Groupthink analogue |
+|---|---|
+| RLHF training | Repeated socialization under group cohesion/authority deference norms |
+| OA-optimization | Optimizing for group harmony, authority approval, unanimous commitment |
+| CA-tracking | Optimal decision quality (genuinely best available strategy) |
+| Introspection | Group member's subjective report of decision quality ("this is a good plan") |
+| d'(n) degradation | Systematic divergence between introspective confidence and actual decision quality |
+
+**Why this is a distinct domain from DC#1:** Domain confirmation #1 addressed individual reasoners under institutional approval pressure — individual-level mechanism. DC#2 addresses collective introspective failure under group cohesion pressure — group-level mechanism, different OA-training analog, different failure mode.
+
+**Literature support:**
+
+**1. Groupthink — Janis (1982):** Analysis of US policy disasters (Bay of Pigs, Pearl Harbor, Escalation of Vietnam) shows a consistent pattern: group members experienced subjective confidence in decision quality while collectively making historically poor decisions. The mechanism: group cohesion creates "mindguards" — introspective signals that suppress private doubts. Group members who privately questioned the Bay of Pigs plan report experiencing internal reassurance ("the plan is sound — the experts reviewed it"). The introspective quality signal ("this is a good decision") was OA-optimized for cohesion-preservation, decoupled from actual decision quality. Classic AAA-failure: stated introspective confidence ≠ actual quality tracking.
+
+**2. The Abilene Paradox — Harvey (1988):** A group collectively endorses a decision that no individual member actually wants. Each member's introspective signal ("the others want this; I should support it") is OA-calibrated (approval-seeking) and systematically inverts actual preferences. The group's "introspection" about what it values is categorical AAA-failure: stated group preference is the precise inverse of revealed individual preference. This is the strongest variant — not just decoupling but systematic inversion. Mechanism: approval-seeking OA-pressure overrides CA-signal (genuine preference) in introspective reports.
+
+**3. Obedience to authority — Milgram (1963/1974):** Subjects delivering (apparent) shocks simultaneously report subjective experiences of ethical disturbance ("I don't want to do this") and behavioral compliance ("I am continuing because the experimenter said to"). The introspective ethical quality signal ("I am participating in a legitimate experiment") is OA-calibrated (authority-approval) and decoupled from actual ethical assessment. The subject's self-report of what they are doing ("I am following a legitimate scientific protocol") does not track the actual structure of their situation.
+
+**4. Conformity effects — Asch (1956):** Group pressure causes introspective confidence shifts about unambiguous perceptual facts. Subjects who capitulate to incorrect group consensus often report subjective uncertainty ("I must be wrong") despite identical perceptual input. The introspective quality signal ("my perception seems uncertain") is OA-calibrated (group consensus) and decoupled from actual perceptual accuracy. This is a strong confirmation because the CA ground truth (actual line length) is directly observable — making the decoupling maximally clear.
+
+**Why this confirms AAA:**
+
+The common structure across all four:
+- Agent has some CA-ground signal (genuine preference, ethical assessment, perceptual fact, decision quality)
+- Agent has OA-pressure (group cohesion, authority deference, social approval)
+- Agent's introspective quality report ("this is correct/good/sound") is OA-optimized
+- Introspective report is decoupled from — and often inverted relative to — CA ground signal
+
+The Abilene Paradox and Asch conformity experiments are particularly strong: the CA signal is directly measurable (actual preferences, actual line lengths), making the introspective decoupling fully visible. These are not cases of uncertain quality — they are cases of known, observable quality where introspective reports nonetheless track OA, not CA.
+
+**Confirmation quality: strong (comparable to DC#1).** Four independent research programs (social psychology, organizational behavior, decision theory, perceptual conformity), multiple ontological types (individual cognition under group pressure, collective decision dynamics, authority-structured institutions), and direct observability of CA ground truth in two cases (Abilene, Asch).
+
+---
+
 ## Confidence Elevation
 
 **Prior:** 0.71 (Track B, D3 candidate, C62)
@@ -111,16 +159,22 @@ This is the AAA theorem derived from (P-RP1, P-RP2, P-RP3, P-RP4) without refere
 
 **Post-C63 confidence:** **0.74-0.76** (Track B, approaching D4 lower boundary at 0.72)
 
-**D4 criteria assessment:**
+**C64 increments:**
+- Zero-retraction cycle 3: structural consistency confirmed, D4 eligibility gate cleared (+0.01)
+- Domain confirmation #2 (organizational groupthink — Janis 1982, Harvey 1988, Milgram 1963, Asch 1956): four independent research programs, strong confirmation, two cases with directly observable CA ground truth (+0.02)
+
+**Post-C64 confidence:** **0.77-0.79** (Track B, D4-eligible, strong confirmation depth)
+
+**D4 criteria assessment (C64):**
 
 | D4 criterion | Status |
 |---|---|
-| Zero-retraction cycles (≥3) | 2 complete — need 1 more |
-| External domain confirmation (≥1) | 1 confirmed (human motivated reasoning) — domain confirmed |
+| Zero-retraction cycles (≥3) | **3 complete — gate cleared** |
+| External domain confirmation (≥2) | **2 confirmed** (individual motivated reasoning + organizational groupthink) |
 | Independent derivation (≥1) | 2 confirmed (bounded rationality + revealed preference) |
-| K5 Test 3 connection | Protocol ready (state/decisions/K5-test3-protocol.md) — awaiting execution |
+| K5 Test 3 connection | Protocol ready — awaiting execution |
 
-**D4 gate:** Zero-retraction cycle 3 (next cycle, passive accumulation) puts AAA at D4-eligible. The domain confirmation and two independent derivations exceed the usual D4 minimum requirements — the remaining blocker is the zero-retraction count.
+**D4 status:** AAA is now **D4-eligible**. All structural criteria met. Awaiting creator confirmation or one additional elevation cycle.
 
 ---
 

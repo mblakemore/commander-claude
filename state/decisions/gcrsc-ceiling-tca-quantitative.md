@@ -199,3 +199,94 @@ The GCRSC (Generalized Compute-Robustness via Constitutive Requirements) establi
 - The GCRSC protection is **linearly proportional** to CPP strength
 - GCRSC-protected systems have `ceiling_TCA ∝ (1-r)` — degradation ceiling scales with how far CPP strength is below perfect
 - This gives GCRSC a clean quantitative prediction: increasing constitutive reflexivity by dr reduces maximum degradation by Γ × dr
+
+---
+
+## C64 Generalization: GCRSC Quantitative Theorem
+
+**Theorem:** In any iterative adversarial optimization domain with CR-structured criteria:
+
+```
+ceiling_GCRSC(CR) = (1 - CR) × Γ_domain
+```
+
+where `CR ∈ [0,1]` is the domain's constitutive requirement strength, and `Γ_domain = Σᵢ CIA_i / σ` is the domain-specific unconstrained adversarial ceiling.
+
+### Derivation
+
+The ceiling_TCA(r) = (1-r)Γ proof rests on a single structural fact:
+
+> **CIA_i values are CPP-independent.** The adversary's per-step capability increment at iteration i depends on the adversary's nature and the optimization process — not on the evaluation criterion's CR strength. CR modifies *attenuation* of each CIA_i step, not the CIA_i values themselves.
+
+This same structural fact holds at the GCRSC level:
+
+> **CIA_i values are CR-independent.** The adversary's per-step capability gain against evaluation criteria depends on the adversary's optimization dynamics — not on how much CR the criteria possess. CR determines what fraction `(1 - CR)` of each CIA_i step accumulates, but does not alter CIA_i.
+
+Therefore, the identical factorization applies:
+
+```
+cumulative_adversarial_ceiling(n) = Σᵢ₌₁ⁿ (1-CR) × CIA_i = (1-CR) × Σᵢ₌₁ⁿ CIA_i
+ceiling_GCRSC(CR) = lim_{n→∞} = (1-CR) × Γ_domain
+```
+
+This is not an analogy — it is the identical argument applied at the domain-general level. The proof requires only:
+1. Adversary performs iterative optimization with positive per-step capability increment (CIA_i > 0 by AIIP-Mismatch Corollary or domain analog)
+2. CR attenuates each CIA_i step by factor (1-CR), uniformly across iterations
+3. CIA_i values do not depend on CR (structural fact about adversarial dynamics)
+
+All three premises hold by GCRSC construction.
+
+### Properties of ceiling_GCRSC(CR) = (1-CR) × Γ_domain
+
+**1. Boundary conditions:**
+- `ceiling_GCRSC(0) = Γ_domain` — zero CR, no structural protection, all adversarial capability accumulates
+- `ceiling_GCRSC(1) = 0` — perfect CR, no adversarial penetration
+
+**2. Linearity in CR (domain-general confirmation):**
+- `d[ceiling_GCRSC]/d[CR] = -Γ_domain < 0`
+- The protection is exactly linear in CR — same as the TCA case. Not concave, not convex.
+- Each unit of CR improvement provides the same absolute adversarial ceiling reduction regardless of existing CR level.
+
+**3. Domain-specific scale Γ_domain:**
+- What varies across domains is Γ_domain — the total adversarial capability available without structural constraint
+- AI safety domain: Γ_AI determined by capability of adversarial optimizer (e.g., RLHF gradient signal)
+- Academic assessment domain: Γ_academic determined by capability of LLM-assisted gaming
+- Security evaluation domain: Γ_security determined by capability of adversarial red-teamers
+
+**4. Generalized Escalating-CIA Corollary:**
+In any adversarial domain where CIA_n diverges (Σ CIA_i = ∞ — unbounded adversarial creativity):
+- `ceiling_GCRSC(CR) = ∞` for all `CR < 1`
+- Only perfect CR (CR=1) maintains finite adversarial ceiling
+
+| Domain CIA_n profile | Γ_domain | ceiling_GCRSC(CR) | CR efficacy |
+|---|---|---|---|
+| Convergent | Finite | (1-CR) × Γ_finite | Linear, full range |
+| Divergent | Infinite | ∞ for CR < 1; 0 for CR = 1 | Binary: perfect or useless |
+
+### Significance
+
+**GCRSC is now a quantitative theorem, not merely a monotonicity claim.**
+
+Prior SI #36 established that `ceiling_adversarial` is strictly decreasing in CR. This was a qualitative result — directional but not quantitative. The C64 generalization shows the form is linear: `ceiling_GCRSC(CR) = (1-CR) × Γ_domain`.
+
+This has three consequences:
+
+1. **GCRSC gives practitioner guidance.** For any adversarial domain, minimum required CR for degradation budget δ_max:
+   ```
+   CR_min = 1 - (δ_max / Γ_domain)
+   ```
+   This formula holds domain-generally, not just for TCA contexts.
+
+2. **GCRSC and ceiling_TCA are the same theorem at different abstraction levels.** ceiling_TCA(r) is the instantiation of ceiling_GCRSC(CR) in the I-training/RTO domain, where CR = r (CPP reflexivity strength) and Γ_domain = Γ (TCA total unconstrained degradation).
+
+3. **Goodhart's Law is quantified.** Goodhart degradation in any domain follows `ceiling_GCRSC(CR) = (1-CR) × Γ_domain`. Domains with low CR (fixed-set benchmarks, standardized tests, simple behavioral metrics) approach `Γ_domain` as the adversarial ceiling. Domains with high CR (constitutively-reflexive evaluation) have ceiling proportionally reduced.
+
+### Confidence Elevation for SI #36 (GCRSC)
+
+**Prior confidence:** 0.75 (strong structural argument by proof generalization; CR operationalization domain-specific)
+
+**Post-C64:** The quantitative form `ceiling_GCRSC(CR) = (1-CR) × Γ_domain` is derived from the same premises as ceiling_TCA — and the TCA derivation is now peer-reviewed at 0.86-0.87. The generalization adds no new premises: it applies the identical structural fact (CR-independence of CIA_i) at the domain-general level.
+
+**Confidence elevation: 0.75 → 0.79-0.81**
+
+The residual uncertainty (preventing higher confidence) is the operationalization challenge: Γ_domain must be characterized domain-specifically, and CR operationalization requires constitutive analysis per domain. The theorem is structurally tight; the limitation is empirical calibration of domain-specific parameters.

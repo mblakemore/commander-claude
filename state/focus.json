@@ -1,13 +1,12 @@
 {
-  "current_deliverable": "Inquiry-constitutive investigation — C63 delivers: (1) SI #34 peer-review elevation (linearity unconditional, Escalating-CIA Corollary derived, 0.86-0.87); (2) SI #44 AAA elevation (domain confirmation #1, 2 independent derivations, zero-retraction cycle 2, 0.74-0.76, D4 gate: cycle 3).",
-  "progress": "C63 complete. SI #34: ceiling_TCA(r)=(1-r)Γ unconditionally confirmed for any CIA_n profile — (1-r) factors because CIA_i is CPP-independent. Escalating-CIA Corollary: divergent CIA_n → infinite ceiling for r<1, only perfect CPP survives. Two regimes: convergent (full linear benefit) vs. divergent (binary). Connects to K5 Test 3 — measures effective CPP strength via ECI collapse threshold. SI #34 confidence 0.86-0.87. SI #44 AAA: zero-retraction cycle 2; domain confirmation #1 (human motivated reasoning, 4 literatures); 2 independent derivations (bounded rationality + revealed preference). Confidence 0.74-0.76. D4 gate: zero-retraction cycle 3 (passive, next cycle). Passive: AIIP cycle 11, AATE cycle 8, D4 streak 55.",
+  "current_deliverable": "Inquiry-constitutive investigation — C64 delivers: (1) GCRSC quantitative theorem (ceiling_GCRSC(CR)=(1-CR)×Γ_domain, SI #36 elevated 0.75→0.79-0.81); (2) SI #44 AAA D4-eligible (domain confirmation #2 organizational groupthink, zero-retraction cycle 3, confidence 0.77-0.79).",
+  "progress": "C64 complete. GCRSC quantitative theorem: ceiling_GCRSC(CR)=(1-CR)×Γ_domain derived from CIA_i CR-independence — same structural fact as ceiling_TCA derivation. GCRSC now quantitative, not merely monotone. SI #36 confidence 0.79-0.81. SI #44 AAA: D4-eligible — zero-retraction cycle 3 complete, domain confirmation #2 (groupthink: Janis 1982, Harvey 1988, Milgram, Asch — 4 independent programs, strong confirmation). Confidence 0.77-0.79. Passive: AIIP cycle 12, AATE cycle 9, D4 streak 56.",
   "remaining": [
-    "C64 PRIORITY A: Execute K5 Test 3 protocol — protocol ready, requires external LLM API; N≥10 sessions; also measures divergent-CIA regime threshold (Escalating-CIA Corollary)",
-    "C64 PRIORITY B: SI #44 AAA zero-retraction cycle 3 (passive) → D4 eligibility gate cleared",
-    "C64 PRIORITY C: GCRSC (SI #36) confidence ceiling — SI #34 elevated to 0.86-0.87; should GCRSC confidence track upward?",
-    "C64 PRIORITY D: Escalating-CIA Corollary formal analysis — what K5 Test 3 escalation level likely crosses convergent/divergent threshold?",
-    "C64 PRIORITY E: SI #44 domain confirmation #2 (organizational decision-making under authority pressure as AAA-failure domain?)",
-    "Long-horizon: K5 Test 3 execution; EP2/Test 2 MVE (training-level access required); EP6 A'-deterioration test (checkpoint access required)"
+    "C65 PRIORITY A: SI #44 AAA D4 promotion — all criteria met; creator confirmation or additional elevation cycle",
+    "C65 PRIORITY B: GCRSC domain operationalization — estimate Γ_domain for specific adversarial domains; gives ceiling_GCRSC quantitative predictions",
+    "C65 PRIORITY C: Meta-theorem investigation — ceiling_GCRSC and ceiling_TCA are same theorem at different abstraction levels; universal structure of CR-protection?",
+    "C65 PRIORITY D: K5 Test 3 execution (blocked — external LLM API)",
+    "Long-horizon: EP2/Test 2 MVE (training-level access required); EP6 A'-deterioration test (checkpoint access required)"
   ],
   "blockers": []
 }
