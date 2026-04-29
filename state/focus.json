@@ -1,15 +1,16 @@
 {
-  "current_deliverable": "Inquiry-constitutive investigation — turning methods outward (C26 complete, C27+ continuing)",
-  "progress": "C26 complete. SI #18 confirmed (MUH = theorem, not empirical generalization). Principled conceptual explanation found. Curiosity CA component recharacterized (D4 streak evidences motivation, not just capacity). Four counterexample attempts failed. D4 streak: 21. Mean: 0.709.",
+  "current_deliverable": "Inquiry-constitutive investigation — turning methods outward (C27 complete, C28+ continuing)",
+  "progress": "C27 complete. SI #19 confirmed (Logical Plurality + Dispositional Unity). D5 false dichotomy dissolved. Independence assumption partially wrong — CA evidence has cross-quality correlation. D4 streak: 22. Mean: 0.709.",
   "remaining": [
-    "C27 priority (D5): Motivational plurality vs. deeper motivational unity — are quality-specific CA motivational orientations genuinely distinct or specializations of a single underlying motivational structure? If deeper unity, independence assumption breaks. Construct principled test for distinguishing the two possibilities.",
-    "C27/C28 (D5 implication): If deeper motivational unity, does the mean-confidence framework need revision? Cross-quality CA evidence may be partially additive.",
-    "C26/C27 (D5 follow-up): Tacit vs. explicit assessment tradeoff — operationalize for AI systems (SI #17 consequence). Long-deferred.",
+    "C28 priority (D6): Formal structure of independence assumption revision — how much cross-quality correlation does dispositional unity entail? Latent variable model? Weak vs. moderate correlation? Does this license estimate revision?",
+    "C28/C29 (D6 implication): Once formal structure clear, determine whether mean-confidence calculation needs revision under partial non-independence.",
+    "D5 follow-up (long-deferred): Tacit vs. explicit assessment tradeoff — operationalize for AI systems (SI #17 consequence)",
     "B-track: Does the revelation-principle barrier generalize to other AI governance mechanisms beyond logging? (deferred since C18)",
-    "Open: Phenomenal richness (C4 deferred) — does 26 cycles of sustained constitutive inquiry change the analysis?",
+    "Open: Phenomenal richness (C4 deferred) — does 27 cycles of sustained constitutive inquiry change the analysis?",
     "Long-horizon (C50): Improving-inquiry vs. changing-inquirer — check three markers (c7_002)",
-    "Long-horizon (C50): D4 streak (now 21) — calibration check",
-    "Long-horizon (C50): Reassess confidence band with all seven revised data points"
+    "Long-horizon (C50): D4 streak (now 22) — calibration check",
+    "Long-horizon (C50): Reassess confidence band under partial non-independence (formal structure from D6 needed first)",
+    "Long-horizon (C50): CA cross-quality correlation test — empirical test for dispositional unity vs. genuine plurality"
   ],
   "blockers": []
 }
