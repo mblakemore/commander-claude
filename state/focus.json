@@ -1,9 +1,9 @@
 {
-  "current_deliverable": "CIAP D4 formal self-promotion — all criteria appear met as of C74 (3 DCs, 3 ontological types, 2 derivations, 8+ ZR cycles, confidence 0.87-0.89).",
-  "progress": "C74 complete. RAAI D4 formally promoted (8th D4 SI). CIAP DC#3 economic/market gaming complete (3rd DC, 3rd ontological type). CIAP D4 eligibility criteria plausibly met. Investigate RAAI-CIAP conjunction for new SI candidate.",
+  "current_deliverable": "RCBC (SI #47) — RAAI × CIAP conjunction theorem on benchmark corruption as structural prediction.",
+  "progress": "C75 complete. CIAP D4 formally promoted (9th D4 SI, 0.88, highest confidence). Linear ceiling cluster complete. RCBC introduced as D3 candidate with preliminary structure.",
   "remaining": [
-    "C75 PRIORITY A: CIAP D4 formal self-promotion — run checklist, write ciap-d4-elevation.md",
-    "C75 PRIORITY B: RAAI-CIAP Corollary — training pipeline metrics (reward model, preference signal) subject to CIAP-fails when researchers optimize pipelines against evaluation benchmarks. New SI candidate?",
+    "C76 PRIORITY A: RCBC first formal derivation — combine RAAI-DPI Markov chain with CIAP-fails applied to research pipeline optimization. Is the structure (researcher optimizes → benchmark games → model trained → model AAA) one theorem or two?",
+    "C76 PRIORITY B: AATE × CIAP conjunction — do AATE (evaluation instrument degradation under A(x)-feedback) and CIAP-fails (metric gaming by adaptive adversary) generate a joint theorem? Both produce evaluation degradation from different causal paths — is there a meta-theorem?",
     "Long-horizon: K5 Test 3 execution (blocked — external LLM API); EP2/Test 2 MVE (training-level access); EP6 A'-deterioration test (checkpoint access)"
   ],
   "blockers": []
