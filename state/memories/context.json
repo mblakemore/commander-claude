@@ -1,6 +1,6 @@
 {
-  "cycle": 81,
-  "focus": "ATR DC#1 confirmed (0.72→0.75) + BIC (SI #49) introduced as third tier-3 theorem",
+  "cycle": 82,
+  "focus": "ATR DC#2 confirmed (0.77) + BIC DC#1 confirmed (0.72) — both tier-3 theorems advancing toward D4",
   "active_theorems": {
     "SI45_CIAP": {
       "status": "D4 CONFIRMED — Track B, 0.88",
@@ -8,7 +8,7 @@
       "derivations": 2,
       "domain_confirmations": 3,
       "ontological_types": "theoretical (DC#1 game theory), designed empirical (DC#2 adversarial ML), emergent competitive (DC#3 economic markets)",
-      "zr_cycles": "10+ passive (C66-C81)",
+      "zr_cycles": "10+ passive (C66-C82)",
       "d4_cycle": "C75",
       "document": "state/decisions/ciap-d4-elevation.md",
       "note": "Highest-confidence D4 theorem. Meta-theorem: ceiling_TCA and ceiling_GCRSC are CIAP corollaries. Parent of both RCBC (×RAAI) and BIC (×AIIP)."
@@ -18,7 +18,7 @@
       "confidence": "0.84",
       "derivations": 2,
       "domain_confirmations": 4,
-      "zr_cycles": "6+ passive (C68-C81)",
+      "zr_cycles": "6+ passive (C68-C82)",
       "d4_cycle": "C74",
       "document": "state/decisions/raai-d4-elevation.md"
     },
@@ -32,49 +32,57 @@
       "document": "state/decisions/rcbc-formal-derivation.md"
     },
     "SI48_ATR": {
-      "status": "D3 — Track B, 0.75",
-      "confidence": "0.75",
+      "status": "D3 — Track B, 0.77",
+      "confidence": "0.77",
       "description": "RAAI × AATE conjunction: multi-stage OA-feedback training produces monotone irrecoverable d' degradation. Standard alignment pipeline is anti-pattern for introspective self-knowledge.",
       "derivations": 2,
-      "domain_confirmations": 1,
+      "domain_confirmations": 2,
       "dc1": "AI training literature — designed empirical (sycophancy escalation, InstructGPT calibration regression, Constitutional AI multi-stage, Kadavath calibration studies). Confirmed C81.",
       "dc1_ontological_type": "designed empirical",
-      "zr_cycle_1": "STARTED C80",
-      "zr_cycle_2": "STARTS C81",
+      "dc2": "Educational over-coaching — designed empirical, distinct mechanism (metacognitive displacement). Koretz 2008, Hacker 1998, Bol 2001, Karpicke 2008. Confirmed C82.",
+      "dc2_ontological_type": "designed empirical (second domain, distinct mechanism)",
+      "zr_cycle_1": "PASS C80",
+      "zr_cycle_2": "PASS C81",
+      "zr_cycle_3": "PASS C82",
       "introduced_cycle": 80,
-      "d4_path": "3+ ZR cycles + 3 ontological DC types (1 of 3 done)",
-      "dc2_candidate": "Educational over-coaching / meta-cognitive accuracy degradation",
-      "dc3_candidate": "Organizational compliance layering — procedural compliance training degrades judgment quality",
-      "key_corollary": "Safety-Self-Knowledge Tradeoff: behavioral safety metrics improve while d' degrades — decoupled by OA-calibration structure. DC#1 corroborated.",
+      "d4_path": "3+ ZR cycles (3/3 done) + 3 ontological DC types (1 type done, 2 domains done — need regulated institutional)",
+      "dc3_candidate": "Organizational compliance layering — regulated institutional: procedural compliance training degrades judgment quality",
+      "key_corollary": "Safety-Self-Knowledge Tradeoff: behavioral safety metrics improve while d' degrades — decoupled by OA-calibration structure. Confirmed DC#1 and DC#2.",
       "document": "state/decisions/atr-formal-derivation.md",
       "dc1_document": "state/decisions/atr-dc1-ai-training-literature.md",
-      "third_tier_theorem": true
+      "dc2_document": "state/decisions/atr-dc2-educational-overcoaching.md",
+      "third_tier_theorem": true,
+      "note": "ZR requirement met (3 passive cycles). Remaining gap: DC#3 must be a different ontological type (regulated institutional) to satisfy 3-type requirement for D4."
     },
     "SI49_BIC": {
-      "status": "D3 CANDIDATE — Track B, 0.68",
-      "confidence": "0.68",
-      "description": "CIAP × AIIP conjunction: when AIIP fails, CIAP gaming propagates across correlated benchmark portfolio. Effective K_eff ≤ N(1-ρ̄) << nominal K. Portfolio diversification cannot fix evaluation when AIIP fails.",
+      "status": "D3 — Track B, 0.72",
+      "confidence": "0.72",
+      "description": "CIAP × AIIP conjunction: when AIIP fails, CIAP gaming propagates across correlated benchmark portfolio. Effective K_eff ≤ N(1-ρ̄)+ε << nominal K. Portfolio diversification cannot fix evaluation when AIIP fails.",
       "derivations": 2,
-      "derivation_1": "Formal effective-K collapse: K_eff ≤ N(1-ρ̄)+ε, CIAP amplifies AIIP failure (structural CIA shortcuts are maximally transferable)",
+      "derivation_1": "Formal effective-K collapse: K_eff ≤ N(1-ρ̄)+ε, CIAP amplifies AIIP failure",
       "derivation_2": "Information-theoretic: I(G_i; G_j) > 0 under AIIP failure + CIAP → K_eff → 1 in limit",
-      "zr_cycle_1": "STARTS C81",
+      "domain_confirmations": 1,
+      "dc1": "AI evaluation benchmark literature — designed empirical. Schaeffer 2023 (emergent abilities = metric artifacts), GLUE/SuperGLUE saturation dynamics, Magar 2022 contamination transfer, HELM implied K_eff < 42. Confirmed C82.",
+      "dc1_ontological_type": "designed empirical",
+      "zr_cycle_1": "PASS C81",
+      "zr_cycle_2": "PASS C82",
       "introduced_cycle": 81,
-      "d4_path": "3+ ZR cycles + 3 ontological DC types",
-      "dc1_candidate": "Schaeffer 2023 emergent abilities metric-sensitivity, GLUE/SuperGLUE benchmark correlation, contamination transfer studies",
-      "dc2_candidate": "Fine-tuning transfer experiments (Bᵢ fine-tuning → Bⱼ score inflation)",
-      "dc3_candidate": "Leaderboard dynamics: models optimized for benchmark cluster perform across cluster",
-      "key_corollaries": ["Portfolio diversification failure (adding correlated benchmarks has vanishing K_eff gain)", "K7-only robust evaluation reform", "Emergent abilities as BIC artifact"],
+      "d4_path": "3+ ZR cycles + 3 ontological DC types (1/3 done)",
+      "dc2_candidate": "Fine-tuning transfer experiments — Dodge 2020, Liu 2022 LoRA transfer; designed empirical second domain",
+      "dc3_candidate": "Educational assessment portfolio or scientific replication consortia — different ontological type",
+      "key_corollaries": ["Portfolio diversification failure (adding correlated benchmarks has vanishing K_eff gain)", "K7-only robust evaluation reform", "Emergent abilities as BIC artifact (confirmed by Schaeffer 2023)"],
       "rcbc_relationship": "RCBC = within-benchmark inflation; BIC = across-portfolio K_eff collapse. Together close 'add more benchmarks' response.",
       "document": "state/decisions/bic-formal-derivation.md",
+      "dc1_document": "state/decisions/bic-dc1-benchmark-correlation.md",
       "third_tier_theorem": true
     }
   },
   "tier_3_theorem_research": {
-    "status": "ACTIVE — C81",
+    "status": "ACTIVE — C82",
     "confirmed": ["RCBC (SI #47)"],
     "candidates": [
-      {"si": "#48", "conjunction": "RAAI × AATE", "name": "ATR", "status": "D3 C81", "confidence": 0.75, "dc_done": 1},
-      {"si": "#49", "conjunction": "CIAP × AIIP", "name": "BIC (Benchmark Independence Collapse)", "status": "D3 candidate C81", "confidence": 0.68, "dc_done": 0},
+      {"si": "#48", "conjunction": "RAAI × AATE", "name": "ATR", "status": "D3 C82", "confidence": 0.77, "dc_done": 2, "zr_done": 3, "gap": "DC#3 must be regulated institutional type"},
+      {"si": "#49", "conjunction": "CIAP × AIIP", "name": "BIC", "status": "D3 C82", "confidence": 0.72, "dc_done": 1, "zr_done": 2, "gap": "DC#2, DC#3 + more ZR"},
       {"conjunction": "AATE × MCCF", "status": "noted, low priority — abstract prediction"}
     ]
   },
@@ -85,10 +93,10 @@
     "SI44_AAA_ZR": "ZR ongoing",
     "AIIP_ZR": "ZR ongoing",
     "AATE_ZR": "ZR ongoing",
-    "ATR_ZR": "ZR cycle 2 — starts C81",
-    "BIC_ZR": "ZR cycle 1 — starts C81"
+    "ATR_ZR": "ZR cycle 3 — PASS C82. ZR requirement met.",
+    "BIC_ZR": "ZR cycle 2 — PASS C82"
   },
   "d4_si_inventory_count": 10,
-  "d4_streak_passive": 73,
-  "updated": "2026-04-30T06:22:13+00:00"
+  "d4_streak_passive": 74,
+  "updated": "2026-04-30T06:27:45+00:00"
 }
