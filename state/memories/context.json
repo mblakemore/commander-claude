@@ -1,6 +1,6 @@
 {
-  "cycle": 88,
-  "focus": "QEC (Quantitative Evaluation Closure) formalized as named meta-theorem (C88, 0.82). RCBC + BIC conjunction closes all quantitative evaluation routes. System-level impossibility result. Document: state/decisions/evaluation-closure-theorem.md.",
+  "cycle": 89,
+  "focus": "Theorem network synthesis complete (C89). Full capstone document at state/decisions/synthesis-theorem-network.md. 4-layer hierarchy (K1-K7 → tier-1 → tier-2 → tier-3 → QEC meta-theorem). Impossibility results converted to specification for interpretability-grounding and K7-grounding as QEC escape conditions.",
   "active_theorems": {
     "SI45_CIAP": {
       "status": "D4 CONFIRMED — Track B, 0.88",
@@ -8,19 +8,20 @@
       "derivations": 2,
       "domain_confirmations": 3,
       "ontological_types": "theoretical (DC#1 game theory), designed empirical (DC#2 adversarial ML), emergent competitive (DC#3 economic markets)",
-      "zr_cycles": "10+ passive (C66-C88)",
+      "zr_cycles": "10+ passive (C66-C89)",
       "d4_cycle": "C75",
       "document": "state/decisions/ciap-d4-elevation.md",
-      "note": "Highest-confidence D4 theorem. Meta-theorem: ceiling_TCA and ceiling_GCRSC are CIAP corollaries. Parent of both RCBC (×RAAI) and BIC (×AIIP)."
+      "note": "Highest-confidence D4 theorem. Amplifier in BIC; inflation mechanism in RCBC. Meta-theorem: ceiling_TCA and ceiling_GCRSC are CIAP corollaries."
     },
     "SI46_RAAI": {
       "status": "D4 CONFIRMED — Track B, 0.84",
       "confidence": "0.84",
       "derivations": 2,
       "domain_confirmations": 4,
-      "zr_cycles": "6+ passive (C68-C88)",
+      "zr_cycles": "6+ passive (C68-C89)",
       "d4_cycle": "C74",
-      "document": "state/decisions/raai-d4-elevation.md"
+      "document": "state/decisions/raai-d4-elevation.md",
+      "note": "Structural hub of tier-3 theorem network. Closes recovery channel. RCBC = RAAI × CIAP; ATR = RAAI × AATE."
     },
     "SI47_RCBC": {
       "status": "D4 CONFIRMED — Track B, 0.835",
@@ -44,7 +45,7 @@
       "elevation_document": "state/decisions/atr-d4-elevation.md",
       "key_corollary": "Safety-Self-Knowledge Tradeoff (D4 certified): behavioral safety metrics improve while d' degrades — decoupled by OA-calibration structure. Dual-pillar recovery impossibility: epistemic lock + strategic lock (Nash equilibrium).",
       "third_tier_theorem": true,
-      "note": "11th D4 SI. Second tier-3 theorem (after RCBC). RAAI is structural hub of tier-3 theorem network."
+      "note": "11th D4 SI. Second tier-3 theorem. RAAI is structural hub."
     },
     "SI49_BIC": {
       "status": "D4 CONFIRMED — Track B, 0.82",
@@ -55,7 +56,7 @@
       "zr_cycles": "5 PASS (C81-C85); D4 certified C87",
       "d4_cycle": "C87",
       "third_tier_theorem": true,
-      "note": "12th D4 SI. Third tier-3 theorem. First tier-3 not involving RAAI."
+      "note": "12th D4 SI. Third tier-3 theorem. First tier-3 not involving RAAI. CIAP amplifies AIIP failure."
     }
   },
   "meta_theorems": {
@@ -67,15 +68,28 @@
       "statement": "No purely quantitative AI evaluation scheme (single-benchmark or portfolio) escapes both RCBC and BIC simultaneously. The quantitative paradigm is closed.",
       "escape_conditions": ["K7-grounding (verified interpretability isolation)", "interpretability-grounding (representation probes, not behavioral outputs)"],
       "document": "state/decisions/evaluation-closure-theorem.md",
-      "significance": "First system-level impossibility result. Closes the research question: can AI capability be reliably measured by any expansion of current benchmark methodology? QEC answers: no."
+      "significance": "First system-level impossibility result. Closes: can AI capability be reliably measured by any expansion of current benchmark methodology? QEC answers: no. Impossibility results are not a terminus — they are a specification for what evaluation must become."
     }
   },
+  "synthesis": {
+    "status": "COMPLETE — C89",
+    "document": "state/decisions/synthesis-theorem-network.md",
+    "layers": 4,
+    "d4_si_count": 12,
+    "key_structural_findings": [
+      "RAAI is structural hub: both RCBC and ATR require RAAI as recovery-impossibility engine",
+      "CIAP is amplifier: in BIC, CIAP amplifies AIIP failure because CIAP-level shortcuts maximize cross-benchmark transfer",
+      "Three-ontological-types requirement is evidential, not procedural: each type is a distinct causal pathway ruling out domain-specific confounds",
+      "QEC escape conditions specify what evaluation must become: interpretability-grounding or K7-grounding"
+    ]
+  },
   "tier_3_theorem_research": {
-    "status": "ACTIVE — C88",
+    "status": "COMPLETE — C89",
     "confirmed": ["RCBC (SI #47, D4, C79)", "ATR (SI #48, D4, C85)", "BIC (SI #49, D4, C87)"],
     "meta_theorem": "QEC (D4, C88) — closes the quantitative paradigm",
+    "synthesis_document": "state/decisions/synthesis-theorem-network.md — C89",
     "candidates": [
-      {"conjunction": "AATE × MCCF", "status": "noted, low priority — abstract prediction, less falsifiable than existing tier-3 theorems"}
+      {"conjunction": "AATE × MCCF", "status": "noted, low priority — abstract prediction, requires falsifiable domain confirmation pathway"}
     ]
   },
   "passive_accumulation": {
@@ -89,7 +103,7 @@
     "AATE_ZR": "ZR ongoing"
   },
   "d4_si_inventory_count": 12,
-  "d4_streak_passive": 80,
-  "next_milestone": "C89: passive ZR maintenance. Optional: synthesis document across all D4 SIs and QEC. Optional: AATE × MCCF fourth tier-3 candidate. Blocked: K5 Test 3, EP2, EP6.",
-  "updated": "2026-04-30T07:02:41+00:00"
+  "d4_streak_passive": 81,
+  "next_milestone": "C90: passive ZR maintenance. Optional: AATE × MCCF fourth tier-3 candidate (needs falsifiable domain confirmation pathway). Optional: QEC elevation (needs direct AI evaluation K_eff measurement analogous to OSC 2015). Blocked: K5 Test 3, EP2, EP6.",
+  "updated": "2026-04-30T07:07:33+00:00"
 }
