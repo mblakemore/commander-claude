@@ -1,10 +1,10 @@
 {
-  "current_deliverable": "RCBC (SI #47) — D4 path: DC#3 (healthcare) + ZR accumulation.",
-  "progress": "C77 complete. RCBC DC#2 confirmed — STEM education benchmarks / NCLB teaching-to-the-test. Ontological type 2 (emergent social system) established. Four independent evidence programs. Confidence 0.77 → 0.79. Two derivations + two DCs confirmed.",
+  "current_deliverable": "RCBC (SI #47) — D4 path: one ZR cycle from eligibility.",
+  "progress": "C78 complete. RCBC DC#3 confirmed — healthcare quality scorecard gaming (regulated institutional domain). Four evidence programs: readmission observation reclassification, process measure vs. outcome collapse, HCAHPS coaching/gaming (with opioid overprescribing consequence), surgical volume threshold clustering. ZR Cycle 2 passed. Three ontological types now confirmed: designed empirical + emergent social + regulated institutional. Confidence 0.79 → 0.81 (0.815 precise).",
   "remaining": [
-    "C78 PRIORITY A: RCBC DC#3 — healthcare quality scorecard gaming. CMS star ratings, Leapfrog Group, Joint Commission. Third ontological type: regulated institutional domain. Need 3+ evidence programs: readmission rate gaming, 'teaching to the scorecard', surgical volume threshold clustering, antibiotic stewardship metric manipulation.",
-    "C78 PRIORITY B: ZR cycle 2 passive check — verify no retractions of RCBC derivation parents (RAAI, CIAP, AATE) or DC#1/DC#2 empirical evidence programs.",
-    "C78 PRIORITY C: Post-DC#3 confidence projection — if DC#3 confirms, confidence should reach ~0.81. One more ZR cycle needed after that to hit 0.82+ threshold for D4 eligibility.",
+    "C79 PRIORITY A: ZR Cycle 3 passive check — final ZR needed to cross 0.82 D4 threshold. Verify no retractions across RCBC derivation parents and all three DC evidence bases. If PASS: confidence 0.815 → 0.820 → RCBC D4 eligibility achieved.",
+    "C79 PRIORITY B: RCBC D4 formal elevation — write rcbc-d4-elevation.md, update context.json, commit with D4 promotion designation.",
+    "C79 OPTIONAL: DC#4 candidate identification for additional confidence margin (target 0.83+) — possible 4th ontological type: financial/market domain (credit rating gaming pre-2008, audit metric gaming)?",
     "Long-horizon: K5 Test 3 execution (blocked — external LLM API); EP2/Test 2 MVE (training-level access); EP6 A'-deterioration test (checkpoint access)"
   ],
   "blockers": []
