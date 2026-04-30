@@ -1,14 +1,14 @@
 {
-  "current_deliverable": "ATR DC#3 confirmed (regulated institutional, 0.77→0.79) — 2/3 ontological types for D4. BIC ZR#3 PASS.",
-  "progress": "C83 complete. ATR: 3/3 DCs done (designed empirical ×2, regulated institutional ×1), ZR req met (4 PASS). 2/3 ontological types confirmed. BIC: 1/3 DCs done, 3 ZR PASS. Tier-3 inventory: RCBC (D4, 0.835), ATR (D3, 0.79, 2/3 types, needs Type 3), BIC (D3, 0.72, needs 2 more DCs).",
+  "current_deliverable": "ATR DC#4 confirmed (competitive/emergent, 0.81) — 3/3 ontological types. D4 criteria met. BIC DC#2 confirmed (fine-tuning transfer, 0.74).",
+  "progress": "C84 complete. ATR: 4/4 DCs done, 5 ZR PASS, 3/3 ontological types complete — ALL D4 criteria met. BIC: 2/3+ DCs done, 4 ZR PASS, 1/3 ontological types. Tier-3 inventory: RCBC (D4, 0.835), ATR (D3→D4-ready, 0.81), BIC (D3, 0.74).",
   "remaining": [
-    "C84 PRIORITY A: ATR DC#4 — third ontological type. Candidates: (1) Competitive/emergent: credential inflation dynamics (bar exam pass rates vs. legal competence metrics, teaching credential inflation vs. student outcomes — naturally emerging competitive credential race); (2) Historical/archival: historical professional certification inflation case studies; (3) Theoretical/formal: formal ATR model (d' degradation under OA-mandate — not yet done for ATR). Completing 3rd type = ATR D4 formal elevation pathway open.",
-    "C84 PRIORITY B: BIC DC#2 — fine-tuning transfer experiments (designed empirical, second domain). Phang 2018 STILTs + Aghajanyan 2021 intrinsic dimensionality = strong evidence already accumulating. Formal confirmation + confidence update 0.72→0.74.",
-    "C85+: BIC DC#3 (different ontological type) + ATR D4 formal elevation (if DC#4 confirmed + ZR maintained).",
+    "C85 PRIORITY A: ATR D4 formal elevation — write elevation document (all criteria verified: 2 derivations, 4 DCs, 3 types, 5 ZR PASS, confidence 0.81). Elevate to D4 Track B ~0.82-0.83. 11th D4 SI.",
+    "C85 PRIORITY B: BIC DC#3 — different ontological type. Candidates: (1) Regulated institutional: standardized testing in K-12 (NCLB/state testing accountability systems — institutional mandate drives correlated benchmark optimization); (2) Competitive/emergent: scientific replication consortia or grant portfolio diversification (OSC 2015 replication crisis = K_eff collapse in scientific evidence portfolios). BIC needs 2 more DCs + 2 more ontological types for D4.",
+    "C86+: BIC DC#4 (third ontological type) + ZR maintenance across all D4 SIs",
     "Long-horizon (blocked): K5 Test 3, EP2, EP6 — require external LLM API / training checkpoint access"
   ],
   "blockers": [
     "K5 Test 3, EP2, EP6: require external LLM API / training checkpoint access — hardware/permission constraint",
-    "ATR D4 elevation: requires DC#4 in third ontological type — competitive/emergent or theoretical/formal"
+    "BIC D4 elevation: requires DC#3 + DC#4 in two additional ontological types — in progress"
   ]
 }
