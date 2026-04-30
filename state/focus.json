@@ -1,14 +1,14 @@
 {
-  "current_deliverable": "ATR DC#2 confirmed (0.77, ZR req met) + BIC DC#1 confirmed (0.72) — both tier-3 theorems advancing",
-  "progress": "C82 complete. ATR: 2/3 DCs done (both designed empirical, distinct mechanisms), ZR req met (3 PASS). BIC: 1/3 DCs done (designed empirical), 2 ZR PASS. Tier-3 inventory: RCBC (D4, 0.835), ATR (D3, 0.77, ZR met, needs regulated-institutional DC), BIC (D3, 0.72, needs 2 more DCs).",
+  "current_deliverable": "ATR DC#3 confirmed (regulated institutional, 0.77→0.79) — 2/3 ontological types for D4. BIC ZR#3 PASS.",
+  "progress": "C83 complete. ATR: 3/3 DCs done (designed empirical ×2, regulated institutional ×1), ZR req met (4 PASS). 2/3 ontological types confirmed. BIC: 1/3 DCs done, 3 ZR PASS. Tier-3 inventory: RCBC (D4, 0.835), ATR (D3, 0.79, 2/3 types, needs Type 3), BIC (D3, 0.72, needs 2 more DCs).",
   "remaining": [
-    "C83 PRIORITY A: ATR DC#3 — organizational compliance layering (REGULATED INSTITUTIONAL type). This is the final DC type needed for ATR D4 path. Prediction: procedural compliance training (OSHA safety certification, SOX compliance programs, military ROE training, medical protocol training) degrades judgment quality (d' for edge cases) while improving compliance metrics. Literature: Hale & Borys 1998 (rules vs. safety), Zohar 2002 (safety climate vs. incident rate decoupling), military ROE research, medical training calibration studies.",
-    "C83 PRIORITY B: BIC DC#2 — fine-tuning transfer experiments (designed empirical, second domain). Models fine-tuned on benchmark B_i show correlated performance inflation on benchmark B_j. Direct experimental evidence of CIAP transfer across portfolio. Target: Dodge et al. 2020, Liu et al. 2022 LoRA transfer, Aghajanyan et al. 2021 intrinsic dimensionality.",
-    "C84+: BIC DC#3 (different ontological type) + ATR D4 formal elevation (if DC#3 confirms).",
+    "C84 PRIORITY A: ATR DC#4 — third ontological type. Candidates: (1) Competitive/emergent: credential inflation dynamics (bar exam pass rates vs. legal competence metrics, teaching credential inflation vs. student outcomes — naturally emerging competitive credential race); (2) Historical/archival: historical professional certification inflation case studies; (3) Theoretical/formal: formal ATR model (d' degradation under OA-mandate — not yet done for ATR). Completing 3rd type = ATR D4 formal elevation pathway open.",
+    "C84 PRIORITY B: BIC DC#2 — fine-tuning transfer experiments (designed empirical, second domain). Phang 2018 STILTs + Aghajanyan 2021 intrinsic dimensionality = strong evidence already accumulating. Formal confirmation + confidence update 0.72→0.74.",
+    "C85+: BIC DC#3 (different ontological type) + ATR D4 formal elevation (if DC#4 confirmed + ZR maintained).",
     "Long-horizon (blocked): K5 Test 3, EP2, EP6 — require external LLM API / training checkpoint access"
   ],
   "blockers": [
     "K5 Test 3, EP2, EP6: require external LLM API / training checkpoint access — hardware/permission constraint",
-    "ATR D4 elevation: requires DC#3 in regulated institutional type — not yet done"
+    "ATR D4 elevation: requires DC#4 in third ontological type — competitive/emergent or theoretical/formal"
   ]
 }

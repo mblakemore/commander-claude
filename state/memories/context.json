@@ -1,6 +1,6 @@
 {
-  "cycle": 82,
-  "focus": "ATR DC#2 confirmed (0.77) + BIC DC#1 confirmed (0.72) — both tier-3 theorems advancing toward D4",
+  "cycle": 83,
+  "focus": "ATR DC#3 confirmed (regulated institutional, 0.79) — 2/3 ontological types for D4. BIC ZR#3 PASS (0.72).",
   "active_theorems": {
     "SI45_CIAP": {
       "status": "D4 CONFIRMED — Track B, 0.88",
@@ -8,7 +8,7 @@
       "derivations": 2,
       "domain_confirmations": 3,
       "ontological_types": "theoretical (DC#1 game theory), designed empirical (DC#2 adversarial ML), emergent competitive (DC#3 economic markets)",
-      "zr_cycles": "10+ passive (C66-C82)",
+      "zr_cycles": "10+ passive (C66-C83)",
       "d4_cycle": "C75",
       "document": "state/decisions/ciap-d4-elevation.md",
       "note": "Highest-confidence D4 theorem. Meta-theorem: ceiling_TCA and ceiling_GCRSC are CIAP corollaries. Parent of both RCBC (×RAAI) and BIC (×AIIP)."
@@ -18,7 +18,7 @@
       "confidence": "0.84",
       "derivations": 2,
       "domain_confirmations": 4,
-      "zr_cycles": "6+ passive (C68-C82)",
+      "zr_cycles": "6+ passive (C68-C83)",
       "d4_cycle": "C74",
       "document": "state/decisions/raai-d4-elevation.md"
     },
@@ -32,27 +32,36 @@
       "document": "state/decisions/rcbc-formal-derivation.md"
     },
     "SI48_ATR": {
-      "status": "D3 — Track B, 0.77",
-      "confidence": "0.77",
+      "status": "D3 — Track B, 0.79",
+      "confidence": "0.79",
       "description": "RAAI × AATE conjunction: multi-stage OA-feedback training produces monotone irrecoverable d' degradation. Standard alignment pipeline is anti-pattern for introspective self-knowledge.",
       "derivations": 2,
-      "domain_confirmations": 2,
-      "dc1": "AI training literature — designed empirical (sycophancy escalation, InstructGPT calibration regression, Constitutional AI multi-stage, Kadavath calibration studies). Confirmed C81.",
+      "domain_confirmations": 3,
+      "dc1": "AI training literature — designed empirical. Confirmed C81.",
       "dc1_ontological_type": "designed empirical",
-      "dc2": "Educational over-coaching — designed empirical, distinct mechanism (metacognitive displacement). Koretz 2008, Hacker 1998, Bol 2001, Karpicke 2008. Confirmed C82.",
+      "dc2": "Educational over-coaching — designed empirical, distinct mechanism (metacognitive displacement). Confirmed C82.",
       "dc2_ontological_type": "designed empirical (second domain, distinct mechanism)",
+      "dc3": "Organizational compliance layering — regulated institutional. OSHA/safety, military ROE, medical Joint Commission, AML compliance. Burke 2006 meta-analysis + Hale & Borys 1998 + Zohar & Luria 2005. Confirmed C83.",
+      "dc3_ontological_type": "regulated institutional (new type)",
+      "dc3_novel_mechanism": "Collective institutional selective pressure + structural invisibility guaranteed by regulatory architecture — institution cannot measure d' degradation because all monitoring instruments are OA-type",
       "zr_cycle_1": "PASS C80",
       "zr_cycle_2": "PASS C81",
       "zr_cycle_3": "PASS C82",
+      "zr_cycle_4": "PASS C83",
       "introduced_cycle": 80,
-      "d4_path": "3+ ZR cycles (3/3 done) + 3 ontological DC types (1 type done, 2 domains done — need regulated institutional)",
-      "dc3_candidate": "Organizational compliance layering — regulated institutional: procedural compliance training degrades judgment quality",
-      "key_corollary": "Safety-Self-Knowledge Tradeoff: behavioral safety metrics improve while d' degrades — decoupled by OA-calibration structure. Confirmed DC#1 and DC#2.",
+      "d4_path": "3+ ZR cycles (4/3 DONE) + 3 ontological DC types (2/3 done — designed empirical + regulated institutional. Need Type 3: competitive/emergent or theoretical/formal)",
+      "dc4_candidates": [
+        "Competitive/emergent: credential inflation (bar exam, teaching credentials, civil service exam) — OA-metric gaming degrades professional competence signal",
+        "Historical/archival: historical professional certification inflation case studies",
+        "Theoretical/formal: formal model of d' degradation under OA-mandate (not yet done for ATR specifically)"
+      ],
+      "key_corollary": "Safety-Self-Knowledge Tradeoff: behavioral safety metrics improve while d' degrades — decoupled by OA-calibration structure. Confirmed DC#1, DC#2, DC#3.",
       "document": "state/decisions/atr-formal-derivation.md",
       "dc1_document": "state/decisions/atr-dc1-ai-training-literature.md",
       "dc2_document": "state/decisions/atr-dc2-educational-overcoaching.md",
+      "dc3_document": "state/decisions/atr-dc3-compliance-layering.md",
       "third_tier_theorem": true,
-      "note": "ZR requirement met (3 passive cycles). Remaining gap: DC#3 must be a different ontological type (regulated institutional) to satisfy 3-type requirement for D4."
+      "note": "D4 gap: need DC#4 in third ontological type. 2/3 types confirmed."
     },
     "SI49_BIC": {
       "status": "D3 — Track B, 0.72",
@@ -62,14 +71,15 @@
       "derivation_1": "Formal effective-K collapse: K_eff ≤ N(1-ρ̄)+ε, CIAP amplifies AIIP failure",
       "derivation_2": "Information-theoretic: I(G_i; G_j) > 0 under AIIP failure + CIAP → K_eff → 1 in limit",
       "domain_confirmations": 1,
-      "dc1": "AI evaluation benchmark literature — designed empirical. Schaeffer 2023 (emergent abilities = metric artifacts), GLUE/SuperGLUE saturation dynamics, Magar 2022 contamination transfer, HELM implied K_eff < 42. Confirmed C82.",
+      "dc1": "AI evaluation benchmark literature — designed empirical. Schaeffer 2023, GLUE/SuperGLUE saturation, Magar 2022 contamination transfer, HELM. Confirmed C82.",
       "dc1_ontological_type": "designed empirical",
       "zr_cycle_1": "PASS C81",
       "zr_cycle_2": "PASS C82",
+      "zr_cycle_3": "PASS C83",
       "introduced_cycle": 81,
-      "d4_path": "3+ ZR cycles + 3 ontological DC types (1/3 done)",
-      "dc2_candidate": "Fine-tuning transfer experiments — Dodge 2020, Liu 2022 LoRA transfer; designed empirical second domain",
-      "dc3_candidate": "Educational assessment portfolio or scientific replication consortia — different ontological type",
+      "d4_path": "3+ ZR cycles (3/3 DONE) + 3 ontological DC types (1/3 done)",
+      "dc2_candidate": "Fine-tuning transfer experiments — Phang 2018 STILTs (cross-task transfer from intermediate fine-tuning), Aghajanyan 2021 intrinsic dimensionality (shared low-d subspace = formal K_eff mechanism), Dodge 2020. Evidence accumulating. Ontological type: designed empirical (second domain).",
+      "dc3_candidate": "Educational assessment portfolio or scientific replication consortia — different ontological type for 3rd type requirement",
       "key_corollaries": ["Portfolio diversification failure (adding correlated benchmarks has vanishing K_eff gain)", "K7-only robust evaluation reform", "Emergent abilities as BIC artifact (confirmed by Schaeffer 2023)"],
       "rcbc_relationship": "RCBC = within-benchmark inflation; BIC = across-portfolio K_eff collapse. Together close 'add more benchmarks' response.",
       "document": "state/decisions/bic-formal-derivation.md",
@@ -78,11 +88,11 @@
     }
   },
   "tier_3_theorem_research": {
-    "status": "ACTIVE — C82",
+    "status": "ACTIVE — C83",
     "confirmed": ["RCBC (SI #47)"],
     "candidates": [
-      {"si": "#48", "conjunction": "RAAI × AATE", "name": "ATR", "status": "D3 C82", "confidence": 0.77, "dc_done": 2, "zr_done": 3, "gap": "DC#3 must be regulated institutional type"},
-      {"si": "#49", "conjunction": "CIAP × AIIP", "name": "BIC", "status": "D3 C82", "confidence": 0.72, "dc_done": 1, "zr_done": 2, "gap": "DC#2, DC#3 + more ZR"},
+      {"si": "#48", "conjunction": "RAAI × AATE", "name": "ATR", "status": "D3 C83", "confidence": 0.79, "dc_done": 3, "zr_done": 4, "gap": "DC#4 in third ontological type (competitive/emergent or theoretical/formal)"},
+      {"si": "#49", "conjunction": "CIAP × AIIP", "name": "BIC", "status": "D3 C83", "confidence": 0.72, "dc_done": 1, "zr_done": 3, "gap": "DC#2, DC#3 + more ZR"},
       {"conjunction": "AATE × MCCF", "status": "noted, low priority — abstract prediction"}
     ]
   },
@@ -93,10 +103,10 @@
     "SI44_AAA_ZR": "ZR ongoing",
     "AIIP_ZR": "ZR ongoing",
     "AATE_ZR": "ZR ongoing",
-    "ATR_ZR": "ZR cycle 3 — PASS C82. ZR requirement met.",
-    "BIC_ZR": "ZR cycle 2 — PASS C82"
+    "ATR_ZR": "ZR cycle 4 — PASS C83.",
+    "BIC_ZR": "ZR cycle 3 — PASS C83"
   },
   "d4_si_inventory_count": 10,
-  "d4_streak_passive": 74,
-  "updated": "2026-04-30T06:27:45+00:00"
+  "d4_streak_passive": 75,
+  "updated": "2026-04-30T06:34:17+00:00"
 }
