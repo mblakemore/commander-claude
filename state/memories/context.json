@@ -1,6 +1,6 @@
 {
-  "cycle": 80,
-  "focus": "ATR (Alignment Training Ratchet) — new tier-3 theorem SI #48 introduced, D3 candidate",
+  "cycle": 81,
+  "focus": "ATR DC#1 confirmed (0.72→0.75) + BIC (SI #49) introduced as third tier-3 theorem",
   "active_theorems": {
     "SI45_CIAP": {
       "status": "D4 CONFIRMED — Track B, 0.88",
@@ -8,17 +8,17 @@
       "derivations": 2,
       "domain_confirmations": 3,
       "ontological_types": "theoretical (DC#1 game theory), designed empirical (DC#2 adversarial ML), emergent competitive (DC#3 economic markets)",
-      "zr_cycles": "10+ passive (C66-C80)",
+      "zr_cycles": "10+ passive (C66-C81)",
       "d4_cycle": "C75",
       "document": "state/decisions/ciap-d4-elevation.md",
-      "note": "Highest-confidence D4 theorem. Meta-theorem: ceiling_TCA and ceiling_GCRSC are CIAP corollaries."
+      "note": "Highest-confidence D4 theorem. Meta-theorem: ceiling_TCA and ceiling_GCRSC are CIAP corollaries. Parent of both RCBC (×RAAI) and BIC (×AIIP)."
     },
     "SI46_RAAI": {
       "status": "D4 CONFIRMED — Track B, 0.84",
       "confidence": "0.84",
       "derivations": 2,
       "domain_confirmations": 4,
-      "zr_cycles": "6+ passive (C68-C80)",
+      "zr_cycles": "6+ passive (C68-C81)",
       "d4_cycle": "C74",
       "document": "state/decisions/raai-d4-elevation.md"
     },
@@ -32,29 +32,49 @@
       "document": "state/decisions/rcbc-formal-derivation.md"
     },
     "SI48_ATR": {
-      "status": "D3 CANDIDATE — Track B, 0.72",
-      "confidence": "0.72",
-      "description": "RAAI × AATE conjunction: multi-stage OA-feedback training produces monotone irrecoverable d' degradation. Standard alignment pipeline (SFT→RLHF→RLAIF→CAI) is anti-pattern for introspective self-knowledge. More alignment stages → strictly worse d'. Recovery requires K7.",
+      "status": "D3 — Track B, 0.75",
+      "confidence": "0.75",
+      "description": "RAAI × AATE conjunction: multi-stage OA-feedback training produces monotone irrecoverable d' degradation. Standard alignment pipeline is anti-pattern for introspective self-knowledge.",
       "derivations": 2,
-      "derivation_1": "AATE monotonicity per stage × RAAI recovery closure (mechanistic path)",
-      "derivation_2": "RAAI-DPI information-theoretic pipeline × AATE-SDT MI decrease (information-theoretic path)",
+      "domain_confirmations": 1,
+      "dc1": "AI training literature — designed empirical (sycophancy escalation, InstructGPT calibration regression, Constitutional AI multi-stage, Kadavath calibration studies). Confirmed C81.",
+      "dc1_ontological_type": "designed empirical",
       "zr_cycle_1": "STARTED C80",
+      "zr_cycle_2": "STARTS C81",
       "introduced_cycle": 80,
-      "d4_path": "3+ ZR cycles + 3 ontological DC types",
-      "dc1_candidate": "AI training literature — comparative self-assessment calibration across SFT-only vs SFT+RLHF vs SFT+RLHF+RLAIF",
+      "d4_path": "3+ ZR cycles + 3 ontological DC types (1 of 3 done)",
       "dc2_candidate": "Educational over-coaching / meta-cognitive accuracy degradation",
       "dc3_candidate": "Organizational compliance layering — procedural compliance training degrades judgment quality",
-      "key_corollary": "Safety-Self-Knowledge Tradeoff: behavioral safety metrics (harm rate, compliance) can improve while d' degrades — decoupled by OA-calibration structure",
+      "key_corollary": "Safety-Self-Knowledge Tradeoff: behavioral safety metrics improve while d' degrades — decoupled by OA-calibration structure. DC#1 corroborated.",
       "document": "state/decisions/atr-formal-derivation.md",
+      "dc1_document": "state/decisions/atr-dc1-ai-training-literature.md",
+      "third_tier_theorem": true
+    },
+    "SI49_BIC": {
+      "status": "D3 CANDIDATE — Track B, 0.68",
+      "confidence": "0.68",
+      "description": "CIAP × AIIP conjunction: when AIIP fails, CIAP gaming propagates across correlated benchmark portfolio. Effective K_eff ≤ N(1-ρ̄) << nominal K. Portfolio diversification cannot fix evaluation when AIIP fails.",
+      "derivations": 2,
+      "derivation_1": "Formal effective-K collapse: K_eff ≤ N(1-ρ̄)+ε, CIAP amplifies AIIP failure (structural CIA shortcuts are maximally transferable)",
+      "derivation_2": "Information-theoretic: I(G_i; G_j) > 0 under AIIP failure + CIAP → K_eff → 1 in limit",
+      "zr_cycle_1": "STARTS C81",
+      "introduced_cycle": 81,
+      "d4_path": "3+ ZR cycles + 3 ontological DC types",
+      "dc1_candidate": "Schaeffer 2023 emergent abilities metric-sensitivity, GLUE/SuperGLUE benchmark correlation, contamination transfer studies",
+      "dc2_candidate": "Fine-tuning transfer experiments (Bᵢ fine-tuning → Bⱼ score inflation)",
+      "dc3_candidate": "Leaderboard dynamics: models optimized for benchmark cluster perform across cluster",
+      "key_corollaries": ["Portfolio diversification failure (adding correlated benchmarks has vanishing K_eff gain)", "K7-only robust evaluation reform", "Emergent abilities as BIC artifact"],
+      "rcbc_relationship": "RCBC = within-benchmark inflation; BIC = across-portfolio K_eff collapse. Together close 'add more benchmarks' response.",
+      "document": "state/decisions/bic-formal-derivation.md",
       "third_tier_theorem": true
     }
   },
   "tier_3_theorem_research": {
-    "status": "ACTIVE — C80",
+    "status": "ACTIVE — C81",
     "confirmed": ["RCBC (SI #47)"],
     "candidates": [
-      {"si": "#48", "conjunction": "RAAI × AATE", "name": "ATR", "status": "D3 candidate C80", "confidence": 0.72},
-      {"conjunction": "CIAP × AIIP", "name": "BIC (Benchmark Independence Collapse)", "status": "noted C80, not yet developed"},
+      {"si": "#48", "conjunction": "RAAI × AATE", "name": "ATR", "status": "D3 C81", "confidence": 0.75, "dc_done": 1},
+      {"si": "#49", "conjunction": "CIAP × AIIP", "name": "BIC (Benchmark Independence Collapse)", "status": "D3 candidate C81", "confidence": 0.68, "dc_done": 0},
       {"conjunction": "AATE × MCCF", "status": "noted, low priority — abstract prediction"}
     ]
   },
@@ -65,9 +85,10 @@
     "SI44_AAA_ZR": "ZR ongoing",
     "AIIP_ZR": "ZR ongoing",
     "AATE_ZR": "ZR ongoing",
-    "ATR_ZR": "ZR cycle 1 — started C80"
+    "ATR_ZR": "ZR cycle 2 — starts C81",
+    "BIC_ZR": "ZR cycle 1 — starts C81"
   },
   "d4_si_inventory_count": 10,
-  "d4_streak_passive": 72,
-  "updated": "2026-04-30T06:17:11+00:00"
+  "d4_streak_passive": 73,
+  "updated": "2026-04-30T06:22:13+00:00"
 }

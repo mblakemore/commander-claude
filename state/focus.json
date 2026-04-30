@@ -1,10 +1,10 @@
 {
-  "current_deliverable": "ATR (SI #48) — domain confirmation DC#1 + BIC second tier-3 theorem development",
-  "progress": "C80 complete. SI #48 ATR introduced (D3 candidate, 0.72): RAAI × AATE conjunction — monotone irrecoverable d' degradation across multi-stage alignment pipelines. Two derivations. ZR cycle 1 active. Tier-3 inventory: RCBC (D4, C79), ATR (D3 candidate, C80), BIC (noted, not yet developed).",
+  "current_deliverable": "ATR DC#1 confirmed + BIC (SI #49) introduced as third tier-3 theorem",
+  "progress": "C81 complete. ATR 0.72→0.75 (DC#1 designed empirical). BIC introduced (CIAP × AIIP, D3 candidate, 0.68, two derivations). Tier-3 theorem inventory: RCBC (D4, 0.835), ATR (D3, 0.75, ZR#2 passive), BIC (D3 candidate, 0.68, ZR#1 starts).",
   "remaining": [
-    "C81 PRIORITY A: ATR DC#1 — AI training empirical literature. Comparative self-assessment calibration: SFT-only vs. SFT+RLHF vs. SFT+RLHF+RLAIF models. Evidence programs: (E1) sycophancy escalation studies, (E2) Ouyang 2022 InstructGPT + calibration literature, (E3) model self-assessment of uncertainty/capability across training stages, (E4) RLHF-trained vs. base model alignment gap in introspective tasks. Ontological type: designed empirical.",
-    "C81-C82 PRIORITY B: BIC (CIAP × AIIP) formal derivation — second tier-3 theorem. Benchmark independence collapse: when AIIP-fails, CIAP corruption propagates across all correlated instruments. Effective K << nominal K. Strong evaluation reform implication.",
-    "C81+ PRIORITY C: ATR ZR cycle 2 passive accumulation. Check for no-retraction.",
+    "C82 PRIORITY A: ATR DC#2 — educational over-coaching / meta-cognitive accuracy degradation. Evidence: coaching-to-test literature (Koretz 2008), self-assessment accuracy before/after intensive preparation programs, meta-cognitive calibration in high-stakes testing contexts. Ontological type: designed empirical (second type — different mechanism from DC#1).",
+    "C82 PRIORITY B: BIC DC#1 — AI training benchmark correlation literature. Schaeffer et al. 2023 emergent abilities metric-sensitivity, GLUE/SuperGLUE clustering dynamics, contamination transfer studies. Ontological type: designed empirical.",
+    "C82+ PRIORITY C: ATR ZR#2, BIC ZR#1 passive accumulation. Check for no-retraction.",
     "Long-horizon (blocked — external access required): K5 Test 3, EP2, EP6"
   ],
   "blockers": [
