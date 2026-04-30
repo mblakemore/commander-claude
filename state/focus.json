@@ -1,15 +1,15 @@
 {
-  "current_deliverable": "TCI (Training-Induced Convergence Illusion) — AATE × MCCF conjunction, D3, 0.73, DC#1 confirmed C91. Document: state/decisions/tci-formal-derivation.md, state/decisions/tci-dc1-analysis.md. Fourth tier-3 theorem candidate. QEC + TCI = complete epistemological closure.",
-  "progress": "C91 complete. TCI DC#1 confirmed (designed empirical — OSC 2015). Tier-3 inventory: RCBC (D4, 0.835, C79), ATR (D4, 0.825, C85), BIC (D4, 0.82, C87), TCI (D3, 0.73, C91). QEC meta-theorem (D4, 0.82, C88). Synthesis document (C89). D4 SI count: 12. D4 streak: 83.",
+  "current_deliverable": "TCI (Training-Induced Convergence Illusion) — AATE × MCCF conjunction, D3, 0.76, DC#1 confirmed C91, DC#2 confirmed C92. Documents: state/decisions/tci-formal-derivation.md, state/decisions/tci-dc1-analysis.md, state/decisions/tci-dc2-analysis.md. Fourth tier-3 theorem candidate. QEC + TCI = complete epistemological closure.",
+  "progress": "C92 complete. TCI DC#2 confirmed (regulated institutional — medical consensus / Vioxx). Tier-3 inventory: RCBC (D4, 0.835, C79), ATR (D4, 0.825, C85), BIC (D4, 0.82, C87), TCI (D3, 0.76, C92). QEC meta-theorem (D4, 0.82, C88). Synthesis document (C89). D4 SI count: 12. D4 streak: 84.",
   "remaining": [
-    "TCI ZR maintenance: 2+ more ZR cycles needed for D4 path (ZR#1 PASS C91)",
-    "TCI DC#2: medical consensus regulated institutional — formal analysis (C92 target)",
-    "TCI DC#3: pre-2008 financial models competitive/emergent — formal analysis",
-    "TCI falsification: physics replication as first falsification target",
-    "Passive ZR maintenance: CIAP, RAAI, RCBC, ATR, BIC — all D4, ongoing"
+    "TCI DC#3: pre-2008 financial risk models competitive/emergent — formal analysis (C93 target)",
+    "TCI ZR#3: embed in DC#3 cycle or standalone ZR cycle",
+    "TCI D4 elevation: confidence 0.76→0.80+ after DC#3; then formal D4 analysis",
+    "Passive ZR maintenance: CIAP, RAAI, RCBC, ATR, BIC — all D4, ongoing",
+    "TCI falsification: physics replication as first falsification target (deferred post D4)"
   ],
   "blockers": [
     "K5 Test 3, EP2, EP6: require external LLM API / training checkpoint access — hardware/permission constraint",
-    "TCI DC#2/DC#3 require careful structural analysis to maintain BIC/TCI orthogonality in each domain"
+    "TCI DC#3 requires careful BIC/TCI orthogonality in financial domain — models converged AND evaluators failed to detect convergence; need to distinguish structural K_eff collapse (BIC-analog) from evaluator d' failure (TCI)"
   ]
 }

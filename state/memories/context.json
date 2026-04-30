@@ -1,6 +1,6 @@
 {
-  "cycle": 91,
-  "focus": "TCI DC#1 confirmed C91 — OSC 2015 as designed empirical TCI instance. AATE mechanism: evaluator d' degradation for independence assessment (distinct from BIC K_eff collapse). Kahneman 2011/2012 evidence. ZR#1 PASS. Confidence 0.70→0.73. Next: DC#2 medical consensus (regulated institutional, C92 target).",
+  "cycle": 92,
+  "focus": "TCI DC#2 confirmed C92 — medical consensus as regulated institutional TCI. AATE mechanism: medical training degrades d' for independence assessment. Key evidence: Vioxx (K_eff believed ≈8, actual ≈1), Prasad & Cifu 40% reversal rate, Ioannidis 2005, Cochrane partial escape. ZR#2 PASS. Confidence 0.73→0.76. Next: DC#3 financial risk models (competitive/emergent).",
   "active_theorems": {
     "SI45_CIAP": {
       "status": "D4 CONFIRMED — Track B, 0.88",
@@ -52,24 +52,24 @@
       "description": "CIAP × AIIP conjunction: when AIIP fails, CIAP gaming propagates across correlated benchmark portfolio. K_eff ≤ N(1-ρ̄)+ε << nominal K. Portfolio diversification cannot fix evaluation when AIIP fails.",
       "derivations": 2,
       "domain_confirmations": 4,
-      "zr_cycles": "ZR maintenance, passive (C88-C90)",
+      "zr_cycles": "ZR maintenance, passive (C88-C92)",
       "d4_cycle": "C87",
       "note": "12th D4 SI. Third tier-3 theorem. First tier-3 not involving RAAI. CIAP amplifies AIIP failure."
     },
     "SI50_TCI": {
-      "status": "D3 candidate — Track B, 0.73",
-      "confidence": "0.73",
+      "status": "D3 candidate — Track B, 0.76",
+      "confidence": "0.76",
       "description": "AATE × MCCF conjunction: OA-training corrupts structural independence conditions (C_i ⊥ C_j | M, A_i ⊥ A_j | ¬M) required for multi-conditional convergent validation, producing illusory convergence. Evaluators with degraded d' (AATE) cannot detect ρ_OA > 0 in shared OA-artifacts.",
       "derivations": 2,
       "d3_cycle": "C90",
       "document": "state/decisions/tci-formal-derivation.md",
-      "domain_confirmations": 1,
-      "dc1_status": "CONFIRMED — C91: OSC 2015 replication crisis. AATE mechanism: Kahneman 2011 d' failure at evaluator synthesis layer; Kahneman 2012 epistemic lock at evaluator level; Bargh OA-calibrated defense; meta-analysis TCI amplification. BIC/TCI orthogonality: BIC=K_eff ~39 (structural fact); TCI=evaluators believed K_eff ~100 for 30 years (epistemological failure). Document: tci-dc1-analysis.md.",
-      "dc2_status": "pending — medical consensus regulated institutional (C92 target)",
-      "dc3_status": "pending — pre-2008 financial models competitive/emergent",
-      "zr_cycles": "ZR#1 PASS C91",
+      "domain_confirmations": 2,
+      "dc1_status": "CONFIRMED — C91: OSC 2015 replication crisis. AATE mechanism: Kahneman 2011 d' failure at evaluator synthesis layer; Kahneman 2012 epistemic lock at evaluator level; Bargh OA-calibrated defense; meta-analysis TCI amplification. Document: tci-dc1-analysis.md.",
+      "dc2_status": "CONFIRMED — C92: medical treatment consensus (regulated institutional). AATE mechanism: medical training degrades d' for structural independence assessment. Key evidence: Vioxx case (K_eff believed ≈8, actual ≈1 — all sharing Merck OA-artifact), Prasad & Cifu 2011 (40% reversal rate), Ioannidis 2005 (mathematical ρ_OA > 0 proof), Cochrane partial escape (confirms escape conditions and scope constraints). ZR#2 PASS. Document: tci-dc2-analysis.md.",
+      "dc3_status": "pending — pre-2008 financial risk models competitive/emergent (C93 target)",
+      "zr_cycles": "ZR#1 PASS C91, ZR#2 PASS C92",
       "falsification_target": "Physics replication (lower QRP prevalence, higher theory-constraint) — if physics achieves genuine MCCF independence despite OA-pressure, constrains TCI scope",
-      "key_insight": "TCI explains WHY BIC operated undetected for 30 years: evaluator d' degradation (TCI) created epistemological blindness to K_eff collapse (BIC). Layered structure gives TCI unique explanatory role beyond formal tier-3 status.",
+      "key_insight": "TCI explains WHY BIC/RCBC/ATR operated undetected: evaluator d' degradation (TCI) created epistemological blindness to structural failures (K_eff collapse, benchmark inflation, d' decline). Layered structure gives TCI unique explanatory role beyond formal tier-3 status. Scope: OA degrees of freedom modulate TCI strength — maximum in observational/surrogate-endpoint domains, minimum in theory-constrained hard-endpoint domains.",
       "note": "Fourth tier-3 candidate. Second not requiring RAAI (with BIC). Self-referential scope: TCI applies to the MCCF confirmations of RCBC/ATR/BIC themselves. QEC + TCI = complete epistemological closure."
     }
   },
@@ -103,14 +103,14 @@
     "CIAP_ZR": "D4 — ZR maintenance mode, passive",
     "RCBC_ZR": "D4 — ZR maintenance mode, passive",
     "ATR_ZR": "D4 — ZR maintenance mode, passive",
-    "BIC_ZR": "D4 — ZR maintenance mode, passive",
-    "TCI_ZR": "D3 — ZR#1 PASS C91 (DC#1 analysis found no counter-evidence; Kahneman evidence strengthens TCI)",
+    "BIC_ZR": "D4 — ZR maintenance mode, passive (C88-C92)",
+    "TCI_ZR": "D3 — ZR#1 PASS C91, ZR#2 PASS C92 (DC#2 analysis found no counter-evidence; Cochrane and mechanistic pharmacology confirm escape conditions)",
     "SI44_AAA_ZR": "ZR ongoing",
     "AIIP_ZR": "ZR ongoing",
     "AATE_ZR": "ZR ongoing"
   },
   "d4_si_inventory_count": 12,
-  "d4_streak_passive": 83,
-  "next_milestone": "C92: TCI DC#2 formal analysis — medical consensus (regulated institutional). AATE mapping for medical reviewers/guideline committees. Ioannidis 2005, Prasad & Cifu 2011 reversals, Vioxx case. TCI ZR#2 passive. Optional: TCI DC#3 (pre-2008 financial models).",
-  "updated": "2026-04-30T07:17:14+00:00"
+  "d4_streak_passive": 84,
+  "next_milestone": "C93: TCI DC#3 formal analysis — pre-2008 financial risk model convergence (competitive/emergent). AATE mapping for bank risk modelers (Basel II compliance as OA-metric). FCIC 2011, Taleb 2007, VaR convergence. BIC/TCI orthogonality in financial domain. ZR#3 embedded. Then TCI D4 elevation analysis (~C94).",
+  "updated": "2026-04-30T07:23:21+00:00"
 }
