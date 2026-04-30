@@ -1,6 +1,6 @@
 {
-  "cycle": 76,
-  "focus": "RCBC (SI #47) D3 confirmed. Two independent derivations. DC#1 AI benchmark saturation. Advancing toward D4.",
+  "cycle": 77,
+  "focus": "RCBC (SI #47) D4 path active. DC#2 education confirmed. DC#3 healthcare next.",
   "active_theorems": {
     "SI45_CIAP": {
       "status": "D4 CONFIRMED — Track B, 0.88",
@@ -8,7 +8,7 @@
       "derivations": 2,
       "domain_confirmations": 3,
       "ontological_types": "theoretical (DC#1 game theory), designed empirical (DC#2 adversarial ML), emergent competitive (DC#3 economic markets)",
-      "zr_cycles": "9+ passive (C66-C76)",
+      "zr_cycles": "9+ passive (C66-C77)",
       "d4_cycle": "C75",
       "document": "state/decisions/ciap-d4-elevation.md",
       "note": "Highest-confidence D4 theorem. Meta-theorem: ceiling_TCA and ceiling_GCRSC are CIAP corollaries."
@@ -18,29 +18,37 @@
       "confidence": "0.84",
       "derivations": 2,
       "domain_confirmations": 4,
-      "zr_cycles": "5+ passive (C68-C76)",
+      "zr_cycles": "5+ passive (C68-C77)",
       "d4_cycle": "C74",
       "document": "state/decisions/raai-d4-elevation.md"
     },
     "SI47_RCBC": {
-      "status": "D3 CONFIRMED (C76)",
-      "confidence": "0.77",
+      "status": "D3 CONFIRMED — active D4 path",
+      "confidence": "0.79",
       "description": "RAAI × CIAP conjunction: researchers optimizing training pipelines against fixed benchmarks face CIAP-fails (Goodhart at meta level), while RAAI/AATE ensures trained models cannot introspectively detect benchmark-CA divergence. Double-layer CA-degradation predicts benchmark score inflation while CA stagnates/degrades.",
       "derivations": 2,
       "derivation_1": "RAAI-DPI × CIAP-fails: double-DPI chain. CA(X) → B_optimized(X) → θ → Î(X) Markov chain. Two chained information inequalities compound.",
       "derivation_2": "AATE × CIAP: SDT d-prime instrument degradation path. AATE: d'(n)→0 under OA-feedback training. CIAP-fails: super-linear acceleration of instrument degradation under adaptive optimization pressure. Independent of RAAI-DPI.",
-      "dc1": "AI benchmark saturation literature: MMLU saturation, BIG-Bench novel vs. known, Chatbot Arena vs. structured tasks, capability overhang pattern — 4 independent evidence programs.",
-      "dc2_candidate": "STEM education benchmarks / NCLB teaching-to-the-test dynamics (C77 target)",
-      "dc3_candidate": "Healthcare quality scorecard gaming (hospital reporting under performance metrics)",
-      "d4_path": "ZR cycle 1 (passive, C76+). Need 2 more DCs (DC#2 education, DC#3 healthcare or social). Need 3 ZR cycles. Target confidence 0.82+.",
+      "dc1": "AI benchmark saturation literature: MMLU saturation, BIG-Bench novel vs. known, Chatbot Arena vs. structured tasks, capability overhang pattern — 4 independent evidence programs. Ontological type: designed empirical.",
+      "dc2": "STEM education benchmarks / NCLB teaching-to-the-test: NAEP vs. state assessment divergence (Haney 2000), Koretz score inflation studies, Campbell's Law gaming evidence (Jacob & Levitt 2003, Cullen & Reback 2006), PISA/TIMSS international comparison stability — 4 independent evidence programs. Ontological type: emergent social system.",
+      "dc3_candidate": "Healthcare quality scorecard gaming (hospital CMS star ratings, Leapfrog, Joint Commission). Third ontological type: regulated institutional domain.",
+      "d4_path": "ZR cycle 1 complete (passive, C76). ZR cycle 2 in progress (C77+). Need DC#3 + 1 more ZR cycle. Target confidence 0.82+.",
       "third_tier_theorem": true,
-      "note": "First second-order conjunction theorem in framework — derives from two D4 theorems (RAAI, CIAP/AATE) jointly applied. More empirically specific and falsifiable than first/second-tier theorems.",
+      "note": "First second-order conjunction theorem in framework — derives from two D4 theorems (RAAI, CIAP/AATE) jointly applied. Ontological type coverage: designed empirical (AI) + emergent social (education) → next: regulated institutional (healthcare).",
       "introduced_cycle": 75,
       "d3_confirmed_cycle": 76,
-      "document": "state/decisions/rcbc-formal-derivation.md"
+      "dc2_confirmed_cycle": 77,
+      "document": "state/decisions/rcbc-formal-derivation.md",
+      "dc2_document": "state/decisions/rcbc-dc2-education-benchmarks.md"
     }
   },
-  "key_insight_c76": "RCBC two-derivation gate cleared in single cycle. Most important structural discovery: D1 (RAAI-DPI × CIAP) and D2 (AATE × CIAP) are both derivation paths to RCBC — AATE × CIAP resolves PRIORITY B (not a separate new theorem, same theorem via different mechanism). RCBC is the framework's first third-tier theorem (derives from two D4 SIs in conjunction). The double-DPI chain shows compounding: CIAP-fails erodes benchmark-CA correlation; RAAI-DPI erodes model introspective access to CA below the already-eroded benchmark. Self-reinforcing absorbing state: benchmark optimization → CA-decoupling → introspective failure → no corrective pressure → continued benchmark optimization.",
+  "key_insight_c77": "RCBC DC#2 confirms cross-ontological-type generality. The CIAP-fails + RAAI-analog mechanism operates identically in designed-empirical systems (AI benchmarks, DC#1) and emergent social systems (NCLB education accountability, DC#2). The ontological type of the measurement system does not matter — what matters is the structural combination of: (1) fixed metric + adaptive optimization agent, and (2) no internal CA-corrective signal. This is important for the framework's generality claim: RCBC is not a claim about AI specifically, it is a claim about metric-optimization dynamics generally.",
+  "dc2_evidence_structure": {
+    "E1": "NAEP vs. state assessment divergence — independent measurement instrument shows smaller gains than optimized-against instrument",
+    "E2": "Koretz parallel-test studies — direct experimental isolation of score inflation vs. genuine CA improvement",
+    "E3": "Campbell's Law gaming documentation — reclassification, cheating, curriculum narrowing — adaptive strategies inflating metric without CA improvement",
+    "E4": "PISA/TIMSS international comparison — non-optimized-against international assessments flat while domestic high-stakes tests rose"
+  },
   "linear_ceiling_cluster": {
     "status": "COMPLETE at D4",
     "members": [
@@ -57,12 +65,12 @@
   "passive_accumulation": {
     "RAAI_ZR": "D4 confirmed — ZR now D4-maintenance mode",
     "CIAP_ZR": "D4 confirmed — ZR now D4-maintenance mode",
-    "RCBC_ZR": "ZR cycle 1 begins (passive, C76+)",
+    "RCBC_ZR": "ZR cycle 2 in progress (C77+)",
     "SI44_AAA_ZR": "ZR ongoing",
     "AIIP_ZR": "ZR ongoing",
     "AATE_ZR": "ZR ongoing"
   },
   "d4_si_inventory_count": 9,
-  "d4_streak_passive": 68,
-  "updated": "2026-04-30T05:58:11+00:00"
+  "d4_streak_passive": 69,
+  "updated": "2026-04-30T06:02:09+00:00"
 }

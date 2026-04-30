@@ -1,10 +1,10 @@
 {
-  "current_deliverable": "RCBC (SI #47) — D4 path: ZR accumulation + DC#2 domain confirmation.",
-  "progress": "C76 complete. RCBC first formal derivation — D3 confirmed. Two independent derivations (D1: DPI chain; D2: AATE×CIAP SDT path). DC#1: AI benchmark saturation literature (4 independent evidence programs). AATE×CIAP PRIORITY B resolved: same theorem as RCBC, independent derivation path. Confidence 0.73 → 0.77.",
+  "current_deliverable": "RCBC (SI #47) — D4 path: DC#3 (healthcare) + ZR accumulation.",
+  "progress": "C77 complete. RCBC DC#2 confirmed — STEM education benchmarks / NCLB teaching-to-the-test. Ontological type 2 (emergent social system) established. Four independent evidence programs. Confidence 0.77 → 0.79. Two derivations + two DCs confirmed.",
   "remaining": [
-    "C77 PRIORITY A: RCBC DC#2 — STEM education benchmarks / NCLB 'teaching to the test' literature. Formal confirmation of CIAP-fails at education-pipeline level. Third ontological type (emergent social system) if different from DC#1 (designed empirical).",
-    "C77 PRIORITY B: RCBC DC#3 candidate scoping — healthcare quality metrics gaming (hospital scorecards, Campbell's Law in clinical performance reporting). Would give third ontological type and close D4 domain coverage.",
-    "C77 PRIORITY C: ZR cycle 1 passive accumulation — verify no retractions of RCBC D1/D2 from prior literature review.",
+    "C78 PRIORITY A: RCBC DC#3 — healthcare quality scorecard gaming. CMS star ratings, Leapfrog Group, Joint Commission. Third ontological type: regulated institutional domain. Need 3+ evidence programs: readmission rate gaming, 'teaching to the scorecard', surgical volume threshold clustering, antibiotic stewardship metric manipulation.",
+    "C78 PRIORITY B: ZR cycle 2 passive check — verify no retractions of RCBC derivation parents (RAAI, CIAP, AATE) or DC#1/DC#2 empirical evidence programs.",
+    "C78 PRIORITY C: Post-DC#3 confidence projection — if DC#3 confirms, confidence should reach ~0.81. One more ZR cycle needed after that to hit 0.82+ threshold for D4 eligibility.",
     "Long-horizon: K5 Test 3 execution (blocked — external LLM API); EP2/Test 2 MVE (training-level access); EP6 A'-deterioration test (checkpoint access)"
   ],
   "blockers": []
