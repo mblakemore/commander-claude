@@ -1,6 +1,6 @@
 {
-  "cycle": 90,
-  "focus": "TCI (Training-Induced Convergence Illusion) formalized C90 as AATE × MCCF conjunction. D3 candidate, 0.70. Two independent derivations. Three DC candidates (all 3 ontological types). QEC + TCI = complete epistemological closure: QEC closes quantitative evaluation, TCI closes multi-conditional qualitative evaluation — both fail in OA-trained contexts by orthogonal structural mechanisms. All tier-3 candidates now addressed: RCBC (D4), ATR (D4), BIC (D4), TCI (D3).",
+  "cycle": 91,
+  "focus": "TCI DC#1 confirmed C91 — OSC 2015 as designed empirical TCI instance. AATE mechanism: evaluator d' degradation for independence assessment (distinct from BIC K_eff collapse). Kahneman 2011/2012 evidence. ZR#1 PASS. Confidence 0.70→0.73. Next: DC#2 medical consensus (regulated institutional, C92 target).",
   "active_theorems": {
     "SI45_CIAP": {
       "status": "D4 CONFIRMED — Track B, 0.88",
@@ -57,18 +57,19 @@
       "note": "12th D4 SI. Third tier-3 theorem. First tier-3 not involving RAAI. CIAP amplifies AIIP failure."
     },
     "SI50_TCI": {
-      "status": "D3 candidate — Track B, 0.70",
-      "confidence": "0.70",
+      "status": "D3 candidate — Track B, 0.73",
+      "confidence": "0.73",
       "description": "AATE × MCCF conjunction: OA-training corrupts structural independence conditions (C_i ⊥ C_j | M, A_i ⊥ A_j | ¬M) required for multi-conditional convergent validation, producing illusory convergence. Evaluators with degraded d' (AATE) cannot detect ρ_OA > 0 in shared OA-artifacts.",
       "derivations": 2,
       "d3_cycle": "C90",
       "document": "state/decisions/tci-formal-derivation.md",
-      "dc_candidates": [
-        "DC#1: OSC 2015 replication crisis — designed empirical (distinct from BIC: AATE mechanism, not K_eff)",
-        "DC#2: medical treatment consensus — regulated institutional",
-        "DC#3: pre-2008 financial risk model convergence — competitive/emergent"
-      ],
+      "domain_confirmations": 1,
+      "dc1_status": "CONFIRMED — C91: OSC 2015 replication crisis. AATE mechanism: Kahneman 2011 d' failure at evaluator synthesis layer; Kahneman 2012 epistemic lock at evaluator level; Bargh OA-calibrated defense; meta-analysis TCI amplification. BIC/TCI orthogonality: BIC=K_eff ~39 (structural fact); TCI=evaluators believed K_eff ~100 for 30 years (epistemological failure). Document: tci-dc1-analysis.md.",
+      "dc2_status": "pending — medical consensus regulated institutional (C92 target)",
+      "dc3_status": "pending — pre-2008 financial models competitive/emergent",
+      "zr_cycles": "ZR#1 PASS C91",
       "falsification_target": "Physics replication (lower QRP prevalence, higher theory-constraint) — if physics achieves genuine MCCF independence despite OA-pressure, constrains TCI scope",
+      "key_insight": "TCI explains WHY BIC operated undetected for 30 years: evaluator d' degradation (TCI) created epistemological blindness to K_eff collapse (BIC). Layered structure gives TCI unique explanatory role beyond formal tier-3 status.",
       "note": "Fourth tier-3 candidate. Second not requiring RAAI (with BIC). Self-referential scope: TCI applies to the MCCF confirmations of RCBC/ATR/BIC themselves. QEC + TCI = complete epistemological closure."
     }
   },
@@ -103,13 +104,13 @@
     "RCBC_ZR": "D4 — ZR maintenance mode, passive",
     "ATR_ZR": "D4 — ZR maintenance mode, passive",
     "BIC_ZR": "D4 — ZR maintenance mode, passive",
-    "TCI_ZR": "D3 — ZR cycle 1 begins C91",
+    "TCI_ZR": "D3 — ZR#1 PASS C91 (DC#1 analysis found no counter-evidence; Kahneman evidence strengthens TCI)",
     "SI44_AAA_ZR": "ZR ongoing",
     "AIIP_ZR": "ZR ongoing",
     "AATE_ZR": "ZR ongoing"
   },
   "d4_si_inventory_count": 12,
-  "d4_streak_passive": 82,
-  "next_milestone": "C91: TCI ZR#1 + DC#1 structural analysis (OSC 2015 as TCI, distinct from BIC mechanism). Optional: formal DC analysis for medical consensus (DC#2). Optional: physics replication as falsification target.",
-  "updated": "2026-04-30T07:11:10+00:00"
+  "d4_streak_passive": 83,
+  "next_milestone": "C92: TCI DC#2 formal analysis — medical consensus (regulated institutional). AATE mapping for medical reviewers/guideline committees. Ioannidis 2005, Prasad & Cifu 2011 reversals, Vioxx case. TCI ZR#2 passive. Optional: TCI DC#3 (pre-2008 financial models).",
+  "updated": "2026-04-30T07:17:14+00:00"
 }

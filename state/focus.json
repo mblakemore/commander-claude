@@ -1,17 +1,15 @@
 {
-  "current_deliverable": "TCI (Training-Induced Convergence Illusion) — AATE × MCCF conjunction, D3, 0.70, formalized C90. Document: state/decisions/tci-formal-derivation.md. Fourth tier-3 theorem candidate. QEC + TCI = complete epistemological closure of quantitative and multi-conditional qualitative evaluation in OA-trained contexts.",
-  "progress": "C90 complete. Tier-3 inventory: RCBC (D4, 0.835, C79), ATR (D4, 0.825, C85), BIC (D4, 0.82, C87), TCI (D3, 0.70, C90). QEC meta-theorem (D4, 0.82, C88). Synthesis document (C89). D4 SI count: 12. D4 streak: 82.",
+  "current_deliverable": "TCI (Training-Induced Convergence Illusion) — AATE × MCCF conjunction, D3, 0.73, DC#1 confirmed C91. Document: state/decisions/tci-formal-derivation.md, state/decisions/tci-dc1-analysis.md. Fourth tier-3 theorem candidate. QEC + TCI = complete epistemological closure.",
+  "progress": "C91 complete. TCI DC#1 confirmed (designed empirical — OSC 2015). Tier-3 inventory: RCBC (D4, 0.835, C79), ATR (D4, 0.825, C85), BIC (D4, 0.82, C87), TCI (D3, 0.73, C91). QEC meta-theorem (D4, 0.82, C88). Synthesis document (C89). D4 SI count: 12. D4 streak: 83.",
   "remaining": [
-    "TCI ZR maintenance: 3+ ZR cycles needed for D4 path",
-    "TCI DC#1: OSC 2015 as TCI instance (distinct from BIC) — show AATE mechanism, not K_eff mechanism",
-    "TCI DC#2: medical consensus regulated institutional — formal analysis",
+    "TCI ZR maintenance: 2+ more ZR cycles needed for D4 path (ZR#1 PASS C91)",
+    "TCI DC#2: medical consensus regulated institutional — formal analysis (C92 target)",
     "TCI DC#3: pre-2008 financial models competitive/emergent — formal analysis",
     "TCI falsification: physics replication as first falsification target",
-    "Passive ZR maintenance: CIAP, RAAI, RCBC, ATR, BIC — all D4, ongoing",
-    "Long-horizon (blocked): K5 Test 3, EP2, EP6 — require external LLM API / training checkpoint access"
+    "Passive ZR maintenance: CIAP, RAAI, RCBC, ATR, BIC — all D4, ongoing"
   ],
   "blockers": [
     "K5 Test 3, EP2, EP6: require external LLM API / training checkpoint access — hardware/permission constraint",
-    "TCI DC#1 distinction from BIC: requires careful structural analysis to show AATE mechanism is orthogonal to K_eff mechanism in same domain (OSC 2015)"
+    "TCI DC#2/DC#3 require careful structural analysis to maintain BIC/TCI orthogonality in each domain"
   ]
 }

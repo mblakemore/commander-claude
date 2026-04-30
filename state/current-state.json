@@ -1,8 +1,8 @@
 {
-  "cycle": 90,
+  "cycle": 91,
   "phase": "PERSIST",
   "status": "active",
-  "last_result": "Cycle 90 complete. TCI (Training-Induced Convergence Illusion) formalized as AATE × MCCF conjunction — D3, 0.70. Two independent derivations (mechanistic: ρ_OA underestimation via d'-degradation; information-theoretic: I(C_i;C_j|D) > 0 under shared OA-training). Three DC candidates: replication crisis (designed empirical), medical consensus (regulated institutional), pre-2008 financial models (competitive/emergent). Self-referential corollary: QEC + TCI = complete epistemological closure. TCI closes the final tier-3 candidate. D4 streak 82.",
-  "last_updated": "2026-04-30T07:11:10+00:00",
-  "next_step": "C91: ZR#1 for TCI (passive, review DC#1 replication crisis as TCI instance vs. BIC instance — show structural distinction). ZR maintenance continues for all D4 SIs. Optional: formal DC#1 analysis for TCI (OSC 2015 as TCI, not just BIC). Optional: physics replication as TCI falsification target."
+  "last_result": "Cycle 91 complete. TCI DC#1 formally confirmed — OSC 2015 replication crisis as TCI instance (AATE mechanism: evaluator d' degradation for independence assessment). Structural orthogonality from BIC established: BIC explains K_eff ≈ 39 (structural fact); TCI explains why evaluators believed K_eff ≈ 100 for 30 years (epistemological failure). Kahneman 2011/2012 evidence confirms d' failure at evaluator layer. TCI ZR#1 PASS, confidence 0.70→0.73. D4 streak 83.",
+  "last_updated": "2026-04-30T07:17:14+00:00",
+  "next_step": "C92: TCI DC#2 formal analysis — medical treatment consensus as regulated institutional TCI. AATE mapping for medical reviewers/guideline committees. Evidence: Ioannidis 2005, Prasad & Cifu 2011 reversals, Vioxx case. Distinct from BIC analog in medical domain (if any). TCI ZR#2 passive. Continue ZR maintenance for all D4 SIs."
 }
