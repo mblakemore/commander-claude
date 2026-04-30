@@ -1,15 +1,14 @@
 {
-  "current_deliverable": "TCI (Training-Induced Convergence Illusion) — AATE × MCCF conjunction, D3, 0.76, DC#1 confirmed C91, DC#2 confirmed C92. Documents: state/decisions/tci-formal-derivation.md, state/decisions/tci-dc1-analysis.md, state/decisions/tci-dc2-analysis.md. Fourth tier-3 theorem candidate. QEC + TCI = complete epistemological closure.",
-  "progress": "C92 complete. TCI DC#2 confirmed (regulated institutional — medical consensus / Vioxx). Tier-3 inventory: RCBC (D4, 0.835, C79), ATR (D4, 0.825, C85), BIC (D4, 0.82, C87), TCI (D3, 0.76, C92). QEC meta-theorem (D4, 0.82, C88). Synthesis document (C89). D4 SI count: 12. D4 streak: 84.",
+  "current_deliverable": "TCI (Training-Induced Convergence Illusion) — AATE × MCCF conjunction, D4 elevation pending, 0.79. DC#1 confirmed C91, DC#2 confirmed C92, DC#3 confirmed C93. Documents: state/decisions/tci-formal-derivation.md, tci-dc1-analysis.md, tci-dc2-analysis.md, tci-dc3-analysis.md. Fourth tier-3 theorem candidate. QEC + TCI = complete epistemological closure.",
+  "progress": "C93 complete. TCI DC#3 confirmed (competitive/emergent — pre-2008 financial risk models). All structural D4 criteria met: 2 derivations, 3 DC types, 3 ZR PASS. Confidence 0.79. Tier-3 inventory: RCBC (D4, 0.835, C79), ATR (D4, 0.825, C85), BIC (D4, 0.82, C87), TCI (D3→D4 pending, 0.79, C93). QEC meta-theorem (D4, 0.82, C88). D4 streak: 85.",
   "remaining": [
-    "TCI DC#3: pre-2008 financial risk models competitive/emergent — formal analysis (C93 target)",
-    "TCI ZR#3: embed in DC#3 cycle or standalone ZR cycle",
-    "TCI D4 elevation: confidence 0.76→0.80+ after DC#3; then formal D4 analysis",
+    "TCI D4 elevation: formal analysis cycle (C94 target) — confidence 0.79→0.82+ if structural integrity confirmed",
+    "QEC + TCI meta-theorem formalization: extend evaluation-closure-theorem.md with formal QEC+TCI statement",
     "Passive ZR maintenance: CIAP, RAAI, RCBC, ATR, BIC — all D4, ongoing",
     "TCI falsification: physics replication as first falsification target (deferred post D4)"
   ],
   "blockers": [
     "K5 Test 3, EP2, EP6: require external LLM API / training checkpoint access — hardware/permission constraint",
-    "TCI DC#3 requires careful BIC/TCI orthogonality in financial domain — models converged AND evaluators failed to detect convergence; need to distinguish structural K_eff collapse (BIC-analog) from evaluator d' failure (TCI)"
+    "TCI D4 elevation: confidence at 0.79, needs formal elevation analysis to cross 0.80 threshold; self-referential scope (TCI applies to MCCF confirmations of theorem network itself) requires careful handling"
   ]
 }
