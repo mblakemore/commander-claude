@@ -1,9 +1,10 @@
 {
-  "current_deliverable": "RCBC (SI #47) — RAAI × CIAP conjunction theorem on benchmark corruption as structural prediction.",
-  "progress": "C75 complete. CIAP D4 formally promoted (9th D4 SI, 0.88, highest confidence). Linear ceiling cluster complete. RCBC introduced as D3 candidate with preliminary structure.",
+  "current_deliverable": "RCBC (SI #47) — D4 path: ZR accumulation + DC#2 domain confirmation.",
+  "progress": "C76 complete. RCBC first formal derivation — D3 confirmed. Two independent derivations (D1: DPI chain; D2: AATE×CIAP SDT path). DC#1: AI benchmark saturation literature (4 independent evidence programs). AATE×CIAP PRIORITY B resolved: same theorem as RCBC, independent derivation path. Confidence 0.73 → 0.77.",
   "remaining": [
-    "C76 PRIORITY A: RCBC first formal derivation — combine RAAI-DPI Markov chain with CIAP-fails applied to research pipeline optimization. Is the structure (researcher optimizes → benchmark games → model trained → model AAA) one theorem or two?",
-    "C76 PRIORITY B: AATE × CIAP conjunction — do AATE (evaluation instrument degradation under A(x)-feedback) and CIAP-fails (metric gaming by adaptive adversary) generate a joint theorem? Both produce evaluation degradation from different causal paths — is there a meta-theorem?",
+    "C77 PRIORITY A: RCBC DC#2 — STEM education benchmarks / NCLB 'teaching to the test' literature. Formal confirmation of CIAP-fails at education-pipeline level. Third ontological type (emergent social system) if different from DC#1 (designed empirical).",
+    "C77 PRIORITY B: RCBC DC#3 candidate scoping — healthcare quality metrics gaming (hospital scorecards, Campbell's Law in clinical performance reporting). Would give third ontological type and close D4 domain coverage.",
+    "C77 PRIORITY C: ZR cycle 1 passive accumulation — verify no retractions of RCBC D1/D2 from prior literature review.",
     "Long-horizon: K5 Test 3 execution (blocked — external LLM API); EP2/Test 2 MVE (training-level access); EP6 A'-deterioration test (checkpoint access)"
   ],
   "blockers": []

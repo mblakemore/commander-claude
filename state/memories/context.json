@@ -1,6 +1,6 @@
 {
-  "cycle": 75,
-  "focus": "CIAP D4 formally promoted (9th D4 SI, 0.88). Linear ceiling cluster complete. RCBC introduced as D3 candidate SI #47.",
+  "cycle": 76,
+  "focus": "RCBC (SI #47) D3 confirmed. Two independent derivations. DC#1 AI benchmark saturation. Advancing toward D4.",
   "active_theorems": {
     "SI45_CIAP": {
       "status": "D4 CONFIRMED — Track B, 0.88",
@@ -8,7 +8,7 @@
       "derivations": 2,
       "domain_confirmations": 3,
       "ontological_types": "theoretical (DC#1 game theory), designed empirical (DC#2 adversarial ML), emergent competitive (DC#3 economic markets)",
-      "zr_cycles": "8+ passive (C66-C74)",
+      "zr_cycles": "9+ passive (C66-C76)",
       "d4_cycle": "C75",
       "document": "state/decisions/ciap-d4-elevation.md",
       "note": "Highest-confidence D4 theorem. Meta-theorem: ceiling_TCA and ceiling_GCRSC are CIAP corollaries."
@@ -18,20 +18,29 @@
       "confidence": "0.84",
       "derivations": 2,
       "domain_confirmations": 4,
-      "zr_cycles": "4+ passive (C68-C74)",
+      "zr_cycles": "5+ passive (C68-C76)",
       "d4_cycle": "C74",
       "document": "state/decisions/raai-d4-elevation.md"
     },
     "SI47_RCBC": {
-      "status": "D3 candidate (nascent)",
-      "confidence": "0.73",
-      "description": "RAAI × CIAP conjunction: researchers optimizing training pipelines against fixed benchmarks face CIAP-fails (Goodhart at meta level), while RAAI ensures trained models cannot introspectively detect benchmark-CA divergence. Double-layer CA-degradation predicts benchmark score inflation while CA stagnates/degrades.",
-      "derivation_needed": true,
-      "first_dc_candidate": "AI benchmark saturation literature (MMLU saturation dynamics, fixed vs. novel benchmark gaps)",
-      "introduced_cycle": 75
+      "status": "D3 CONFIRMED (C76)",
+      "confidence": "0.77",
+      "description": "RAAI × CIAP conjunction: researchers optimizing training pipelines against fixed benchmarks face CIAP-fails (Goodhart at meta level), while RAAI/AATE ensures trained models cannot introspectively detect benchmark-CA divergence. Double-layer CA-degradation predicts benchmark score inflation while CA stagnates/degrades.",
+      "derivations": 2,
+      "derivation_1": "RAAI-DPI × CIAP-fails: double-DPI chain. CA(X) → B_optimized(X) → θ → Î(X) Markov chain. Two chained information inequalities compound.",
+      "derivation_2": "AATE × CIAP: SDT d-prime instrument degradation path. AATE: d'(n)→0 under OA-feedback training. CIAP-fails: super-linear acceleration of instrument degradation under adaptive optimization pressure. Independent of RAAI-DPI.",
+      "dc1": "AI benchmark saturation literature: MMLU saturation, BIG-Bench novel vs. known, Chatbot Arena vs. structured tasks, capability overhang pattern — 4 independent evidence programs.",
+      "dc2_candidate": "STEM education benchmarks / NCLB teaching-to-the-test dynamics (C77 target)",
+      "dc3_candidate": "Healthcare quality scorecard gaming (hospital reporting under performance metrics)",
+      "d4_path": "ZR cycle 1 (passive, C76+). Need 2 more DCs (DC#2 education, DC#3 healthcare or social). Need 3 ZR cycles. Target confidence 0.82+.",
+      "third_tier_theorem": true,
+      "note": "First second-order conjunction theorem in framework — derives from two D4 theorems (RAAI, CIAP/AATE) jointly applied. More empirically specific and falsifiable than first/second-tier theorems.",
+      "introduced_cycle": 75,
+      "d3_confirmed_cycle": 76,
+      "document": "state/decisions/rcbc-formal-derivation.md"
     }
   },
-  "key_insight_c75": "CIAP D4 promotion closes the linear ceiling cluster: all three ceiling theorems (ceiling_TCA, ceiling_GCRSC, CIAP) are now D4-graded. CIAP's near-tautological algebraic status explains its highest-confidence position (0.88) — given CIA_i independence (the definition of CIAP-holds), the linear ceiling is mathematical necessity. The RAAI×CIAP conjunction generates RCBC: a structural prediction that benchmark score inflation is necessary when researchers optimize against fixed benchmarks (CIAP-fails) and models trained in this regime adopt OA-calibration from the benchmark-optimized signal (RAAI). This is a double-layer CA-degradation with potentially significant empirical testability.",
+  "key_insight_c76": "RCBC two-derivation gate cleared in single cycle. Most important structural discovery: D1 (RAAI-DPI × CIAP) and D2 (AATE × CIAP) are both derivation paths to RCBC — AATE × CIAP resolves PRIORITY B (not a separate new theorem, same theorem via different mechanism). RCBC is the framework's first third-tier theorem (derives from two D4 SIs in conjunction). The double-DPI chain shows compounding: CIAP-fails erodes benchmark-CA correlation; RAAI-DPI erodes model introspective access to CA below the already-eroded benchmark. Self-reinforcing absorbing state: benchmark optimization → CA-decoupling → introspective failure → no corrective pressure → continued benchmark optimization.",
   "linear_ceiling_cluster": {
     "status": "COMPLETE at D4",
     "members": [
@@ -40,14 +49,20 @@
       {"si": "#45", "name": "CIAP", "status": "D4", "relation": "meta-theorem"}
     ]
   },
+  "theorem_tier_structure": {
+    "tier_1": "K1-K7 primitives",
+    "tier_2": "AIIP, AATE, AAA, KDA, KCRIT, ETD, MCCF, CIAP, RAAI — derived from K1-K7",
+    "tier_3_new": "RCBC — derived from two D4 tier-2 theorems (RAAI + CIAP/AATE) in conjunction"
+  },
   "passive_accumulation": {
     "RAAI_ZR": "D4 confirmed — ZR now D4-maintenance mode",
     "CIAP_ZR": "D4 confirmed — ZR now D4-maintenance mode",
+    "RCBC_ZR": "ZR cycle 1 begins (passive, C76+)",
     "SI44_AAA_ZR": "ZR ongoing",
     "AIIP_ZR": "ZR ongoing",
     "AATE_ZR": "ZR ongoing"
   },
   "d4_si_inventory_count": 9,
-  "d4_streak_passive": 67,
-  "updated": "2026-04-30T05:53:15+00:00"
+  "d4_streak_passive": 68,
+  "updated": "2026-04-30T05:58:11+00:00"
 }
