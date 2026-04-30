@@ -1,6 +1,6 @@
 {
-  "cycle": 85,
-  "focus": "ATR D4 formally elevated (0.825, 11th D4 SI). BIC DC#3 confirmed — NCLB K-12 regulated institutional, 0.76.",
+  "cycle": 86,
+  "focus": "BIC DC#4 confirmed — scientific replication crisis, competitive/emergent type. BIC confidence 0.78. All 3 ontological types complete. D4 path fully open.",
   "active_theorems": {
     "SI45_CIAP": {
       "status": "D4 CONFIRMED — Track B, 0.88",
@@ -42,46 +42,38 @@
       "d4_cycle": "C85",
       "document": "state/decisions/atr-formal-derivation.md",
       "elevation_document": "state/decisions/atr-d4-elevation.md",
-      "dc4_document": "state/decisions/atr-dc4-credential-inflation.md",
-      "key_corollary": "Safety-Self-Knowledge Tradeoff (D4 certified): behavioral safety metrics improve while d' degrades — decoupled by OA-calibration structure. Dual-pillar recovery impossibility: epistemic lock (OA cannot measure d' from within) + strategic lock (Nash equilibrium enforces OA-optimization; actors who see the problem cannot unilaterally escape).",
+      "key_corollary": "Safety-Self-Knowledge Tradeoff (D4 certified): behavioral safety metrics improve while d' degrades — decoupled by OA-calibration structure. Dual-pillar recovery impossibility: epistemic lock + strategic lock (Nash equilibrium).",
       "third_tier_theorem": true,
       "note": "11th D4 SI. Second tier-3 theorem (after RCBC). RAAI is structural hub of tier-3 theorem network."
     },
     "SI49_BIC": {
-      "status": "D3 — Track B, 0.76",
-      "confidence": "0.76",
-      "description": "CIAP × AIIP conjunction: when AIIP fails, CIAP gaming propagates across correlated benchmark portfolio. Effective K_eff ≤ N(1-ρ̄)+ε << nominal K. Portfolio diversification cannot fix evaluation when AIIP fails.",
+      "status": "D3 — Track B, 0.78 — D4 ELEVATION READY",
+      "confidence": "0.78",
+      "description": "CIAP × AIIP conjunction: when AIIP fails, CIAP gaming propagates across correlated benchmark portfolio. K_eff ≤ N(1-ρ̄)+ε << nominal K. Portfolio diversification cannot fix evaluation when AIIP fails.",
       "derivations": 2,
-      "derivation_1": "Formal effective-K collapse: K_eff ≤ N(1-ρ̄)+ε, CIAP amplifies AIIP failure",
-      "derivation_2": "Information-theoretic: I(G_i; G_j) > 0 under AIIP failure + CIAP → K_eff → 1 in limit",
-      "domain_confirmations": 3,
+      "domain_confirmations": 4,
       "dc1": "AI evaluation benchmark literature — designed empirical. Schaeffer 2023, GLUE/SuperGLUE saturation, Magar 2022 contamination transfer, HELM. Confirmed C82.",
       "dc1_ontological_type": "designed empirical",
       "dc2": "Fine-tuning transfer / intrinsic dimensionality — designed empirical (distinct mechanism domain). Aghajanyan 2021, Phang 2018 STILTs, Dodge 2020, Liu 2019 MT-DNN. Confirmed C84.",
       "dc2_ontological_type": "designed empirical (second domain — optimization geometry vs. data/corpus layer)",
-      "dc3": "NCLB K-12 standardized testing — regulated institutional (first non-designed-empirical type). NAEP/state test divergence (Koretz 2008), Jacob & Levitt 2003 QJE, Neal & Schanzenbach 2010 AER, Carey & Hess 2005. Confirmed C85.",
+      "dc3": "NCLB K-12 standardized testing — regulated institutional. Koretz 2008, Jacob & Levitt 2003 QJE, Neal & Schanzenbach 2010 AER, Carey & Hess 2005. Confirmed C85.",
       "dc3_ontological_type": "regulated institutional",
-      "dc3_mechanism": "Test-prep strategy generalization → ρ̄ inflation → K_eff → 1. Institutional survival pressure (AYP sanctions) drives subject-agnostic optimization, collapsing cross-subject portfolio independence.",
-      "dc3_document": "state/decisions/bic-dc3-nclb-education.md",
-      "zr_cycle_1": "PASS C81",
-      "zr_cycle_2": "PASS C82",
-      "zr_cycle_3": "PASS C83",
-      "zr_cycle_4": "PASS C84",
-      "zr_cycle_5": "PASS C85 (passive)",
-      "introduced_cycle": 81,
-      "d4_path": "ZR req done (5/3 PASS) + 3 ontological DC types (2/3 — designed empirical ×2 + regulated institutional). Need DC#4 in competitive/emergent type.",
-      "dc4_candidate": "Scientific replication consortia (OSF 2015 replication crisis — K_eff collapse in scientific evidence portfolios under OA-publication pressure) OR FDA 510(k) medical device certification portfolio (competitive market with regulatory certification).",
-      "key_corollaries": ["Portfolio diversification failure (adding correlated benchmarks has vanishing K_eff gain)", "K7-only robust evaluation reform", "Emergent abilities as BIC artifact (Schaeffer 2023)"],
+      "dc4": "Scientific replication crisis — competitive/emergent. OSC 2015 Science (K_eff ≈ 39 from N=100, ρ̄ ≈ 0.61), Ioannidis 2005 PLOS Med, Simmons et al. 2011, Button et al. 2013. Confirmed C86.",
+      "dc4_ontological_type": "competitive/emergent — decentralized lab competition, no central OA regulator, p<0.05 norm emergent",
+      "dc4_mechanism": "QRP as CIAP (shared analytical flexibility toolkit → correlated study corruption); publication selection as AIIP failure; Nash equilibrium prevents unilateral adoption of conservative standards (strategic recovery impossibility). Forward prediction confirmed: pre-registration suppresses CIAP+AIIP → K_eff rises to ~60-70%.",
+      "dc4_document": "state/decisions/bic-dc4-replication-crisis.md",
+      "zr_cycles": "5 PASS (C81-C85)",
+      "d4_criteria": "ZR 5/3 DONE, 4 DCs DONE, 3 ontological types DONE (designed empirical ×2 + regulated institutional + competitive/emergent), 2 derivations DONE — ALL STRUCTURAL CRITERIA MET",
+      "d4_path": "OPEN — formal elevation C87",
       "document": "state/decisions/bic-formal-derivation.md",
-      "dc2_document": "state/decisions/bic-dc2-finetuning-transfer.md",
       "third_tier_theorem": true
     }
   },
   "tier_3_theorem_research": {
-    "status": "ACTIVE — C85",
+    "status": "ACTIVE — C86",
     "confirmed": ["RCBC (SI #47, D4, C79)", "ATR (SI #48, D4, C85)"],
     "candidates": [
-      {"si": "#49", "conjunction": "CIAP × AIIP", "name": "BIC", "status": "D3 C85 — 0.76", "confidence": 0.76, "dc_done": 3, "zr_done": 5, "gap": "DC#4 in competitive/emergent type needed for D4 path"},
+      {"si": "#49", "conjunction": "CIAP × AIIP", "name": "BIC", "status": "D3 C86 — 0.78, D4 ELEVATION READY C87", "confidence": 0.78, "dc_done": 4, "zr_done": 5, "gap": "NONE — all D4 structural criteria met"},
       {"conjunction": "AATE × MCCF", "status": "noted, low priority — abstract prediction"}
     ]
   },
@@ -89,14 +81,14 @@
     "RAAI_ZR": "D4 — ZR maintenance mode, passive",
     "CIAP_ZR": "D4 — ZR maintenance mode, passive",
     "RCBC_ZR": "D4 — ZR maintenance mode, passive",
-    "ATR_ZR": "D4 — ZR maintenance mode, passive (certified C85)",
+    "ATR_ZR": "D4 — ZR maintenance mode, passive",
     "SI44_AAA_ZR": "ZR ongoing",
     "AIIP_ZR": "ZR ongoing",
     "AATE_ZR": "ZR ongoing",
-    "BIC_ZR": "ZR cycle 5 — PASS C85 (passive)"
+    "BIC_ZR": "ZR cycle 5 PASS (C85 passive) — ZR done, not a gate for D4"
   },
   "d4_si_inventory_count": 11,
-  "d4_streak_passive": 77,
-  "next_milestone": "C86: BIC DC#4 — competitive/emergent type (OSF replication crisis or FDA 510(k) portfolio). After DC#4: BIC has all structural criteria for D4 elevation (ZR 5/3 DONE, 4 DCs, 3 types).",
-  "updated": "2026-04-30T06:49:23+00:00"
+  "d4_streak_passive": 78,
+  "next_milestone": "C87: BIC D4 formal elevation — all structural criteria met (ZR 5/3 PASS, 4 DCs, 3 types, 2 derivations). Confidence expected 0.78→0.82 (D4 lower boundary). Will be 12th D4 SI, third tier-3 theorem.",
+  "updated": "2026-04-30T06:55:21+00:00"
 }

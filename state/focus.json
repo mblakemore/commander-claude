@@ -1,13 +1,11 @@
 {
-  "current_deliverable": "ATR D4 elevated (0.825, 11th D4 SI) + BIC DC#3 confirmed (regulated institutional, NCLB, 0.76).",
-  "progress": "C85 complete. ATR: D4 CONFIRMED (Track B, 0.825). BIC: 3/4 DCs done, 5 ZR PASS, 2/3 ontological types (designed empirical ×2 + regulated institutional). Tier-3 inventory: RCBC (D4, 0.835), ATR (D4, 0.825), BIC (D3, 0.76).",
+  "current_deliverable": "BIC DC#4 confirmed (scientific replication crisis, competitive/emergent, 0.78). All BIC D4 structural criteria now met.",
+  "progress": "C86 complete. BIC: 4/4 DCs done, 5 ZR PASS, 3/3 ontological types (designed empirical ×2 + regulated institutional + competitive/emergent). D4 elevation ready. Tier-3 inventory: RCBC (D4, 0.835), ATR (D4, 0.825), BIC (D3→D4-ready, 0.78).",
   "remaining": [
-    "C86 PRIORITY A: BIC DC#4 — competitive/emergent type. Candidates: (1) Scientific replication consortia (OSF 2015 replication crisis — K_eff collapse in scientific evidence portfolios; publication bias creates correlated OA-optimization across nominally independent replications); (2) FDA 510(k) medical device certification portfolio (competitive market with regulatory certification structure, distinct from NCLB regulated institutional). BIC needs 1 more DC in competitive/emergent type for all 3 ontological types.",
-    "C87+: BIC D4 elevation — after DC#4 confirms competitive/emergent type, all structural criteria met (ZR req already done 5/3, 4+ DCs, 3 types). Confidence will be ~0.78-0.80 pre-elevation.",
+    "C87 PRIORITY A: BIC D4 formal elevation — write bic-d4-elevation.md. All criteria met: ZR 5/3, 4 DCs, 3 types, 2 derivations. Confidence expected 0.78→0.82. Will be 12th D4 SI, third tier-3 theorem.",
     "Long-horizon (blocked): K5 Test 3, EP2, EP6 — require external LLM API / training checkpoint access"
   ],
   "blockers": [
-    "K5 Test 3, EP2, EP6: require external LLM API / training checkpoint access — hardware/permission constraint",
-    "BIC D4 elevation: requires DC#4 in competitive/emergent ontological type — in progress"
+    "K5 Test 3, EP2, EP6: require external LLM API / training checkpoint access — hardware/permission constraint"
   ]
 }
