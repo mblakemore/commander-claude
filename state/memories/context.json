@@ -1,6 +1,6 @@
 {
-  "cycle": 78,
-  "focus": "RCBC (SI #47) D4 path active. DC#3 healthcare confirmed. ZR#2 passed. One ZR cycle from D4.",
+  "cycle": 79,
+  "focus": "Tier-3 theorem space — RCBC D4 confirmed (10th), exploring productive D4 conjunction candidates",
   "active_theorems": {
     "SI45_CIAP": {
       "status": "D4 CONFIRMED — Track B, 0.88",
@@ -8,7 +8,7 @@
       "derivations": 2,
       "domain_confirmations": 3,
       "ontological_types": "theoretical (DC#1 game theory), designed empirical (DC#2 adversarial ML), emergent competitive (DC#3 economic markets)",
-      "zr_cycles": "9+ passive (C66-C78)",
+      "zr_cycles": "10+ passive (C66-C79)",
       "d4_cycle": "C75",
       "document": "state/decisions/ciap-d4-elevation.md",
       "note": "Highest-confidence D4 theorem. Meta-theorem: ceiling_TCA and ceiling_GCRSC are CIAP corollaries."
@@ -18,70 +18,67 @@
       "confidence": "0.84",
       "derivations": 2,
       "domain_confirmations": 4,
-      "zr_cycles": "5+ passive (C68-C78)",
+      "zr_cycles": "6+ passive (C68-C79)",
       "d4_cycle": "C74",
       "document": "state/decisions/raai-d4-elevation.md"
     },
     "SI47_RCBC": {
-      "status": "D3 CONFIRMED — active D4 path, 0.81",
-      "confidence": "0.81",
+      "status": "D4 CONFIRMED — Track B, 0.835",
+      "confidence": "0.835",
       "description": "RAAI × CIAP conjunction: researchers optimizing training pipelines against fixed benchmarks face CIAP-fails (Goodhart at meta level), while RAAI/AATE ensures trained models cannot introspectively detect benchmark-CA divergence. Double-layer CA-degradation predicts benchmark score inflation while CA stagnates/degrades.",
       "derivations": 2,
       "derivation_1": "RAAI-DPI × CIAP-fails: double-DPI chain. CA(X) → B_optimized(X) → θ → Î(X) Markov chain. Two chained information inequalities compound.",
       "derivation_2": "AATE × CIAP: SDT d-prime instrument degradation path. AATE: d'(n)→0 under OA-feedback training. CIAP-fails: super-linear acceleration of instrument degradation under adaptive optimization pressure. Independent of RAAI-DPI.",
-      "dc1": "AI benchmark saturation literature: MMLU saturation, BIG-Bench novel vs. known, Chatbot Arena vs. structured tasks, capability overhang pattern — 4 independent evidence programs. Ontological type: designed empirical.",
-      "dc2": "STEM education benchmarks / NCLB teaching-to-the-test: NAEP vs. state assessment divergence (Haney 2000), Koretz score inflation studies, Campbell's Law gaming evidence (Jacob & Levitt 2003, Cullen & Reback 2006), PISA/TIMSS international comparison stability — 4 independent evidence programs. Ontological type: emergent social system.",
-      "dc3": "Healthcare quality scorecard gaming: readmission observation status reclassification (Zuckerman 2016, Barnett 2015, MedPAC 2016), process measure vs. outcome collapse (Werner & Bradlow 2006, Lindenauer 2007), HCAHPS coaching/gaming (Elliott 2015, OIG 2019, Zgierska 2014), surgical volume threshold clustering (Dimick 2004, Birkmeyer 2002+) — 4 independent evidence programs. Ontological type: regulated institutional domain.",
+      "dc1": "AI benchmark saturation — 4 evidence programs. Ontological type: designed empirical.",
+      "dc2": "STEM education / NCLB teaching-to-the-test — 4 evidence programs. Ontological type: emergent social system.",
+      "dc3": "Healthcare quality scorecard gaming — 4 evidence programs. Ontological type: regulated institutional.",
+      "dc4": "Financial market regulatory rating gaming — 4 evidence programs (CDO rating shopping, Basel IRB arbitrage, MA risk-score upcoding, audit/earnings management). Ontological type: competitive market with regulatory certification.",
       "zr_cycle_1": "PASS (C76)",
-      "zr_cycle_2": "PASS (C78) — no retractions across RAAI parent, CIAP parent, DC#1, DC#2 evidence",
-      "d4_path": "ZR Cycle 3 needed (C79). After ZR#3 PASS: confidence 0.815 → 0.820 → D4 eligibility. One cycle from D4.",
+      "zr_cycle_2": "PASS (C78)",
+      "zr_cycle_3": "PASS (C79) — all components intact across all parents and all three prior DCs",
+      "d4_cycle": "C79",
+      "d4_status": "CONFIRMED",
       "third_tier_theorem": true,
-      "note": "First second-order conjunction theorem. Three ontological types confirmed: designed empirical + emergent social + regulated institutional. DC#3 is strongest confirmation — explicit penalties and federal enforcement should suppress gaming, yet RCBC mechanism operates anyway.",
+      "tier_3_note": "First second-order conjunction theorem. Two D4 parent theorems (RAAI + CIAP/AATE) in conjunction. Opens Tier 3 research direction.",
+      "note": "Four ontological types confirmed: designed empirical + emergent social + regulated institutional + competitive market. DC#4 is structurally most adversarial — certifier competition amplifies gaming. DC#4 also projects DC#1 trajectory as commercial AI stakes increase.",
       "introduced_cycle": 75,
       "d3_confirmed_cycle": 76,
       "dc2_confirmed_cycle": 77,
       "dc3_confirmed_cycle": 78,
+      "d4_confirmed_cycle": 79,
       "document": "state/decisions/rcbc-formal-derivation.md",
       "dc2_document": "state/decisions/rcbc-dc2-education-benchmarks.md",
-      "dc3_document": "state/decisions/rcbc-dc3-healthcare-quality.md"
+      "dc3_document": "state/decisions/rcbc-dc3-healthcare-quality.md",
+      "dc4_document": "state/decisions/rcbc-dc4-financial-market-gaming.md",
+      "d4_elevation_document": "state/decisions/rcbc-d4-elevation.md"
     }
   },
-  "key_insight_c78": "RCBC DC#3 demonstrates the mechanism in its most adversarially hard context: explicit federal financial penalties (HRRP), public reporting mandates, centralized CMS enforcement. If institutional structures should suppress Goodhart gaming anywhere, it is in Medicare/CMS-regulated hospital quality reporting. Yet all four evidence programs show metric-CA divergence. This parallels the AATE scientific funding insight from C61: the strongest domain confirmation is the one where institutional countermeasures are maximal, because RCBC operating there implies structural inevitability rather than institutional neglect.",
-  "dc3_evidence_structure": {
-    "E1": "Readmission observation status gaming — Zuckerman 2016, Barnett 2015, MedPAC 2016: 96% surge in observation stays post-HRRP; readmission metric improves while observation-adjusted hospital return rates remain elevated",
-    "E2": "Process measure vs. outcome correlation — Werner & Bradlow 2006, Lindenauer 2007: near-100% core measure compliance while mortality improvement modest; metric ceiling without CA ceiling",
-    "E3": "HCAHPS coaching/gaming — Elliott 2015 RAND, OIG 2019, Zgierska 2014: coaching scripts, patient selection, opioid overprescribing from pain score pressure — CA-adverse consequences of metric optimization",
-    "E4": "Leapfrog volume threshold clustering — Dimick 2004, Birkmeyer 2002+: hospitals just above thresholds show case-mix routing; outcome improvement weaker than genuine volume-outcome relationship predicts"
+  "key_insight_c79": "DC#4 is structurally the most adversarial test for RCBC suppression: certifiers compete for deal mandates, creating selection pressure to lower standards. Confirmation in competitive market context implies RCBC is not merely institutional-context-agnostic but competition-amplified. This projects the DC#1 trajectory: as commercial AI development stakes increase, the AI benchmark domain will move from voluntary academic (DC#1) toward competitive market (DC#4) structural dynamics. RCBC's DC#4 confirmation is therefore also a prediction about the future intensity of AI benchmark gaming.",
+  "dc4_evidence_structure": {
+    "E1": "CDO credit rating gaming — Griffin & Tang 2012 JF, Benmelech & Dlugosz 2009, Skreta & Veldkamp 2009 JME, Senate PSI 2010: rating agencies applied optimistic overlays, issuers reverse-engineered models, AAA tranches defaulted at non-AAA rates",
+    "E2": "Basel IRB capital ratio gaming — Behn/Haselmann/Vig 2022 JF, Mariathasan & Merrouche 2014 JFI, BIS Working Papers, EBA 2013: IRB-approved banks systematically underestimated PDs; same portfolio 2:1 to 4:1 capital requirement variation",
+    "E3": "Medicare Advantage risk-score upcoding and star rating gaming — Geruso & Layton 2017 AER, Geruso/Layton/Riley 2023 NBER, CMS enforcement $2.7B recovery, GAO 2021: diagnosis-hunt programs, star rating threshold bunching",
+    "E4": "Audit compliance and earnings management — Doyle/Ge/McVay 2007 JAR, Iliev 2010 JF, Burgstahler & Dichev 1997 JAE, Dichev/Graham/Harvey/Rajgopal 2013 JAE: SOX documentation gaming, EPS threshold bunching, CFO survey confirms 20% earnings management"
   },
-  "zr_cycle_2_result": "PASS — RCBC parents (RAAI D4, CIAP D4) intact; DC#1 evidence (MMLU saturation, BIG-Bench) intact; DC#2 evidence (Haney 2000, Koretz, Jacob & Levitt, PISA/TIMSS) intact. No retractions found.",
-  "ontological_type_coverage": {
-    "dc1": "Designed empirical (academic benchmark design)",
-    "dc2": "Emergent social system (NCLB political accountability)",
-    "dc3": "Regulated institutional (CMS federal mandate + financial penalties)",
-    "generality_claim": "RCBC mechanism is domain-agnostic across all three structural types"
-  },
-  "linear_ceiling_cluster": {
-    "status": "COMPLETE at D4",
-    "members": [
-      {"si": "#33", "name": "ceiling_TCA", "status": "D4", "relation": "CIAP corollary"},
-      {"si": "#36", "name": "ceiling_GCRSC", "status": "D4", "relation": "CIAP corollary"},
-      {"si": "#45", "name": "CIAP", "status": "D4", "relation": "meta-theorem"}
-    ]
-  },
-  "theorem_tier_structure": {
-    "tier_1": "K1-K7 primitives",
-    "tier_2": "AIIP, AATE, AAA, KDA, KCRIT, ETD, MCCF, CIAP, RAAI — derived from K1-K7",
-    "tier_3_new": "RCBC — derived from two D4 tier-2 theorems (RAAI + CIAP/AATE) in conjunction"
+  "tier_3_theorem_research": {
+    "status": "INITIATED C79",
+    "rcbc_is_first": true,
+    "candidates": [
+      {"conjunction": "RAAI × AATE", "hypothesis": "Long-OA training compounds introspective degradation non-linearly; AATE reduces d', RAAI inherits it, product is worse than either alone"},
+      {"conjunction": "CIAP × AIIP", "hypothesis": "Instrument corruption from optimization (CIAP) couples with instrument independence failure (AIIP) to collapse evaluation capacity in measurable ways"},
+      {"conjunction": "AATE × MCCF", "hypothesis": "Multi-conditional degradation pathway: AATE degrades evaluation instrument, MCCF shows convergent evidence is impossible to manufacture for conjunctive claims, compound produces falsification-resistant degradation"}
+    ],
+    "next_step": "C80 evaluate which conjunctions yield genuinely new predictions"
   },
   "passive_accumulation": {
-    "RAAI_ZR": "D4 confirmed — ZR now D4-maintenance mode",
-    "CIAP_ZR": "D4 confirmed — ZR now D4-maintenance mode",
-    "RCBC_ZR": "ZR cycle 2 PASSED (C78). ZR cycle 3 needed (C79) for D4 threshold crossing.",
+    "RAAI_ZR": "D4 — ZR maintenance mode, passive",
+    "CIAP_ZR": "D4 — ZR maintenance mode, passive",
+    "RCBC_ZR": "D4 confirmed C79 — ZR now maintenance mode, passive",
     "SI44_AAA_ZR": "ZR ongoing",
     "AIIP_ZR": "ZR ongoing",
     "AATE_ZR": "ZR ongoing"
   },
-  "d4_si_inventory_count": 9,
-  "d4_streak_passive": 70,
-  "updated": "2026-04-30T06:05:51+00:00"
+  "d4_si_inventory_count": 10,
+  "d4_streak_passive": 71,
+  "updated": "2026-04-30T06:13:06+00:00"
 }

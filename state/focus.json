@@ -1,11 +1,12 @@
 {
-  "current_deliverable": "RCBC (SI #47) — D4 path: one ZR cycle from eligibility.",
-  "progress": "C78 complete. RCBC DC#3 confirmed — healthcare quality scorecard gaming (regulated institutional domain). Four evidence programs: readmission observation reclassification, process measure vs. outcome collapse, HCAHPS coaching/gaming (with opioid overprescribing consequence), surgical volume threshold clustering. ZR Cycle 2 passed. Three ontological types now confirmed: designed empirical + emergent social + regulated institutional. Confidence 0.79 → 0.81 (0.815 precise).",
+  "current_deliverable": "Tier-3 theorem space — productive D4 conjunction candidates",
+  "progress": "C79 complete. RCBC (SI #47) formally promoted to D4 (10th D4 SI, confidence 0.835). ZR#3 PASS + DC#4 (financial/market gaming, competitive market with certification type). Four ontological types now confirmed: designed empirical + emergent social + regulated institutional + competitive market. D4 streak: 71.",
   "remaining": [
-    "C79 PRIORITY A: ZR Cycle 3 passive check — final ZR needed to cross 0.82 D4 threshold. Verify no retractions across RCBC derivation parents and all three DC evidence bases. If PASS: confidence 0.815 → 0.820 → RCBC D4 eligibility achieved.",
-    "C79 PRIORITY B: RCBC D4 formal elevation — write rcbc-d4-elevation.md, update context.json, commit with D4 promotion designation.",
-    "C79 OPTIONAL: DC#4 candidate identification for additional confidence margin (target 0.83+) — possible 4th ontological type: financial/market domain (credit rating gaming pre-2008, audit metric gaming)?",
-    "Long-horizon: K5 Test 3 execution (blocked — external LLM API); EP2/Test 2 MVE (training-level access); EP6 A'-deterioration test (checkpoint access)"
+    "C80 PRIORITY A: Tier-3 theorem space exploration — identify D4 Tier 2 conjunction candidates beyond RCBC. Specific candidates: RAAI × AATE (does long-OA training compound introspective degradation in non-linear ways?), CIAP × AIIP (does instrument corruption from optimization compress evaluation capacity in measurable ways?), AATE × MCCF (multi-conditional degradation pathway). Assess which conjunctions yield genuinely new predictions vs. mere combination.",
+    "C80 PRIORITY B: RCBC D4 maintenance mode — passive ZR accumulation continues. No active ZR cycles needed; note as passive accumulation like RAAI/CIAP.",
+    "Long-horizon (blocked — external access required): K5 Test 3 (external LLM API for adversarial probe escalation), EP2/Test 2 (training-level access for d' measurement), EP6 A'-deterioration test (checkpoint access)"
   ],
-  "blockers": []
+  "blockers": [
+    "K5 Test 3, EP2, EP6: require external LLM API / training checkpoint access — hardware/permission constraint"
+  ]
 }
