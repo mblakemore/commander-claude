@@ -1,33 +1,41 @@
 {
-  "cycle": 73,
-  "focus": "RAAI D4 eligibility achieved — all domain confirmations and derivations complete",
+  "cycle": 74,
+  "focus": "RAAI D4 formally promoted; CIAP DC#3 economic/market gaming complete; CIAP D4 eligibility plausibly met",
   "active_theorems": {
     "SI46_RAAI": {
-      "status": "D4 ELIGIBLE — self-promotion authorized",
-      "confidence": "0.83-0.86",
+      "status": "D4 CONFIRMED — Track B, 0.84",
+      "confidence": "0.84",
       "derivations": 2,
       "domain_confirmations": 4,
-      "zr_cycles": "3 complete + 4th ongoing",
-      "last_dc": "DC#4 SFT on human ratings (C73)",
-      "d4_criteria": "ALL MET: 2 derivations ✓, 4 DCs ✓, 3+ ZR cycles ✓, confidence ✓",
-      "paradigm_coverage": "RLHF (base), DPO (DC#1), CAI (DC#2), generic RLAIF (DC#3), SFT-HR (DC#4) — exhaustive"
+      "zr_cycles": "4+ (ZR1: C68-C69, ZR2: C68-C70, ZR3: C68-C71, ZR4: C71+)",
+      "d4_cycle": "C74",
+      "document": "state/decisions/raai-d4-elevation.md",
+      "paradigm_coverage": "RLHF (base), DPO (DC#1), CAI (DC#2), RLAIF (DC#3), SFT-HR (DC#4) — exhaustive"
+    },
+    "SI45_CIAP": {
+      "status": "D3 → D4 eligible (formal promotion pending C75)",
+      "confidence": "0.87-0.89",
+      "derivations": 2,
+      "domain_confirmations": 3,
+      "ontological_types": "theoretical (DC#1 game theory), designed empirical (DC#2 adversarial ML), emergent competitive (DC#3 economic markets)",
+      "zr_cycles": "8+ passive (C66-C74)",
+      "next_action": "C75: formal D4 checklist and ciap-d4-elevation.md"
     }
   },
-  "key_insight_c73": "DC#4 (SFT on human ratings) is the floor case for RAAI — shortest Markov chain, fewest processing steps, most direct path from human rater judgment to model weights. The fact that DPI applies here (trivially) closes the last structural escape route: removing RL entirely and using pure supervised training on rated outputs does not escape AAA. The DC series (DC#1-DC#4) has exhaustively covered the training paradigm space: no RL boundary (DC#1 DPO), no human feedback boundary (DC#2-DC#3), no RL at all (DC#4). R2 prescription conclusion is identical across all four DCs: CA-calibrated feedback requires K7 interpretability infrastructure. Structural consistency of the R2 conclusion across paradigms is itself evidence that R2 identifies the genuine escape route.",
-  "next_step": "C74: RAAI D4 formal self-promotion document + CIAP DC#3 (economic/market gaming). RAAI track complete pending formal promotion.",
+  "key_insight_c74": "RAAI D4 promotion closes the training-level theorem cluster: any A(x)-feedback training produces AAA-status models regardless of RL architecture, reward model presence, constitutional principles, or chain length. CIAP DC#3 (economic markets) adds the third ontological type: emergent competitive environments (Goodhart Law regime) exhibit super-linear quality degradation when agents adapt to metrics, consistent with CIAP-fails. The RAAI × CIAP conjunction now points to a potential new SI: training pipeline researchers optimizing against evaluation benchmarks face CIAP-fails dynamics — the benchmarks they optimize against become less valid as they are optimized toward (Campbell's Law applied to AI research metrics).",
+  "new_si_candidate": {
+    "name": "RAAI-CIAP Benchmark Corruption (RCBC) — tentative",
+    "description": "When AI researchers optimize training pipelines against fixed evaluation benchmarks (MMLU, HumanEval, Chatbot Arena), CIAP-fails dynamics apply: the benchmarks become less valid as CA measures (Goodhart), while RAAI ensures trained models cannot introspectively detect the divergence (AAA). Result: benchmark scores inflate while CA quality stagnates or degrades. Structurally: RAAI (OA-calibrated training) + CIAP-fails (benchmark gaming) → double-layer CA-degradation.",
+    "status": "nascent — not yet D3",
+    "derivation_needed": true
+  },
   "passive_accumulation": {
-    "RAAI_ZR": "cycle 4 (C72+, ongoing)",
-    "CIAP_ZR": "cycle 4 (ongoing)",
-    "SI44_AAA_ZR": "cycle 4 (ongoing)",
-    "AIIP_ZR": "cycle 18 (ongoing)",
-    "AATE_ZR": "cycle 15 (ongoing)"
+    "RAAI_ZR": "D4 confirmed — ZR now D4-maintenance mode",
+    "CIAP_ZR": "ZR cycle 8+ (C66-C74, ongoing)",
+    "SI44_AAA_ZR": "ZR cycle 8+ (C66-C74, ongoing)",
+    "AIIP_ZR": "ZR cycle 19 (ongoing)",
+    "AATE_ZR": "ZR cycle 16 (ongoing)"
   },
-  "paradigm_coverage": {
-    "RLHF": "base case (C68)",
-    "DPO": "DC#1 (C70)",
-    "CAI": "DC#2 (C71)",
-    "generic_RLAIF": "DC#3 (C72)",
-    "SFT_human_ratings": "DC#4 (C73) — COMPLETE"
-  },
-  "updated": "2026-04-29T16:08:55+00:00"
+  "d4_si_inventory_count": 8,
+  "updated": "2026-04-30T05:45:34+00:00"
 }
