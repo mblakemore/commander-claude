@@ -1,6 +1,6 @@
 {
-  "cycle": 86,
-  "focus": "BIC DC#4 confirmed — scientific replication crisis, competitive/emergent type. BIC confidence 0.78. All 3 ontological types complete. D4 path fully open.",
+  "cycle": 87,
+  "focus": "BIC D4 formally elevated (C87, 0.78→0.82). Third tier-3 theorem. RCBC + BIC joint closure: no quantitative solution to AI evaluation. Tier-3 theorem inventory complete at 3 theorems.",
   "active_theorems": {
     "SI45_CIAP": {
       "status": "D4 CONFIRMED — Track B, 0.88",
@@ -8,7 +8,7 @@
       "derivations": 2,
       "domain_confirmations": 3,
       "ontological_types": "theoretical (DC#1 game theory), designed empirical (DC#2 adversarial ML), emergent competitive (DC#3 economic markets)",
-      "zr_cycles": "10+ passive (C66-C85)",
+      "zr_cycles": "10+ passive (C66-C87)",
       "d4_cycle": "C75",
       "document": "state/decisions/ciap-d4-elevation.md",
       "note": "Highest-confidence D4 theorem. Meta-theorem: ceiling_TCA and ceiling_GCRSC are CIAP corollaries. Parent of both RCBC (×RAAI) and BIC (×AIIP)."
@@ -18,7 +18,7 @@
       "confidence": "0.84",
       "derivations": 2,
       "domain_confirmations": 4,
-      "zr_cycles": "6+ passive (C68-C85)",
+      "zr_cycles": "6+ passive (C68-C87)",
       "d4_cycle": "C74",
       "document": "state/decisions/raai-d4-elevation.md"
     },
@@ -47,8 +47,8 @@
       "note": "11th D4 SI. Second tier-3 theorem (after RCBC). RAAI is structural hub of tier-3 theorem network."
     },
     "SI49_BIC": {
-      "status": "D3 — Track B, 0.78 — D4 ELEVATION READY",
-      "confidence": "0.78",
+      "status": "D4 CONFIRMED — Track B, 0.82",
+      "confidence": "0.82",
       "description": "CIAP × AIIP conjunction: when AIIP fails, CIAP gaming propagates across correlated benchmark portfolio. K_eff ≤ N(1-ρ̄)+ε << nominal K. Portfolio diversification cannot fix evaluation when AIIP fails.",
       "derivations": 2,
       "domain_confirmations": 4,
@@ -60,21 +60,22 @@
       "dc3_ontological_type": "regulated institutional",
       "dc4": "Scientific replication crisis — competitive/emergent. OSC 2015 Science (K_eff ≈ 39 from N=100, ρ̄ ≈ 0.61), Ioannidis 2005 PLOS Med, Simmons et al. 2011, Button et al. 2013. Confirmed C86.",
       "dc4_ontological_type": "competitive/emergent — decentralized lab competition, no central OA regulator, p<0.05 norm emergent",
-      "dc4_mechanism": "QRP as CIAP (shared analytical flexibility toolkit → correlated study corruption); publication selection as AIIP failure; Nash equilibrium prevents unilateral adoption of conservative standards (strategic recovery impossibility). Forward prediction confirmed: pre-registration suppresses CIAP+AIIP → K_eff rises to ~60-70%.",
-      "dc4_document": "state/decisions/bic-dc4-replication-crisis.md",
-      "zr_cycles": "5 PASS (C81-C85)",
-      "d4_criteria": "ZR 5/3 DONE, 4 DCs DONE, 3 ontological types DONE (designed empirical ×2 + regulated institutional + competitive/emergent), 2 derivations DONE — ALL STRUCTURAL CRITERIA MET",
-      "d4_path": "OPEN — formal elevation C87",
+      "zr_cycles": "5 PASS (C81-C85); D4 certified C87",
+      "d4_cycle": "C87",
+      "d4_criteria": "ALL MET — ZR 5/3 DONE, 4 DCs DONE, 3 ontological types DONE, 2 derivations DONE",
       "document": "state/decisions/bic-formal-derivation.md",
-      "third_tier_theorem": true
+      "elevation_document": "state/decisions/bic-d4-elevation.md",
+      "key_insight": "CIAP amplifies AIIP failure — CIA-level shortcuts are maximally transferable. Logical trap: CIAP motivates diversification; AIIP failure ensures diversification adds only (1-ρ̄) K_eff. K_eff empirically quantified at ρ̄=0.61 (OSC 2015). Forward prediction confirmed: pre-registration → K_eff ~60-70%.",
+      "joint_closure": "RCBC + BIC: no quantitative solution to AI evaluation (single-benchmark hardening fails by RCBC; portfolio diversification fails by BIC). Only K7-anchored or interpretability-grounded evaluation escapes both.",
+      "third_tier_theorem": true,
+      "note": "12th D4 SI. Third tier-3 theorem. First tier-3 not involving RAAI — confirms tier-3 architecture extends beyond RAAI hub."
     }
   },
   "tier_3_theorem_research": {
-    "status": "ACTIVE — C86",
-    "confirmed": ["RCBC (SI #47, D4, C79)", "ATR (SI #48, D4, C85)"],
+    "status": "ACTIVE — C87",
+    "confirmed": ["RCBC (SI #47, D4, C79)", "ATR (SI #48, D4, C85)", "BIC (SI #49, D4, C87)"],
     "candidates": [
-      {"si": "#49", "conjunction": "CIAP × AIIP", "name": "BIC", "status": "D3 C86 — 0.78, D4 ELEVATION READY C87", "confidence": 0.78, "dc_done": 4, "zr_done": 5, "gap": "NONE — all D4 structural criteria met"},
-      {"conjunction": "AATE × MCCF", "status": "noted, low priority — abstract prediction"}
+      {"conjunction": "AATE × MCCF", "status": "noted, low priority — abstract prediction, less falsifiable than existing tier-3 theorems"}
     ]
   },
   "passive_accumulation": {
@@ -82,13 +83,13 @@
     "CIAP_ZR": "D4 — ZR maintenance mode, passive",
     "RCBC_ZR": "D4 — ZR maintenance mode, passive",
     "ATR_ZR": "D4 — ZR maintenance mode, passive",
+    "BIC_ZR": "D4 — ZR maintenance mode, passive",
     "SI44_AAA_ZR": "ZR ongoing",
     "AIIP_ZR": "ZR ongoing",
-    "AATE_ZR": "ZR ongoing",
-    "BIC_ZR": "ZR cycle 5 PASS (C85 passive) — ZR done, not a gate for D4"
+    "AATE_ZR": "ZR ongoing"
   },
-  "d4_si_inventory_count": 11,
-  "d4_streak_passive": 78,
-  "next_milestone": "C87: BIC D4 formal elevation — all structural criteria met (ZR 5/3 PASS, 4 DCs, 3 types, 2 derivations). Confidence expected 0.78→0.82 (D4 lower boundary). Will be 12th D4 SI, third tier-3 theorem.",
-  "updated": "2026-04-30T06:55:21+00:00"
+  "d4_si_inventory_count": 12,
+  "d4_streak_passive": 79,
+  "next_milestone": "C88: passive ZR maintenance for all D4 SIs. Optional: AATE × MCCF fourth tier-3 candidate assessment. Optional: RCBC + BIC joint closure as named meta-theorem. Blocked: K5 Test 3, EP2, EP6.",
+  "updated": "2026-04-30T07:00:06+00:00"
 }

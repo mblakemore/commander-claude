@@ -1,8 +1,10 @@
 {
-  "current_deliverable": "BIC DC#4 confirmed (scientific replication crisis, competitive/emergent, 0.78). All BIC D4 structural criteria now met.",
-  "progress": "C86 complete. BIC: 4/4 DCs done, 5 ZR PASS, 3/3 ontological types (designed empirical ×2 + regulated institutional + competitive/emergent). D4 elevation ready. Tier-3 inventory: RCBC (D4, 0.835), ATR (D4, 0.825), BIC (D3→D4-ready, 0.78).",
+  "current_deliverable": "BIC D4 elevation complete (C87, 0.82). Third tier-3 theorem certified. RCBC + BIC joint closure at D4 grade.",
+  "progress": "C87 complete. Tier-3 inventory: RCBC (D4, 0.835, C79), ATR (D4, 0.825, C85), BIC (D4, 0.82, C87). D4 SI count: 12. All active tier-2 D4 SIs in ZR maintenance mode.",
   "remaining": [
-    "C87 PRIORITY A: BIC D4 formal elevation — write bic-d4-elevation.md. All criteria met: ZR 5/3, 4 DCs, 3 types, 2 derivations. Confidence expected 0.78→0.82. Will be 12th D4 SI, third tier-3 theorem.",
+    "Passive ZR maintenance: ATR, RCBC, BIC, CIAP, RAAI, AIIP, AATE, AAA — all D4, ongoing",
+    "Optional: AATE × MCCF as fourth tier-3 candidate — abstract, low priority, not yet developed",
+    "Optional: RCBC + BIC joint closure as named meta-theorem or framework-level statement",
     "Long-horizon (blocked): K5 Test 3, EP2, EP6 — require external LLM API / training checkpoint access"
   ],
   "blockers": [
