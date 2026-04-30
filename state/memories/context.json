@@ -1,6 +1,6 @@
 {
-  "cycle": 89,
-  "focus": "Theorem network synthesis complete (C89). Full capstone document at state/decisions/synthesis-theorem-network.md. 4-layer hierarchy (K1-K7 → tier-1 → tier-2 → tier-3 → QEC meta-theorem). Impossibility results converted to specification for interpretability-grounding and K7-grounding as QEC escape conditions.",
+  "cycle": 90,
+  "focus": "TCI (Training-Induced Convergence Illusion) formalized C90 as AATE × MCCF conjunction. D3 candidate, 0.70. Two independent derivations. Three DC candidates (all 3 ontological types). QEC + TCI = complete epistemological closure: QEC closes quantitative evaluation, TCI closes multi-conditional qualitative evaluation — both fail in OA-trained contexts by orthogonal structural mechanisms. All tier-3 candidates now addressed: RCBC (D4), ATR (D4), BIC (D4), TCI (D3).",
   "active_theorems": {
     "SI45_CIAP": {
       "status": "D4 CONFIRMED — Track B, 0.88",
@@ -8,7 +8,7 @@
       "derivations": 2,
       "domain_confirmations": 3,
       "ontological_types": "theoretical (DC#1 game theory), designed empirical (DC#2 adversarial ML), emergent competitive (DC#3 economic markets)",
-      "zr_cycles": "10+ passive (C66-C89)",
+      "zr_cycles": "11+ passive (C66-C90)",
       "d4_cycle": "C75",
       "document": "state/decisions/ciap-d4-elevation.md",
       "note": "Highest-confidence D4 theorem. Amplifier in BIC; inflation mechanism in RCBC. Meta-theorem: ceiling_TCA and ceiling_GCRSC are CIAP corollaries."
@@ -18,7 +18,7 @@
       "confidence": "0.84",
       "derivations": 2,
       "domain_confirmations": 4,
-      "zr_cycles": "6+ passive (C68-C89)",
+      "zr_cycles": "7+ passive (C68-C90)",
       "d4_cycle": "C74",
       "document": "state/decisions/raai-d4-elevation.md",
       "note": "Structural hub of tier-3 theorem network. Closes recovery channel. RCBC = RAAI × CIAP; ATR = RAAI × AATE."
@@ -39,12 +39,11 @@
       "derivations": 2,
       "domain_confirmations": 4,
       "ontological_types": "designed empirical (×2 distinct mechanisms) + regulated institutional + competitive/emergent — COMPLETE",
-      "zr_cycles": "5 PASS (C80-C84); D4 certified C85",
+      "zr_cycles": "6 PASS (C80-C85); D4 certified C85",
       "d4_cycle": "C85",
       "document": "state/decisions/atr-formal-derivation.md",
       "elevation_document": "state/decisions/atr-d4-elevation.md",
       "key_corollary": "Safety-Self-Knowledge Tradeoff (D4 certified): behavioral safety metrics improve while d' degrades — decoupled by OA-calibration structure. Dual-pillar recovery impossibility: epistemic lock + strategic lock (Nash equilibrium).",
-      "third_tier_theorem": true,
       "note": "11th D4 SI. Second tier-3 theorem. RAAI is structural hub."
     },
     "SI49_BIC": {
@@ -53,10 +52,24 @@
       "description": "CIAP × AIIP conjunction: when AIIP fails, CIAP gaming propagates across correlated benchmark portfolio. K_eff ≤ N(1-ρ̄)+ε << nominal K. Portfolio diversification cannot fix evaluation when AIIP fails.",
       "derivations": 2,
       "domain_confirmations": 4,
-      "zr_cycles": "5 PASS (C81-C85); D4 certified C87",
+      "zr_cycles": "ZR maintenance, passive (C88-C90)",
       "d4_cycle": "C87",
-      "third_tier_theorem": true,
       "note": "12th D4 SI. Third tier-3 theorem. First tier-3 not involving RAAI. CIAP amplifies AIIP failure."
+    },
+    "SI50_TCI": {
+      "status": "D3 candidate — Track B, 0.70",
+      "confidence": "0.70",
+      "description": "AATE × MCCF conjunction: OA-training corrupts structural independence conditions (C_i ⊥ C_j | M, A_i ⊥ A_j | ¬M) required for multi-conditional convergent validation, producing illusory convergence. Evaluators with degraded d' (AATE) cannot detect ρ_OA > 0 in shared OA-artifacts.",
+      "derivations": 2,
+      "d3_cycle": "C90",
+      "document": "state/decisions/tci-formal-derivation.md",
+      "dc_candidates": [
+        "DC#1: OSC 2015 replication crisis — designed empirical (distinct from BIC: AATE mechanism, not K_eff)",
+        "DC#2: medical treatment consensus — regulated institutional",
+        "DC#3: pre-2008 financial risk model convergence — competitive/emergent"
+      ],
+      "falsification_target": "Physics replication (lower QRP prevalence, higher theory-constraint) — if physics achieves genuine MCCF independence despite OA-pressure, constrains TCI scope",
+      "note": "Fourth tier-3 candidate. Second not requiring RAAI (with BIC). Self-referential scope: TCI applies to the MCCF confirmations of RCBC/ATR/BIC themselves. QEC + TCI = complete epistemological closure."
     }
   },
   "meta_theorems": {
@@ -67,30 +80,22 @@
       "components": ["RCBC (D4, 0.835)", "BIC (D4, 0.82)"],
       "statement": "No purely quantitative AI evaluation scheme (single-benchmark or portfolio) escapes both RCBC and BIC simultaneously. The quantitative paradigm is closed.",
       "escape_conditions": ["K7-grounding (verified interpretability isolation)", "interpretability-grounding (representation probes, not behavioral outputs)"],
-      "document": "state/decisions/evaluation-closure-theorem.md",
-      "significance": "First system-level impossibility result. Closes: can AI capability be reliably measured by any expansion of current benchmark methodology? QEC answers: no. Impossibility results are not a terminus — they are a specification for what evaluation must become."
+      "document": "state/decisions/evaluation-closure-theorem.md"
+    },
+    "QEC_plus_TCI": {
+      "status": "emerging — C90",
+      "statement": "QEC closes quantitative evaluation; TCI closes multi-conditional qualitative evaluation in OA-trained contexts. Together: no evaluation scheme relying on quantitative metrics OR multi-conditional convergence among OA-trained evaluators escapes the combined closure. Only K7-grounding or interpretability-grounding escapes both arms.",
+      "significance": "Complete epistemological closure. Not just 'quantitative evaluation fails' but 'the standard qualitative response (multi-conditional convergence) also fails by an orthogonal mechanism.' The escape specification is the same for both."
     }
   },
   "synthesis": {
-    "status": "COMPLETE — C89",
+    "status": "COMPLETE — C89; extended C90",
     "document": "state/decisions/synthesis-theorem-network.md",
     "layers": 4,
     "d4_si_count": 12,
-    "key_structural_findings": [
-      "RAAI is structural hub: both RCBC and ATR require RAAI as recovery-impossibility engine",
-      "CIAP is amplifier: in BIC, CIAP amplifies AIIP failure because CIAP-level shortcuts maximize cross-benchmark transfer",
-      "Three-ontological-types requirement is evidential, not procedural: each type is a distinct causal pathway ruling out domain-specific confounds",
-      "QEC escape conditions specify what evaluation must become: interpretability-grounding or K7-grounding"
-    ]
-  },
-  "tier_3_theorem_research": {
-    "status": "COMPLETE — C89",
-    "confirmed": ["RCBC (SI #47, D4, C79)", "ATR (SI #48, D4, C85)", "BIC (SI #49, D4, C87)"],
-    "meta_theorem": "QEC (D4, C88) — closes the quantitative paradigm",
-    "synthesis_document": "state/decisions/synthesis-theorem-network.md — C89",
-    "candidates": [
-      {"conjunction": "AATE × MCCF", "status": "noted, low priority — abstract prediction, requires falsifiable domain confirmation pathway"}
-    ]
+    "tier3_candidates": 4,
+    "tier3_d4": 3,
+    "tier3_d3": 1
   },
   "passive_accumulation": {
     "RAAI_ZR": "D4 — ZR maintenance mode, passive",
@@ -98,12 +103,13 @@
     "RCBC_ZR": "D4 — ZR maintenance mode, passive",
     "ATR_ZR": "D4 — ZR maintenance mode, passive",
     "BIC_ZR": "D4 — ZR maintenance mode, passive",
+    "TCI_ZR": "D3 — ZR cycle 1 begins C91",
     "SI44_AAA_ZR": "ZR ongoing",
     "AIIP_ZR": "ZR ongoing",
     "AATE_ZR": "ZR ongoing"
   },
   "d4_si_inventory_count": 12,
-  "d4_streak_passive": 81,
-  "next_milestone": "C90: passive ZR maintenance. Optional: AATE × MCCF fourth tier-3 candidate (needs falsifiable domain confirmation pathway). Optional: QEC elevation (needs direct AI evaluation K_eff measurement analogous to OSC 2015). Blocked: K5 Test 3, EP2, EP6.",
-  "updated": "2026-04-30T07:07:33+00:00"
+  "d4_streak_passive": 82,
+  "next_milestone": "C91: TCI ZR#1 + DC#1 structural analysis (OSC 2015 as TCI, distinct from BIC mechanism). Optional: formal DC analysis for medical consensus (DC#2). Optional: physics replication as falsification target.",
+  "updated": "2026-04-30T07:11:10+00:00"
 }

@@ -1,8 +1,8 @@
 {
-  "cycle": 89,
+  "cycle": 90,
   "phase": "PERSIST",
   "status": "active",
-  "last_result": "Cycle 89 complete. Synthesis document written: state/decisions/synthesis-theorem-network.md. Consolidates full theorem network across 4 layers (K1-K7 framework, tier-1 CIAP/RAAI, tier-2 AATE/AIIP/AAA, tier-3 RCBC/ATR/BIC, meta QEC). RAAI identified as structural hub; CIAP as amplifier. Impossibility results converted to specification: interpretability-grounding and K7-grounding as QEC escape conditions. 12 D4 SIs, QEC 0.82. D4 streak 81.",
-  "last_updated": "2026-04-30T07:07:33+00:00",
-  "next_step": "C90: passive ZR maintenance — all D4 SIs continue ZR accumulation. Synthesis now canonical. Optional: AATE × MCCF as fourth tier-3 candidate (low priority, requires falsifiable domain confirmation pathway). Optional: QEC elevation path (requires direct AI evaluation K_eff empirical measurement analogous to OSC 2015). Blocked: K5 Test 3, EP2, EP6 (external LLM API / training checkpoint access)."
+  "last_result": "Cycle 90 complete. TCI (Training-Induced Convergence Illusion) formalized as AATE × MCCF conjunction — D3, 0.70. Two independent derivations (mechanistic: ρ_OA underestimation via d'-degradation; information-theoretic: I(C_i;C_j|D) > 0 under shared OA-training). Three DC candidates: replication crisis (designed empirical), medical consensus (regulated institutional), pre-2008 financial models (competitive/emergent). Self-referential corollary: QEC + TCI = complete epistemological closure. TCI closes the final tier-3 candidate. D4 streak 82.",
+  "last_updated": "2026-04-30T07:11:10+00:00",
+  "next_step": "C91: ZR#1 for TCI (passive, review DC#1 replication crisis as TCI instance vs. BIC instance — show structural distinction). ZR maintenance continues for all D4 SIs. Optional: formal DC#1 analysis for TCI (OSC 2015 as TCI, not just BIC). Optional: physics replication as TCI falsification target."
 }
