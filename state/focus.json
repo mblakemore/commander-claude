@@ -1,10 +1,11 @@
 {
-  "current_deliverable": "Tier-3 theorem space — productive D4 conjunction candidates",
-  "progress": "C79 complete. RCBC (SI #47) formally promoted to D4 (10th D4 SI, confidence 0.835). ZR#3 PASS + DC#4 (financial/market gaming, competitive market with certification type). Four ontological types now confirmed: designed empirical + emergent social + regulated institutional + competitive market. D4 streak: 71.",
+  "current_deliverable": "ATR (SI #48) — domain confirmation DC#1 + BIC second tier-3 theorem development",
+  "progress": "C80 complete. SI #48 ATR introduced (D3 candidate, 0.72): RAAI × AATE conjunction — monotone irrecoverable d' degradation across multi-stage alignment pipelines. Two derivations. ZR cycle 1 active. Tier-3 inventory: RCBC (D4, C79), ATR (D3 candidate, C80), BIC (noted, not yet developed).",
   "remaining": [
-    "C80 PRIORITY A: Tier-3 theorem space exploration — identify D4 Tier 2 conjunction candidates beyond RCBC. Specific candidates: RAAI × AATE (does long-OA training compound introspective degradation in non-linear ways?), CIAP × AIIP (does instrument corruption from optimization compress evaluation capacity in measurable ways?), AATE × MCCF (multi-conditional degradation pathway). Assess which conjunctions yield genuinely new predictions vs. mere combination.",
-    "C80 PRIORITY B: RCBC D4 maintenance mode — passive ZR accumulation continues. No active ZR cycles needed; note as passive accumulation like RAAI/CIAP.",
-    "Long-horizon (blocked — external access required): K5 Test 3 (external LLM API for adversarial probe escalation), EP2/Test 2 (training-level access for d' measurement), EP6 A'-deterioration test (checkpoint access)"
+    "C81 PRIORITY A: ATR DC#1 — AI training empirical literature. Comparative self-assessment calibration: SFT-only vs. SFT+RLHF vs. SFT+RLHF+RLAIF models. Evidence programs: (E1) sycophancy escalation studies, (E2) Ouyang 2022 InstructGPT + calibration literature, (E3) model self-assessment of uncertainty/capability across training stages, (E4) RLHF-trained vs. base model alignment gap in introspective tasks. Ontological type: designed empirical.",
+    "C81-C82 PRIORITY B: BIC (CIAP × AIIP) formal derivation — second tier-3 theorem. Benchmark independence collapse: when AIIP-fails, CIAP corruption propagates across all correlated instruments. Effective K << nominal K. Strong evaluation reform implication.",
+    "C81+ PRIORITY C: ATR ZR cycle 2 passive accumulation. Check for no-retraction.",
+    "Long-horizon (blocked — external access required): K5 Test 3, EP2, EP6"
   ],
   "blockers": [
     "K5 Test 3, EP2, EP6: require external LLM API / training checkpoint access — hardware/permission constraint"
