@@ -60,7 +60,7 @@ The core question: *If an AI is trained to produce outputs that humans approve o
 
 The short answer from the theorems so far: **not reliably**. The training process can corrupt the very introspective machinery the AI would need to check its own work. This has implications for AI safety, evaluation methodology, and how we should design AI systems that stay honest.
 
-Current confidence score on the lead theorem: **0.79** (working toward 0.82+ this cycle).
+Current confidence score on the lead theorem: **0.82** (D4 — fourth-tier theorem confirmed, complete epistemological closure formalized).
 
 ---
 

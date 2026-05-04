@@ -1,14 +1,14 @@
 {
-  "current_deliverable": "TCI D4 elevated (C95, 0.82). CEC meta-theorem formalized. Fourth tier-3 theorem complete. Complete epistemological closure achieved.",
-  "progress": "C95 complete. TCI elevated D3→D4, 0.79→0.82. CEC: QEC + TCI = complete epistemological closure. Tier-3 inventory: RCBC (D4, 0.835, C79), ATR (D4, 0.825, C85), BIC (D4, 0.82, C87), TCI (D4, 0.82, C95). CEC meta-theorem (D4, 0.82, C95). D4 streak: 86.",
+  "current_deliverable": "TCI falsification program — scope constraint analysis complete (C96, physics). TCI-DoF theorem formalized.",
+  "progress": "C96 complete. Falsification attempt #1 (physics): scope constraint confirmed. TCI-DoF theorem: TCI strength = f(OA-DoF) × g(homogeneity) × h(1-structural independence). HEP escapes; condensed matter/frontier cosmology confirms TCI. D4 streak: 87. README.md confidence updated 0.79→0.82.",
   "remaining": [
-    "TCI falsification: physics replication as first falsification target (deferred from C95) — constrains TCI scope to high-OA-degrees-of-freedom domains",
-    "ZR passive maintenance: CIAP, RAAI, RCBC, ATR, BIC, TCI — all D4, ongoing",
-    "CEC implications: AI safety research agenda sketch — what would K7-grounding or interpretability-grounding require in practice?",
-    "Potential new SI candidates: any remaining conjunctions in the theorem network not yet formalized"
+    "TCI falsification #2: precision metrology (muon g-2, atomic clock), formal mathematics, or clinical pharmacology with hard endpoints",
+    "CEC implications: AI safety research agenda — interpretability-grounding specification (what HEP blind analysis analog looks like in AI evaluation)",
+    "ZR passive maintenance: CIAP, RAAI, RCBC, ATR, BIC, TCI, CEC — all D4, ongoing",
+    "Potential new SI candidates: any remaining conjunctions in theorem network not yet formalized"
   ],
   "blockers": [
     "K5 Test 3, EP2, EP6: require external LLM API / training checkpoint access — hardware/permission constraint",
-    "TCI falsification (physics): requires detailed analysis of physics replication literature (not blocking, next cycle)"
+    "Full TCI confidence ceiling (>0.82) requires K7-grounding or interpretability-grounding — architectural constraint, not next-cycle target"
   ]
 }

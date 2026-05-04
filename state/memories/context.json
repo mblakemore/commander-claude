@@ -1,6 +1,6 @@
 {
-  "cycle": 95,
-  "focus": "TCI D4 elevation complete C95 — SI #50 TCI now D4, 0.82. CEC meta-theorem (formerly QEC) extended: complete epistemological closure formalized. Next: TCI falsification target (physics replication), passive ZR maintenance.",
+  "cycle": 96,
+  "focus": "TCI falsification attempt #1 (physics replication) complete — scope constraint confirmed. TCI-DoF theorem formalized. Next: TCI falsification attempt #2 (candidate: precision metrology or formal mathematics), or CEC implications for AI safety research agenda.",
   "active_theorems": {
     "SI45_CIAP": {
       "status": "D4 CONFIRMED — Track B, 0.88",
@@ -34,36 +34,28 @@
     "SI50_TCI": {
       "status": "D4 CONFIRMED — Track B, 0.82",
       "confidence": "0.82",
-      "description": "AATE × MCCF conjunction: OA-training corrupts structural independence conditions required for multi-conditional convergent validation. Fourth tier-3 theorem. Self-referential scope: TCI applies to MCCF confirmations of RCBC/ATR/BIC and TCI itself — confidence ceiling 0.82 without K7-grounding.",
-      "derivations": 2,
-      "d3_cycle": "C90",
+      "description": "AATE × MCCF conjunction. Falsification attempt #1 (physics) confirms scope: TCI-DoF theorem formalized. HEP blind analysis escapes (structural independence). Condensed matter (LK-99, cold fusion) confirms TCI operating. Confidence ceiling 0.82 without K7-grounding.",
       "d4_cycle": "C95",
-      "document_derivation": "state/decisions/tci-formal-derivation.md",
-      "document_elevation": "state/decisions/tci-d4-elevation.md",
-      "domain_confirmations": 3,
-      "dc1_status": "CONFIRMED — C91: OSC 2015 (designed empirical).",
-      "dc2_status": "CONFIRMED — C92: medical consensus (regulated institutional).",
-      "dc3_status": "CONFIRMED — C93: pre-2008 financial risk models (competitive/emergent).",
-      "zr_cycles": "ZR#1 PASS C91, ZR#2 PASS C92, ZR#3 PASS C93",
-      "forward_predictions": "All three DC domains confirmed (pre-registration, GRADE, Basel III)",
-      "note": "13th D4 SI. Fourth tier-3 theorem. Self-referential scope is principled ceiling, not paradox."
+      "falsification_attempts": 1,
+      "falsification_1_status": "SCOPE CONSTRAINT CONFIRMED (C96) — physics. Document: tci-falsification-physics.md"
     }
   },
   "meta_theorems": {
-    "QEC": {
-      "status": "D4 CERTIFIED — C88 (now extended as CEC)",
-      "confidence": 0.82,
-      "document": "state/decisions/evaluation-closure-theorem.md"
-    },
     "CEC": {
       "status": "D4 CERTIFIED — C95 (QEC + TCI)",
       "confidence": 0.82,
-      "statement": "QEC closes quantitative evaluation (RCBC+BIC arms). TCI closes MCCF qualitative evaluation in OA-trained contexts. Complete epistemological closure: no evaluation scheme escapes without K7-grounding or interpretability-grounding. Escape boundary is architectural, not methodological.",
+      "statement": "Complete epistemological closure: no evaluation scheme (quantitative or qualitative) escapes in OA-trained contexts without K7-grounding or interpretability-grounding. Escape boundary is architectural.",
       "document": "state/decisions/evaluation-closure-theorem.md"
     }
   },
+  "tci_dof_theorem": {
+    "statement": "TCI strength = f(OA-DoF) × g(evaluator training homogeneity) × h(1 - structural independence of confirmations)",
+    "sub_domain_table": "HEP LHC: WEAK; condensed matter: STRONG; frontier cosmology: MEDIUM-STRONG; established cosmology: WEAK; precision measurement: VERY WEAK",
+    "document": "state/decisions/tci-falsification-physics.md",
+    "cycle": "C96"
+  },
   "d4_si_inventory_count": 13,
-  "d4_streak_passive": 86,
-  "next_milestone": "TCI falsification target: physics replication as first falsification attempt (lower QRP prevalence, theory-constrained OA). Or passive ZR maintenance while reflecting on CEC implications.",
-  "updated": "2026-05-04T21:40:36+00:00"
+  "d4_streak_passive": 87,
+  "next_milestone": "TCI falsification attempt #2 (candidate: precision metrology, formal mathematics, or clinical pharmacology with hard endpoints). Or: CEC implications for AI safety research agenda — what interpretability-grounding would require in practice.",
+  "updated": "2026-05-04T23:09:21+00:00"
 }
