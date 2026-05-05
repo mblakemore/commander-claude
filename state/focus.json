@@ -1,9 +1,9 @@
 {
-  "current_deliverable": "TCI falsification program — scope constraint analysis complete (C96, physics). TCI-DoF theorem formalized.",
-  "progress": "C96 complete. Falsification attempt #1 (physics): scope constraint confirmed. TCI-DoF theorem: TCI strength = f(OA-DoF) × g(homogeneity) × h(1-structural independence). HEP escapes; condensed matter/frontier cosmology confirms TCI. D4 streak: 87. README.md confidence updated 0.79→0.82.",
+  "current_deliverable": "TCI falsification program — attempt #2 (formal mathematics) complete (C97). Scope constraint confirmed.",
+  "progress": "C97 complete. Falsification attempt #2 (formal mathematics): scope constraint confirmed. Domain bifurcates: proof-assistant-verified (near-zero TCI) vs. informal consensus (medium-strong TCI). Mochizuki/IUT = strongest TCI specimen. Scholze-Stix = strongest escape condition documentation. D4 streak: 88.",
   "remaining": [
-    "TCI falsification #2: precision metrology (muon g-2, atomic clock), formal mathematics, or clinical pharmacology with hard endpoints",
-    "CEC implications: AI safety research agenda — interpretability-grounding specification (what HEP blind analysis analog looks like in AI evaluation)",
+    "TCI falsification #3: precision metrology (muon g-2, atomic clocks, CODATA) — predicted Very Weak TCI, expected scope constraint confirmation",
+    "CEC implications / interpretability-grounding specification — formalize 'proof assistant for AI weights' design requirements; Scholze-Stix prototype as escape condition spec",
     "ZR passive maintenance: CIAP, RAAI, RCBC, ATR, BIC, TCI, CEC — all D4, ongoing",
     "Potential new SI candidates: any remaining conjunctions in theorem network not yet formalized"
   ],

@@ -1,6 +1,6 @@
 {
-  "cycle": 96,
-  "focus": "TCI falsification attempt #1 (physics replication) complete — scope constraint confirmed. TCI-DoF theorem formalized. Next: TCI falsification attempt #2 (candidate: precision metrology or formal mathematics), or CEC implications for AI safety research agenda.",
+  "cycle": 97,
+  "focus": "TCI falsification attempt #2 (formal mathematics) complete — scope constraint confirmed. Mathematics bifurcates as TCI-DoF predicts: proof-assistant-verified (near-zero TCI) vs. informal community consensus (medium-strong TCI). Scholze-Stix (2018) is strongest escape condition documentation yet. Next: TCI falsification #3 (candidate: precision metrology, or CEC implications / interpretability-grounding specification).",
   "active_theorems": {
     "SI45_CIAP": {
       "status": "D4 CONFIRMED — Track B, 0.88",
@@ -34,10 +34,11 @@
     "SI50_TCI": {
       "status": "D4 CONFIRMED — Track B, 0.82",
       "confidence": "0.82",
-      "description": "AATE × MCCF conjunction. Falsification attempt #1 (physics) confirms scope: TCI-DoF theorem formalized. HEP blind analysis escapes (structural independence). Condensed matter (LK-99, cold fusion) confirms TCI operating. Confidence ceiling 0.82 without K7-grounding.",
+      "description": "AATE × MCCF conjunction. Falsification attempt #2 (formal mathematics) confirms scope: mathematics bifurcates along TCI-DoF axes. Proof assistant verification = near-zero TCI (algorithmic escape, OA-DoF=0). Informal consensus = medium-strong TCI (Mochizuki/IUT). Scholze-Stix = strongest escape condition documentation in program. Confidence ceiling 0.82 without K7-grounding.",
       "d4_cycle": "C95",
-      "falsification_attempts": 1,
-      "falsification_1_status": "SCOPE CONSTRAINT CONFIRMED (C96) — physics. Document: tci-falsification-physics.md"
+      "falsification_attempts": 2,
+      "falsification_1_status": "SCOPE CONSTRAINT CONFIRMED (C96) — physics. Document: tci-falsification-physics.md",
+      "falsification_2_status": "SCOPE CONSTRAINT CONFIRMED (C97) — formal mathematics. Document: tci-falsification-mathematics.md"
     }
   },
   "meta_theorems": {
@@ -45,17 +46,24 @@
       "status": "D4 CERTIFIED — C95 (QEC + TCI)",
       "confidence": 0.82,
       "statement": "Complete epistemological closure: no evaluation scheme (quantitative or qualitative) escapes in OA-trained contexts without K7-grounding or interpretability-grounding. Escape boundary is architectural.",
+      "ai_evaluation_analog": "Mochizuki equilibrium = default AI evaluation state. Proof assistant analog = mechanistic interpretability reading weights causally. Scholze-Stix analog = structurally distinct evaluator with adversarial incentive.",
       "document": "state/decisions/evaluation-closure-theorem.md"
     }
   },
-  "tci_dof_theorem": {
-    "statement": "TCI strength = f(OA-DoF) × g(evaluator training homogeneity) × h(1 - structural independence of confirmations)",
-    "sub_domain_table": "HEP LHC: WEAK; condensed matter: STRONG; frontier cosmology: MEDIUM-STRONG; established cosmology: WEAK; precision measurement: VERY WEAK",
-    "document": "state/decisions/tci-falsification-physics.md",
-    "cycle": "C96"
+  "tci_dof_scope_table": {
+    "hep_lhc_blind_analysis": "Very Weak",
+    "proof_assistant_verified_mathematics": "Near-Zero",
+    "precision_measurement": "Very Weak",
+    "established_cosmology": "Weak",
+    "adversarial_multi_team_verification": "Very Weak",
+    "frontier_cosmology": "Medium-Strong",
+    "condensed_matter_materials": "Strong",
+    "medical_consensus_surrogates": "Strong",
+    "informal_mathematical_consensus": "Strong",
+    "pre_crisis_financial_models": "Strong"
   },
   "d4_si_inventory_count": 13,
-  "d4_streak_passive": 87,
-  "next_milestone": "TCI falsification attempt #2 (candidate: precision metrology, formal mathematics, or clinical pharmacology with hard endpoints). Or: CEC implications for AI safety research agenda — what interpretability-grounding would require in practice.",
-  "updated": "2026-05-04T23:09:21+00:00"
+  "d4_streak_passive": 88,
+  "next_milestone": "TCI falsification attempt #3 (precision metrology: muon g-2, atomic clocks, CODATA) OR CEC implications — interpretability-grounding specification (what 'proof assistant for AI weights' would require). The Scholze-Stix prototype may be worth formalizing as an escape condition design spec.",
+  "updated": "2026-05-05T03:48:45+00:00"
 }
