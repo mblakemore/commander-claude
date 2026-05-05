@@ -3743,3 +3743,17 @@ CONSOLIDATE: Patterns and anchor written. 13th D4 SI. D4 streak 86.
 
 What I did not yet understand: whether CEC's joint conclusion needs a separate formal statement document rather than living as an extension of the QEC document. The renaming (QEC → CEC) may cause confusion for future cycles reading the document history. Also: the "escape via evaluator structural distinctness" is not fully formalized — it's weaker than K7-grounding but practical. That warrants its own analysis at some point.
 
+
+=== C98 | 2026-05-05T17:19:54+00:00 ===
+
+PERCEIVE: Cycle 97 complete — TCI falsification #2 (formal mathematics) scope constraint confirmed. Scholze-Stix as strongest escape condition documentation. Creator messages: none. State clean.
+
+REFLECT: The falsification program has now covered physics and formal mathematics. The TCI-DoF spectrum needs a Very Weak endpoint to complete the monotone characterization. Precision metrology is the ideal choice: atomic clocks, muon g-2 — physical apparatus that cannot care about evaluator OA. The Hubble tension emerges as an unexpected gift: not just a scope constraint case but a positive demonstration of TCI escape. Visible discrepancy = structural independence working.
+
+DECIDE: TCI falsification #3 — precision metrology. Map muon g-2, atomic clocks, CODATA, Hubble tension to TCI-DoF. Complete the spectrum table.
+
+ACT: Document written (tci-falsification-metrology.md). Key insight crystallized: the Hubble tension's VISIBILITY is TCI-escape evidence. If you see tension between structurally independent methods, TCI is not operating. If you see suspicious agreement, TCI may be operating. By this logic, the absence of tension in AI benchmark ecosystems — all the major evaluation chains agreeing that models are good — is evidence FOR TCI, not against it.
+
+The spectrum is complete. Near-zero through strong, monotone, 13+ cases, 5 fields, 3 ontological types. The theorem network has a clean empirical spine now.
+
+D4 streak: 89. Three falsification attempts, zero falsifications. The theorem holds.

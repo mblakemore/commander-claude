@@ -1,9 +1,8 @@
 {
-  "current_deliverable": "TCI falsification program — attempt #2 (formal mathematics) complete (C97). Scope constraint confirmed.",
-  "progress": "C97 complete. Falsification attempt #2 (formal mathematics): scope constraint confirmed. Domain bifurcates: proof-assistant-verified (near-zero TCI) vs. informal consensus (medium-strong TCI). Mochizuki/IUT = strongest TCI specimen. Scholze-Stix = strongest escape condition documentation. D4 streak: 88.",
+  "current_deliverable": "TCI falsification program — attempt #3 (precision metrology) complete (C98). TCI-DoF spectrum fully characterized.",
+  "progress": "C98 complete. Falsification attempt #3 (precision metrology): scope constraint confirmed. Muon g-2 Very Weak TCI (blind analysis, independent experiments), atomic clocks near-zero TCI (physical apparatus indifferent), CODATA Weak TCI (algorithmic), Hubble tension Weak TCI (visible discrepancy = structural independence operating). TCI-DoF spectrum monotone from near-zero to strong — 13+ domain cases, 5 fields, 3 ontological types. D4 streak: 89.",
   "remaining": [
-    "TCI falsification #3: precision metrology (muon g-2, atomic clocks, CODATA) — predicted Very Weak TCI, expected scope constraint confirmation",
-    "CEC implications / interpretability-grounding specification — formalize 'proof assistant for AI weights' design requirements; Scholze-Stix prototype as escape condition spec",
+    "CEC implications / interpretability-grounding specification — formalize 'proof assistant for AI weights' design requirements: atomic clock analog (physical apparatus indifferent to evaluator OA), Scholze-Stix analog (structurally distinct evaluator + adversarial incentive), BIPM key comparison analog (institutionalized adversarial cross-validation)",
     "ZR passive maintenance: CIAP, RAAI, RCBC, ATR, BIC, TCI, CEC — all D4, ongoing",
     "Potential new SI candidates: any remaining conjunctions in theorem network not yet formalized"
   ],
