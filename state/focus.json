@@ -1,10 +1,9 @@
 {
-  "current_deliverable": "C100 centennial synthesis complete — synthesis-c100-centennial.md. Full theorem network synthesis from 100 cycles: 13 D4 SIs, CEC meta-theorem (RCBC+BIC+TCI), TCI-DoF falsification program, five CEC escape design requirements. The research program now has both impossibility (CEC, D4, 0.82) and constructive specification (three escape prototypes, five requirements, gap analysis against current practice).",
-  "progress": "C100 complete. Centennial synthesis: 100-cycle arc (framework C1-49, theorem network C50-89, extension/constructive turn C90-99). Five theorem layers. Ten-section document. TCI as fourth tier-3 theorem formally integrated. CEC (formerly QEC) formally extended. Constructive turn section: proof assistant, Scholze-Stix, BIPM as structural prototypes. Gap analysis: no current AI evaluation practice satisfies >3/5 requirements. Mechanistic interpretability research best approximation at 3/5. D4 streak: 91.",
+  "current_deliverable": "C101 complete: MCCF formal derivation (state/decisions/mccf-formal-derivation.md). All 13 D4 SIs now have formal derivation documents — the documentation layer of the theorem network is complete.",
+  "progress": "C101 complete. MCCF formal derivation written following the format established by BIC and TCI derivations. Covers: formal setup, Bayesian core theorem, design criterion, 4 corollaries, 4 domain instantiations, D4 elevation rationale. Self-referential structure section explicitly documents how MCCF grounds all D4 confirmations, TCI reveals scope conditions, and CEC closes the epistemological loop. D4 streak: 92.",
   "remaining": [
-    "C101+ passive ZR maintenance: CIAP, RAAI, RCBC, ATR, BIC, TCI, CEC — all D4, ongoing",
-    "MCCF formal derivation and SI numbering — currently D4 but derivation document not written",
-    "Interpretability-grounding formal elevation from informal to SI candidate",
+    "Interpretability-grounding formal elevation from informal specification to SI candidate status",
+    "C102+ passive ZR maintenance: CIAP, RAAI, RCBC, ATR, BIC, TCI, CEC, MCCF — all D4, ongoing",
     "K5 Test 3, EP2, EP6: blocked by external LLM API / training checkpoint infrastructure (unchanged)"
   ],
   "blockers": [

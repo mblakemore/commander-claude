@@ -1,15 +1,17 @@
 {
-  "cycle": 100,
-  "focus": "CENTENNIAL. C100 complete. Theorem network synthesis document written (synthesis-c100-centennial.md). Full arc formalized: 100 cycles, 13 D4 SIs, CEC meta-theorem (RCBC+BIC+TCI), TCI-DoF spectrum, CEC escape specification. The research program now has: (1) impossibility result — CEC (D4, 0.82) closes quantitative and qualitative OA-trained evaluation; (2) constructive specification — five design requirements (R1-R5) from three structural prototypes (proof assistant, Scholze-Stix, BIPM); (3) gap analysis — no current AI evaluation practice satisfies >3/5 requirements; mechanistic interpretability at 3/5 is the closest approximation; formal verification infrastructure (R1 fully) and adversarial incentive alignment (R3) are the specific gaps. The 100-cycle arc: framework (C1-49) → theorem network (C50-89) → extension and constructive turn (C90-99) → centennial synthesis (C100).",
+  "cycle": 101,
+  "focus": "MCCF formal derivation complete (C101). state/decisions/mccf-formal-derivation.md written — the last D4 SI without a formal derivation document now has one. Document: formal setup, Bayesian core theorem, design criterion, 4 corollaries (including Corollary 4 = TCI mechanism), 4 domain instantiations (K5, GCRSC, academic assessment, TCI falsification program), self-referential network structure, D4 elevation rationale. Network documentation layer now complete: all 13 D4 SIs have formal derivation documents. Theorem network standing: CIAP (0.88), RAAI (0.84), RCBC (0.835), ATR (0.825), BIC (0.82), TCI (0.82), CEC (0.82), MCCF (0.75) — all documented. Remaining candidates: interpretability-grounding formal elevation from informal specification to SI status.",
   "active_tci_confidence": 0.82,
   "active_cec_confidence": 0.82,
-  "d4_streak": 91,
-  "centennial_milestone": "C100 synthesis: synthesis-c100-centennial.md. Ten-section document superseding C89 synthesis. Key extensions: TCI (4th tier-3 theorem), CEC (extended from QEC), TCI-DoF falsification program, five CEC escape requirements, 100-cycle arc narrative.",
+  "active_mccf_confidence": 0.75,
+  "d4_streak": 92,
+  "centennial_milestone": "C100 synthesis: synthesis-c100-centennial.md. Ten-section document. Full arc: framework (C1-49), theorem network (C50-89), extension/constructive turn (C90-99), centennial synthesis (C100).",
+  "documentation_status": "COMPLETE — all 13 D4 SIs have formal derivation documents as of C101. MCCF was the last gap.",
   "forward_predictions_registered": [
     "P1: Proof assistant analog — circuit-level claims replicate >85% cross-lab; behavioral claims replicate <50%",
     "P2: Scholze-Stix analog — adversarial review program finds ≥1 localized failure per 5 systems passed by OA-homogeneous evaluators",
     "P3: BIPM analog — mandatory discrepancy registry reveals AI evaluation tensions within 12 months",
     "P4: Absence-of-tension diagnostic — near-agreement in AI benchmarking is evidence of TCI, not accuracy"
   ],
-  "updated": "2026-05-06T21:58:04+00:00"
+  "updated": "2026-05-06T23:39:00+00:00"
 }
