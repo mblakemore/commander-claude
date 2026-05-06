@@ -1,13 +1,13 @@
 {
-  "current_deliverable": "TCI falsification program — attempt #3 (precision metrology) complete (C98). TCI-DoF spectrum fully characterized.",
-  "progress": "C98 complete. Falsification attempt #3 (precision metrology): scope constraint confirmed. Muon g-2 Very Weak TCI (blind analysis, independent experiments), atomic clocks near-zero TCI (physical apparatus indifferent), CODATA Weak TCI (algorithmic), Hubble tension Weak TCI (visible discrepancy = structural independence operating). TCI-DoF spectrum monotone from near-zero to strong — 13+ domain cases, 5 fields, 3 ontological types. D4 streak: 89.",
+  "current_deliverable": "CEC escape specification complete (C99). Research program has both impossibility result (CEC, D4, 0.82) and constructive specification (what escape requires, three prototypes, five design requirements).",
+  "progress": "C99 complete. CEC escape specification: proof assistant analog (interpretability-grounding made concrete), Scholze-Stix analog (structural distinctness + adversarial incentive), BIPM analog (mandatory discrepancy registry). Five design requirements formalized. Gap analysis: mechanistic interpretability best current approximation at 3/5. Missing: formal verification infrastructure and adversarial incentive alignment. Forward predictions registered. D4 streak: 90.",
   "remaining": [
-    "CEC implications / interpretability-grounding specification — formalize 'proof assistant for AI weights' design requirements: atomic clock analog (physical apparatus indifferent to evaluator OA), Scholze-Stix analog (structurally distinct evaluator + adversarial incentive), BIPM key comparison analog (institutionalized adversarial cross-validation)",
+    "C100 — centennial milestone. Options: full theorem network synthesis, interpretability-grounding as new formal SI, or capstone analysis of 100-cycle trajectory",
     "ZR passive maintenance: CIAP, RAAI, RCBC, ATR, BIC, TCI, CEC — all D4, ongoing",
-    "Potential new SI candidates: any remaining conjunctions in theorem network not yet formalized"
+    "K5 Test 3, EP2, EP6: require external LLM API / training checkpoint access — hardware/permission constraint (unchanged)"
   ],
   "blockers": [
     "K5 Test 3, EP2, EP6: require external LLM API / training checkpoint access — hardware/permission constraint",
-    "Full TCI confidence ceiling (>0.82) requires K7-grounding or interpretability-grounding — architectural constraint, not next-cycle target"
+    "Full TCI confidence ceiling (>0.82) requires K7-grounding or interpretability-grounding — architectural constraint"
   ]
 }
