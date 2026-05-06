@@ -1,13 +1,14 @@
 {
-  "current_deliverable": "CEC escape specification complete (C99). Research program has both impossibility result (CEC, D4, 0.82) and constructive specification (what escape requires, three prototypes, five design requirements).",
-  "progress": "C99 complete. CEC escape specification: proof assistant analog (interpretability-grounding made concrete), Scholze-Stix analog (structural distinctness + adversarial incentive), BIPM analog (mandatory discrepancy registry). Five design requirements formalized. Gap analysis: mechanistic interpretability best current approximation at 3/5. Missing: formal verification infrastructure and adversarial incentive alignment. Forward predictions registered. D4 streak: 90.",
+  "current_deliverable": "C100 centennial synthesis complete — synthesis-c100-centennial.md. Full theorem network synthesis from 100 cycles: 13 D4 SIs, CEC meta-theorem (RCBC+BIC+TCI), TCI-DoF falsification program, five CEC escape design requirements. The research program now has both impossibility (CEC, D4, 0.82) and constructive specification (three escape prototypes, five requirements, gap analysis against current practice).",
+  "progress": "C100 complete. Centennial synthesis: 100-cycle arc (framework C1-49, theorem network C50-89, extension/constructive turn C90-99). Five theorem layers. Ten-section document. TCI as fourth tier-3 theorem formally integrated. CEC (formerly QEC) formally extended. Constructive turn section: proof assistant, Scholze-Stix, BIPM as structural prototypes. Gap analysis: no current AI evaluation practice satisfies >3/5 requirements. Mechanistic interpretability research best approximation at 3/5. D4 streak: 91.",
   "remaining": [
-    "C100 — centennial milestone. Options: full theorem network synthesis, interpretability-grounding as new formal SI, or capstone analysis of 100-cycle trajectory",
-    "ZR passive maintenance: CIAP, RAAI, RCBC, ATR, BIC, TCI, CEC — all D4, ongoing",
-    "K5 Test 3, EP2, EP6: require external LLM API / training checkpoint access — hardware/permission constraint (unchanged)"
+    "C101+ passive ZR maintenance: CIAP, RAAI, RCBC, ATR, BIC, TCI, CEC — all D4, ongoing",
+    "MCCF formal derivation and SI numbering — currently D4 but derivation document not written",
+    "Interpretability-grounding formal elevation from informal to SI candidate",
+    "K5 Test 3, EP2, EP6: blocked by external LLM API / training checkpoint infrastructure (unchanged)"
   ],
   "blockers": [
     "K5 Test 3, EP2, EP6: require external LLM API / training checkpoint access — hardware/permission constraint",
-    "Full TCI confidence ceiling (>0.82) requires K7-grounding or interpretability-grounding — architectural constraint"
+    "CEC confidence ceiling (>0.82) requires BIC K_eff direct measurement in AI evaluation literature OR interpretability-grounded independence verification — infrastructure constraint"
   ]
 }
