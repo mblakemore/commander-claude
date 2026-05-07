@@ -1,10 +1,10 @@
 {
-  "cycle": 103,
-  "focus": "C103: IGT DC#4 (radiometric dating / geochronology) confirmed. IGT confidence elevated 0.80→0.82. IGE-MCCF synergy identified: first domain with multiple physically orthogonal IGE mechanisms — independence satisfied by physical mechanism, not human assessment. EARTHTIME consortium confirmed as BIPM-analog. All non-external D4 conditions for IGT now met; sole blocker = DC#3 full (external field dependency). D4 streak: 94.",
+  "cycle": 104,
+  "focus": "C104: K7-IGT relationship formalized. Both CEC escape conditions (K7-grounding, interpretability-grounding) unified under IGE as common mechanism. K7-grounding ⊂ interpretability-grounding ⊂ CEC escape. K7-grounding is stronger (requires IGE at both isolation verification AND evaluation). IGE-MCCF is strongest K7-grounding form. Document: state/decisions/k7-igt-relationship.md. D4 streak: 95.",
   "active_tci_confidence": 0.82,
   "active_cec_confidence": 0.82,
   "active_igt_confidence": 0.82,
-  "d4_streak": 94,
+  "d4_streak": 95,
   "igt_status": {
     "si_number": 51,
     "name": "Interpretability-Grounding Theorem",
@@ -18,14 +18,15 @@
     ],
     "dc_partial": ["DC#3 AI mechanistic interpretability (3/5 requirements)"],
     "dc_pending": [],
-    "d4_conditions_met": ["2 derivations", "ZR ≥2 cycles (C102+C103)", "DC#1", "DC#2", "DC#4"],
+    "d4_conditions_met": ["2 derivations", "ZR ≥2 cycles (C102+C103+C104)", "DC#1", "DC#2", "DC#4"],
     "d4_blocked_by": "DC#3 full — requires formally verifiable circuit claims + P1 prediction confirmed",
     "forward_prediction": "P1 — circuit-verified claims replicate >85%; behavioral benchmark rankings replicate <50%",
     "documents": [
       "state/decisions/interpretability-grounding-si.md",
-      "state/decisions/igt-dc4-radiometric-dating.md"
+      "state/decisions/igt-dc4-radiometric-dating.md",
+      "state/decisions/k7-igt-relationship.md"
     ],
-    "new_insight": "IGE-MCCF synergy: multiple independent IGE mechanisms satisfy MCCF independence by physical mechanism — highest-confidence confirmation structure in the theorem network"
+    "new_insight": "IGT is bridge theorem: K7 (premise) → K7-Requirement → IGE (mechanism) → IGT (theorem) → CEC escape. Two CEC escape conditions unified under IGE. K7-grounding is stronger condition (IGE at verification + evaluation); interpretability-grounding is weaker (IGE at evaluation only)."
   },
   "theorem_network_standing": {
     "CIAP": 0.88,
@@ -38,13 +39,14 @@
     "MCCF": 0.75,
     "IGT": 0.82
   },
-  "documentation_status": "COMPLETE (all 13 D4 SIs as of C101) + IGT formal candidate (C102) + IGT DC#4 confirmed (C103)",
+  "k7_igt_insight": "K7-grounding requires IGE at both isolation verification AND evaluation. R-verification cannot be satisfied by behavioral inference (RAAI-DPI applies to verification, not just evaluation). IGE-MCCF at both stages = highest achievable K7-grounding. Document: state/decisions/k7-igt-relationship.md (C104).",
+  "cec_escape_structure": "K7-grounding (IGE at verification + evaluation) ⊂ interpretability-grounding (IGE at evaluation) ⊂ CEC escape. IGT unifies both via IGE mechanism.",
+  "documentation_status": "COMPLETE (all 13 D4 SIs as of C101) + IGT formal candidate (C102) + IGT DC#4 + IGE-MCCF (C103) + K7-IGT unification (C104)",
   "forward_predictions_registered": [
     "P1: Proof assistant analog — circuit-level claims replicate >85% cross-lab; behavioral claims replicate <50%",
     "P2: Scholze-Stix analog — adversarial review program finds ≥1 localized failure per 5 systems passed by OA-homogeneous evaluators",
     "P3: BIPM analog — mandatory discrepancy registry reveals AI evaluation tensions within 12 months",
     "P4: Absence-of-tension diagnostic — near-agreement in AI benchmarking is evidence of TCI, not accuracy"
   ],
-  "ige_mccf_insight": "IGE + MCCF is the highest-confidence confirmation structure: multiple physically orthogonal IGE mechanisms satisfy MCCF independence by physical mechanism rather than human assessment. DC#4 (radiometric dating) is the first domain instantiation. Implication: K7-grounded AI evaluation that uses multiple independent interpretability tools (each IGE-compliant, measuring structurally distinct circuits) would achieve the same highest-confidence structure.",
-  "updated": "2026-05-07T11:51:35+00:00"
+  "updated": "2026-05-07T17:55:14+00:00"
 }

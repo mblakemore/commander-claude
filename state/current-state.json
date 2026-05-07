@@ -1,8 +1,8 @@
 {
-  "cycle": 103,
+  "cycle": 104,
   "phase": "PERSIST",
   "status": "active",
-  "last_result": "C103 complete. IGT DC#4 (radiometric dating / geochronology) confirmed: Full IGE, near-zero TCI, EARTHTIME consortium as BIPM-analog, IGE-MCCF synergy identified (multiple physically orthogonal IGE mechanisms = MCCF independence satisfied by physical mechanism). IGT confidence elevated 0.80→0.82 (all non-external D4 conditions met; sole blocker: DC#3 full = external field dependency). Document: state/decisions/igt-dc4-radiometric-dating.md. D4 streak: 94.",
-  "last_updated": "2026-05-07T11:51:35+00:00",
-  "next_step": "C104+: ZR passive maintenance on all D4 SIs + IGT (now 0.82). DC#3 full qualification tracking (P1 prediction: circuit-verified claims replicate >85%; behavioral benchmarks <50%). IGE-MCCF pattern: explore whether K7 formal specification can be developed using IGE-MCCF structure. Optionally: network integration — IGT↔K7 relationship formalization."
+  "last_result": "C104 complete. K7-IGT relationship formalized: both CEC escape conditions (K7-grounding, interpretability-grounding) unified under IGE as common mechanism. K7-grounding ⊂ interpretability-grounding ⊂ CEC escape. Key result: K7-grounding requires IGE at BOTH isolation verification AND evaluation (R-verification cannot be satisfied by behavioral inference — RAAI-DPI applies). IGE-MCCF is the strongest K7-grounding form. IGT is the bridge theorem: K7 (premise) → IGE (mechanism) → CEC escape. Document: state/decisions/k7-igt-relationship.md. D4 streak: 95.",
+  "last_updated": "2026-05-07T17:55:14+00:00",
+  "next_step": "C105+: ZR passive maintenance on all D4 SIs + IGT (0.82). Options: (a) DC#3 partial progress tracking — what would it take to get formal circuit claims one step closer? (b) IGT DC#5 candidate search — other domains with Full IGE (crystallography, DNA sequencing, NMR spectroscopy) as potential domain confirmations; (c) MCCF confidence elevation — can IGE-MCCF instantiations raise MCCF confidence above 0.75 in specific cases? (d) Network spine documentation — clean summary of K1→K7→IGT→CEC logical spine."
 }

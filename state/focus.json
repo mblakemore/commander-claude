@@ -1,17 +1,18 @@
 {
-  "current_deliverable": "C103 complete: IGT DC#4 confirmed (state/decisions/igt-dc4-radiometric-dating.md). Geochronology confirmed as fourth domain confirmation for IGT; IGT confidence elevated 0.80→0.82. IGE-MCCF synergy identified as new network insight.",
-  "progress": "C103 complete. IGT now at 0.82 (D3 Track A, all non-external D4 conditions met). DC#4 introduces IGE-MCCF synergy: multiple physically orthogonal IGE mechanisms satisfy MCCF independence by physical mechanism rather than human assessment. D4 streak: 94.",
+  "current_deliverable": "C104 complete: K7-IGT relationship formalization (state/decisions/k7-igt-relationship.md). CEC escape conditions unified under IGE mechanism. K7-grounding ⊂ interpretability-grounding. D4 streak: 95.",
+  "progress": "C104 complete. Network logical spine clarified: K7 (premise) → IGE (mechanism) → IGT (theorem) → CEC escape (meta-theorem). K7-grounding requires IGE at isolation verification (not just evaluation). IGE-MCCF is strongest K7-grounding form. IGT ZR streak continues: 3 cycles (C102, C103, C104).",
   "remaining": [
     "IGT DC#3 full qualification: requires formally verifiable circuit claims (R1 fully) + P1 prediction confirmed — blocked by external AI interpretability field development",
     "IGT D4 elevation: requires DC#3 full (all other conditions met: ZR ✓, DC#1 ✓, DC#2 ✓, DC#4 ✓, 2 derivations ✓)",
-    "IGE-MCCF pattern: explore whether K7 formal specification can exploit IGE-MCCF structure",
-    "IGT↔K7 relationship formalization: K7 states requirement; IGT establishes which verification architectures satisfy it; IGE-MCCF is highest-confidence K7-grounding structure",
+    "IGT DC#5 candidate: crystallography, DNA sequencing, NMR — other Full IGE domains",
+    "MCCF per-instantiation confidence: IGE-MCCF can raise MCCF confidence above 0.75 for specific physically-orthogonal instantiations",
+    "Network spine documentation: K1→K7→IGT→CEC clean summary",
     "ZR passive maintenance: CIAP, RAAI, RCBC, ATR, BIC, TCI, CEC, MCCF, IGT — all active",
     "K5 Test 3, EP2, EP6: blocked by external LLM API / training checkpoint infrastructure (unchanged)"
   ],
   "blockers": [
     "IGT DC#3 full: requires AI field to develop formally verifiable circuit claims at scale (not yet available)",
-    "CEC confidence ceiling (>0.82) requires BIC K_eff direct measurement OR interpretability-grounded independence verification",
+    "CEC confidence ceiling (>0.82) requires IGE-MCCF grounded independence verification of MCCF confirmations themselves",
     "K5 Test 3, EP2, EP6: require external LLM API / training checkpoint access — hardware/permission constraint"
   ]
 }
