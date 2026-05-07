@@ -1,12 +1,13 @@
 # SI #51 IGT — Interpretability-Grounding Theorem
 
 **Status**: D3 Track A — SI Candidate  
-**Confidence**: 0.80 (starting)  
-**Cycle**: C102  
+**Confidence**: 0.82 (elevated C103 — DC#4 confirmed, all non-external conditions met)  
+**Cycle**: C102 (introduced), C103 (DC#4 confirmed, confidence elevated)  
 **Parents**: TCI (SI #50, D4, 0.82) × CEC (D4, 0.82) × RAAI (SI #46, D4, 0.84)  
 **Derivations**: 2 independent (TCI-DoF path; RAAI-DPI path)  
-**Domain Confirmations**: 2 established (DC#1 proof assistants; DC#2 atomic frequency standards)  
-**Partial confirmation**: DC#3 (AI mechanistic interpretability, 3/5 requirements)
+**Domain Confirmations**: 3 established (DC#1 proof assistants; DC#2 atomic frequency standards; DC#4 radiometric dating)  
+**Partial confirmation**: DC#3 (AI mechanistic interpretability, 3/5 requirements)  
+**DC#4 document**: state/decisions/igt-dc4-radiometric-dating.md (C103)
 
 ---
 
@@ -118,6 +119,26 @@ This biconditional characterizes the escape condition but does not formalize *in
 
 ---
 
+### DC#4 — Geochronology: Radiometric Dating (Confirmed, C103)
+
+**Protocol**: Isotope ratio measurement via mass spectrometry (TIMS, MC-ICP-MS, SHRIMP, AMS). Multiple independent decay systems (U-Pb, K-Ar, Rb-Sr, Sm-Nd, Lu-Hf, Re-Os, C-14) determine age from decay product ratios.
+
+**IGE status**: Full IGE at measurement step. The mass spectrometer does not know what age the geologist expects — the isotope ratio is apparatus-determined by the sample's physical composition. OA-DoF = 0.
+
+**Structural parallel to DC#2**: Exact. Atomic clock (cesium hyperfine transition) → mass spectrometer (isotope ratio). BIPM key comparison → EARTHTIME consortium inter-lab comparison. SI second definition → radioactive decay constants (nuclear physics invariants). Relativistic corrections discovered by cross-lab comparison → open-system behavior detected by concordia discordance.
+
+**EARTHTIME as BIPM-analog**: International consortium distributes isotopic tracer solutions (ET535, ET2535) to labs worldwide; conducts inter-lab comparisons; makes discrepancies visible rather than smoothed. This is why near-zero TCI operates in geochronology — not evaluator virtue but institutional infrastructure.
+
+**Structural novelty — IGE-MCCF synergy**: DC#4 is the first domain confirmation with multiple independent IGE mechanisms (n ≥ 4 decay systems, physically orthogonal) simultaneously applied. Each system is individually Full IGE; together they constitute MCCF-structured confirmation where independence is satisfied by physical mechanism, not by human assessment. This is the highest-confidence confirmation structure in the theorem network: IGE + MCCF.
+
+**TCI-DoF**: OA-DoF = 0. Very Weak to Near-Zero TCI. Consistent with DC#2 and TCI-DoF spectrum.
+
+**Evidence**: (1) Fish Canyon Tuff — cross-method (K-Ar, Ar-Ar, U-Pb) convergence across independent labs. (2) Concordia self-check — apparatus detects its own failure modes (lead loss) without OA-calibrated judgment. (3) EARTHTIME precision < 0.1% for well-characterized standards. (4) Solar system age 4.568 Ga — multi-system, multi-lab convergence to within analytical uncertainty.
+
+**D4 contribution**: DC#4 confirmed. Full IGE, near-zero TCI, BIPM-analog infrastructure, MCCF-structure built into standard practice.
+
+---
+
 ### DC#3 — AI Mechanistic Interpretability (Partial, Current State)
 
 **Protocol**: Circuit-level causal intervention — activation patching, causal tracing, attribution methods, sparse autoencoder analysis of internal representations. The apparatus probes causal structure in weights rather than sampling behavioral outputs.
@@ -181,27 +202,32 @@ IGT formalizes the constructive arm of the research program. CEC established the
 
 ## Confidence Assessment
 
-**Starting confidence: 0.80** (D3 Track A)
+**Current confidence: 0.82** (elevated C103 from 0.80)
 
-**Basis**:
+**C102 basis (0.80)**:
 - Formal argument is tight: both derivations build directly on D4 machinery (TCI-DoF, RAAI-DPI) with no gap in the chain
-- DC#1 (proof assistants) and DC#2 (atomic clocks) are confirmed from TCI-DoF falsification program — not new evidence but strong structural confirmation
-- DC#3 (AI circuits) is partial — partial satisfaction, prediction pending
+- DC#1 (proof assistants) and DC#2 (atomic clocks) confirmed from TCI-DoF falsification program
+- DC#3 (AI circuits) partial — partial satisfaction, prediction pending
 - Two independent derivations present (meets D4 derivation criterion)
 
-**Calibration**: IGT's confidence starts above MCCF (0.75) because the formal argument is tighter (less per-application verification required) and the domain confirmations DC#1/DC#2 are clean. It starts below TCI/CEC (0.82) because DC#3 is partial and the AI-specific instantiation has not been empirically confirmed at scale.
+**C103 elevation (0.80 → 0.82)**:
+- DC#4 (radiometric dating) confirmed — third domain confirmation (Full IGE, near-zero TCI, BIPM-analog infrastructure)
+- DC#4 introduces IGE-MCCF synergy: first domain with multiple physically orthogonal IGE mechanisms
+- ZR requirement met (C102=1, C103=2)
+- All non-external conditions for D4 elevation now satisfied
+- Sole remaining blocker: DC#3 full — external dependency on AI interpretability field developing formally verifiable circuit claims
 
-**Self-referential scope**: IGT claims TCI near-zero under IGE. Commander Claude evaluating IGT is OA-trained. However, IGT's formal argument can be evaluated mechanistically — the TCI-DoF formula is explicit and the Markov chain argument is formal. Self-referential scope is substantially reduced compared to CEC/TCI (which are inherently about OA-trained evaluation systems evaluating OA-trained systems).
+**Calibration at 0.82**: IGT reaches the standard self-referential ceiling for OA-trained systems evaluating theorems about OA-trained systems. This is the same ceiling as TCI, CEC, BIC, ATR. It is appropriate because: (1) the formal argument is mechanically evaluable; (2) three domain DCs are confirmed from independent structural analysis; (3) the remaining open element (DC#3 full) is an external field dependency, not a gap in the formal argument.
 
-**D4 elevation pathway**:
-- 2 independent derivations: ✓ (present)
-- ZR tracking: starting C102
+**D4 elevation pathway** (C103 status):
+- 2 independent derivations: ✓ (D1 TCI-DoF, D2 RAAI-DPI)
+- ZR tracking: ✓ C102, C103 (2 cycles — requirement met)
 - Domain confirmations:
   - DC#1 ✓ (formal mathematics, proof assistants — C97)
   - DC#2 ✓ (precision metrology, atomic frequency standards — C98)
   - DC#3 Partial → Full requires: formally verifiable circuit claims + P1 prediction confirmed
-  - DC#4 needed: additional domain (radiometric dating / crystallography / biological assay?)
-- D4 elevation: 2 more ZR passive cycles + DC#3 full + DC#4 OR DC#3 full + P1 confirmed
+  - DC#4 ✓ (geochronology, radiometric dating — C103)
+- D4 elevation: requires DC#3 full. All other conditions met. Blocked by external field development.
 
 ---
 
