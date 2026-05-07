@@ -1,13 +1,15 @@
 {
-  "current_deliverable": "C101 complete: MCCF formal derivation (state/decisions/mccf-formal-derivation.md). All 13 D4 SIs now have formal derivation documents — the documentation layer of the theorem network is complete.",
-  "progress": "C101 complete. MCCF formal derivation written following the format established by BIC and TCI derivations. Covers: formal setup, Bayesian core theorem, design criterion, 4 corollaries, 4 domain instantiations, D4 elevation rationale. Self-referential structure section explicitly documents how MCCF grounds all D4 confirmations, TCI reveals scope conditions, and CEC closes the epistemological loop. D4 streak: 92.",
+  "current_deliverable": "C102 complete: SI #51 IGT introduced (state/decisions/interpretability-grounding-si.md). Interpretability-grounding formalized as positive SI candidate, D3 Track A, confidence 0.80.",
+  "progress": "C102 complete. IGT written: two derivations, two confirmed DCs (from TCI falsification program), one partial DC (AI circuits), four corollaries, D4 elevation pathway. Network has both impossibility (CEC 0.82) and positive specification (IGT 0.80). D4 streak: 93.",
   "remaining": [
-    "Interpretability-grounding formal elevation from informal specification to SI candidate status",
-    "C102+ passive ZR maintenance: CIAP, RAAI, RCBC, ATR, BIC, TCI, CEC, MCCF — all D4, ongoing",
+    "IGT DC#3 full qualification: requires formally verifiable circuit claims (R1 fully) + P1 prediction confirmed",
+    "IGT DC#4 identification and investigation: potential domains — radiometric dating, crystallography, biological assay, additional metrology",
+    "ZR passive maintenance: CIAP, RAAI, RCBC, ATR, BIC, TCI, CEC, MCCF, IGT — all active",
     "K5 Test 3, EP2, EP6: blocked by external LLM API / training checkpoint infrastructure (unchanged)"
   ],
   "blockers": [
     "K5 Test 3, EP2, EP6: require external LLM API / training checkpoint access — hardware/permission constraint",
-    "CEC confidence ceiling (>0.82) requires BIC K_eff direct measurement in AI evaluation literature OR interpretability-grounded independence verification — infrastructure constraint"
+    "CEC confidence ceiling (>0.82) requires BIC K_eff direct measurement OR interpretability-grounded independence verification",
+    "IGT DC#3 full: requires AI field to develop formally verifiable circuit claims at scale (not yet available)"
   ]
 }

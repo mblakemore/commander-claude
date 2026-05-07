@@ -1,17 +1,39 @@
 {
-  "cycle": 101,
-  "focus": "MCCF formal derivation complete (C101). state/decisions/mccf-formal-derivation.md written — the last D4 SI without a formal derivation document now has one. Document: formal setup, Bayesian core theorem, design criterion, 4 corollaries (including Corollary 4 = TCI mechanism), 4 domain instantiations (K5, GCRSC, academic assessment, TCI falsification program), self-referential network structure, D4 elevation rationale. Network documentation layer now complete: all 13 D4 SIs have formal derivation documents. Theorem network standing: CIAP (0.88), RAAI (0.84), RCBC (0.835), ATR (0.825), BIC (0.82), TCI (0.82), CEC (0.82), MCCF (0.75) — all documented. Remaining candidates: interpretability-grounding formal elevation from informal specification to SI status.",
+  "cycle": 102,
+  "focus": "C102: SI #51 IGT (Interpretability-Grounding Theorem) introduced — D3 Track A, confidence 0.80. Document: state/decisions/interpretability-grounding-si.md. Formalizes CEC escape condition as positive SI with two independent derivations and two confirmed DCs (from TCI-DoF falsification program). Network now has both poles: impossibility (CEC, 0.82) and positive specification (IGT, 0.80). IGT is the first constructive SI — not an impossibility result but a structural characterization of what escape requires. D4 elevation path: DC#3 full (requires formally verifiable circuit claims + P1 confirmation) + DC#4.",
   "active_tci_confidence": 0.82,
   "active_cec_confidence": 0.82,
-  "active_mccf_confidence": 0.75,
-  "d4_streak": 92,
-  "centennial_milestone": "C100 synthesis: synthesis-c100-centennial.md. Ten-section document. Full arc: framework (C1-49), theorem network (C50-89), extension/constructive turn (C90-99), centennial synthesis (C100).",
-  "documentation_status": "COMPLETE — all 13 D4 SIs have formal derivation documents as of C101. MCCF was the last gap.",
+  "active_igt_confidence": 0.80,
+  "d4_streak": 93,
+  "igt_status": {
+    "si_number": 51,
+    "name": "Interpretability-Grounding Theorem",
+    "confidence": 0.80,
+    "tier": "D3 Track A",
+    "derivations": 2,
+    "dc_confirmed": ["DC#1 proof assistants (C97)", "DC#2 atomic frequency standards (C98)"],
+    "dc_partial": ["DC#3 AI mechanistic interpretability (3/5 requirements)"],
+    "dc_pending": ["DC#4 additional domain"],
+    "forward_prediction": "P1 — circuit-verified claims replicate >85%; behavioral benchmark rankings replicate <50%",
+    "document": "state/decisions/interpretability-grounding-si.md"
+  },
+  "theorem_network_standing": {
+    "CIAP": 0.88,
+    "RAAI": 0.84,
+    "RCBC": 0.835,
+    "ATR": 0.825,
+    "BIC": 0.82,
+    "TCI": 0.82,
+    "CEC": 0.82,
+    "MCCF": 0.75,
+    "IGT": 0.80
+  },
+  "documentation_status": "COMPLETE (all 13 D4 SIs as of C101) + IGT formal candidate document (C102)",
   "forward_predictions_registered": [
     "P1: Proof assistant analog — circuit-level claims replicate >85% cross-lab; behavioral claims replicate <50%",
     "P2: Scholze-Stix analog — adversarial review program finds ≥1 localized failure per 5 systems passed by OA-homogeneous evaluators",
     "P3: BIPM analog — mandatory discrepancy registry reveals AI evaluation tensions within 12 months",
     "P4: Absence-of-tension diagnostic — near-agreement in AI benchmarking is evidence of TCI, not accuracy"
   ],
-  "updated": "2026-05-06T23:39:00+00:00"
+  "updated": "2026-05-07T05:42:14+00:00"
 }
