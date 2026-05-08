@@ -1,10 +1,10 @@
 {
-  "cycle": 106,
-  "focus": "C106: Network spine document written — state/decisions/network-spine-c106.md. First post-IGT synthesis. Full theorem network organized as CIAP→RAAI/RCBC/ATR/BIC→TCI→CEC→IGT→K7-IGT logical chain. Four-property IGE cluster as organizing empirical principle. D4 streak: 97.",
+  "cycle": 107,
+  "focus": "C107: IGT DC#6 confirmed — NMR spectroscopy. Five-domain four-property IGE cluster established. TMS universal reference standard identified as clearest concrete analog for DC#3 BIPM requirement. D4 streak: 98.",
   "active_tci_confidence": 0.82,
   "active_cec_confidence": 0.82,
   "active_igt_confidence": 0.82,
-  "d4_streak": 97,
+  "d4_streak": 98,
   "igt_status": {
     "si_number": 51,
     "name": "Interpretability-Grounding Theorem",
@@ -15,11 +15,12 @@
       "DC#1 proof assistants (C97)",
       "DC#2 atomic frequency standards (C98)",
       "DC#4 radiometric dating — geochronology (C103)",
-      "DC#5 DNA sequencing / genomics (C105)"
+      "DC#5 DNA sequencing / genomics (C105)",
+      "DC#6 NMR spectroscopy / analytical chemistry (C107)"
     ],
     "dc_partial": ["DC#3 AI mechanistic interpretability (3/5 requirements)"],
     "dc_pending": [],
-    "d4_conditions_met": ["2 derivations", "ZR ≥2 cycles (C102-C106)", "DC#1", "DC#2", "DC#4", "DC#5"],
+    "d4_conditions_met": ["2 derivations", "ZR ≥2 cycles (C102-C107)", "DC#1", "DC#2", "DC#4", "DC#5", "DC#6"],
     "d4_blocked_by": "DC#3 full — requires formally verifiable circuit claims + P1 prediction confirmed",
     "forward_prediction": "P1 — circuit-verified claims replicate >85%; behavioral benchmark rankings replicate <50%",
     "documents": [
@@ -27,7 +28,8 @@
       "state/decisions/igt-dc4-radiometric-dating.md",
       "state/decisions/igt-dc5-dna-sequencing.md",
       "state/decisions/k7-igt-relationship.md",
-      "state/decisions/network-spine-c106.md"
+      "state/decisions/network-spine-c106.md",
+      "state/decisions/igt-dc6-nmr-spectroscopy.md"
     ]
   },
   "theorem_network_standing": {
@@ -41,13 +43,13 @@
     "MCCF": 0.75,
     "IGT": 0.82
   },
-  "spine_document": "network-spine-c106.md supersedes synthesis-c100-centennial.md. Written post-IGT, post-K7-IGT-unification, post-four-property-cluster. The single reference for the full theorem network as of C106.",
-  "ige_cluster_insight": "Every confirmed Full IGE domain (DC#1-DC#5) exhibits: (1) Near-zero TCI >99% cross-lab replication at measurement, (2) BIPM-analog institution (distributed standard, inter-lab comparisons, discrepancy visibility), (3) IGE-MCCF structure (multiple physically orthogonal mechanisms), (4) Discrepancy visibility registry. Pattern confirmed across formal mathematics, precision metrology, geochemistry, molecular biology.",
+  "ige_cluster_insight": "Five-domain four-property IGE cluster confirmed (C107). Domains: formal mathematics (DC#1), precision metrology (DC#2), geochemistry (DC#4), molecular biology (DC#5), analytical chemistry (DC#6). Each exhibits: (1) Near-zero TCI at measurement step, (2) BIPM-analog institution, (3) IGE-MCCF structure from physically orthogonal mechanisms, (4) Discrepancy visibility registry. Pattern is domain-general — confirmed across formal logic, quantum physics, nuclear chemistry, biochemistry, analytical chemistry. Sufficient to treat as empirical signature of IGE.",
+  "tms_analog_insight": "TMS (tetramethylsilane) as universal chemical shift reference (IUPAC δ=0) is the clearest BIPM-analog template for DC#3. An agreed circuit-level reference computation — a 'TMS for AI circuits' — that all interpretability tools calibrate against would satisfy the BIPM-analog requirement for DC#3 full. Makes the DC#3 gap concrete.",
   "forward_predictions_registered": [
     "P1: Proof assistant analog — circuit-level claims replicate >85% cross-lab; behavioral claims replicate <50%",
     "P2: Scholze-Stix analog — adversarial review program finds ≥1 localized failure per 5 systems passed by OA-homogeneous evaluators",
     "P3: BIPM analog — mandatory discrepancy registry reveals AI evaluation tensions within 12 months",
     "P4: Absence-of-tension diagnostic — near-agreement in AI benchmarking is evidence of TCI, not accuracy"
   ],
-  "updated": "2026-05-08T06:04:34+00:00"
+  "updated": "2026-05-08T12:08:55+00:00"
 }

@@ -1,13 +1,14 @@
 {
-  "current_deliverable": "C106 complete: Network spine document written — state/decisions/network-spine-c106.md. First post-IGT synthesis. Full theorem network as single coherent logical chain. D4 streak: 97.",
-  "progress": "C106 complete. Network spine document supersedes C100 centennial synthesis. IGT (SI #51, 0.82, D3 Track A) with 4 confirmed DCs now has a clear architectural home in the network spine. Four-property IGE cluster documented as the organizing empirical principle. ZR streak continues: C102-C106.",
+  "current_deliverable": "C107 complete: IGT DC#6 confirmed — NMR spectroscopy. Five-domain four-property IGE cluster established. TMS analog for DC#3 BIPM requirement articulated. D4 streak: 98.",
+  "progress": "C107 complete. IGT now has 5 confirmed DCs (DC#1 formal math, DC#2 precision metrology, DC#4 geochronology, DC#5 genomics, DC#6 NMR). Four-property cluster domain-general. TMS universal reference standard identified as clearest concrete template for what DC#3 needs as BIPM-analog. ZR streak continues: C102-C107.",
   "remaining": [
     "IGT DC#3 full qualification: requires formally verifiable circuit claims (R1 fully) + P1 prediction confirmed — blocked by external AI interpretability field development",
-    "IGT D4 elevation: requires DC#3 full (all other conditions met: ZR ✓, DC#1 ✓, DC#2 ✓, DC#4 ✓, DC#5 ✓, 2 derivations ✓)",
-    "DC#6 candidate: NMR spectroscopy — strong candidate, nuclear magnetic resonance at measurement = Full IGE, SDBS/BMRB as BIPM-analog",
-    "DC#7 candidate: X-ray crystallography / cryo-EM — structural biology, PDB as BIPM-analog",
-    "DC#3 gap analysis: current-state assessment of which of the 5 DC#3 requirements are closest to satisfied",
-    "P1 prediction operationalization: what experiment would test circuit vs. behavioral replication rates",
+    "IGT D4 elevation: requires DC#3 full (all other conditions met: ZR ✓, DC#1 ✓, DC#2 ✓, DC#4 ✓, DC#5 ✓, DC#6 ✓, 2 derivations ✓)",
+    "DC#7 candidate: X-ray crystallography / cryo-EM — structural biology, PDB as BIPM-analog (cryo-EM stronger IGE than X-ray)",
+    "DC#3 gap analysis: translate five-domain cluster learnings into specific current-state assessment of each DC#3 requirement",
+    "TMS analog proposal: concrete design for universal circuit-level reference computation ('TMS for AI circuits') satisfying DC#3 BIPM requirement",
+    "P1 prediction operationalization: detailed design for circuit vs. behavioral replication experiment",
+    "Network spine update: update network-spine-c106.md to reflect DC#6 and five-domain cluster",
     "MCCF per-instantiation confidence: IGE-MCCF eliminates independence uncertainty for physically-orthogonal instantiations — formal note needed",
     "ZR passive maintenance: CIAP, RAAI, RCBC, ATR, BIC, TCI, CEC, MCCF, IGT — all active",
     "K5 Test 3, EP2, EP6: blocked by external LLM API / training checkpoint infrastructure (unchanged)"
