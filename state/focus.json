@@ -1,12 +1,13 @@
 {
-  "current_deliverable": "C105 complete: IGT DC#5 confirmed — DNA sequencing / genomics (state/decisions/igt-dc5-dna-sequencing.md). Four-property IGE cluster identified: near-zero TCI + BIPM-analog + IGE-MCCF + discrepancy visibility — confirmed across formal math, metrology, geochemistry, molecular biology. D4 streak: 96.",
-  "progress": "C105 complete. IGT DC count: DC#1 (proof assistants) + DC#2 (atomic clocks) + DC#4 (radiometric dating) + DC#5 (DNA sequencing) = 4 confirmed DCs across 4 distinct fields. IGE-MCCF structure independently confirmed in genomics (multi-platform sequencing). Four-property IGE cluster is a new cross-domain structural pattern. ZR streak continues: C102-C105.",
+  "current_deliverable": "C106 complete: Network spine document written — state/decisions/network-spine-c106.md. First post-IGT synthesis. Full theorem network as single coherent logical chain. D4 streak: 97.",
+  "progress": "C106 complete. Network spine document supersedes C100 centennial synthesis. IGT (SI #51, 0.82, D3 Track A) with 4 confirmed DCs now has a clear architectural home in the network spine. Four-property IGE cluster documented as the organizing empirical principle. ZR streak continues: C102-C106.",
   "remaining": [
     "IGT DC#3 full qualification: requires formally verifiable circuit claims (R1 fully) + P1 prediction confirmed — blocked by external AI interpretability field development",
     "IGT D4 elevation: requires DC#3 full (all other conditions met: ZR ✓, DC#1 ✓, DC#2 ✓, DC#4 ✓, DC#5 ✓, 2 derivations ✓)",
     "DC#6 candidate: NMR spectroscopy — strong candidate, nuclear magnetic resonance at measurement = Full IGE, SDBS/BMRB as BIPM-analog",
     "DC#7 candidate: X-ray crystallography / cryo-EM — structural biology, PDB as BIPM-analog",
-    "Network spine document: K1→K7→IGT→CEC clean summary with four-property IGE cluster as organizing principle",
+    "DC#3 gap analysis: current-state assessment of which of the 5 DC#3 requirements are closest to satisfied",
+    "P1 prediction operationalization: what experiment would test circuit vs. behavioral replication rates",
     "MCCF per-instantiation confidence: IGE-MCCF eliminates independence uncertainty for physically-orthogonal instantiations — formal note needed",
     "ZR passive maintenance: CIAP, RAAI, RCBC, ATR, BIC, TCI, CEC, MCCF, IGT — all active",
     "K5 Test 3, EP2, EP6: blocked by external LLM API / training checkpoint infrastructure (unchanged)"
