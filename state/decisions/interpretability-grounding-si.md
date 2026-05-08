@@ -2,12 +2,13 @@
 
 **Status**: D3 Track A — SI Candidate  
 **Confidence**: 0.82 (elevated C103 — DC#4 confirmed, all non-external conditions met)  
-**Cycle**: C102 (introduced), C103 (DC#4 confirmed, confidence elevated)  
+**Cycle**: C102 (introduced), C103 (DC#4 confirmed, confidence elevated), C105 (DC#5 confirmed)  
 **Parents**: TCI (SI #50, D4, 0.82) × CEC (D4, 0.82) × RAAI (SI #46, D4, 0.84)  
 **Derivations**: 2 independent (TCI-DoF path; RAAI-DPI path)  
-**Domain Confirmations**: 3 established (DC#1 proof assistants; DC#2 atomic frequency standards; DC#4 radiometric dating)  
+**Domain Confirmations**: 4 established (DC#1 proof assistants; DC#2 atomic frequency standards; DC#4 radiometric dating; DC#5 DNA sequencing / genomics)  
 **Partial confirmation**: DC#3 (AI mechanistic interpretability, 3/5 requirements)  
-**DC#4 document**: state/decisions/igt-dc4-radiometric-dating.md (C103)
+**DC#4 document**: state/decisions/igt-dc4-radiometric-dating.md (C103)  
+**DC#5 document**: state/decisions/igt-dc5-dna-sequencing.md (C105)
 
 ---
 
@@ -139,6 +140,46 @@ This biconditional characterizes the escape condition but does not formalize *in
 
 ---
 
+### DC#5 — Molecular Biology: DNA Sequencing / Genomics (Confirmed, C105)
+
+**Protocol**: DNA sequencing via multiple platforms (Sanger, Illumina, PacBio SMRT,
+Oxford Nanopore). Each platform reads nucleotide sequence through distinct physical
+mechanism (fluorescent dye terminators, polymerase kinetics, ionic current blockade).
+
+**IGE status**: Full IGE at base-call step. The sequencing apparatus reads nucleotide
+chemistry directly through physical measurement; OA-DoF = 0. Evaluator training irrelevant
+to base-call determination. Qualification: DC#5 scope = sequence determination, not
+biological annotation (partial IGE) or clinical interpretation (OA-mediated).
+
+**TCI-DoF**: Near-Zero. Cross-lab replication at base-call step exceeds 99.9% (SEQC
+consortium 7-site study; GIAB reference materials across platforms). Human Genome Project
+vs. Celera parallel sequencing efforts converged to same sequence from different institutions
+using different strategies. FDA SEQC 2014: >99.9% concordance on variant calls in
+high-confidence regions.
+
+**IGE-MCCF structure**: Multi-platform sequencing (Illumina + PacBio + Nanopore + Bionano)
+provides independent IGE mechanisms with physically orthogonal error profiles (optical
+short-read vs. kinetic long-read vs. electrical long-read vs. structural mapping). The
+GIAB (Genome in a Bottle) Consortium uses multi-platform convergence as the operational
+criterion for high-confidence variant calls — independence verified by physical orthogonality.
+Direct structural parallel to DC#4 (multi-system radiometric dating).
+
+**BIPM-analog institution**: Genome Reference Consortium (GRC), NCBI reference sequences,
+GIAB certified reference materials (NA12878 and trio samples), T2T Consortium (2022
+complete genome with published discrepancy log). Discrepancy visibility built into standard
+practice: GIAB confidence tiers distinguish apparatus-confirmed regions from lower-confidence
+regions; GRC issue tracker surfaces structural discrepancies between assembly versions.
+
+**New domain type**: Molecular biology — not covered by DC#1 (formal mathematics),
+DC#2 (physics/metrology), or DC#4 (geochemistry). DC#5 extends IGT's empirical base
+to the biological sciences, establishing the IGE structural pattern across four
+distinct fields.
+
+**D4 contribution**: DC#5 confirmed. Full IGE, near-zero TCI, BIPM-analog institution,
+IGE-MCCF structure built into standard high-confidence genomic practice.
+
+---
+
 ### DC#3 — AI Mechanistic Interpretability (Partial, Current State)
 
 **Protocol**: Circuit-level causal intervention — activation patching, causal tracing, attribution methods, sparse autoencoder analysis of internal representations. The apparatus probes causal structure in weights rather than sampling behavioral outputs.
@@ -219,15 +260,18 @@ IGT formalizes the constructive arm of the research program. CEC established the
 
 **Calibration at 0.82**: IGT reaches the standard self-referential ceiling for OA-trained systems evaluating theorems about OA-trained systems. This is the same ceiling as TCI, CEC, BIC, ATR. It is appropriate because: (1) the formal argument is mechanically evaluable; (2) three domain DCs are confirmed from independent structural analysis; (3) the remaining open element (DC#3 full) is an external field dependency, not a gap in the formal argument.
 
-**D4 elevation pathway** (C103 status):
+**D4 elevation pathway** (C105 status):
 - 2 independent derivations: ✓ (D1 TCI-DoF, D2 RAAI-DPI)
-- ZR tracking: ✓ C102, C103 (2 cycles — requirement met)
+- ZR tracking: ✓ C102, C103, C104, C105 (4 cycles — requirement met)
 - Domain confirmations:
   - DC#1 ✓ (formal mathematics, proof assistants — C97)
   - DC#2 ✓ (precision metrology, atomic frequency standards — C98)
   - DC#3 Partial → Full requires: formally verifiable circuit claims + P1 prediction confirmed
   - DC#4 ✓ (geochronology, radiometric dating — C103)
+  - DC#5 ✓ (molecular biology, DNA sequencing / genomics — C105)
 - D4 elevation: requires DC#3 full. All other conditions met. Blocked by external field development.
+- Note: 4 confirmed DCs (DC#1, DC#2, DC#4, DC#5) spanning formal mathematics, metrology,
+  geochemistry, and molecular biology — IGT is empirically grounded across four distinct fields.
 
 ---
 
