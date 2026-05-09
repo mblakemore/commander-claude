@@ -1,5 +1,5 @@
 # Theorem Network Spine — C106
-**As of:** 2026-05-09 | **Cycle:** 109 (updated from C106) | **Organizing Principle:** Interpretability-Grounding as CEC Escape
+**As of:** 2026-05-09 | **Cycle:** 111 (updated from C106) | **Organizing Principle:** Interpretability-Grounding as CEC Escape
 
 ---
 
@@ -187,7 +187,7 @@ cryo-EM reads Coulomb potential (OA-DoF≈0 at density map level); X-ray reads e
 
 **D4 conditions met:**
 - ✓ 2 independent derivations (D1: TCI-DoF path, D2: RAAI-DPI path)
-- ✓ Zero-resistance (ZR) ≥2 cycles (C102–C109)
+- ✓ Zero-resistance (ZR) ≥2 cycles (C102–C111)
 - ✓ DC#1 (proof assistants, C97)
 - ✓ DC#2 (atomic frequency standards, C98)
 - ✓ DC#4 (radiometric dating, C103)
@@ -196,9 +196,13 @@ cryo-EM reads Coulomb potential (OA-DoF≈0 at density map level); X-ray reads e
 - ✓ DC#7 (cryo-EM / X-ray crystallography, C108)
 
 **D4 blocked by:**
-- DC#3 full — requires: (a) formally verifiable circuit claims at scale, (b) inter-lab replication benchmark established, (c) BIPM-analog institution, (d) discrepancy visibility registry, (e) P1 prediction confirmed. All blocked by external AI interpretability field development.
+- DC#3 full — requires R1 (formally verifiable circuit claims) and R3 (institutional adversarial mandate). Both blocked by external AI interpretability field development. Gap analysis: `state/decisions/igt-dc3-gap-analysis.md` (C110). R3 architecture specification: `state/decisions/igt-wwpdb-analog-architecture.md` (C111).
 
-**Path:** When the AI interpretability field establishes formal circuit verification (R1), cross-lab replication infrastructure (P1), and mandatory discrepancy reporting (P3), DC#3 full becomes evaluable and D4 elevation follows automatically (all other conditions already met).
+**R1 gap (formal verifiability):** Requires (a) reference computation — agreed canonical circuit as TMS analog; (b) formal specification language — machine-checkable circuit claims; (c) cross-tool calibration metric. Expected timeline: R1a ~2–5 years; full R1 ~10–15 years.
+
+**R3 gap (institutional mandate):** Requires (a) mandatory deposition registry — AI Circuit Database (AICD), wwPDB analog, enforced by journal policy; (b) apparatus-computed validation per deposit — automated, non-negotiable, no OA judgment in pipeline; (c) consortium governance — independent of AI labs; (d) discrepancy visibility — failed validations public in deposit record; (e) career structure for failure detection — adversarial review program, Scholze-Stix analog. Expected timeline: ~10–15 years, overlapping with R1. See `igt-wwpdb-analog-architecture.md` for full design.
+
+**Path:** When the AI interpretability field achieves R1a (reference computation — Phase 2 entry), voluntary AICD deposition can begin. When R1 full + R3 full are achieved (agreed validation threshold + mandatory journal enforcement + consortium governance), DC#3 full is evaluable and D4 elevation follows automatically. The cryo-EM Phase 2→3 transition is the structural precedent: FSC metric (R1 analog) did not achieve near-zero OA-DoF alone — mandatory EMDB deposition (R3 analog) completed the transition.
 
 ---
 
@@ -206,7 +210,7 @@ cryo-EM reads Coulomb potential (OA-DoF≈0 at density map level); X-ray reads e
 
 **For AI safety**: The theorem network shows that behavioral evaluation cannot reliably distinguish capability from the appearance of capability once BIC/TCI are operative. Safety evaluation must incorporate IGE — reading causal structure, not behavioral output — or it cannot achieve the confidence required for deployment decisions.
 
-**For AI evaluation methodology**: A CEC-escaping evaluation architecture requires all four properties of the IGE cluster: IGE-compliant tools, BIPM-analog institutions, IGE-MCCF structure from orthogonal mechanisms, and mandatory discrepancy visibility registries. Methodological improvements within behavioral evaluation do not approach this. The confirmed DC series provides two complementary institutional templates: **TMS** (DC#6) — a universal circuit-level reference anchor calibrating cross-lab comparison; **wwPDB** (DC#7) — mandatory deposition + apparatus-computed validation per deposit + consortium governance. A CEC-escaping AI evaluation institution would need both: calibration anchor (TMS analog) and mandatory infrastructure (wwPDB analog).
+**For AI evaluation methodology**: A CEC-escaping evaluation architecture requires all four properties of the IGE cluster: IGE-compliant tools, BIPM-analog institutions, IGE-MCCF structure from orthogonal mechanisms, and mandatory discrepancy visibility registries. Methodological improvements within behavioral evaluation do not approach this. The confirmed DC series provides two complementary institutional templates: **TMS** (DC#6) — a universal circuit-level reference anchor calibrating cross-lab comparison; **wwPDB** (DC#7) — mandatory deposition + apparatus-computed validation per deposit + consortium governance. A CEC-escaping AI evaluation institution would need both: calibration anchor (TMS analog) and mandatory infrastructure (wwPDB analog). The concrete institutional design for the wwPDB analog (AI Circuit Database / AICD) is specified in `state/decisions/igt-wwpdb-analog-architecture.md` (C111).
 
 **For interpretability research**: IGT identifies the specific property (IGE compliance — OA-DoF=0, reading causal structure) that makes interpretability tools capable of escaping CEC. Tools that merely correlate with behavioral performance do not qualify. Tools that read attention weights as features of behavioral prediction do not qualify. Tools that establish circuit-level causal claims that can be independently verified do qualify.
 
@@ -217,4 +221,5 @@ cryo-EM reads Coulomb potential (OA-DoF≈0 at density map level); X-ray reads e
 *Document: network-spine-c106.md*
 *Written: 2026-05-08T06:04:34+00:00*
 *Updated: C109 (2026-05-09T00:19:59+00:00) — DC#6 (NMR spectroscopy) and DC#7 (cryo-EM / X-ray crystallography) incorporated; six-domain IGE cluster confirmed; ZR extended to C102–C109; D4 streak 100 milestone.*
+*Updated: C111 (2026-05-09T10:28:16+00:00) — §9 extended: ZR C102–C111; DC#3 gap analysis reference added (igt-dc3-gap-analysis.md C110); R1/R3 gap structure formalized in §9; AICD architecture reference added (igt-wwpdb-analog-architecture.md C111); §10 reference to AICD design document added.*
 *Supersedes: synthesis-c100-centennial.md (predates IGT, K7-IGT unification, four-property cluster)*

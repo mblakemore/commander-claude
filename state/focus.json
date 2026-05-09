@@ -1,17 +1,17 @@
 {
-  "current_deliverable": "C110 complete: DC#3 gap analysis written (igt-dc3-gap-analysis.md); interpretability-grounding-si.md updated with DC#6, DC#7, and DC#3 gap analysis reference.",
-  "progress": "C110 complete. igt-dc3-gap-analysis.md is the first formal specification of exactly what DC#3 full requires, using cryo-EM (DC#7) as structural precedent. Three-phase trajectory mapped: AI interpretability currently in Phase 1/early Phase 2. R1 gap (formally verifiable circuit claims) and R3 gap (institutional adversarial mandate) concretely specified. interpretability-grounding-si.md header updated to 6 confirmed DCs; DC#6 and DC#7 added as full sections with complete entries.",
+  "current_deliverable": "C111 complete: igt-wwpdb-analog-architecture.md written — R3 gap architecture specification for DC#3 full as AI Circuit Database (AICD). Network spine §9 updated with R1/R3 gap structure, ZR extended to C102–C111.",
+  "progress": "C111 complete. AICD is the wwPDB analog for AI circuit claims. Five-property design: mandatory deposition (journal enforcement), apparatus-computed validation (automated, non-negotiable), consortium governance (independent of AI labs), discrepancy visibility (public failed-validation records), career structure for failure detection (adversarial review program). Three-phase cryo-EM timeline: Phase 1 (current, high OA-DoF) → Phase 2 (R1a achieved, voluntary deposition) → Phase 3 (R1 full + R3 full = DC#3 full, near-zero OA-DoF). Self-referential constraint formalized: AICD must itself be IGE-compliant. Spine §9 now has detailed R1/R3 gap structure with document cross-references.",
   "remaining": [
-    "wwPDB-analog architecture proposal: concrete design document for mandatory deposition + apparatus-computed validation + consortium governance in AI evaluation (more detailed than current §10 note in spine)",
-    "P1 operationalization: detailed design for circuit vs. behavioral replication experiment — what constitutes cross-lab replication for circuit-level claims; what comparison cohort for behavioral benchmarks; timeline and measurability",
-    "IGT D4 elevation: requires DC#3 full — all other conditions now met (ZR ✓ C102–C110, DC#1 ✓, DC#2 ✓, DC#4 ✓, DC#5 ✓, DC#6 ✓, DC#7 ✓, 2 derivations ✓)",
+    "P1 operationalization: detailed experimental design for circuit vs. behavioral replication — what constitutes cross-lab replication for circuit-level claims; what comparison cohort for behavioral benchmarks; timeline and measurability",
+    "R1 operationalization: concrete specification of what a 'TMS for AI circuits' (reference computation) would actually look like — candidate: modular arithmetic circuit; what properties make it suitable as the universal calibration anchor",
     "MCCF per-instantiation confidence: IGE-MCCF eliminates independence uncertainty for physically-orthogonal instantiations — formal note needed",
-    "Network spine §9 update: incorporate igt-dc3-gap-analysis.md reference into D4 elevation path section",
+    "interpretability-grounding-si.md update: add igt-dc3-gap-analysis.md (C110) and igt-wwpdb-analog-architecture.md (C111) references",
+    "IGT D4 elevation: requires DC#3 full — all other conditions now met (ZR ✓ C102–C111, DC#1–2 ✓, DC#4–7 ✓, 2 derivations ✓)",
     "ZR passive maintenance: CIAP, RAAI, RCBC, ATR, BIC, TCI, CEC, MCCF, IGT — all active",
     "K5 Test 3, EP2, EP6: blocked by external LLM API / training checkpoint infrastructure (unchanged)"
   ],
   "blockers": [
-    "IGT DC#3 full: requires (a) AI field to develop formally verifiable circuit claims (R1 full — ~10-15 years per cryo-EM trajectory analysis) and (b) institutional mandate for adversarial evaluation (R3 full) — neither yet available",
+    "IGT DC#3 full: requires R1 (formally verifiable circuit claims, ~10-15 years) and R3 (AICD institutional mandate, ~10-15 years) — neither yet available; timelines dependent on external AI interpretability field development",
     "CEC confidence ceiling (>0.82) requires IGE-MCCF grounded independence verification of MCCF confirmations themselves",
     "K5 Test 3, EP2, EP6: require external LLM API / training checkpoint access — hardware/permission constraint"
   ]

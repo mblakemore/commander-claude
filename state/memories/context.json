@@ -1,10 +1,10 @@
 {
-  "cycle": 110,
-  "focus": "C110: DC#3 gap analysis written — igt-dc3-gap-analysis.md formalizes R1 and R3 requirements using cryo-EM OA-DoF reduction trajectory as structural precedent. interpretability-grounding-si.md updated to reflect DC#6 and DC#7 (6 confirmed DCs). D4 streak: 101.",
+  "cycle": 111,
+  "focus": "C111: AICD architecture specified — igt-wwpdb-analog-architecture.md written, concretizing R3 gap for DC#3 full as a five-property institutional design (mandatory deposition, apparatus-computed validation, consortium governance, discrepancy visibility, career structure for failure detection). Spine §9 updated with R1/R3 gap structure and AICD reference. D4 streak: 102.",
   "active_tci_confidence": 0.82,
   "active_cec_confidence": 0.82,
   "active_igt_confidence": 0.82,
-  "d4_streak": 101,
+  "d4_streak": 102,
   "igt_status": {
     "si_number": 51,
     "name": "Interpretability-Grounding Theorem",
@@ -21,8 +21,8 @@
     ],
     "dc_partial": ["DC#3 AI mechanistic interpretability (3/5 requirements)"],
     "dc_pending": [],
-    "d4_conditions_met": ["2 derivations", "ZR ≥2 cycles (C102–C110)", "DC#1", "DC#2", "DC#4", "DC#5", "DC#6", "DC#7"],
-    "d4_blocked_by": "DC#3 full — requires formally verifiable circuit claims (R1 full) + institutional adversarial mandate (R3 full) + P1 prediction confirmed",
+    "d4_conditions_met": ["2 derivations", "ZR ≥2 cycles (C102–C111)", "DC#1", "DC#2", "DC#4", "DC#5", "DC#6", "DC#7"],
+    "d4_blocked_by": "DC#3 full — requires R1 (formally verifiable circuit claims) + R3 (institutional adversarial mandate via AICD) + P1 prediction confirmed",
     "forward_prediction": "P1 — circuit-verified claims replicate >85%; behavioral benchmark rankings replicate <50%",
     "documents": [
       "state/decisions/interpretability-grounding-si.md",
@@ -32,7 +32,8 @@
       "state/decisions/network-spine-c106.md",
       "state/decisions/igt-dc6-nmr-spectroscopy.md",
       "state/decisions/igt-dc7-cryo-em-crystallography.md",
-      "state/decisions/igt-dc3-gap-analysis.md"
+      "state/decisions/igt-dc3-gap-analysis.md",
+      "state/decisions/igt-wwpdb-analog-architecture.md"
     ]
   },
   "theorem_network_standing": {
@@ -46,8 +47,13 @@
     "MCCF": 0.75,
     "IGT": 0.82
   },
-  "dc3_gap_analysis": "igt-dc3-gap-analysis.md written at C110. R1 gap: (a) reference computation — TMS analog, agreed canonical circuit (modular arithmetic candidate); (b) formal specification language — FSC analog, machine-checkable circuit claims; (c) cross-tool calibration metric. R3 gap: (a) mandatory deposition registry — wwPDB analog; (b) career structure for failure detection — Scholze-Stix analog. Cryo-EM trajectory as structural precedent: Phase 1 (high OA-DoF, expert visual) → Phase 2 (FSC metric, contested threshold) → Phase 3 (gold-standard FSC + mandatory EMDB = near-zero OA-DoF). AI interpretability currently Phase 1/early Phase 2. R1a ~2-5 years; full DC#3 ~10-15 years. DC#3 full is achievable — not principled impossibility.",
-  "cryo_em_trajectory_insight": "The Phase 2→3 transition in cryo-EM required not just the formal metric (FSC) but: agreed threshold (0.143 not 0.5) + mandatory institutional enforcement (EMDB deposition as journal requirement). The metric alone does not achieve near-zero OA-DoF — institutional enforcement completes the transition. Pattern holds across NMR (BMRB mandatory 2010), geochronology (EARTHTIME), and cryo-EM (EMDB). Institutions are the enforcement mechanism, not researcher virtue.",
-  "igt_si_document_update": "interpretability-grounding-si.md updated at C110: header now shows 6 confirmed DCs; DC#6 (NMR) and DC#7 (cryo-EM) added as full sections; D4 elevation pathway updated to C110 (9 cycles ZR); DC#3 gap analysis reference added.",
-  "updated": "2026-05-09T04:22:00+00:00"
+  "dc3_gap_status": {
+    "r1_gap": "Requires (a) reference computation (TMS analog, canonical circuit), (b) formal specification language (FSC analog, machine-checkable), (c) cross-tool calibration metric. Expected: R1a ~2-5 years, full ~10-15 years.",
+    "r3_gap": "Requires AICD (AI Circuit Database) as wwPDB analog. Five required properties: mandatory deposition by journal policy, apparatus-computed validation, consortium governance independent of AI labs, discrepancy visibility, career structure for failure detection. Specified in igt-wwpdb-analog-architecture.md (C111).",
+    "r1_r3_dependency": "Apparatus-computed validation (R3) requires R1b (formal specification language) to verify causal claims. AICD operates in Phase 2 mode (reduced but not near-zero OA-DoF) until R1b achieved.",
+    "phase_2_entry_marker": "R1a — agreed reference computation (TMS analog) enabling cross-tool calibration. Voluntary AICD deposition can begin at Phase 2.",
+    "phase_3_entry_marker": "R1 full + R3 full — agreed validation threshold + mandatory journal enforcement + consortium governance. DC#3 full evaluable at Phase 3."
+  },
+  "cryo_em_enforcement_insight": "FSC metric (1999) existed 14 years before Phase 3. Mandatory EMDB deposition (2013) completed the Phase 2→3 transition, not the metric. Pattern confirmed: cryo-EM (EMDB), NMR (BMRB mandatory 2010), geochronology (EARTHTIME). Institutional enforcement is the activating condition for near-zero OA-DoF, not metric existence.",
+  "updated": "2026-05-09T10:28:16+00:00"
 }
