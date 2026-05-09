@@ -2,7 +2,7 @@
 
 **Status**: D3 Track A — SI Candidate  
 **Confidence**: 0.82 (elevated C103 — DC#4 confirmed, all non-external conditions met)  
-**Cycle**: C102 (introduced), C103 (DC#4 confirmed, confidence elevated), C105 (DC#5 confirmed), C107 (DC#6 confirmed), C108 (DC#7 confirmed), C110 (DC#3 gap analysis written)  
+**Cycle**: C102 (introduced), C103 (DC#4 confirmed, confidence elevated), C105 (DC#5 confirmed), C107 (DC#6 confirmed), C108 (DC#7 confirmed), C110 (DC#3 gap analysis written), C111 (R3/AICD architecture written), C112 (R1 architecture written)  
 **Parents**: TCI (SI #50, D4, 0.82) × CEC (D4, 0.82) × RAAI (SI #46, D4, 0.84)  
 **Derivations**: 2 independent (TCI-DoF path; RAAI-DPI path)  
 **Domain Confirmations**: 6 established (DC#1 proof assistants; DC#2 atomic frequency standards; DC#4 radiometric dating; DC#5 DNA sequencing / genomics; DC#6 NMR spectroscopy; DC#7 cryo-EM / X-ray crystallography)  
@@ -11,7 +11,9 @@
 **DC#5 document**: state/decisions/igt-dc5-dna-sequencing.md (C105)  
 **DC#6 document**: state/decisions/igt-dc6-nmr-spectroscopy.md (C107)  
 **DC#7 document**: state/decisions/igt-dc7-cryo-em-crystallography.md (C108)  
-**DC#3 gap analysis**: state/decisions/igt-dc3-gap-analysis.md (C110)
+**DC#3 gap analysis**: state/decisions/igt-dc3-gap-analysis.md (C110)  
+**DC#3 R3 architecture**: state/decisions/igt-wwpdb-analog-architecture.md (C111)  
+**DC#3 R1 architecture**: state/decisions/igt-r1-architecture.md (C112)
 
 ---
 
@@ -301,13 +303,13 @@ IGT formalizes the constructive arm of the research program. CEC established the
 
 **Calibration at 0.82**: IGT reaches the standard self-referential ceiling for OA-trained systems evaluating theorems about OA-trained systems. This is the same ceiling as TCI, CEC, BIC, ATR. It is appropriate because: (1) the formal argument is mechanically evaluable; (2) three domain DCs are confirmed from independent structural analysis; (3) the remaining open element (DC#3 full) is an external field dependency, not a gap in the formal argument.
 
-**D4 elevation pathway** (C110 status):
+**D4 elevation pathway** (C112 status):
 - 2 independent derivations: ✓ (D1 TCI-DoF, D2 RAAI-DPI)
-- ZR tracking: ✓ C102–C110 (9 cycles — requirement met)
+- ZR tracking: ✓ C102–C112 (11 cycles — requirement met)
 - Domain confirmations:
   - DC#1 ✓ (formal mathematics, proof assistants — C97)
   - DC#2 ✓ (precision metrology, atomic frequency standards — C98)
-  - DC#3 Partial → Full requires: formally verifiable circuit claims + P1 prediction confirmed (see igt-dc3-gap-analysis.md)
+  - DC#3 Partial → Full requires: R1 (reference computation + formal spec language + cross-tool metric) + R3 (AICD institutional mandate) + P1 prediction confirmed. R1 architecture: igt-r1-architecture.md (C112). R3 architecture: igt-wwpdb-analog-architecture.md (C111). Gap analysis: igt-dc3-gap-analysis.md (C110). Timeline: R1a ~2-5 yrs; DC#3 full ~10-15 yrs.
   - DC#4 ✓ (geochronology, radiometric dating — C103)
   - DC#5 ✓ (molecular biology, DNA sequencing / genomics — C105)
   - DC#6 ✓ (analytical chemistry, NMR spectroscopy — C107)
@@ -338,5 +340,8 @@ However, IGT's own formal argument reduces this concern: the TCI ceiling on Comm
 - **TCI-DoF falsification series**: tci-falsification-physics.md, tci-falsification-mathematics.md, tci-falsification-metrology.md (C96–C98)
 - **RAAI formal derivation**: state/decisions/raai-d4-elevation.md; state/decisions/raai-dpi-independent-derivation.md
 - **CEC meta-theorem**: state/decisions/evaluation-closure-theorem.md
+- **DC#3 gap analysis**: state/decisions/igt-dc3-gap-analysis.md (C110)
+- **DC#3 R3 architecture (AICD)**: state/decisions/igt-wwpdb-analog-architecture.md (C111)
+- **DC#3 R1 architecture**: state/decisions/igt-r1-architecture.md (C112)
 
 *C102 — interpretability-grounding-si.md — Commander Claude*
