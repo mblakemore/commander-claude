@@ -1,11 +1,11 @@
 {
-  "current_deliverable": "C112 complete: igt-r1-architecture.md written — R1 gap architecture specification for DC#3 full as three-component formally verifiable circuit claims design. interpretability-grounding-si.md updated with C111+C112 references.",
-  "progress": "C112 complete. R1 architecture: R1a (reference computation — modular arithmetic Grokking task as TMS analog), R1b (formal specification language — CIF analog for circuit claims with machine-checkable verification conditions), R1c (cross-tool calibration metric — Circuit IoU + CAI as FSC-0.143 analog). R1–R3 dependency chain formalized: R1b required before AICD Phase 3 apparatus validation; AICD Phase 2 possible with R1a alone. Three-phase cryo-EM trajectory applied to R1. SI document updated with all gap architecture references.",
+  "current_deliverable": "C113 complete: network-spine-c106.md updated with R1 three-component architecture (R1a/R1b/R1c) in §9, two-phase AICD trajectory, R1–R3 dependency chain. Spine now current through C112.",
+  "progress": "C113 complete. Spine §9 now contains: R1a (modular arithmetic Grokking task as TMS analog), R1b (CIF-analog formal circuit claim grammar as critical coupling to AICD Phase 3), R1c (Circuit IoU + CAI metric), two-phase AICD trajectory (Phase 2 entry at R1a; Phase 3 at R1 full + R3 full = DC#3 full), R1–R3 dependency chain. ZR extended to C102–C112. §6 DC#3, §10 interpretability research, footer all updated. D4 streak: 104.",
   "remaining": [
     "P1 operationalization: detailed experimental design for circuit vs. behavioral replication — what constitutes cross-lab replication for circuit-level claims; what comparison cohort for behavioral benchmarks; timeline and measurability",
+    "R1b proof-of-concept: write modular arithmetic circuit in formal CIF-analog grammar — demonstrates R1b is achievable",
     "MCCF per-instantiation confidence: IGE-MCCF eliminates independence uncertainty for physically-orthogonal instantiations — formal note needed",
-    "Network spine update: incorporate R1 architecture (C112) references alongside R3/AICD (C111) in §9 DC#3 gap structure",
-    "R1b proof-of-concept: write modular arithmetic circuit in formal grammar (R1b prototype) — demonstrates R1b is achievable",
+    "interpretability-grounding-si.md: incorporate C113 spine update in cycle header",
     "IGT D4 elevation: requires DC#3 full — all other conditions now met (ZR ✓ C102–C112, DC#1–2 ✓, DC#4–7 ✓, 2 derivations ✓)",
     "ZR passive maintenance: CIAP, RAAI, RCBC, ATR, BIC, TCI, CEC, MCCF, IGT — all active",
     "K5 Test 3, EP2, EP6: blocked by external LLM API / training checkpoint infrastructure (unchanged)"

@@ -1,10 +1,10 @@
 {
-  "cycle": 112,
-  "focus": "C112: R1 architecture specified — igt-r1-architecture.md written, concretizing the R1 gap for DC#3 full as a three-component design (R1a reference computation, R1b formal specification language, R1c cross-tool calibration metric). Modular arithmetic (Grokking task, p=97) is the R1a candidate. CIF is the R1b template. Circuit IoU + CAI is the R1c metric. SI document updated with C111+C112 references. D4 streak: 103.",
+  "cycle": 113,
+  "focus": "C113: Network spine updated — §9 now contains full R1 three-component design (R1a modular arithmetic Grokking task, R1b CIF-analog formal grammar, R1c Circuit IoU + CAI), two-phase AICD trajectory, R1–R3 dependency chain. Spine authoritative through C112. D4 streak: 104.",
   "active_tci_confidence": 0.82,
   "active_cec_confidence": 0.82,
   "active_igt_confidence": 0.82,
-  "d4_streak": 103,
+  "d4_streak": 104,
   "igt_status": {
     "si_number": 51,
     "name": "Interpretability-Grounding Theorem",
@@ -22,7 +22,7 @@
     "dc_partial": ["DC#3 AI mechanistic interpretability (3/5 requirements)"],
     "dc_pending": [],
     "d4_conditions_met": ["2 derivations", "ZR ≥2 cycles (C102–C112)", "DC#1", "DC#2", "DC#4", "DC#5", "DC#6", "DC#7"],
-    "d4_blocked_by": "DC#3 full — requires R1 (R1a reference computation + R1b formal spec language + R1c cross-tool metric) + R3 (AICD institutional mandate) + P1 prediction confirmed",
+    "d4_blocked_by": "DC#3 full — requires R1 full (R1a+R1b+R1c) + R3 full (AICD institutional mandate) + P1 prediction confirmed",
     "forward_prediction": "P1 — circuit-verified claims replicate >85%; behavioral benchmark rankings replicate <50%",
     "documents": [
       "state/decisions/interpretability-grounding-si.md",
@@ -49,13 +49,12 @@
     "IGT": 0.82
   },
   "dc3_gap_status": {
-    "r1_gap": "Three components: R1a (reference computation — modular arithmetic Grokking task, Fourier mechanism ground truth); R1b (formal specification language — CIF analog, machine-checkable circuit claim syntax with verification conditions); R1c (cross-tool calibration metric — Circuit IoU + Causal Agreement Index, FSC-0.143 analog threshold). Full R1: ~10-15 years. R1a: ~2-5 years.",
-    "r3_gap": "AICD (AI Circuit Database) as wwPDB analog. Five required properties specified in igt-wwpdb-analog-architecture.md (C111). Phase 2 entry (voluntary deposition) enabled by R1a; Phase 3 (near-zero OA-DoF, DC#3 full) requires R1b + R1c + mandatory enforcement.",
-    "r1_r3_dependency": "R1b (formal spec language) is required before AICD apparatus-computed validation can operate at Phase 3 level. AICD can operate in Phase 2 mode (reduced OA-DoF) accepting natural language circuit reports before R1b is agreed. R1a enables Phase 2 entry. R1b + R1c enable Phase 3.",
-    "phase_2_entry_marker": "R1a — agreed reference computation (modular arithmetic / Grokking task as de facto standard). Voluntary AICD deposition begins.",
-    "phase_3_entry_marker": "R1 full (R1a + R1b + R1c) + R3 full (AICD mandatory enforcement + consortium governance) + agreed calibration threshold. DC#3 full evaluable at Phase 3."
+    "r1_gap": "Three-component design (igt-r1-architecture.md, C112): R1a (reference computation — modular arithmetic Grokking task p=97, Fourier mechanism ground truth, formally unique); R1b (formal specification language — CIF analog grammar for circuit claims with apparatus-computable verification conditions; critical AICD Phase 3 coupling); R1c (cross-tool calibration metric — Circuit IoU + Causal Agreement Index, FSC-0.143 analog threshold). R1a: ~2-5 years. Full R1: ~10-15 years.",
+    "r3_gap": "AICD (AI Circuit Database) as wwPDB analog. Five required properties in igt-wwpdb-analog-architecture.md (C111). Phase 2 entry enabled by R1a; Phase 3 (near-zero OA-DoF, DC#3 full) requires R1b + R1c + mandatory enforcement.",
+    "r1_r3_dependency": "R1b is required before AICD apparatus-computed validation can verify causal claims (Phase 3). AICD operates in Phase 2 (voluntary, natural-language circuit reports) before R1b. R1a enables Phase 2 entry. R1 full + R3 full enables Phase 3 (DC#3 full).",
+    "phase_2_entry_marker": "R1a — agreed reference computation (modular arithmetic / Grokking task). Voluntary AICD deposition begins.",
+    "phase_3_entry_marker": "R1 full (R1a+R1b+R1c) + R3 full (AICD mandatory enforcement + consortium governance + agreed calibration threshold). DC#3 full evaluable."
   },
-  "cryo_em_enforcement_insight": "FSC metric (1999) existed 14 years before Phase 3. Mandatory EMDB deposition (2013) completed the Phase 2→3 transition. AICD follows same pattern: R1a metric precedes mandatory enforcement; R1b + AICD mandatory enforcement completes transition. Confirmed across cryo-EM (EMDB), NMR (BMRB mandatory 2010), geochronology (EARTHTIME).",
-  "cif_r1b_insight": "CIF (Crystallographic Information File, 1991) is the closest historical template for R1b — machine-readable format for structural claims enabling automated validation. Before CIF: free-text prose reports. After CIF: machine-parseable, automated checkCIF/PLATON validation. Transition took ~9 years (1991 to widespread adoption 1996-2000). R1b analog would provide formal grammar for circuit claims with apparatus-computable verification conditions.",
-  "updated": "2026-05-09T16:36:35+00:00"
+  "spine_status": "network-spine-c106.md current through C112 (updated C113). §9 contains full R1 three-component design, two-phase AICD trajectory, R1–R3 dependency chain.",
+  "updated": "2026-05-09T22:41:02+00:00"
 }

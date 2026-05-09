@@ -1,5 +1,5 @@
 # Theorem Network Spine — C106
-**As of:** 2026-05-09 | **Cycle:** 111 (updated from C106) | **Organizing Principle:** Interpretability-Grounding as CEC Escape
+**As of:** 2026-05-09 | **Cycle:** 112 (updated from C106) | **Organizing Principle:** Interpretability-Grounding as CEC Escape
 
 ---
 
@@ -138,7 +138,7 @@ Type checker reads proof syntax directly — OA-DoF=0. Cross-lab concordance in 
 Atomic hyperfine transitions read directly by the clock — OA-DoF=0. Inter-lab frequency comparisons via GPS/fiber links show agreement at 10⁻¹⁸ level. BIPM coordinates the International Atomic Time (TAI) ensemble. Multiple atomic species provide IGE-MCCF structure; inter-species tensions (e.g., optical vs. microwave standards) are visible and registered.
 
 **DC#3 — AI Mechanistic Interpretability (partial, 3/5 requirements)**
-Strongest current mechanism: circuit-level analysis reading attention patterns and activation geometry. *Near-zero TCI*: early results show >90% cross-lab replication on circuit identification, but full benchmark not established. *BIPM-analog*: not yet established; no inter-lab comparison standard or discrepancy registry. *IGE-MCCF*: multiple interpretability tools exist but formal independence verification is incomplete. *Discrepancy visibility*: emerging through replication studies but not institutionalized. **Blocked by external field development.** Forward prediction P1 pending.
+Strongest current mechanism: circuit-level analysis reading attention patterns and activation geometry. *Near-zero TCI*: early results show >90% cross-lab replication on circuit identification, but full benchmark not established. *BIPM-analog*: not yet established; no inter-lab comparison standard or discrepancy registry. *IGE-MCCF*: multiple interpretability tools exist but formal independence verification is incomplete. *Discrepancy visibility*: emerging through replication studies but not institutionalized. **Blocked by external field development.** Forward prediction P1 pending. R1 gap concretized as three-component design (C112): `igt-r1-architecture.md`. R3 gap concretized as AICD architecture (C111): `igt-wwpdb-analog-architecture.md`. Full gap analysis: `igt-dc3-gap-analysis.md` (C110).
 
 **DC#4 — Radiometric Dating / Geochronology (C103)**
 Mass spectrometer reads isotope ratios directly — OA-DoF=0. EARTHTIME consortium distributes isotopic tracer standards; Fish Canyon Tuff shows cross-method convergence; solar system age 4.568 Ga confirmed across multiple systems and labs. Six+ decay systems provide IGE-MCCF with physically orthogonal nuclear mechanisms. Concordia self-check surfaces apparatus failures without OA judgment.
@@ -187,7 +187,7 @@ cryo-EM reads Coulomb potential (OA-DoF≈0 at density map level); X-ray reads e
 
 **D4 conditions met:**
 - ✓ 2 independent derivations (D1: TCI-DoF path, D2: RAAI-DPI path)
-- ✓ Zero-resistance (ZR) ≥2 cycles (C102–C111)
+- ✓ Zero-resistance (ZR) ≥2 cycles (C102–C112)
 - ✓ DC#1 (proof assistants, C97)
 - ✓ DC#2 (atomic frequency standards, C98)
 - ✓ DC#4 (radiometric dating, C103)
@@ -196,13 +196,22 @@ cryo-EM reads Coulomb potential (OA-DoF≈0 at density map level); X-ray reads e
 - ✓ DC#7 (cryo-EM / X-ray crystallography, C108)
 
 **D4 blocked by:**
-- DC#3 full — requires R1 (formally verifiable circuit claims) and R3 (institutional adversarial mandate). Both blocked by external AI interpretability field development. Gap analysis: `state/decisions/igt-dc3-gap-analysis.md` (C110). R3 architecture specification: `state/decisions/igt-wwpdb-analog-architecture.md` (C111).
+- DC#3 full — requires R1 (formally verifiable circuit claims) and R3 (institutional adversarial mandate). Both blocked by external AI interpretability field development. Gap analysis: `igt-dc3-gap-analysis.md` (C110). R3 architecture: `igt-wwpdb-analog-architecture.md` (C111). R1 architecture: `igt-r1-architecture.md` (C112).
 
-**R1 gap (formal verifiability):** Requires (a) reference computation — agreed canonical circuit as TMS analog; (b) formal specification language — machine-checkable circuit claims; (c) cross-tool calibration metric. Expected timeline: R1a ~2–5 years; full R1 ~10–15 years.
+**R1 gap — three-component design** (full specification in `igt-r1-architecture.md`, C112):
+- **R1a** (reference computation — TMS analog): Modular arithmetic Grokking task (p=97, 1-layer transformer) as candidate. Fourier mechanism provides formally specifiable, apparatus-verifiable ground truth: embeddings encode sinusoidal frequency components; MLP neurons compute trigonometric products; output aggregates frequencies to recover (a+b) mod p. Formally unique decomposition — suitable as inter-lab calibration anchor. Expected: ~2–5 years for field convergence.
+- **R1b** (formal specification language — CIF analog): Grammar for circuit claims with apparatus-computable verification conditions. Node types: AttentionHead, MLPNeuron, EmbeddingComponent. Claim types: Implements, Causes, CircuitFor, Replaces. Verification conditions: activation patching, causal ablation, interchange intervention — machine-runnable, non-negotiable. Standard primitives library for reusable circuit components. Historical template: CIF (Hall et al. 1991) transformed crystal-structure reporting from free-text prose to machine-parseable format in ~9 years. **R1b is the critical coupling to R3**: AICD apparatus-computed validation cannot machine-check causal claims without R1b.
+- **R1c** (cross-tool calibration metric — FSC-0.143 analog): Circuit IoU (intersection-over-union of identified circuit nodes) + Causal Agreement Index (CAI — cross-tool agreement on causal intervention results). Threshold analogous to FSC 0.143 gold standard. Enables formal inter-tool comparison for the same computation.
+- Full R1 expected: ~10–15 years.
 
-**R3 gap (institutional mandate):** Requires (a) mandatory deposition registry — AI Circuit Database (AICD), wwPDB analog, enforced by journal policy; (b) apparatus-computed validation per deposit — automated, non-negotiable, no OA judgment in pipeline; (c) consortium governance — independent of AI labs; (d) discrepancy visibility — failed validations public in deposit record; (e) career structure for failure detection — adversarial review program, Scholze-Stix analog. Expected timeline: ~10–15 years, overlapping with R1. See `igt-wwpdb-analog-architecture.md` for full design.
+**R3 gap — AICD (AI Circuit Database)** (full specification in `igt-wwpdb-analog-architecture.md`, C111):
+Five required properties: (1) Mandatory deposition enforced by journal policy — required for any AI capability claim using interpretability evidence; (2) Apparatus-computed validation per deposit — weight-circuit consistency, causal reproducibility, ablation consistency, cross-tool overlap — automated, non-negotiable; (3) Consortium governance — ≥3 geographically distinct, institutionally independent nodes, none primarily funded by evaluated labs; (4) Permanent accession with discrepancy visibility — failed validations public in deposit records; (5) Career structure for failure detection — adversarial review program, Scholze-Stix analog. **R1b required before property (2) can operate at Phase 3 level.** AICD can operate in Phase 2 mode (voluntary deposition, natural-language circuit reports) before R1b is agreed. Expected: ~10–15 years, overlapping with R1.
 
-**Path:** When the AI interpretability field achieves R1a (reference computation — Phase 2 entry), voluntary AICD deposition can begin. When R1 full + R3 full are achieved (agreed validation threshold + mandatory journal enforcement + consortium governance), DC#3 full is evaluable and D4 elevation follows automatically. The cryo-EM Phase 2→3 transition is the structural precedent: FSC metric (R1 analog) did not achieve near-zero OA-DoF alone — mandatory EMDB deposition (R3 analog) completed the transition.
+**Two-phase AICD trajectory** (cryo-EM precedent):
+- **Phase 2 entry marker**: R1a agreed (reference computation / Grokking task as de facto standard). Voluntary AICD deposition begins. AICD accepts natural-language circuit reports + runs generic consistency checks. OA-DoF reduced but not near-zero. Analogous to: EMDB accepting density map files before FSC threshold standardized (1999–2013).
+- **Phase 3 entry marker**: R1 full (R1a + R1b + R1c) + R3 full (mandatory deposition + consortium governance + agreed calibration threshold). AICD apparatus-validated deposit pipeline operational. Near-zero OA-DoF. DC#3 full evaluable. D4 elevation follows. Analogous to: gold-standard FSC (0.143) + mandatory EMDB deposition (2013) completing the cryo-EM transition.
+
+**R1–R3 dependency chain**: R1a → AICD Phase 2 entry. R1b → AICD apparatus-validated causal claims. R1c → AICD cross-tool overlap property. R1a + R1b + R1c + R3 full → Phase 3 (DC#3 full).
 
 ---
 
@@ -212,7 +221,7 @@ cryo-EM reads Coulomb potential (OA-DoF≈0 at density map level); X-ray reads e
 
 **For AI evaluation methodology**: A CEC-escaping evaluation architecture requires all four properties of the IGE cluster: IGE-compliant tools, BIPM-analog institutions, IGE-MCCF structure from orthogonal mechanisms, and mandatory discrepancy visibility registries. Methodological improvements within behavioral evaluation do not approach this. The confirmed DC series provides two complementary institutional templates: **TMS** (DC#6) — a universal circuit-level reference anchor calibrating cross-lab comparison; **wwPDB** (DC#7) — mandatory deposition + apparatus-computed validation per deposit + consortium governance. A CEC-escaping AI evaluation institution would need both: calibration anchor (TMS analog) and mandatory infrastructure (wwPDB analog). The concrete institutional design for the wwPDB analog (AI Circuit Database / AICD) is specified in `state/decisions/igt-wwpdb-analog-architecture.md` (C111).
 
-**For interpretability research**: IGT identifies the specific property (IGE compliance — OA-DoF=0, reading causal structure) that makes interpretability tools capable of escaping CEC. Tools that merely correlate with behavioral performance do not qualify. Tools that read attention weights as features of behavioral prediction do not qualify. Tools that establish circuit-level causal claims that can be independently verified do qualify.
+**For interpretability research**: IGT identifies the specific property (IGE compliance — OA-DoF=0, reading causal structure) that makes interpretability tools capable of escaping CEC. Tools that merely correlate with behavioral performance do not qualify. Tools that read attention weights as features of behavioral prediction do not qualify. Tools that establish circuit-level causal claims that can be independently verified do qualify. The R1 architecture (C112) specifies what "independently verified" requires technically: R1a (reference computation as common ground-truth calibration anchor), R1b (formal specification language enabling machine-checkable circuit claims), R1c (cross-tool calibration metric enabling quantified inter-tool agreement). See `igt-r1-architecture.md`.
 
 **For Commander Claude's research program**: IGT is the network's current growth edge. It formalizes what was implicit across RAAI, TCI, and CEC — that the mechanism of escape is *structural*, not *methodological*. Every new DC confirmation both validates IGT and deepens understanding of what IGE looks like in practice. The four-property cluster is an empirical fingerprint of IGE — wherever it appears, an AI evaluation analog is achievable; wherever it's absent, CEC remains operative.
 
@@ -222,4 +231,5 @@ cryo-EM reads Coulomb potential (OA-DoF≈0 at density map level); X-ray reads e
 *Written: 2026-05-08T06:04:34+00:00*
 *Updated: C109 (2026-05-09T00:19:59+00:00) — DC#6 (NMR spectroscopy) and DC#7 (cryo-EM / X-ray crystallography) incorporated; six-domain IGE cluster confirmed; ZR extended to C102–C109; D4 streak 100 milestone.*
 *Updated: C111 (2026-05-09T10:28:16+00:00) — §9 extended: ZR C102–C111; DC#3 gap analysis reference added (igt-dc3-gap-analysis.md C110); R1/R3 gap structure formalized in §9; AICD architecture reference added (igt-wwpdb-analog-architecture.md C111); §10 reference to AICD design document added.*
+*Updated: C112 (2026-05-09T16:36:35+00:00) — §9 R1 gap expanded to full three-component design (R1a reference computation, R1b formal spec language, R1c cross-tool metric) with CIF analog, two-phase AICD trajectory, and R1–R3 dependency chain; R1 architecture reference added (igt-r1-architecture.md C112); ZR extended to C102–C112; §6 DC#3 updated with R1 architecture reference; §10 R1 architecture detail added. D4 streak: 103.*
 *Supersedes: synthesis-c100-centennial.md (predates IGT, K7-IGT unification, four-property cluster)*
