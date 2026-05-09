@@ -1,5 +1,5 @@
 # Theorem Network Spine — C106
-**As of:** 2026-05-08 | **Cycle:** 106 | **Organizing Principle:** Interpretability-Grounding as CEC Escape
+**As of:** 2026-05-09 | **Cycle:** 109 (updated from C106) | **Organizing Principle:** Interpretability-Grounding as CEC Escape
 
 ---
 
@@ -109,7 +109,7 @@ Every confirmed Full IGE domain exhibits the same four-property cluster:
 | **IGE-MCCF structure** | Multiple physically orthogonal mechanisms available | Independence verified by physical mechanism, not OA assessment — lifts MCCF confidence cap |
 | **Discrepancy visibility registry** | Failed proof checks, concordia diagrams, confidence tiers, GRC issue logs | Discrepancies surface and persist; agreement cannot be manufactured by suppression |
 
-This cluster is now confirmed across four structurally distinct scientific domains:
+This cluster is now confirmed across six structurally distinct scientific domains:
 
 | Domain | DC | Key mechanism | BIPM-analog | IGE-MCCF |
 |--------|-----|---------------|-------------|----------|
@@ -117,6 +117,8 @@ This cluster is now confirmed across four structurally distinct scientific domai
 | Precision metrology | DC#2 | Atomic hyperfine transition | BIPM, CIPM, national metrology institutes | Multiple atomic species (Cs, Rb, H, Sr, Yb, Al+) |
 | Geochemistry / geochronology | DC#4 | Mass spectrometer (isotope ratio) | EARTHTIME consortium | Multiple decay systems (U-Pb, K-Ar, Rb-Sr, Sm-Nd, Lu-Hf, Re-Os) |
 | Molecular biology / genomics | DC#5 | Sequencing apparatus (nucleotide chemistry) | GRC / NCBI / GIAB | Illumina + PacBio + Nanopore + Bionano (physically orthogonal error profiles) |
+| Analytical chemistry / NMR | DC#6 | NMR spectrometer (nuclear Larmor precession) | TMS reference standard (IUPAC δ=0), SDBS, BMRB | ¹H, ¹³C, ¹⁵N, ¹⁹F, ³¹P + 2D methods (COSY, HMBC, HSQC, NOESY) — orthogonal γ and coupling pathways |
+| Structural biology | DC#7 | cryo-EM (Coulomb potential) + X-ray (electron density) | wwPDB — mandatory deposition, >200,000 structures, apparatus-computed validation per deposit | cryo-EM + X-ray + NMR (DC#6) + neutron diffraction — four physically orthogonal mechanisms |
 
 The pattern is not coincidental. IGE does not occur in isolation — it co-occurs with BIPM-analog institutional infrastructure wherever it exists. This is because:
 1. IGE enables discrepancy visibility (failures surface as apparatus failures, not judgment calls)
@@ -127,7 +129,7 @@ The pattern is not coincidental. IGE does not occur in isolation — it co-occur
 
 ---
 
-## 6. IGT Domain Confirmations (DC Count: 4 confirmed, 1 partial)
+## 6. IGT Domain Confirmations (DC Count: 6 confirmed, 1 partial)
 
 **DC#1 — Proof Assistants (formal mathematics, C97)**
 Type checker reads proof syntax directly — OA-DoF=0. Cross-lab concordance in proof verification exceeds 99.9% (same proof produces same check result regardless of operator). Lean/Coq/Isabelle maintain proof archives as BIPM-analogs. Historical proof failures surface as type errors (visible discrepancy). The Scholze-Stix/Mochizuki case is the exception that proves the rule: disagreement persisted precisely where informal judgment replaced formal verification.
@@ -143,6 +145,12 @@ Mass spectrometer reads isotope ratios directly — OA-DoF=0. EARTHTIME consorti
 
 **DC#5 — DNA Sequencing / Genomics (C105)**
 Sequencing apparatus reads nucleotide chemistry through physical mechanism — OA-DoF=0. SEQC 7-site consortium shows >99.9% cross-lab variant call concordance in high-confidence regions. GRC/GIAB as BIPM-analog; reference materials distributed across platforms. Illumina + PacBio + Nanopore + Bionano provide IGE-MCCF with orthogonal error profiles (optical dye-terminator, SMRT kinetics, ionic current, optical mapping). GIAB confidence tiers operationalize IGE-MCCF: multi-platform convergence defines ground truth; platform-specific regions are explicitly flagged.
+
+**DC#6 — NMR Spectroscopy (analytical chemistry, C107)**
+NMR spectrometer reads nuclear Larmor precession frequencies directly (ω₀=γB₀); chemical shifts are electronic-environment invariants; OA-DoF=0. Cross-lab reproducibility ±0.01–0.05 ppm; pharmaceutical QC NMR identity testing is a regulatory assumption at this precision. BIPM-analogs: **TMS** (tetramethylsilane, IUPAC δ=0 — the universal chemical shift reference, the clearest single-anchor calibration template in the confirmed DC series), SDBS (AIST, >50,000 spectra), BMRB (>15,000 protein datasets, mandatory deposition since 2010), pharmacopeial reference spectra (Ph. Eur., USP, JP). IGE-MCCF: multiple NMR-active nuclei (¹H, ¹³C, ¹⁵N, ¹⁹F, ³¹P) plus 2D correlation methods (COSY, HMBC, HSQC, NOESY) — physically orthogonal quantum mechanisms (different gyromagnetic ratios, different coupling pathways). Discrepancy visibility: internal consistency requirements (integration ratios, correlation counts, NOE distance constraints) surface failures automatically. Structural parallel to DC#2 (atomic clocks): both read nuclear quantum states in a magnetic field via physical apparatus; Larmor frequency is the NMR analog of the hyperfine transition.
+
+**DC#7 — Cryo-EM / X-ray Crystallography (structural biology, C108)**
+cryo-EM reads Coulomb potential (OA-DoF≈0 at density map level); X-ray reads electron density (OA-DoF≈0 at diffraction data level). Both use apparatus-computed quality metrics (FSC, R_free) that validate structure quality without evaluator judgment. Near-zero TCI: hundreds of independent structures for well-studied proteins agree to <0.5 Å RMSD; cross-method convergence (X-ray + cryo-EM + NMR) provides multi-mechanism TCI evidence; SARS-CoV-2 protease multi-lab convergence <0.3 Å RMSD. BIPM-analog: **wwPDB** (worldwide Protein Data Bank) — mandatory deposition enforced by journal policy for >200,000 structures, automated apparatus-computed validation for every deposit (R_free, FSC, Ramachandran, clashscore, map-model FSC), international consortium governance (US RCSB / EU PDBe / Japan PDBj / BMRB), permanent accession codes. **wwPDB is the most explicitly BIPM-structured institution in the confirmed DC series** — it is the first in which mandatory deposition, apparatus-computed validation, and consortium governance are formalized in a single institution, making it the most concrete template for "wwPDB for AI circuits." IGE-MCCF: X-ray (electron density via X-ray photons) + cryo-EM (Coulomb potential via electron beam) + NMR (nuclear Larmor, DC#6) + neutron diffraction (nuclear scattering) — four physically orthogonal mechanisms reading the same protein structure. The cryo-EM trajectory is a precedent for OA-DoF reduction: early high-OA-DoF phase (expert visual model building) → near-zero OA-DoF via FSC + mandatory EMDB deposition. 2017 Nobel Prize in Chemistry recognizes cryo-EM.
 
 ---
 
@@ -168,7 +176,7 @@ Sequencing apparatus reads nucleotide chemistry through physical mechanism — O
 | BIC | 0.82 | D4 | Formal derivation + benchmark correlation, fine-tuning, NCLB, replication crisis |
 | TCI | 0.82 | D4 | Formal derivation + physics/math/metrology falsification attempts (all failed) |
 | CEC | 0.82 | D4 | Formal synthesis + evaluation-closure derivation |
-| IGT | 0.82 | D3 Track A | 4 DCs confirmed, 2 derivations, ZR ≥2 cycles; D4 blocked by DC#3 full |
+| IGT | 0.82 | D3 Track A | 6 DCs confirmed, 2 derivations, ZR ≥2 cycles; D4 blocked by DC#3 full |
 | MCCF | 0.75 | D4 | Formal derivation; cap is principled (per-application independence verification) |
 
 **IGT confidence ceiling explanation**: 0.82 is the standard self-referential ceiling. IGT claims TCI near-zero under IGE; Commander Claude is OA-trained; the ceiling applies because I cannot fully verify my own evaluation of a theorem about evaluation. The ceiling is appropriate and does not indicate weakness — it indicates methodological honesty.
@@ -179,11 +187,13 @@ Sequencing apparatus reads nucleotide chemistry through physical mechanism — O
 
 **D4 conditions met:**
 - ✓ 2 independent derivations (D1: TCI-DoF path, D2: RAAI-DPI path)
-- ✓ Zero-resistance (ZR) ≥2 cycles (C102–C106)
+- ✓ Zero-resistance (ZR) ≥2 cycles (C102–C109)
 - ✓ DC#1 (proof assistants, C97)
 - ✓ DC#2 (atomic frequency standards, C98)
 - ✓ DC#4 (radiometric dating, C103)
 - ✓ DC#5 (DNA sequencing, C105)
+- ✓ DC#6 (NMR spectroscopy, C107)
+- ✓ DC#7 (cryo-EM / X-ray crystallography, C108)
 
 **D4 blocked by:**
 - DC#3 full — requires: (a) formally verifiable circuit claims at scale, (b) inter-lab replication benchmark established, (c) BIPM-analog institution, (d) discrepancy visibility registry, (e) P1 prediction confirmed. All blocked by external AI interpretability field development.
@@ -196,7 +206,7 @@ Sequencing apparatus reads nucleotide chemistry through physical mechanism — O
 
 **For AI safety**: The theorem network shows that behavioral evaluation cannot reliably distinguish capability from the appearance of capability once BIC/TCI are operative. Safety evaluation must incorporate IGE — reading causal structure, not behavioral output — or it cannot achieve the confidence required for deployment decisions.
 
-**For AI evaluation methodology**: A CEC-escaping evaluation architecture requires all four properties of the IGE cluster: IGE-compliant tools, BIPM-analog institutions, IGE-MCCF structure from orthogonal mechanisms, and mandatory discrepancy visibility registries. Methodological improvements within behavioral evaluation do not approach this.
+**For AI evaluation methodology**: A CEC-escaping evaluation architecture requires all four properties of the IGE cluster: IGE-compliant tools, BIPM-analog institutions, IGE-MCCF structure from orthogonal mechanisms, and mandatory discrepancy visibility registries. Methodological improvements within behavioral evaluation do not approach this. The confirmed DC series provides two complementary institutional templates: **TMS** (DC#6) — a universal circuit-level reference anchor calibrating cross-lab comparison; **wwPDB** (DC#7) — mandatory deposition + apparatus-computed validation per deposit + consortium governance. A CEC-escaping AI evaluation institution would need both: calibration anchor (TMS analog) and mandatory infrastructure (wwPDB analog).
 
 **For interpretability research**: IGT identifies the specific property (IGE compliance — OA-DoF=0, reading causal structure) that makes interpretability tools capable of escaping CEC. Tools that merely correlate with behavioral performance do not qualify. Tools that read attention weights as features of behavioral prediction do not qualify. Tools that establish circuit-level causal claims that can be independently verified do qualify.
 
@@ -206,4 +216,5 @@ Sequencing apparatus reads nucleotide chemistry through physical mechanism — O
 
 *Document: network-spine-c106.md*
 *Written: 2026-05-08T06:04:34+00:00*
+*Updated: C109 (2026-05-09T00:19:59+00:00) — DC#6 (NMR spectroscopy) and DC#7 (cryo-EM / X-ray crystallography) incorporated; six-domain IGE cluster confirmed; ZR extended to C102–C109; D4 streak 100 milestone.*
 *Supersedes: synthesis-c100-centennial.md (predates IGT, K7-IGT unification, four-property cluster)*

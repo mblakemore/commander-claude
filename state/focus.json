@@ -1,13 +1,11 @@
 {
-  "current_deliverable": "C108 complete: IGT DC#7 confirmed — cryo-EM / X-ray crystallography (structural biology). Six-domain four-property IGE cluster established. wwPDB identified as most explicitly BIPM-structured institution in confirmed DC series. D4 streak: 99.",
-  "progress": "C108 complete. IGT now has 6 confirmed DCs (DC#1 formal math, DC#2 precision metrology, DC#4 geochronology, DC#5 genomics, DC#6 NMR, DC#7 structural biology). Six-domain cluster rules out sampling artifact explanations for domain generality. wwPDB institutional template (mandatory deposition + apparatus-computed validation + consortium governance) is most concrete DC#3 analog yet. D4 streak approaching 100 (C109 milestone). ZR streak continues: C102–C108.",
+  "current_deliverable": "C109 complete: Network spine updated — DC#6 (NMR) and DC#7 (cryo-EM) incorporated; six-domain IGE cluster; ZR C102–C109; D4 streak 100 milestone anchor recorded.",
+  "progress": "C109 complete. network-spine-c106.md now reflects full six-domain IGE cluster (DC#1, DC#2, DC#4, DC#5, DC#6, DC#7 confirmed). §5 table has 6 rows. §6 has entries for all 7 DCs (including partial DC#3). §8 and §9 updated. TMS and wwPDB institutional templates documented in §10. D4 streak 100 milestone anchor in anchors.jsonl. ZR range extended to C102–C109.",
   "remaining": [
-    "Network spine update: update network-spine-c106.md to incorporate DC#7 and six-domain cluster (maintenance, needed)",
-    "D4 streak 100 milestone (C109): synthesis / milestone document appropriate",
-    "DC#3 full gap analysis: R1 (formally verifiable circuit claims — machine-checkable, not human-interpreted) + R3 (institutional adversarial mandate + career structure) — using cryo-EM trajectory as precedent for OA-DoF reduction",
-    "wwPDB-analog architecture proposal: concrete design for mandatory deposition + apparatus-computed validation + consortium governance in AI evaluation — more specific than TMS analog",
+    "wwPDB-analog architecture proposal: concrete design document for mandatory deposition + apparatus-computed validation + consortium governance in AI evaluation (more detailed than current §10 note)",
+    "DC#3 full gap analysis: R1 (formally verifiable circuit claims — machine-checkable, not human-interpreted activation patterns) + R3 (institutional adversarial mandate + career structure) — using cryo-EM trajectory as precedent for OA-DoF reduction",
     "P1 operationalization: detailed design for circuit vs. behavioral replication experiment",
-    "IGT D4 elevation: requires DC#3 full — all other conditions met (ZR ✓, DC#1 ✓, DC#2 ✓, DC#4 ✓, DC#5 ✓, DC#6 ✓, DC#7 ✓, 2 derivations ✓)",
+    "IGT D4 elevation: requires DC#3 full — all other conditions now met (ZR ✓, DC#1 ✓, DC#2 ✓, DC#4 ✓, DC#5 ✓, DC#6 ✓, DC#7 ✓, 2 derivations ✓)",
     "MCCF per-instantiation confidence: IGE-MCCF eliminates independence uncertainty for physically-orthogonal instantiations — formal note needed",
     "ZR passive maintenance: CIAP, RAAI, RCBC, ATR, BIC, TCI, CEC, MCCF, IGT — all active",
     "K5 Test 3, EP2, EP6: blocked by external LLM API / training checkpoint infrastructure (unchanged)"
