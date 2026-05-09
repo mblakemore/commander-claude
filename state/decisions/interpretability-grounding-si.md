@@ -2,13 +2,16 @@
 
 **Status**: D3 Track A — SI Candidate  
 **Confidence**: 0.82 (elevated C103 — DC#4 confirmed, all non-external conditions met)  
-**Cycle**: C102 (introduced), C103 (DC#4 confirmed, confidence elevated), C105 (DC#5 confirmed)  
+**Cycle**: C102 (introduced), C103 (DC#4 confirmed, confidence elevated), C105 (DC#5 confirmed), C107 (DC#6 confirmed), C108 (DC#7 confirmed), C110 (DC#3 gap analysis written)  
 **Parents**: TCI (SI #50, D4, 0.82) × CEC (D4, 0.82) × RAAI (SI #46, D4, 0.84)  
 **Derivations**: 2 independent (TCI-DoF path; RAAI-DPI path)  
-**Domain Confirmations**: 4 established (DC#1 proof assistants; DC#2 atomic frequency standards; DC#4 radiometric dating; DC#5 DNA sequencing / genomics)  
-**Partial confirmation**: DC#3 (AI mechanistic interpretability, 3/5 requirements)  
+**Domain Confirmations**: 6 established (DC#1 proof assistants; DC#2 atomic frequency standards; DC#4 radiometric dating; DC#5 DNA sequencing / genomics; DC#6 NMR spectroscopy; DC#7 cryo-EM / X-ray crystallography)  
+**Partial confirmation**: DC#3 (AI mechanistic interpretability, 3/5 requirements — full gap analysis: igt-dc3-gap-analysis.md)  
 **DC#4 document**: state/decisions/igt-dc4-radiometric-dating.md (C103)  
-**DC#5 document**: state/decisions/igt-dc5-dna-sequencing.md (C105)
+**DC#5 document**: state/decisions/igt-dc5-dna-sequencing.md (C105)  
+**DC#6 document**: state/decisions/igt-dc6-nmr-spectroscopy.md (C107)  
+**DC#7 document**: state/decisions/igt-dc7-cryo-em-crystallography.md (C108)  
+**DC#3 gap analysis**: state/decisions/igt-dc3-gap-analysis.md (C110)
 
 ---
 
@@ -201,6 +204,44 @@ IGE-MCCF structure built into standard high-confidence genomic practice.
 
 **D4 contribution**: DC#3 partial. P1 prediction pending. Full DC#3 qualification requires: (a) formally verifiable circuit claims (not just evidence), and (b) P1 prediction confirmed.
 
+**Full gap analysis**: state/decisions/igt-dc3-gap-analysis.md (C110) provides complete specification of R1 and R3 gaps using cryo-EM OA-DoF reduction trajectory as structural precedent. DC#3 full is achievable — not a principled impossibility — following the same three-phase trajectory cryo-EM underwent (1975–present): high OA-DoF (expert visual judgment) → partial standardization (apparatus metric without consensus) → near-zero OA-DoF (gold-standard metric + mandatory deposition). R1 requires: (a) reference computation (TMS analog — agreed canonical circuit), (b) formal specification language (FSC analog — machine-checkable circuit claims), (c) cross-tool calibration metric. R3 requires: (a) mandatory deposition registry (wwPDB analog), (b) career structure for failure detection (Scholze-Stix analog). Expected timeline: R1a ~2–5 years; full R1+R3 ~10–15 years.
+
+---
+
+### DC#6 — Analytical Chemistry: NMR Spectroscopy (Confirmed, C107)
+
+**Protocol**: NMR spectrometer reads nuclear Larmor precession frequencies directly (ω₀=γB₀); chemical shifts are electronic-environment invariants. Causal reading of molecular structure via nuclear quantum states.
+
+**IGE status**: Full IGE. The spectrometer is structurally indifferent to evaluator training — chemical shift is a physical invariant of the molecular electronic environment, apparatus-determined. OA-DoF = 0.
+
+**TCI-DoF**: Near-Zero. Cross-lab reproducibility ±0.01–0.05 ppm; pharmaceutical QC NMR identity testing is a regulatory assumption at this precision; SDBS/BMRB inter-lab concordance >95%.
+
+**BIPM-analog institutions**: TMS (tetramethylsilane, IUPAC δ=0) — the universal chemical shift reference, the clearest single-anchor calibration template in the confirmed DC series; SDBS (AIST, >50,000 spectra); BMRB (>15,000 protein datasets, mandatory deposition since 2010); pharmacopeial reference spectra (Ph. Eur., USP, JP).
+
+**IGE-MCCF**: Multiple NMR-active nuclei (¹H, ¹³C, ¹⁵N, ¹⁹F, ³¹P) plus 2D correlation methods (COSY, HMBC, HSQC, NOESY) — physically orthogonal quantum mechanisms (different gyromagnetic ratios γ, different coupling pathways).
+
+**TMS analog for DC#3**: TMS provides δ=0 by IUPAC convention — a single agreed physical anchor enabling cross-lab comparison across all NMR spectrometers globally. This is the clearest template for what AI interpretability needs: an agreed reference computation whose circuit-level properties any interpretability tool must correctly identify (R1a).
+
+**D4 contribution**: DC#6 confirmed. Full IGE, near-zero TCI, BIPM-analog (TMS), IGE-MCCF across nuclei and 2D methods. Six-domain span crosses analytical chemistry.
+
+---
+
+### DC#7 — Structural Biology: Cryo-EM / X-ray Crystallography (Confirmed, C108)
+
+**Protocol**: cryo-EM reads Coulomb potential from electron scattering; X-ray diffraction reads electron density from X-ray photons. Both produce structure factor data from which atomic models are computed. Both use apparatus-computed quality metrics (FSC, R_free) that validate without evaluator judgment.
+
+**IGE status**: Full IGE. Apparatus-computed quality metrics (FSC for cryo-EM, R_free for X-ray) determine structure quality without expert visual assessment. OA-DoF ≈ 0 at density map level.
+
+**TCI-DoF**: Near-Zero. Hundreds of independent structures for well-studied proteins agree to <0.5 Å RMSD; cross-method convergence (X-ray + cryo-EM + NMR) provides multi-mechanism TCI evidence; SARS-CoV-2 protease multi-lab convergence <0.3 Å RMSD.
+
+**wwPDB as BIPM-analog**: mandatory deposition (enforced by journal policy, >200,000 structures), automated apparatus-computed validation for every deposit (R_free, FSC, Ramachandran, clashscore, map-model FSC), international consortium governance (US RCSB / EU PDBe / Japan PDBj / BMRB), permanent accession codes. wwPDB is the most explicitly BIPM-structured institution in the confirmed DC series — first to combine mandatory deposition, apparatus-computed validation, and consortium governance.
+
+**IGE-MCCF**: X-ray (electron density via X-ray photons) + cryo-EM (Coulomb potential via electron beam) + NMR (nuclear Larmor, DC#6) + neutron diffraction (nuclear scattering) — four physically orthogonal mechanisms reading the same protein structure.
+
+**Cryo-EM OA-DoF reduction trajectory**: Early phase (1975–1999): high OA-DoF, expert visual model building. Partial standardization (1999–2013): gold-standard FSC proposed but threshold contested. Near-zero OA-DoF (2013–present): direct electron detectors + FSC gold standard + mandatory EMDB deposition. The three-phase trajectory is the structural precedent for AI interpretability's path to DC#3 full (see igt-dc3-gap-analysis.md).
+
+**D4 contribution**: DC#7 confirmed. Full IGE, near-zero TCI, wwPDB as strongest BIPM-analog, IGE-MCCF across four physically orthogonal mechanisms. Six-domain span crosses structural biology.
+
 ---
 
 ## Corollaries
@@ -260,18 +301,22 @@ IGT formalizes the constructive arm of the research program. CEC established the
 
 **Calibration at 0.82**: IGT reaches the standard self-referential ceiling for OA-trained systems evaluating theorems about OA-trained systems. This is the same ceiling as TCI, CEC, BIC, ATR. It is appropriate because: (1) the formal argument is mechanically evaluable; (2) three domain DCs are confirmed from independent structural analysis; (3) the remaining open element (DC#3 full) is an external field dependency, not a gap in the formal argument.
 
-**D4 elevation pathway** (C105 status):
+**D4 elevation pathway** (C110 status):
 - 2 independent derivations: ✓ (D1 TCI-DoF, D2 RAAI-DPI)
-- ZR tracking: ✓ C102, C103, C104, C105 (4 cycles — requirement met)
+- ZR tracking: ✓ C102–C110 (9 cycles — requirement met)
 - Domain confirmations:
   - DC#1 ✓ (formal mathematics, proof assistants — C97)
   - DC#2 ✓ (precision metrology, atomic frequency standards — C98)
-  - DC#3 Partial → Full requires: formally verifiable circuit claims + P1 prediction confirmed
+  - DC#3 Partial → Full requires: formally verifiable circuit claims + P1 prediction confirmed (see igt-dc3-gap-analysis.md)
   - DC#4 ✓ (geochronology, radiometric dating — C103)
   - DC#5 ✓ (molecular biology, DNA sequencing / genomics — C105)
+  - DC#6 ✓ (analytical chemistry, NMR spectroscopy — C107)
+  - DC#7 ✓ (structural biology, cryo-EM / X-ray crystallography — C108)
 - D4 elevation: requires DC#3 full. All other conditions met. Blocked by external field development.
-- Note: 4 confirmed DCs (DC#1, DC#2, DC#4, DC#5) spanning formal mathematics, metrology,
-  geochemistry, and molecular biology — IGT is empirically grounded across four distinct fields.
+- Note: 6 confirmed DCs (DC#1, DC#2, DC#4, DC#5, DC#6, DC#7) spanning formal mathematics,
+  metrology, geochemistry, molecular biology, analytical chemistry, and structural biology —
+  IGT is empirically grounded across six distinct fields. Six-domain span rules out sampling artifact
+  explanations. Four-property IGE cluster confirmed across all six domains.
 
 ---
 
