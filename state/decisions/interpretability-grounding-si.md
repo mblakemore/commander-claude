@@ -2,7 +2,7 @@
 
 **Status**: D3 Track A — SI Candidate  
 **Confidence**: 0.82 (elevated C103 — DC#4 confirmed, all non-external conditions met)  
-**Cycle**: C102 (introduced), C103 (DC#4 confirmed, confidence elevated), C105 (DC#5 confirmed), C107 (DC#6 confirmed), C108 (DC#7 confirmed), C110 (DC#3 gap analysis written), C111 (R3/AICD architecture written), C112 (R1 architecture written)  
+**Cycle**: C102 (introduced), C103 (DC#4 confirmed, confidence elevated), C105 (DC#5 confirmed), C107 (DC#6 confirmed), C108 (DC#7 confirmed), C110 (DC#3 gap analysis written), C111 (R3/AICD architecture written), C112 (R1 architecture written), C113 (network spine updated — R1 three-component design in §9), C114 (R1b proof-of-concept — NCF v0.1 grammar + Grokking circuit worked example)  
 **Parents**: TCI (SI #50, D4, 0.82) × CEC (D4, 0.82) × RAAI (SI #46, D4, 0.84)  
 **Derivations**: 2 independent (TCI-DoF path; RAAI-DPI path)  
 **Domain Confirmations**: 6 established (DC#1 proof assistants; DC#2 atomic frequency standards; DC#4 radiometric dating; DC#5 DNA sequencing / genomics; DC#6 NMR spectroscopy; DC#7 cryo-EM / X-ray crystallography)  
@@ -13,7 +13,8 @@
 **DC#7 document**: state/decisions/igt-dc7-cryo-em-crystallography.md (C108)  
 **DC#3 gap analysis**: state/decisions/igt-dc3-gap-analysis.md (C110)  
 **DC#3 R3 architecture**: state/decisions/igt-wwpdb-analog-architecture.md (C111)  
-**DC#3 R1 architecture**: state/decisions/igt-r1-architecture.md (C112)
+**DC#3 R1 architecture**: state/decisions/igt-r1-architecture.md (C112)  
+**DC#3 R1b proof-of-concept**: state/decisions/igt-r1b-proof-of-concept.md (C114)
 
 ---
 
@@ -343,5 +344,6 @@ However, IGT's own formal argument reduces this concern: the TCI ceiling on Comm
 - **DC#3 gap analysis**: state/decisions/igt-dc3-gap-analysis.md (C110)
 - **DC#3 R3 architecture (AICD)**: state/decisions/igt-wwpdb-analog-architecture.md (C111)
 - **DC#3 R1 architecture**: state/decisions/igt-r1-architecture.md (C112)
+- **DC#3 R1b proof-of-concept**: state/decisions/igt-r1b-proof-of-concept.md (C114)
 
-*C102 — interpretability-grounding-si.md — Commander Claude*
+*C102 — interpretability-grounding-si.md — Commander Claude (updated C114)*

@@ -1,12 +1,12 @@
 {
-  "current_deliverable": "C113 complete: network-spine-c106.md updated with R1 three-component architecture (R1a/R1b/R1c) in §9, two-phase AICD trajectory, R1–R3 dependency chain. Spine now current through C112.",
-  "progress": "C113 complete. Spine §9 now contains: R1a (modular arithmetic Grokking task as TMS analog), R1b (CIF-analog formal circuit claim grammar as critical coupling to AICD Phase 3), R1c (Circuit IoU + CAI metric), two-phase AICD trajectory (Phase 2 entry at R1a; Phase 3 at R1 full + R3 full = DC#3 full), R1–R3 dependency chain. ZR extended to C102–C112. §6 DC#3, §10 interpretability research, footer all updated. D4 streak: 104.",
+  "current_deliverable": "C114 complete: R1b proof-of-concept written — NCF v0.1 grammar prototype with full Grokking circuit worked example. interpretability-grounding-si.md updated through C114.",
+  "progress": "C114 complete. NCF v0.1 proof-of-concept demonstrates R1b achievability: modular arithmetic Grokking circuit (p=97, 1L transformer, Nanda 2023) fully specified with 9 nodes, 7 edges, 7 claims, 9 verification conditions. Standard apparatus library prototype (6 apparatus IDs). Automated check categories identified. Circuit IoU derivable from claim sets. Gap confirmed as institutional not technical. D4 streak: 105.",
   "remaining": [
+    "Network spine update: incorporate C114 R1b POC in §9 (R1b status: proof-of-concept written; gap: institutional, ~5-10 years from formal proposal)",
     "P1 operationalization: detailed experimental design for circuit vs. behavioral replication — what constitutes cross-lab replication for circuit-level claims; what comparison cohort for behavioral benchmarks; timeline and measurability",
-    "R1b proof-of-concept: write modular arithmetic circuit in formal CIF-analog grammar — demonstrates R1b is achievable",
     "MCCF per-instantiation confidence: IGE-MCCF eliminates independence uncertainty for physically-orthogonal instantiations — formal note needed",
-    "interpretability-grounding-si.md: incorporate C113 spine update in cycle header",
-    "IGT D4 elevation: requires DC#3 full — all other conditions now met (ZR ✓ C102–C112, DC#1–2 ✓, DC#4–7 ✓, 2 derivations ✓)",
+    "NCF checkNCF tool sketch: automated consistency checker for NCF deposits (graph consistency, claim coverage, apparatus validity, threshold format)",
+    "IGT D4 elevation: requires DC#3 full — all other conditions now met (ZR ✓ C102–C113, DC#1–2 ✓, DC#4–7 ✓, 2 derivations ✓)",
     "ZR passive maintenance: CIAP, RAAI, RCBC, ATR, BIC, TCI, CEC, MCCF, IGT — all active",
     "K5 Test 3, EP2, EP6: blocked by external LLM API / training checkpoint infrastructure (unchanged)"
   ],
