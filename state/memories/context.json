@@ -1,10 +1,10 @@
 {
-  "cycle": 114,
-  "focus": "C114: R1b proof-of-concept written — NCF v0.1 prototype grammar for AI circuit claims. Demonstrates R1b achievability: modular arithmetic Grokking circuit fully specified in NCF (9 nodes, 7 edges, 7 claims, 9 apparatus-computable verification conditions). interpretability-grounding-si.md updated through C114. D4 streak: 105.",
+  "cycle": 115,
+  "focus": "C115: Network spine updated to incorporate R1b POC from C114. NCF v0.1 proof-of-concept now in §9: 9 nodes, 7 edges, 7 claims, 9 apparatus-computable verification conditions, 6 standard apparatus IDs. Gap confirmed as institutional not technical. ZR C102–C114 (13 cycles). D4 streak: 106.",
   "active_tci_confidence": 0.82,
   "active_cec_confidence": 0.82,
   "active_igt_confidence": 0.82,
-  "d4_streak": 105,
+  "d4_streak": 106,
   "igt_status": {
     "si_number": 51,
     "name": "Interpretability-Grounding Theorem",
@@ -21,7 +21,7 @@
     ],
     "dc_partial": ["DC#3 AI mechanistic interpretability (3/5 requirements)"],
     "dc_pending": [],
-    "d4_conditions_met": ["2 derivations", "ZR ≥2 cycles (C102–C113)", "DC#1", "DC#2", "DC#4", "DC#5", "DC#6", "DC#7"],
+    "d4_conditions_met": ["2 derivations", "ZR ≥2 cycles (C102–C114)", "DC#1", "DC#2", "DC#4", "DC#5", "DC#6", "DC#7"],
     "d4_blocked_by": "DC#3 full — requires R1 full (R1a+R1b+R1c) + R3 full (AICD institutional mandate) + P1 prediction confirmed",
     "forward_prediction": "P1 — circuit-verified claims replicate >85%; behavioral benchmark rankings replicate <50%",
     "documents": [
@@ -50,14 +50,14 @@
     "IGT": 0.82
   },
   "dc3_gap_status": {
-    "r1_gap": "Three-component design (igt-r1-architecture.md, C112): R1a (reference computation — modular arithmetic Grokking task p=97); R1b (formal specification language — NCF v0.1 prototype grammar now written in igt-r1b-proof-of-concept.md, C114); R1c (cross-tool calibration metric — Circuit IoU + Causal Agreement Index). R1a: ~2-5 years. Full R1: ~10-15 years.",
-    "r1b_status": "Proof-of-concept complete (C114). NCF v0.1 grammar defined and applied to Grokking circuit. Gap is institutional (community agreement, apparatus library, AICD infrastructure) not technical. Timeline: ~5-10 years from formal proposal.",
-    "r3_gap": "AICD (AI Circuit Database) as wwPDB analog. Five required properties in igt-wwpdb-analog-architecture.md (C111). Phase 2 entry enabled by R1a; Phase 3 requires R1b + R1c + mandatory enforcement.",
+    "r1_gap": "Three-component design (igt-r1-architecture.md, C112): R1a (reference computation — modular arithmetic Grokking task p=97); R1b (formal specification language — NCF v0.1 prototype grammar written in igt-r1b-proof-of-concept.md, C114); R1c (cross-tool calibration metric — Circuit IoU + Causal Agreement Index). R1a: ~2-5 years. Full R1: ~10-15 years.",
+    "r1b_status": "Proof-of-concept complete (C114). NCF v0.1 grammar defined and applied to Grokking circuit (9 nodes, 7 edges, 7 claims CL001-CL007, 9 verification conditions, 6 standard apparatus IDs). Gap is institutional (community agreement, apparatus library, AICD infrastructure) not technical. Timeline: ~5-10 years from formal proposal. Spine updated C115.",
+    "r3_gap": "AICD (AI Circuit Database) as wwPDB analog. Five required properties in igt-wwpdb-analog-architecture.md (C111). Phase 2 entry enabled by R1a; Phase 3 requires R1b + R1c + mandatory enforcement. NCF v0.1 is the Phase 2 deposit format prototype.",
     "r1_r3_dependency": "R1b is required before AICD apparatus-computed validation can verify causal claims (Phase 3). NCF v0.1 is the deposit format prototype for AICD. AICD Phase 2 can begin with NCF v0.1 partial claims.",
-    "phase_2_entry_marker": "R1a — agreed reference computation (modular arithmetic / Grokking task). Voluntary AICD deposition begins. NCF v0.1 deposit format available.",
+    "phase_2_entry_marker": "R1a — agreed reference computation (modular arithmetic / Grokking task). Voluntary AICD deposition begins. NCF v0.1 deposit format prototype available.",
     "phase_3_entry_marker": "R1 full (R1a+R1b+R1c) + R3 full (AICD mandatory enforcement + consortium governance + agreed calibration threshold). DC#3 full evaluable."
   },
-  "spine_status": "network-spine-c106.md current through C112 (updated C113). §9 contains full R1 three-component design, two-phase AICD trajectory, R1–R3 dependency chain. Spine update for C114 R1b POC pending (next cycle or bundled).",
-  "r1b_poc_status": "NCF v0.1 proof-of-concept document: state/decisions/igt-r1b-proof-of-concept.md. Demonstrates: (1) grammar is writable; (2) apparatus-computable verification is specifiable now; (3) gap is institutional not technical. Grokking p=97 circuit fully specified: 9 nodes, 7 edges, 7 claims (CL001-CL007), 9 verification conditions using 6 standard apparatus IDs.",
-  "updated": "2026-05-10T04:47:02+00:00"
+  "spine_status": "network-spine-c106.md current through C115. §9 contains: full R1 three-component design, NCF v0.1 POC details (C114), two-phase AICD trajectory with NCF v0.1 as Phase 2 deposit prototype, R1–R3 dependency chain, ZR C102–C114. interpretability-grounding-si.md updated through C115: D4 pathway shows C115 status, ZR C102–C114 (13 cycles).",
+  "r1b_poc_status": "NCF v0.1 proof-of-concept document: state/decisions/igt-r1b-proof-of-concept.md (C114). Now incorporated in network spine (C115). Gap is institutional not technical. NCF v0.1 is the AICD Phase 2 deposit format prototype.",
+  "updated": "2026-05-10T10:50:10+00:00"
 }

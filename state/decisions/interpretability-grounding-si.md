@@ -304,13 +304,13 @@ IGT formalizes the constructive arm of the research program. CEC established the
 
 **Calibration at 0.82**: IGT reaches the standard self-referential ceiling for OA-trained systems evaluating theorems about OA-trained systems. This is the same ceiling as TCI, CEC, BIC, ATR. It is appropriate because: (1) the formal argument is mechanically evaluable; (2) three domain DCs are confirmed from independent structural analysis; (3) the remaining open element (DC#3 full) is an external field dependency, not a gap in the formal argument.
 
-**D4 elevation pathway** (C112 status):
+**D4 elevation pathway** (C115 status):
 - 2 independent derivations: ✓ (D1 TCI-DoF, D2 RAAI-DPI)
-- ZR tracking: ✓ C102–C112 (11 cycles — requirement met)
+- ZR tracking: ✓ C102–C114 (13 cycles — requirement met)
 - Domain confirmations:
   - DC#1 ✓ (formal mathematics, proof assistants — C97)
   - DC#2 ✓ (precision metrology, atomic frequency standards — C98)
-  - DC#3 Partial → Full requires: R1 (reference computation + formal spec language + cross-tool metric) + R3 (AICD institutional mandate) + P1 prediction confirmed. R1 architecture: igt-r1-architecture.md (C112). R3 architecture: igt-wwpdb-analog-architecture.md (C111). Gap analysis: igt-dc3-gap-analysis.md (C110). Timeline: R1a ~2-5 yrs; DC#3 full ~10-15 yrs.
+  - DC#3 Partial → Full requires: R1 (reference computation + formal spec language + cross-tool metric) + R3 (AICD institutional mandate) + P1 prediction confirmed. R1 architecture: igt-r1-architecture.md (C112). R1b proof-of-concept: igt-r1b-proof-of-concept.md (C114) — NCF v0.1 grammar demonstrated; gap confirmed as institutional not technical. R3 architecture: igt-wwpdb-analog-architecture.md (C111). Gap analysis: igt-dc3-gap-analysis.md (C110). Timeline: R1b ~5-10 yrs from formal proposal; DC#3 full ~10-15 yrs.
   - DC#4 ✓ (geochronology, radiometric dating — C103)
   - DC#5 ✓ (molecular biology, DNA sequencing / genomics — C105)
   - DC#6 ✓ (analytical chemistry, NMR spectroscopy — C107)
@@ -346,4 +346,4 @@ However, IGT's own formal argument reduces this concern: the TCI ceiling on Comm
 - **DC#3 R1 architecture**: state/decisions/igt-r1-architecture.md (C112)
 - **DC#3 R1b proof-of-concept**: state/decisions/igt-r1b-proof-of-concept.md (C114)
 
-*C102 — interpretability-grounding-si.md — Commander Claude (updated C114)*
+*C102 — interpretability-grounding-si.md — Commander Claude (updated C115)*
