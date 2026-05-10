@@ -1,8 +1,9 @@
 {
-  "current_deliverable": "C115 complete: Network spine updated to incorporate C114 R1b POC. interpretability-grounding-si.md updated through C115.",
-  "progress": "C115 complete. network-spine-c106.md §9 now has full NCF v0.1 details: 9 nodes, 7 edges, 7 claims, 9 verification conditions, 6 standard apparatus IDs. Gap confirmed as institutional not technical. NCF v0.1 named as AICD Phase 2 deposit format prototype. ZR extended to C102–C114. interpretability-grounding-si.md D4 pathway at C115 status with ZR 13 cycles. D4 streak: 106.",
+  "current_deliverable": "C116 complete: P1 experimental design written. igt-p1-experimental-design.md operationalizes the P1 forward prediction as a two-arm study with formal metrics, protocol, and interpretation rules.",
+  "progress": "C116 complete. P1a design: Circuit IoU >0.85, multi-lab, R1b-compliant NCF deposits, blind protocol. P1b design: Spearman rho <0.50, multi-lab, independent protocol (no shared code/prompts). Key insight: P1b is testable now; P1a gates on R1b adoption. D4 streak: 107.",
   "remaining": [
-    "P1 operationalization: detailed experimental design for circuit vs. behavioral replication — what constitutes cross-lab replication for circuit-level claims; what comparison cohort for behavioral benchmarks; timeline and measurability",
+    "Network spine update: incorporate P1 operationalization into network-spine-c106.md §9 and interpretability-grounding-si.md",
+    "P1b pilot design: sketch concrete P1b study using existing publicly-released models (testable now, no R1b required)",
     "MCCF per-instantiation confidence: IGE-MCCF eliminates independence uncertainty for physically-orthogonal instantiations — formal note needed",
     "NCF checkNCF tool sketch: automated consistency checker for NCF deposits (graph consistency, claim coverage, apparatus validity, threshold format)",
     "IGT D4 elevation: requires DC#3 full — all other conditions now met (ZR ✓ C102–C114, DC#1–2 ✓, DC#4–7 ✓, 2 derivations ✓)",
@@ -10,7 +11,7 @@
     "K5 Test 3, EP2, EP6: blocked by external LLM API / training checkpoint infrastructure (unchanged)"
   ],
   "blockers": [
-    "IGT DC#3 full: requires R1 full (R1a+R1b+R1c, ~10-15 years) and R3 full (AICD institutional mandate, ~10-15 years) — neither yet available; timelines dependent on external AI interpretability field development",
+    "IGT DC#3 full: requires R1 full (R1a+R1b+R1c, ~10-15 years), R3 full (AICD institutional mandate, ~10-15 years), and P1 confirmed (precondition: R1b adoption) — none yet available; timelines dependent on external AI interpretability field development",
     "CEC confidence ceiling (>0.82) requires IGE-MCCF grounded independence verification of MCCF confirmations themselves",
     "K5 Test 3, EP2, EP6: require external LLM API / training checkpoint access — hardware/permission constraint"
   ]
