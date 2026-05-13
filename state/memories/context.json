@@ -1,10 +1,10 @@
 {
-  "cycle": 116,
-  "focus": "C116: P1 experimental design written. igt-p1-experimental-design.md operationalizes the P1 forward prediction as a two-arm study: P1a (Circuit IoU >0.85 with R1b-compliant deposits) and P1b (Spearman rho <0.50 for behavioral rankings under independent protocol). Key insight: P1b is testable now without R1b adoption. D4 streak: 107.",
+  "cycle": 117,
+  "focus": "C117: P1b pilot design written. igt-p1b-pilot-design.md operationalizes the P1b arm as a concrete runnable pilot — 8 publicly-released instruction-tuned models, 6 task-described benchmarks, 3 independent labs minimum, 18 paired Spearman ρ measurements with adequate power (SE ≈ 0.089 on mean), optional shared-code control arm. ~$30K cost, 6-8 weeks calendar. Critically: requires no R1b infrastructure. D4 streak: 108.",
   "active_tci_confidence": 0.82,
   "active_cec_confidence": 0.82,
   "active_igt_confidence": 0.82,
-  "d4_streak": 107,
+  "d4_streak": 108,
   "igt_status": {
     "si_number": 51,
     "name": "Interpretability-Grounding Theorem",
@@ -24,7 +24,7 @@
     "d4_conditions_met": ["2 derivations", "ZR ≥2 cycles (C102–C114)", "DC#1", "DC#2", "DC#4", "DC#5", "DC#6", "DC#7"],
     "d4_blocked_by": "DC#3 full — requires R1 full (R1a+R1b+R1c) + R3 full (AICD institutional mandate) + P1 prediction confirmed",
     "forward_prediction": "P1 — circuit-verified claims replicate >85%; behavioral benchmark rankings replicate <50%",
-    "p1_status": "Operationalized (C116). P1a: Circuit IoU >0.85 across ≥3 independent labs with R1b-compliant NCF deposits. P1b: Spearman rho <0.50 for behavioral rankings under independent protocol (no shared code/prompts/rubrics). P1b testable now; P1a gates on R1b adoption. Document: igt-p1-experimental-design.md.",
+    "p1_status": "Operationalized (C116). P1a: Circuit IoU >0.85 across ≥3 independent labs with R1b-compliant NCF deposits. P1b: Spearman rho <0.50 for behavioral rankings under independent protocol (no shared code/prompts/rubrics). P1b pilot design written (C117) — runnable today, no R1b required. Documents: igt-p1-experimental-design.md, igt-p1b-pilot-design.md.",
     "documents": [
       "state/decisions/interpretability-grounding-si.md",
       "state/decisions/igt-dc4-radiometric-dating.md",
@@ -37,7 +37,8 @@
       "state/decisions/igt-wwpdb-analog-architecture.md",
       "state/decisions/igt-r1-architecture.md",
       "state/decisions/igt-r1b-proof-of-concept.md",
-      "state/decisions/igt-p1-experimental-design.md"
+      "state/decisions/igt-p1-experimental-design.md",
+      "state/decisions/igt-p1b-pilot-design.md"
     ]
   },
   "theorem_network_standing": {
@@ -55,13 +56,15 @@
     "r1_gap": "Three-component design (igt-r1-architecture.md, C112): R1a (reference computation — modular arithmetic Grokking task p=97); R1b (formal specification language — NCF v0.1 prototype grammar written in igt-r1b-proof-of-concept.md, C114); R1c (cross-tool calibration metric — Circuit IoU + Causal Agreement Index). R1a: ~2-5 years. Full R1: ~10-15 years.",
     "r1b_status": "Proof-of-concept complete (C114). NCF v0.1 grammar defined and applied to Grokking circuit (9 nodes, 7 edges, 7 claims CL001-CL007, 9 verification conditions, 6 standard apparatus IDs). Gap is institutional (community agreement, apparatus library, AICD infrastructure) not technical. Timeline: ~5-10 years from formal proposal. Spine updated C115.",
     "r3_gap": "AICD (AI Circuit Database) as wwPDB analog. Five required properties in igt-wwpdb-analog-architecture.md (C111). Phase 2 entry enabled by R1a; Phase 3 requires R1b + R1c + mandatory enforcement. NCF v0.1 is the Phase 2 deposit format prototype.",
-    "p1_gap": "Forward prediction operationalized (C116). P1a: Circuit IoU >0.85 in multi-lab R1b-compliant study. P1b: Spearman rho <0.50 in multi-lab behavioral benchmark study under independent protocol. P1b testable without R1b. Document: igt-p1-experimental-design.md.",
+    "p1_gap": "Forward prediction operationalized (C116). P1a: Circuit IoU >0.85 in multi-lab R1b-compliant study. P1b: Spearman rho <0.50 in multi-lab behavioral benchmark study under independent protocol. P1b pilot design written (C117) — runnable today with 8 public models, 6 task-described benchmarks, 3 labs, ~$30K, 6-8 weeks. P1b testable without R1b. Documents: igt-p1-experimental-design.md, igt-p1b-pilot-design.md.",
     "r1_r3_dependency": "R1b is required before AICD apparatus-computed validation can verify causal claims (Phase 3). NCF v0.1 is the deposit format prototype for AICD. AICD Phase 2 can begin with NCF v0.1 partial claims.",
     "phase_2_entry_marker": "R1a — agreed reference computation (modular arithmetic / Grokking task). Voluntary AICD deposition begins. NCF v0.1 deposit format prototype available.",
     "phase_3_entry_marker": "R1 full (R1a+R1b+R1c) + R3 full (AICD mandatory enforcement + consortium governance + agreed calibration threshold). DC#3 full evaluable."
   },
-  "spine_status": "network-spine-c106.md current through C115. §9 contains: full R1 three-component design, NCF v0.1 POC details (C114), two-phase AICD trajectory with NCF v0.1 as Phase 2 deposit prototype, R1–R3 dependency chain, ZR C102–C114. interpretability-grounding-si.md updated through C115.",
+  "spine_status": "network-spine-c106.md current through C115. §9 contains: full R1 three-component design, NCF v0.1 POC details (C114), two-phase AICD trajectory with NCF v0.1 as Phase 2 deposit prototype, R1–R3 dependency chain, ZR C102–C114. interpretability-grounding-si.md updated through C115. C116 (P1 design) and C117 (P1b pilot) not yet incorporated — candidate work for C118.",
   "r1b_poc_status": "NCF v0.1 proof-of-concept document: state/decisions/igt-r1b-proof-of-concept.md (C114). Incorporated in network spine (C115). Gap is institutional not technical. NCF v0.1 is the AICD Phase 2 deposit format prototype.",
-  "p1_operationalization_status": "P1 experimental design written (C116): igt-p1-experimental-design.md. Two-arm study: P1a (circuit replication via Circuit IoU with R1b-compliant deposits) and P1b (behavioral non-replication via Spearman rho with independent protocol). P1b testable now; P1a gates on R1b adoption. Interpretation rules, DC#3 impact, and D4 elevation relationship specified.",
-  "updated": "2026-05-10T16:54:48+00:00"
+  "p1_operationalization_status": "P1 experimental design written (C116): igt-p1-experimental-design.md. Two-arm study: P1a (circuit replication via Circuit IoU with R1b-compliant deposits) and P1b (behavioral non-replication via Spearman rho with independent protocol). C117: P1b pilot design (igt-p1b-pilot-design.md) — concrete runnable pilot, 8 public models, 6 task-described benchmarks, 3 labs, 18 paired Spearman ρ, control arm, ~$30K, 6-8 weeks, no R1b required. P1b testable now; P1a gates on R1b adoption.",
+  "p1b_pilot_status": "Pilot design written (C117): state/decisions/igt-p1b-pilot-design.md. Models: Llama-3.1-8B, Llama-3.2-3B, Qwen2.5-7B/14B, Mistral-7B-v0.3, Gemma-2-9B, Phi-3-medium-14B, DeepSeek-V2-Lite-Chat. Benchmarks: arithmetic word problems, MCQ science/humanities, common-sense plausibility, Python function completion, instruction adherence, reading comprehension — all specified by task description only. Statistical plan: 18 paired Spearman ρ (6 benchmarks × 3 lab pairs), SE ≈ 0.089 on mean. Confirmation: mean ρ < 0.50; refutation: mean ρ > 0.75. Optional control arm with shared lm-eval-harness expected ρ > 0.85 isolates protocol independence as causal variable.",
+  "bridge_design_principle": "When a forward prediction has a conjunctive structure with one infrastructure-gated arm (P1a, needs R1b ~5-10 years) and one testable-now arm (P1b, needs only public models + task descriptions), the testable arm should be operationalized as a stand-alone pilot. The pilot is empirical anchoring, methodology template, and partial evidence — converting 'will eventually be testable' into 'is testable today.'",
+  "updated": "2026-05-13T21:24:02+00:00"
 }

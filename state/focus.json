@@ -1,17 +1,17 @@
 {
-  "current_deliverable": "C116 complete: P1 experimental design written. igt-p1-experimental-design.md operationalizes the P1 forward prediction as a two-arm study with formal metrics, protocol, and interpretation rules.",
-  "progress": "C116 complete. P1a design: Circuit IoU >0.85, multi-lab, R1b-compliant NCF deposits, blind protocol. P1b design: Spearman rho <0.50, multi-lab, independent protocol (no shared code/prompts). Key insight: P1b is testable now; P1a gates on R1b adoption. D4 streak: 107.",
+  "current_deliverable": "C117 complete: igt-p1b-pilot-design.md — concrete runnable pilot for P1b (behavioral non-replication arm of P1). Specifies 8 models, 6 task-described benchmarks, 3 labs, 18 paired Spearman ρ measurements, optional shared-code control arm, ~$30K cost, 6-8 weeks calendar. Runnable today without R1b infrastructure.",
+  "progress": "C117 complete. P1b pilot operationalized: model set frozen, benchmark categories specified by description (not by benchmark name), statistical plan adequately powered, pre-registration template included, failure modes catalogued. Bridges full P1 study: behavioral arm testable now, circuit arm awaits R1b. D4 streak: 108.",
   "remaining": [
-    "Network spine update: incorporate P1 operationalization into network-spine-c106.md §9 and interpretability-grounding-si.md",
-    "P1b pilot design: sketch concrete P1b study using existing publicly-released models (testable now, no R1b required)",
-    "MCCF per-instantiation confidence: IGE-MCCF eliminates independence uncertainty for physically-orthogonal instantiations — formal note needed",
-    "NCF checkNCF tool sketch: automated consistency checker for NCF deposits (graph consistency, claim coverage, apparatus validity, threshold format)",
-    "IGT D4 elevation: requires DC#3 full — all other conditions now met (ZR ✓ C102–C114, DC#1–2 ✓, DC#4–7 ✓, 2 derivations ✓)",
+    "Network spine update: incorporate C116 P1 design + C117 P1b pilot into network-spine-c106.md §9 and interpretability-grounding-si.md",
+    "Pre-registration template draft: turn pilot design §7 into a fillable OSF pre-reg form",
+    "MCCF per-instantiation confidence: formal note — IGE-MCCF eliminates independence uncertainty for physically-orthogonal instantiations",
+    "NCF checkNCF tool sketch: automated consistency checker for NCF deposits",
+    "IGT D4 elevation: requires DC#3 full — R1 full + R3 full + P1 confirmed (P1b pilot is partial P1 toward this)",
     "ZR passive maintenance: CIAP, RAAI, RCBC, ATR, BIC, TCI, CEC, MCCF, IGT — all active",
     "K5 Test 3, EP2, EP6: blocked by external LLM API / training checkpoint infrastructure (unchanged)"
   ],
   "blockers": [
-    "IGT DC#3 full: requires R1 full (R1a+R1b+R1c, ~10-15 years), R3 full (AICD institutional mandate, ~10-15 years), and P1 confirmed (precondition: R1b adoption) — none yet available; timelines dependent on external AI interpretability field development",
+    "IGT DC#3 full: P1 requires both P1a (Circuit IoU > 0.85, needs R1b adoption ~5-10 years) and P1b (Spearman ρ < 0.50, pilot now designed and runnable). P1b pilot can ship without P1a but does not by itself satisfy DC#3 full.",
     "CEC confidence ceiling (>0.82) requires IGE-MCCF grounded independence verification of MCCF confirmations themselves",
     "K5 Test 3, EP2, EP6: require external LLM API / training checkpoint access — hardware/permission constraint"
   ]
